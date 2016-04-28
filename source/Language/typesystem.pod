@@ -1,0 +1,49 @@
+=begin pod
+
+=TITLE Typesystem
+
+=SUBTITLE Introduction to the type system of Perl 6
+
+=head1 Definition of a Perl 6 Type
+
+TODO
+
+=head1 Type Declarators
+
+TODO
+
+=head2 C<class>
+
+TODO
+
+=head2 C<role>
+
+TODO
+
+=head2 C<enum>
+
+TODO
+
+=head2 C<module>
+
+TODO
+
+=head2 C<package>
+
+TODO
+
+=head2 C<grammar>
+
+TODO
+
+=head2 C<subset>
+
+A X<C<subset>|subset> declares a new type that will re-dispatch to its base type. If a
+C<where> clause is supplied any assignment will be checked against the given
+code object.
+
+    subset Positive of Int where * > -1; 
+    my Positive $i = 1;
+    $i = -42; # OUTPUT«Type check failed in assignment to $i; expected Positive but got Int (-42)␤ …»
+
+=end pod
