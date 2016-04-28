@@ -1,0 +1,2595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.9_4" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>!</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150905T115040Z" creationid="explorer" creationdate="20150905T115040Z">
+        <seg>!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>";</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T162051Z">
+        <seg>";</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># ...</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T173101Z">
+        <seg># ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># OR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150714T133100Z" creationid="explorer" creationdate="20150714T133100Z">
+        <seg># o</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># Perl 5</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T175816Z" creationid="explorer" creationdate="20160428T175816Z">
+        <seg># Perl 5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># or</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120526T212316Z">
+        <seg># o</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># same as</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140801T145152Z" creationid="explorer" creationdate="20140801T145152Z">
+        <seg># es lo mismo que</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#!/usr/bin/perl -s</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110718T233947Z">
+        <seg>#!/usr/bin/perl -s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#...</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>#...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$!</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161308Z">
+        <seg>$!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$a = 1;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110628T184404Z">
+        <seg>$a = 1;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$a++;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T080236Z">
+        <seg>$a++;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$i++;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T092803Z">
+        <seg>$i++;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T200612Z">
+        <seg>)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>),</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T173510Z">
+        <seg>),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>);</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T171424Z">
+        <seg>);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T180358Z">
+        <seg>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>..</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T190054Z">
+        <seg>..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>...</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T172439Z">
+        <seg>...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>0</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T233445Z">
+        <seg>0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T232009Z">
+        <seg>1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1 2 3</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T174935Z">
+        <seg>1 2 3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>12345</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T171347Z">
+        <seg>12345</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T193816Z">
+        <seg>1;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T232034Z">
+        <seg>2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>3</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T170504Z">
+        <seg>3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>42</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T175616Z">
+        <seg>42</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T232037Z">
+        <seg>5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>:)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110627T122552Z">
+        <seg>:)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>:-)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140729T012009Z">
+        <seg>:-) </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T172806Z">
+        <seg>;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Perl 5 to Perl 6, in a nutshell: How do I do what I used to do?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T175947Z" creationid="explorer" creationdate="20160428T175947Z">
+        <seg>=SUBTITLE Perl 5 a Perl 6, en pocas palabras: ¿Cómo hago lo que solía hacer?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=begin comment</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20130102T012722Z">
+        <seg>=begin comment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=begin pod</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T175547Z" creationid="explorer" creationdate="20160428T175547Z">
+        <seg>=begin pod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=end comment</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T150643Z" creationid="explorer" creationdate="20140716T150643Z">
+        <seg>=end comment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 DESCRIPTION</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=head1 DESCRIPCIÓN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 Examples</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110718T232313Z">
+        <seg>=head1 Ejemplos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 NOTE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110211T181749Z">
+        <seg>=head1 NOTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 SPECIAL VARIABLES</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095924Z">
+        <seg>=head1 VARIABLES ESPECIALES</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 Syntax</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20121113T002808Z">
+        <seg>=head1 Sintaxis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 Variables</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T180536Z">
+        <seg>=head1 Variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Attributes</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20120625T193918Z">
+        <seg>=head2 Atributos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Deprecated and removed variables</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120831T235855Z">
+        <seg>=head2 Variables obsoletas y eliminadas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 General Variables</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095946Z">
+        <seg>=head2 Variables generales</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Inheritance</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20120625T193902Z">
+        <seg>=head2 Herencia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 MAD</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110922T112036Z">
+        <seg>=head2 MAD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Methods</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20120625T193941Z">
+        <seg>=head2 Métodos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Signatures</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="jmerelo" changedate="20150905T111137Z" creationid="jmerelo" creationdate="20150905T111137Z">
+        <seg>=head2 Firmas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Smartmatch Operator</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20121226T000419Z">
+        <seg>=head2 Operador Coincidencia inteligente</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Switch Statements</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120705T225431Z">
+        <seg>=head2 Instrucciones Switch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Variables related to filehandles</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20121110T230219Z">
+        <seg>=head2 Variables relacionadas con identificadores de archivo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Variables related to regular expressions</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120807T010246Z">
+        <seg>=head2 Variables relacionadas con las expresiones regulares</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Variables related to the interpreter state</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120822T201455Z">
+        <seg>=head2 Variables relacionadas con el estado del intérprete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 exec</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T184702Z">
+        <seg>=head2 exec</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head3 Performance issues</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140729T004908Z" creationid="explorer" creationdate="20140729T004908Z">
+        <seg>=head3 Problemas de rendimiento</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head3 Variables related to formats</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120818T231146Z">
+        <seg>=head3 Variables relacionadas con formatos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095420Z">
+        <seg>=item $.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $&lt;I&lt;digits&gt;&gt; ($1, $2, ...)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120807T012342Z">
+        <seg>=item $&lt;I&lt;dígitos&gt;&gt; ($1, $2, ...)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $ARG</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095937Z">
+        <seg>=item $ARG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $BASETIME</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095013Z">
+        <seg>=item $BASETIME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $COMPILING</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T100119Z">
+        <seg>=item $COMPILING</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $EFFECTIVE_GROUP_ID</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T094906Z">
+        <seg>=item $EFFECTIVE_GROUP_ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $EFFECTIVE_USER_ID</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T094938Z">
+        <seg>=item $EFFECTIVE_USER_ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $EGID</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T233656Z">
+        <seg>=item $EGID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $EUID</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T094940Z">
+        <seg>=item $EUID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $EXECUTABLE_NAME</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T100417Z">
+        <seg>=item $EXECUTABLE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $GID</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T233646Z">
+        <seg>=item $GID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $INPLACE_EDIT</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T100242Z">
+        <seg>=item $INPLACE_EDIT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $INPUT_LINE_NUMBER</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095413Z">
+        <seg>=item $INPUT_LINE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $INPUT_RECORD_SEPARATOR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095422Z">
+        <seg>=item $INPUT_RECORD_SEPARATOR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $LAST_PAREN_MATCH</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095052Z">
+        <seg>=item $LAST_PAREN_MATCH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $LAST_REGEXP_CODE_RESULT</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095200Z">
+        <seg>=item $LAST_REGEXP_CODE_RESULT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $LAST_SUBMATCH_RESULT</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095058Z">
+        <seg>=item $LAST_SUBMATCH_RESULT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $LIST_SEPARATOR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T100037Z">
+        <seg>=item $LIST_SEPARATOR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $MATCH</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T100451Z">
+        <seg>=item $MATCH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $NR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095415Z">
+        <seg>=item $NR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $OFS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T233910Z">
+        <seg>=item $OFS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $OLD_PERL_VERSION</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095739Z">
+        <seg>=item $OLD_PERL_VERSION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $ORS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095438Z">
+        <seg>=item $ORS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $OSNAME</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T100251Z">
+        <seg>=item $OSNAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $OUTPUT_AUTOFLUSH</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095500Z">
+        <seg>=item $OUTPUT_AUTOFLUSH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $OUTPUT_FIELD_SEPARATOR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095359Z">
+        <seg>=item $OUTPUT_FIELD_SEPARATOR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $OUTPUT_RECORD_SEPARATOR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095435Z">
+        <seg>=item $OUTPUT_RECORD_SEPARATOR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $PERLDB</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T100304Z">
+        <seg>=item $PERLDB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $PERL_VERSION</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095022Z">
+        <seg>=item $PERL_VERSION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $PID</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T233641Z">
+        <seg>=item $PID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $POSTMATCH</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095040Z">
+        <seg>=item $POSTMATCH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $PREMATCH</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095033Z">
+        <seg>=item $PREMATCH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $PROCESS_ID</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T100059Z">
+        <seg>=item $PROCESS_ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $REAL_GROUP_ID</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T100104Z">
+        <seg>=item $REAL_GROUP_ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $REAL_USER_ID</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T094929Z">
+        <seg>=item $REAL_USER_ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $RS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T115844Z">
+        <seg>=item $RS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $SUBSCRIPT_SEPARATOR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T094924Z">
+        <seg>=item $SUBSCRIPT_SEPARATOR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $SUBSEP</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T094924Z">
+        <seg>=item $SUBSEP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $SYSTEM_FD_MAX</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T100126Z">
+        <seg>=item $SYSTEM_FD_MAX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $UID</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T094930Z">
+        <seg>=item $UID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item $a</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T233709Z">
+        <seg>=item $a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item %LAST_MATCH_START</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095139Z">
+        <seg>=item %LAST_MATCH_START</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item %LAST_PAREN_MATCH</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095106Z">
+        <seg>=item %LAST_PAREN_MATCH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item -X</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183419Z">
+        <seg>=item -X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item -X DIRHANDLE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T020025Z">
+        <seg>=item -X IDENTIFICADOR_DIR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item -X EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item -X EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item @ARG</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T233629Z">
+        <seg>=item @ARG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item @LAST_MATCH_END</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095105Z">
+        <seg>=item @LAST_MATCH_END</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item @LAST_MATCH_START</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095123Z">
+        <seg>=item @LAST_MATCH_START</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item ARGV</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T074519Z">
+        <seg>=item ARGV</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item binmode FILEHANDLE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T004731Z">
+        <seg>=item binmode IDENTIFICADOR_ARCHIVO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item break</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item break</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item continue</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item continue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item endgrent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183808Z">
+        <seg>=item endgrent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item endhostent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183810Z">
+        <seg>=item endhostent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item endnetent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183811Z">
+        <seg>=item endnetent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item endprotoent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183812Z">
+        <seg>=item endprotoent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item endpwent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183805Z">
+        <seg>=item endpwent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item endservent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183814Z">
+        <seg>=item endservent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item exec LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item exec LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item fork</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183617Z">
+        <seg>=item fork</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item format</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110819T110146Z">
+        <seg>=item formato</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getgrent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183752Z">
+        <seg>=item getgrent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getgrgid GID</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item getgrgid GID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getgrnam NAME</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item getgrnam NOMBRE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item gethostbyaddr ADDR,ADDRTYPE</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item gethostbyaddr DIRECCIÓN,TIPODIR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item gethostbyname NAME</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item gethostbyname NOMBRE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item gethostent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183756Z">
+        <seg>=item gethostent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getlogin</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183724Z">
+        <seg>=item getlogin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getnetbyaddr ADDR,ADDRTYPE</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item getnetbyaddr DIRECCIÓN,TIPODIR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getnetbyname NAME</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item getnetbyname NOMBRE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getnetent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183757Z">
+        <seg>=item getnetent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getprotobyname NAME</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item getprotobyname NOMBRE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getprotobynumber NUMBER</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item getprotobynumber NÚMERO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getprotoent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183758Z">
+        <seg>=item getprotoent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getpwent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183749Z">
+        <seg>=item getpwent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getpwuid UID</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item getpwuid UID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getservbyname NAME,PROTO</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item getservbyname NOMBRE,PROTO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getservbyport PORT,PROTO</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item getservbyport PUERTO,PROTO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getservent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183759Z">
+        <seg>=item getservent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item getsockopt SOCKET,LEVEL,OPTNAME</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183816Z">
+        <seg>=item getsockopt SOCKET,LEVEL,OPTNAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item goto &amp;NAME</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item goto &amp;NOMBRE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item goto EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item goto EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item grep EXPR,LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item grep EXPR,LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item ioctl FILEHANDLE,FUNCTION,SCALAR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183827Z">
+        <seg>=item ioctl FILEHANDLE,FUNCTION,SCALAR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item kill SIGNAL, LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item kill SEÑAL, LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item last</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item last</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item last EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140715T134543Z" creationid="explorer" creationdate="20140715T133401Z">
+        <seg>=item last EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item lstat</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183841Z">
+        <seg>=item lstat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item lstat DIRHANDLE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120527T035505Z">
+        <seg>=item lstat IDENTIFICADOR_DIR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item lstat EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item lstat EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item m//</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item m//</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item map EXPR,LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item map EXPR,LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item mkdir</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item mkdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item mkdir FILENAME</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item mkdir ARCHIVO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item my TYPE VARLIST</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T133622Z" creationid="explorer" creationdate="20140716T133325Z">
+        <seg>=item my TIPO VARLIST</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item my TYPE VARLIST : ATTRS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T133742Z" creationid="explorer" creationdate="20140716T133338Z">
+        <seg>=item my TIPO VARLIST : ATRIBUTOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item my VARLIST : ATTRS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T133712Z" creationid="explorer" creationdate="20140716T133331Z">
+        <seg>=item my VARLIST : ATRIBUTOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item next</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item next</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item next EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T135743Z" creationid="explorer" creationdate="20140716T135743Z">
+        <seg>=item next EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item no MODULE</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item no MÓDULO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item no MODULE LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item no MÓDULO LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item no MODULE VERSION</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item no MÓDULO VERSIÓN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item no VERSION</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item no VERSIÓN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item oct</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item oct</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item open FILEHANDLE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T011110Z">
+        <seg>=item open IDENTIFICADOR_ARCHIVO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item open FILEHANDLE,MODE,EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T011036Z">
+        <seg>=item open IDENTIFICADOR_ARCHIVO,MODO,EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item open FILEHANDLE,MODE,EXPR,LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T011049Z">
+        <seg>=item open IDENTIFICADOR_ARCHIVO,MODO,EXPR,LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item open FILEHANDLE,MODE,REFERENCE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T011058Z">
+        <seg>=item open IDENTIFICADOR_ARCHIVO,MODO,REFERENCIA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item our TYPE VARLIST</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T143100Z" creationid="explorer" creationdate="20140716T143100Z">
+        <seg>=item our TIPO VARLIST</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item our TYPE VARLIST : ATTRS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T143135Z" creationid="explorer" creationdate="20140716T143135Z">
+        <seg>=item our TIPO VARLIST : ATRIBUTOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item our VARLIST : ATTRS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T143113Z" creationid="explorer" creationdate="20140716T143113Z">
+        <seg>=item our VARLIST : ATRIBUTOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item p</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T181110Z">
+        <seg>=item p</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item package NAMESPACE</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item package ESPACIO_NOMBRES</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item package NAMESPACE BLOCK</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110514T175410Z">
+        <seg>=item package ESPACIO_NOMBRES BLOQUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item print</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item print</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item print FILEHANDLE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T011436Z">
+        <seg>=item print IDENTIFICADOR_ARCHIVO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item print LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item print LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item printf</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T011512Z">
+        <seg>=item printf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item printf FILEHANDLE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T011503Z">
+        <seg>=item printf IDENTIFICADOR_ARCHIVO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item printf FORMAT, LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item printf FORMATO, LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item q/STRING/</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item q/STRING/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item qq/STRING/</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item qq/STRING/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item qr/STRING/</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item qr/STRING/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item qw/STRING/</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item qw/STRING/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item qx/STRING/</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item qx/STRING/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item readpipe EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item readpipe EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item redo</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item redo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item redo EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T153024Z" creationid="explorer" creationdate="20140716T153024Z">
+        <seg>=item redo EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item s///</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item s///</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item say</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item say</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item say FILEHANDLE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T011946Z">
+        <seg>=item say IDENTIFICADOR_ARCHIVO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item say LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item say LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item setgrent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183903Z">
+        <seg>=item setgrent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item sethostent STAYOPEN</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item sethostent SIGUEABIERTO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item setnetent STAYOPEN</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item setnetent SIGUEABIERTO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item setprotoent STAYOPEN</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item setprotoent SIGUEABIERTO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item setpwent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T183947Z">
+        <seg>=item setpwent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item setservent STAYOPEN</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item setservent SIGUEABIERTO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item shift</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item shift</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item shift EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110514T181145Z">
+        <seg>=item shift EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item shmwrite ID,STRING,POS,SIZE</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item shmwrite ID,CADENA,POSICIÓN,TAMAÑO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item splice ARRAY</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150619T230015Z" creationid="explorer" creationdate="20150619T230015Z">
+        <seg>=item splice ARRAY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item splice ARRAY,OFFSET</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150619T230005Z" creationid="explorer" creationdate="20150619T230005Z">
+        <seg>=item splice ARRAY,DESPLAZAMIENTO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item splice ARRAY,OFFSET,LENGTH</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150619T225957Z" creationid="explorer" creationdate="20150619T225957Z">
+        <seg>=item splice ARRAY,DESPLAZAMIENTO,LONGITUD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item splice EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150619T230141Z" creationid="explorer" creationdate="20150619T230141Z">
+        <seg>=item splice EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item splice EXPR,OFFSET</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150619T230138Z" creationid="explorer" creationdate="20150619T230138Z">
+        <seg>=item splice EXPR,DESPLAZAMIENTO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item splice EXPR,OFFSET,LENGTH</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150619T230132Z" creationid="explorer" creationdate="20150619T230132Z">
+        <seg>=item splice EXPR,DESPLAZAMIENTO,LONGITUD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item splice EXPR,OFFSET,LENGTH,LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150619T230123Z" creationid="explorer" creationdate="20150619T230123Z">
+        <seg>=item splice EXPR,DESPLAZAMIENTO,LONGITUD,LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item split</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item split</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item split /PATTERN/</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item split /PATRÓN/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item split /PATTERN/,EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item split /PATRÓN/,EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item stat</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T184327Z">
+        <seg>=item stat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item stat DIRHANDLE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T012658Z">
+        <seg>=item stat IDENTIFICADOR_DIR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item stat EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item stat EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item state TYPE VARLIST</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T170033Z" creationid="explorer" creationdate="20140716T170033Z">
+        <seg>=item state TIPO VARLIST</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item state TYPE VARLIST : ATTRS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T170251Z" creationid="explorer" creationdate="20140716T170251Z">
+        <seg>=item state TIPO VARLIST : ATRIBUTOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item state VARLIST : ATTRS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T170042Z" creationid="explorer" creationdate="20140716T170042Z">
+        <seg>=item state VARLIST : ATRIBUTOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item status</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20120930T003123Z">
+        <seg>=item estado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item study</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item study</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item sub NAME (PROTO) : ATTRS BLOCK</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item sub NOMBRE (PROTO) : ATRIBS BLOQUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item sub NAME (PROTO) BLOCK</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item sub NOMBRE (PROTO) BLOQUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item sub NAME : ATTRS BLOCK</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item sub NOMBRE : ATRIBS BLOQUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item substr EXPR,OFFSET</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item substr EXPR,DESPLAZAMIENTO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item substr EXPR,OFFSET,LENGTH</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item substr EXPR,DESPLAZAMIENTO,LONGITUD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item sysopen FILEHANDLE,FILENAME,MODE,PERMS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T012813Z">
+        <seg>=item sysopen IDENTIFICADOR_ARCHIVO,ARCHIVO,MODO,PERMISOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item sysread FILEHANDLE,SCALAR,LENGTH</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T012835Z">
+        <seg>=item sysread IDENTIFICADOR_ARCHIVO,ESCALAR,LONGITUD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item system LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item system LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item system PROGRAM LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item system PROGRAMA LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item syswrite FILEHANDLE,SCALAR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T013042Z">
+        <seg>=item syswrite IDENTIFICADOR_ARCHIVO,ESCALAR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item syswrite FILEHANDLE,SCALAR,LENGTH</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110718T013037Z">
+        <seg>=item syswrite IDENTIFICADOR_ARCHIVO,ESCALAR,LONGITUD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item time</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item time</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item times</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T184251Z">
+        <seg>=item times</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item tr///</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item tr///</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item truncate EXPR,LENGTH</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item truncate EXPR,LONGITUD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item ucfirst</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item ucfirst</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item unlink</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item unlink</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item unlink LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item unlink LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item unpack TEMPLATE</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item unpack PLANTILLA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item unshift EXPR,LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110514T183721Z">
+        <seg>=item unshift EXPR,LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item use Module</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120902T021536Z">
+        <seg>=item use Módulo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item use Module LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item use Módulo LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item use Module VERSION</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item use Módulo VERSIÓN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item use Module VERSION LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item use Módulo VERSIÓN LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item use VERSION</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item use VERSIÓN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item utime LIST</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item utime LISTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item values ARRAY</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item values ARRAY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item values EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110514T183757Z">
+        <seg>=item values EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item wait</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T184230Z">
+        <seg>=item wait</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item waitpid PID,FLAGS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20151001T142141Z">
+        <seg>=item waitpid PID,INDICADORES</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item write</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item write</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item write EXPR</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item write EXPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=item y///</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>=item y///</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150905T120204Z" creationid="explorer" creationdate="20150905T120204Z">
+        <seg>?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20120728T084235Z">
+        <seg>A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>B</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20120728T084236Z">
+        <seg>B</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>END</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120906T223846Z">
+        <seg>END</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T074012Z">
+        <seg>Ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Examples:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110220T005509Z">
+        <seg>Ejemplos:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For
+example:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095320Z">
+        <seg>Por ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160404T181746Z" creationid="explorer" creationdate="20160404T181746Z">
+        <seg>Por ejemplo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110220T001507Z">
+        <seg>Por ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance,</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20121218T195803Z">
+        <seg>Por ejemplo,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T232813Z">
+        <seg>Por ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Good luck!</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161623Z">
+        <seg>¡Buena suerte!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here be dragons.</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>A partir de aquí, dragones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here's an example:</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>Aquí hay un ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20121218T193220Z">
+        <seg>Así que</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So this:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120815T000013Z">
+        <seg>Así que esto:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So:</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>Así:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some examples:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110825T113340Z">
+        <seg>Algunos ejemplos:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sorry.</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>Lo sentimos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The C&lt;last&gt; command immediately exits the loop in question.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110220T005331Z">
+        <seg>El comando C&lt;last&gt; sale inmediatamente del bucle en cuestión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The C&lt;redo&gt; command restarts the loop block without evaluating the
+conditional again.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110220T005354Z">
+        <seg>El comando C&lt;redo&gt; reinicia la iteración sin evaluar de nuevo la condición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These are:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20121113T001904Z">
+        <seg>Son los siguientes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20121218T185959Z">
+        <seg>Por lo tanto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus,</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20130101T235217Z">
+        <seg>Por lo tanto,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>U+0009 CHARACTER TABULATION</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150629T153052Z" creationid="explorer" creationdate="20150629T153052Z">
+        <seg>U+0009 CHARACTER TABULATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>U+000A LINE FEED</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150629T153057Z" creationid="explorer" creationdate="20150629T153057Z">
+        <seg>U+000A LINE FEED</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>U+0020 SPACE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150629T153121Z" creationid="explorer" creationdate="20150629T153121Z">
+        <seg>U+0020 SPACE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>U+0085 NEXT LINE</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150123T142439Z" creationid="explorer" creationdate="20150123T142439Z">
+        <seg>U+0085 NEXT LINE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>U+2029 PARAGRAPH SEPARATOR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150123T142508Z" creationid="explorer" creationdate="20150123T142508Z">
+        <seg>U+2029 PARAGRAPH SEPARATOR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T170745Z">
+        <seg>a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>b</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20121218T200744Z">
+        <seg>b</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>close $fh;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095311Z">
+        <seg>close $fh;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>continue {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T234603Z">
+        <seg>continue {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>default {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T092945Z">
+        <seg>default {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>do {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T080313Z">
+        <seg>do {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>doit();</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120405T230518Z">
+        <seg>hazlo();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>else {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T234601Z">
+        <seg>else {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>foo</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>foo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hello</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20121231T093844Z">
+        <seg>hola</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if ($xyz) { print "$xyz\n" }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110718T233954Z">
+        <seg>if ($xyz) { print "$xyz\n" }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>is equivalent to</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20120630T173216Z">
+        <seg>es equivalente a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $answer = 42;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110129T230806Z">
+        <seg>my $respuesta = 42;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $c = Date.new('2012-12-24');</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T181853Z" creationid="explorer" creationdate="20160428T181853Z">
+        <seg>my $c = Date.new('2012-12-24');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $count = 0;</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>my $cuenta = 0;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $i = 0;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161138Z">
+        <seg>my $i = 0;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $x = 10;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20151203T063718Z" creationid="explorer" creationdate="20151203T063718Z">
+        <seg>my $x = 10;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $x;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20151221T054737Z" creationid="explorer" creationdate="20151221T054737Z">
+        <seg>my $x;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my ($fh) = @_;</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>my ($fh) = @_;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my @a = ();</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20110918T014903Z">
+        <seg>my @a = ();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my @a;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T232915Z">
+        <seg>my @a;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my @data;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160320T151325Z" creationid="explorer" creationdate="20160320T151303Z">
+        <seg>my @datos;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>or</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T173604Z">
+        <seg>o bien</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>outputs</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20121230T124005Z">
+        <seg>produce como salida:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>package Foo;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T175308Z">
+        <seg>package Foo;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>perlsyn - Perl syntax</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110220T002046Z">
+        <seg>perlsyn - Sintaxis de Perl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>prints</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20121218T200729Z">
+        <seg>imprime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>produces</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20151126T065344Z" creationid="explorer" creationdate="20151126T065344Z">
+        <seg>produce</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sleep 1;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161338Z">
+        <seg>sleep 1;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>try {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20151218T061256Z" creationid="explorer" creationdate="20151218T061256Z">
+        <seg>try {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>use 5.010;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161307Z">
+        <seg>use 5.010;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>use Data::Dumper;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T080011Z">
+        <seg>use Data::Dumper;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>use Getopt::Long;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20111105T004229Z">
+        <seg>use Getopt::Long;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>use Moose;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20120625T193814Z">
+        <seg>use Moose;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>which is equivalent to</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20111203T180244Z">
+        <seg>que es equivalente a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>which prints</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20151117T071114Z" creationid="explorer" creationdate="20151117T071114Z">
+        <seg>que imprime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>which produces:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20121218T200455Z">
+        <seg>que produce:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>{</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T171333Z">
+        <seg>}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>} else {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T180419Z">
+        <seg>} else {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>});</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T080041Z">
+        <seg>});</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>},</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T172814Z">
+        <seg>},</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>};</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T180410Z">
+        <seg>};</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
