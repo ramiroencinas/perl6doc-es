@@ -270,6 +270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Concurrency and Asynchronous Programming</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ram" changedate="20160429T175756Z" creationid="ram" creationdate="20160429T175756Z">
+        <seg>=SUBTITLE Concurrencia y Programación Asíncrona</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Perl 5 to Perl 6, in a nutshell: How do I do what I used to do?</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T175947Z" creationid="explorer" creationdate="20160428T175947Z">
