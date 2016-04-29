@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head1 High-level APIs</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T192819Z" creationid="ramiroencinas" creationdate="20160429T192819Z">
+        <seg>=head1 Apis de alto nivel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head1 NOTE</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110211T181749Z">
@@ -410,6 +418,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120625T193941Z">
         <seg>=head2 Métodos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Promises</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T192827Z" creationid="ramiroencinas" creationdate="20160429T192827Z">
+        <seg>=head2 Promesas</seg>
       </tuv>
     </tu>
     <tu>
@@ -2042,6 +2058,17 @@
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120728T084235Z">
         <seg>A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Additionally, certain Perl features may implicitly operate in an asynchronous
+fashion, so in order to ensure predictable interoperation with these features,
+user code should, where possible, avoid the lower level concurrency APIs
+(i.e. L&lt;Thread&gt; and L&lt;Scheduler&gt; ) and use the higher-level interfaces.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T192750Z" creationid="ramiroencinas" creationdate="20160429T192750Z">
+        <seg>Además, algunas funcionalidades de Perl 6 pueden tener aspectos asíncronos, y para garantizar una armonía adecuada entre estos aspectos, es necesario evitar en la medida de lo posible el uso de las APIs de concurrencia de bajo nivel (por ej. L&lt;Hilos|https://doc.perl6.org/type/Thread&gt; y L&lt;Programadores|https://doc.perl6.org/type/Scheduler&gt;) y utilizar en su lugar las interfaces de alto nivel.</seg>
       </tuv>
     </tu>
     <tu>
