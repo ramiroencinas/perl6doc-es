@@ -294,6 +294,24 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=begin code
+my $p1 = Promise.new;
+say $p1.status;         # Planned;
+$p1.keep('result');
+say $p1.status;         # Kept
+say $p1.result;         # result</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T201938Z" creationid="ramiroencinas" creationdate="20160429T201938Z">
+        <seg>=begin code
+my $p1 = Promise.new;
+say $p1.status;         # Planificado;
+$p1.keep('result');
+say $p1.status;         # Guardado
+say $p1.result;         # resultado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=begin comment</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20130102T012722Z">
@@ -2191,6 +2209,15 @@ asynchronously to the program flow).</seg>
       <tuv lang="ES-ES" changeid="ram" changedate="20160429T181249Z" creationid="ram" creationdate="20160429T181249Z">
         <seg>Al igual que la mayoría de los lenguajes de programación modernos, Perl 6 es L&lt;concurrente|http://en.wikipedia.org/wiki/Concurrent_computing&gt;
 (hace que sucedan varias cosas al mismo tiempo) y permite la programación asíncrona (también llamada orientada a eventos o programación reactiva - de forma que si se produce un evento o cambio en alguna parte del programa puede producirse un evento o cambio en otra parte del programa de forma asíncrona respecto al flujo del programa).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It provides much of the functionality that user code needs to operate
+in a concurrent or asynchronous manner.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T201804Z" creationid="ramiroencinas" creationdate="20160429T201804Z">
+        <seg>Proporciona gran parte de la funcionalidad que el código necesita para operar de forma concurrente o asíncrona.</seg>
       </tuv>
     </tu>
     <tu>
