@@ -2062,6 +2062,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A L&lt;Promise|/type/Promise&gt; (also called I&lt;future&gt; in other programming
+environments) encapsulates the result of a computation that may not
+have completed or even started at the time the promise is obtained.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T201628Z" creationid="ramiroencinas" creationdate="20160429T201628Z">
+        <seg>Una L&lt;Promesa|/type/Promise&gt; (en otros entornos de programación también se denomina I&lt; valor futuro&gt;) es la encapsulación del resultado de una computación que puede no estar disponible todavía.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, certain Perl features may implicitly operate in an asynchronous
 fashion, so in order to ensure predictable interoperation with these features,
 user code should, where possible, avoid the lower level concurrency APIs
