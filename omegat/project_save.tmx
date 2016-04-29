@@ -301,11 +301,11 @@ $p1.keep('result');
 say $p1.status;         # Kept
 say $p1.result;         # result</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T201938Z" creationid="ramiroencinas" creationdate="20160429T201938Z">
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T202217Z" creationid="ramiroencinas" creationdate="20160429T201938Z">
         <seg>=begin code
 my $p1 = Promise.new;
 say $p1.status;         # Planificado;
-$p1.keep('result');
+$p1.keep('resultado');
 say $p1.status;         # Guardado
 say $p1.result;         # resultado</seg>
       </tuv>
