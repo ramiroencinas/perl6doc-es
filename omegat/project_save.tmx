@@ -2220,11 +2220,8 @@ composable, consistent interface, regardless of how a virtual machine
 may implement it for a particular operating system, through layers of
 facilities as described below.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T185635Z" creationid="ramiroencinas" creationdate="20160429T185635Z">
-        <seg>El  The aim of the Perl concurrency design is to provide a high-level,
-composable, consistent interface, regardless of how a virtual machine
-may implement it for a particular operating system, through layers of
-facilities as described below.</seg>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T190805Z" creationid="ramiroencinas" creationdate="20160429T185635Z">
+        <seg>El propósito del diseño de la concurrencia en Perl 6 es proporcionar una interfaz de alto nivel, componible y robusta, independientemente de cómo lo implemente la máquina virtual para un sistema operativo dado, a través de los objetos que veremos a continuación.</seg>
       </tuv>
     </tu>
     <tu>
