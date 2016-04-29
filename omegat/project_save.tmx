@@ -2635,6 +2635,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>say $promise2.result;   # First Result \n Second Result</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T203026Z" creationid="ramiroencinas" creationdate="20160429T203026Z">
+        <seg>say $promesa2.result;   # Primer Resultado \n Segundo Resultado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sleep 1;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161338Z">
