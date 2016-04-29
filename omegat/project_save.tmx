@@ -2143,6 +2143,21 @@ example:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In common with most modern programming languages, Perl 6 is designed to
+L&lt;support concurrency|http://en.wikipedia.org/wiki/Concurrent_computing&gt;
+(allowing more than one thing to happen at the same time) and
+asynchronous programming (sometimes called event driven or reactive
+programming - that is an event or change in some part of a program
+may lead to an event or change in some other part of the program
+asynchronously to the program flow).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ram" changedate="20160429T181249Z" creationid="ram" creationdate="20160429T181249Z">
+        <seg>Al igual que la mayoría de los lenguajes de programación modernos, Perl 6 es L&lt;concurrente|http://en.wikipedia.org/wiki/Concurrent_computing&gt;
+(hace que sucedan varias cosas al mismo tiempo) y permite la programación asíncrona (también llamada orientada a eventos o programación reactiva - de forma que si se produce un evento o cambio en alguna parte del programa puede producirse un evento o cambio en otra parte del programa de forma asíncrona respecto al flujo del programa).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T193220Z">
