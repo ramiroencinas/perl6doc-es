@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$promise1.keep("First Result");</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T202832Z" creationid="ramiroencinas" creationdate="20160429T202832Z">
+        <seg>$promesa1.keep("Primer Resultado");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20111008T200612Z">
@@ -130,6 +138,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110608T171424Z">
         <seg>);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-&gt; $v { say $v.result; "Second Result"}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T202839Z" creationid="ramiroencinas" creationdate="20160429T202812Z">
+        <seg>-&gt; $v { say $v.result; "Segundo Resultado"}</seg>
       </tuv>
     </tu>
     <tu>
@@ -2222,6 +2238,15 @@ in a concurrent or asynchronous manner.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Promises gain much of their power by being composable, for example by
+chaining:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T202705Z" creationid="ramiroencinas" creationdate="20160429T202705Z">
+        <seg>La gran robusteza de las promesas es que son componibles, por ejemplo permite realizar encadenamiento:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T193220Z">
@@ -2494,6 +2519,22 @@ $p2.break('oh no');
 say $p2.status;         # Rotura
 say $p2.result;         # muere con "oh no"
 =end code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $promise1 = Promise.new();</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T202718Z" creationid="ramiroencinas" creationdate="20160429T202718Z">
+        <seg>my $promesa1 = Promise.new();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $promise2 = $promise1.then(</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T202733Z" creationid="ramiroencinas" creationdate="20160429T202733Z">
+        <seg>my $promesa2 = $promesa2.then(</seg>
       </tuv>
     </tu>
     <tu>
