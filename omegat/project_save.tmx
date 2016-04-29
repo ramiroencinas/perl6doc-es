@@ -2482,6 +2482,22 @@ facilities as described below.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $p2 = Promise.new;
+$p2.break('oh no');
+say $p2.status;         # Broken
+say $p2.result;         # dies with "oh no"
+=end code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T202308Z" creationid="ramiroencinas" creationdate="20160429T202308Z">
+        <seg>my $p2 = Promise.new;
+$p2.break('oh no');
+say $p2.status;         # Rotura
+say $p2.result;         # muere con "oh no"
+=end code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $x = 10;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20151203T063718Z" creationid="explorer" creationdate="20151203T063718Z">
