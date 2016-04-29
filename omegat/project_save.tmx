@@ -2215,6 +2215,20 @@ conditional again.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The aim of the Perl concurrency design is to provide a high-level,
+composable, consistent interface, regardless of how a virtual machine
+may implement it for a particular operating system, through layers of
+facilities as described below.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T185635Z" creationid="ramiroencinas" creationdate="20160429T185635Z">
+        <seg>El  The aim of the Perl concurrency design is to provide a high-level,
+composable, consistent interface, regardless of how a virtual machine
+may implement it for a particular operating system, through layers of
+facilities as described below.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These are:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20121113T001904Z">
