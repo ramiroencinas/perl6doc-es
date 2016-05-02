@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$promise1.break("First Result");</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T170636Z" creationid="ramiroencinas" creationdate="20160502T170636Z">
+        <seg>$promesa1.break("Primer Resultado");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$promise1.keep("First Result");</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T202832Z" creationid="ramiroencinas" creationdate="20160429T202832Z">
@@ -2227,6 +2235,22 @@ example:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here the C&lt;break&gt; will cause the code block of the C&lt;then&gt; to throw an
+exception when it calls the C&lt;result&gt; method on the original promise
+that was passed as an argument, which will subsequently cause the second
+promise to be broken, raising an exception in turn when its result
+is taken.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T171108Z" creationid="ramiroencinas" creationdate="20160502T171108Z">
+        <seg>C&lt;break&gt; produce una excepción en el bloque de código de C&lt;then&gt; al llamar al método C&lt;result&gt; de la promesa originalwill cause the code block of the C&lt;then&gt; to throw an
+exception when it calls the C&lt;result&gt; method on the original promise
+that was passed as an argument, which will subsequently cause the second
+promise to be broken, raising an exception in turn when its result
+is taken.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here the L&lt;then|/type/Promise#method_then&gt; method schedules code to be
 executed when the first L&lt;Promise&gt; is kept or broken, itself returning
 a new L&lt;Promise&gt; which will be kept with the result of the code when
@@ -2684,6 +2708,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>say $promise2.cause;        # Handled but : \n First Result</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T170702Z" creationid="ramiroencinas" creationdate="20160502T170702Z">
+        <seg>say $promesa2.cause;        # Controlado pero : \n Primer Resultado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>say $promise2.result;   # First Result \n Second Result</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T203026Z" creationid="ramiroencinas" creationdate="20160429T203026Z">
@@ -2696,6 +2728,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161338Z">
         <seg>sleep 1;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>try $promise2.result;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T170640Z" creationid="ramiroencinas" creationdate="20160502T170640Z">
+        <seg>try $promesa2.result;</seg>
       </tuv>
     </tu>
     <tu>
