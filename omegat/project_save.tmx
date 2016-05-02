@@ -2135,6 +2135,17 @@ argument.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C&lt;result&gt; blocks the current thread of execution until the
+promise is kept or broken, if it was kept then it will return the
+result (that is the value passed to C&lt;keep&gt;, ) otherwise it will throw an
+exception based on the value passed to C&lt;break&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T083625Z" creationid="ramiroencinas" creationdate="20160502T083541Z">
+        <seg>C&lt;result&gt; bloquea el actual hilo de ejecución hasta que la promesa finalice. Si obtiene un resultado, lo devolverá (el valor pasado a C&lt;keep&gt;), y en caso contrario lanzará una excepción basada en el valor pasado al método C&lt;break&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>END</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120906T223846Z">
@@ -2332,6 +2343,15 @@ facilities as described below.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T190805Z" creationid="ramiroencinas" creationdate="20160429T185635Z">
         <seg>El propósito del diseño de la concurrencia en Perl 6 es proporcionar una interfaz de alto nivel, componible y robusta, independientemente de cómo lo implemente la máquina virtual para un sistema operativo dado, a través de los objetos que veremos a continuación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The latter behaviour
+is illustrated with:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T083603Z" creationid="ramiroencinas" creationdate="20160502T083603Z">
+        <seg>Esto lo vamos a ver a continuación:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2556,6 +2576,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T202733Z" creationid="ramiroencinas" creationdate="20160429T202733Z">
         <seg>my $promesa2 = $promesa2.then(</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $promise2 = $promise1.then(-&gt; $v { say "Handled but : "; say $v.result});</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T083714Z" creationid="ramiroencinas" creationdate="20160502T083714Z">
+        <seg>my $promesa2 = $promesa1.then(-&gt; $v { say "Handled but : "; say $v.result});</seg>
       </tuv>
     </tu>
     <tu>
