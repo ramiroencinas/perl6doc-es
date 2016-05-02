@@ -2223,8 +2223,8 @@ executed when the first L&lt;Promise&gt; is kept or broken, itself returning
 a new L&lt;Promise&gt; which will be kept with the result of the code when
 it is executed (or broken if the code fails.)</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T080840Z" creationid="ramiroencinas" creationdate="20160502T080840Z">
-        <seg>En este ejemplo el método L&lt;then|/type/Promise#method_then&gt; hace que se ejecute su código entre paréntesis cuando la primera promesa finalice ya sea porque se rompa (con break o por alguna excepción) u obtenga un resultado (en este ejemplo con keep).</seg>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T082840Z" creationid="ramiroencinas" creationdate="20160502T080840Z">
+        <seg>En este ejemplo el método L&lt;then|/type/Promise#method_then&gt; hace que se ejecute el código de su argumento cuando la primera promesa finalice porque obtenga un resultado o se rompa mediante una excepción, devolviendo a su vez una L&lt;Promesa&gt; nueva que de igual modo finalizará con un resultado o con una excepción.</seg>
       </tuv>
     </tu>
     <tu>
