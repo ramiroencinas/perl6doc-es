@@ -2129,10 +2129,8 @@ user code should, where possible, avoid the lower level concurrency APIs
 status of the promise to C&lt;Kept&gt; setting the result to the positional
 argument.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T081055Z" creationid="ramiroencinas" creationdate="20160502T081055Z">
-        <seg>C&lt;keep&gt; establece el resultado en la primera promesa mediante su argumento posicional cambiando su estado a guardado C&lt;kept&gt;changes the
-status of the promise to C&lt;Kept&gt; setting the result to the positional
-argument.</seg>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T082948Z" creationid="ramiroencinas" creationdate="20160502T081055Z">
+        <seg>C&lt;keep&gt; establece el resultado en la primera promesa mediante su argumento posicional cambiando su estado a guardado.</seg>
       </tuv>
     </tu>
     <tu>
