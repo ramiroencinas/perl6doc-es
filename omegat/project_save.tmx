@@ -2150,6 +2150,16 @@ user code should, where possible, avoid the lower level concurrency APIs
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C&lt;await&gt; is almost equivalent to calling C&lt;result&gt; on the promise object
+returned by C&lt;start&gt; but it will also take a list of promises and return
+the result of each:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194527Z" creationid="ramiroencinas" creationdate="20160503T194527Z">
+        <seg>C&lt;await&gt; es casi lo mismo que llamar a C&lt;result&gt; en el objeto promesa devuelto por C&lt;start&gt; y también podrá tomar una lista de promesas y devolver el resultado de cada una:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C&lt;keep&gt; changes the
 status of the promise to C&lt;Kept&gt; setting the result to the positional
 argument.</seg>
@@ -2456,6 +2466,15 @@ is illustrated with:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is considered to be such a commonly required pattern that it is
+also provided as subroutines:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194136Z" creationid="ramiroencinas" creationdate="20160503T194136Z">
+        <seg>El siguiente código es considerado como un patrón común que también es presentado como una subrutina:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thus</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T185959Z">
@@ -2664,6 +2683,22 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $promise = Promise.start({ die "Broken Promise" });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T193629Z" creationid="ramiroencinas" creationdate="20160503T193629Z">
+        <seg>my $promesa = Promise.start({ die "Promesa Rota" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $promise = start {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194142Z" creationid="ramiroencinas" creationdate="20160503T194142Z">
+        <seg>my $promesa = start {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $promise1 = Promise.in(5);</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173245Z" creationid="ramiroencinas" creationdate="20160502T173245Z">
@@ -2700,6 +2735,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173305Z" creationid="ramiroencinas" creationdate="20160502T173305Z">
         <seg>my $promesa2 = $promesa1.then(-&gt; $v { say $v.status; 'Segundo Resultado' });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $result = await $promise;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194212Z" creationid="ramiroencinas" creationdate="20160503T194212Z">
+        <seg>my $resultado = await $promesa;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2752,6 +2795,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my @result = await $p1, $p2;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194547Z" creationid="ramiroencinas" creationdate="20160503T194547Z">
+        <seg>my @resultado = await $p1, $p2;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>or</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110608T173604Z">
@@ -2800,6 +2851,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>say $promise.cause;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T193820Z" creationid="ramiroencinas" creationdate="20160503T193820Z">
+        <seg>say $promesa.cause;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>say $promise.result;    # 55</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173924Z" creationid="ramiroencinas" creationdate="20160502T173924Z">
@@ -2832,10 +2891,34 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>say $result;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194218Z" creationid="ramiroencinas" creationdate="20160503T194218Z">
+        <seg>say $resultado;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say @result;            # 55 -55</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194554Z" creationid="ramiroencinas" creationdate="20160503T194554Z">
+        <seg>say @resultado;            # 55 -55</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sleep 1;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161338Z">
         <seg>sleep 1;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>try $promise.result;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T193810Z" creationid="ramiroencinas" creationdate="20160503T193810Z">
+        <seg>try $promesa.result;</seg>
       </tuv>
     </tu>
     <tu>
