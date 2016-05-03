@@ -2556,8 +2556,8 @@ when the completion or otherwise of the tasks is more important to the
 consumer than the actual results, or when the results have been collected 
 by other means.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T204036Z" creationid="ramiroencinas" creationdate="20160503T204036Z">
-        <seg>Sin embargo, al utilizar C&lt;await&gt; de esta manera, los resultados de las dos promesas proporcionadas como argumentos del método C&lt;allof&gt; solo estarán disponibles al realizar C&lt;await $promesa;&gt;. Esto está bien cuando la consecución o no de las tareas es más importante que los resultados, o cuando los resultados vienen por otros medios.</seg>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T204413Z" creationid="ramiroencinas" creationdate="20160503T204036Z">
+        <seg>Sin embargo, al utilizar C&lt;await&gt; de esta manera, los resultados de las dos promesas solo estarán disponibles al hacer referencia a la promesa original. Esto está bien cuando la consecución o no de las tareas es más importante que los resultados, o cuando los resultados vienen por otros medios.</seg>
       </tuv>
     </tu>
     <tu>
