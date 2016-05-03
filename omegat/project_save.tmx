@@ -2142,6 +2142,15 @@ user code should, where possible, avoid the lower level concurrency APIs
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And C&lt;anyof&gt; returns a new promise that will be kept when any of the
+original promises is kept or broken:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T202055Z" creationid="ramiroencinas" creationdate="20160503T202055Z">
+        <seg>Y C&lt;anyof&gt; devuelve una promesa cuyo resultado está disponible cuando cualquiera de las promesas originales finaliza o da una excepción:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>B</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120728T084236Z">
@@ -2307,6 +2316,16 @@ L&lt;X::Promise::CauseOnlyValidOnBroken&gt; exception.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173148Z" creationid="ramiroencinas" creationdate="20160502T173148Z">
         <seg>Si la promesa no genera una excepción, C&lt;cause&gt; tendrá una excepción de tipo L&lt;X::Promise::CauseOnlyValidOnBroken&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition to C&lt;await&gt;, two class methods combine several
+L&lt;Promise&gt; objects into a new promise: C&lt;allof&gt; returns a promise that
+is kept when all the original promises are kept or broken:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T201659Z" creationid="ramiroencinas" creationdate="20160503T201659Z">
+        <seg>Además del uso de C&lt;await&gt;, los métodos de clases (C&lt;allof&gt; y C&lt;anyof&gt;) pueden combinar varios objetos L&lt;Promesa&gt; en una promesa nueva: C&lt;allof&gt; devuelve una promesa cuyo resultado está disponible cuando todas las promesas originales finalizan correctamente o dan una excepción:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2539,6 +2558,14 @@ also provided as subroutines:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>await $promise;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T201717Z" creationid="ramiroencinas" creationdate="20160503T201717Z">
+        <seg>await $promesa;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>b</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T200744Z">
@@ -2671,6 +2698,22 @@ $p2.break('oh no');
 say $p2.status;         # Rotura
 say $p2.result;         # muere con "oh no"
 =end code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $promise = Promise.allof(</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T201707Z" creationid="ramiroencinas" creationdate="20160503T201707Z">
+        <seg>my $promesa = Promise.allof(</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $promise = Promise.anyof(</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T202101Z" creationid="ramiroencinas" creationdate="20160503T202101Z">
+        <seg>my $promesa = Promise.anyof(</seg>
       </tuv>
     </tu>
     <tu>
@@ -2847,6 +2890,22 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20151126T065344Z" creationid="explorer" creationdate="20151126T065344Z">
         <seg>produce</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say "All done"; # Should be about 3 seconds later</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T202406Z" creationid="ramiroencinas" creationdate="20160503T202406Z">
+        <seg>say "Todo listo"; # Debería tardar unos 3 segundos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say "All done"; # Should be not much more than three seconds later</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T202333Z" creationid="ramiroencinas" creationdate="20160503T201911Z">
+        <seg>say "Todo listo"; # No debería tardar más de tres segundos</seg>
       </tuv>
     </tu>
     <tu>
