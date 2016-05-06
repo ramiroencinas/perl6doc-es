@@ -2535,8 +2535,8 @@ is illustrated with:</seg>
 automatically such as C&lt;in&gt; or C&lt;start&gt; will do this, so it is not
 necessary to do it for these.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165836Z" creationid="ramiroencinas" creationdate="20160506T165836Z">
-        <seg>Los métodos que devuelven una promesa como C&lt;in&gt; o C&lt;start&gt; donde directamente pueden producir la consecución o la excepción de la promesa hacen esto mismo, por lo que no es necesario en esos casos el uso del método L&lt;Vow&gt;.</seg>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165912Z" creationid="ramiroencinas" creationdate="20160506T165836Z">
+        <seg>Los métodos que devuelven una promesa como C&lt;in&gt; o C&lt;start&gt; donde directamente producen la consecución o la excepción de la promesa hacen esto mismo, por lo que no es necesario en esos casos el uso del método L&lt;Vow&gt;.</seg>
       </tuv>
     </tu>
     <tu>
