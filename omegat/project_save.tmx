@@ -2556,8 +2556,17 @@ when the completion or otherwise of the tasks is more important to the
 consumer than the actual results, or when the results have been collected 
 by other means.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T204413Z" creationid="ramiroencinas" creationdate="20160503T204036Z">
-        <seg>Sin embargo, al utilizar C&lt;await&gt; de esta manera, los resultados de las dos promesas solo estarán disponibles al hacer referencia a la promesa original. Esto está bien cuando la consecución o no de las tareas es más importante que los resultados, o cuando los resultados vienen por otros medios.</seg>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T160447Z" creationid="ramiroencinas" creationdate="20160503T204036Z">
+        <seg>Sin embargo, al utilizar C&lt;await&gt; de esta manera, los resultados de las dos promesas solo estarán disponibles al hacer referencia a la promesa original. Esto está bien cuando la consecución o no de las tareas es más importante que los resultados, o cuando los resultados vienen de otro lugar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may, for example, want to create a dependent Promise
+that will examine each of the original promises:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161444Z" creationid="ramiroencinas" creationdate="20160506T161444Z">
+        <seg>Por ejemplo, puedes crear una promesa que compruebe la consecución o no de una serie de promesas:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2850,6 +2859,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my @promises;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161452Z" creationid="ramiroencinas" creationdate="20160506T161452Z">
+        <seg>my @promesas;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my @result = await $p1, $p2;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194547Z" creationid="ramiroencinas" creationdate="20160503T194547Z">
@@ -2902,6 +2919,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20151126T065344Z" creationid="explorer" creationdate="20151126T065344Z">
         <seg>produce</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>push @promises, start {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161500Z" creationid="ramiroencinas" creationdate="20160506T161500Z">
+        <seg>push @promesas, start {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2974,6 +2999,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194554Z" creationid="ramiroencinas" creationdate="20160503T194554Z">
         <seg>say @resultado;            # 55 -55</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say await Promise.allof(@promises).then({ so all(@promises&gt;&gt;.result) });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161526Z" creationid="ramiroencinas" creationdate="20160506T161526Z">
+        <seg>say await Promise.allof(@promesas).then({ so all(@promesas&gt;&gt;.result) });</seg>
       </tuv>
     </tu>
     <tu>
