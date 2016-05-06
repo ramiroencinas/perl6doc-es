@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># Will throw an exception</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165326Z" creationid="ramiroencinas" creationdate="20160506T165326Z">
+        <seg># Lanzará una excepción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># or</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120526T212316Z">
@@ -110,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$promise.keep;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165451Z" creationid="ramiroencinas" creationdate="20160506T165451Z">
+        <seg>$promesa.keep;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$promise1.break("First Result");</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T170636Z" creationid="ramiroencinas" creationdate="20160502T170636Z">
@@ -122,6 +138,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T202832Z" creationid="ramiroencinas" creationdate="20160429T202832Z">
         <seg>$promesa1.keep("Primer Resultado");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$promise;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165305Z" creationid="ramiroencinas" creationdate="20160506T165305Z">
+        <seg>$promesa;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2255,6 +2279,16 @@ example:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For this purpose there is the L&lt;method vow|/type/Promise#method_vow&gt;, which
+returns a L&lt;Vow&gt; object which becomes the only mechanism by which the promise
+can be kept or broken.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T164248Z" creationid="ramiroencinas" creationdate="20160506T164059Z">
+        <seg>Para este propósito existe el L&lt;método vow|/type/Promise#method_vow&gt;, que devuelve un objeto L&lt;Vow&gt; como único mecanismo por el cual se puede producir a demanda la consecución o la excepción de una promesa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Good luck!</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161623Z">
@@ -2311,11 +2345,31 @@ it is executed (or broken if the code fails.)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If an attempt to keep or break the Promise is made
+directly then the exception L&lt;X::Promise::Vowed&gt; will be thrown, as long
+as the vow object is kept private, the status of the promise is safe:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165225Z" creationid="ramiroencinas" creationdate="20160506T164213Z">
+        <seg>Cualquier intento para producir la consecución o la excepción de la Promesa de forma directa no se llevará a cabo y lanzará la excepción L&lt;X::Promise::Vowed&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the promise had not been broken C&lt;cause&gt; would raise a
 L&lt;X::Promise::CauseOnlyValidOnBroken&gt; exception.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173148Z" creationid="ramiroencinas" creationdate="20160502T173148Z">
         <seg>Si la promesa no genera una excepción, C&lt;cause&gt; tendrá una excepción de tipo L&lt;X::Promise::CauseOnlyValidOnBroken&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you are creating a promise that you intend to keep or break yourself
+then you probably don't want any code that might receive the promise to
+inadvertently (or otherwise,) keep or break the promise before you do.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T164803Z" creationid="ramiroencinas" creationdate="20160506T163809Z">
+        <seg>Si quieres realizar a demanda la consecución (C&lt;keep&gt;) o la excepción (C&lt;break&gt;) de una promesa, tendrás que hacerlo antes de que lo haga alguna otra parte del código.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2473,6 +2527,16 @@ is illustrated with:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T083603Z" creationid="ramiroencinas" creationdate="20160502T083603Z">
         <seg>Esto lo vamos a ver a continuación:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The methods that return a promise that will be kept or broken
+automatically such as C&lt;in&gt; or C&lt;start&gt; will do this, so it is not
+necessary to do it for these.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165836Z" creationid="ramiroencinas" creationdate="20160506T165836Z">
+        <seg>Los métodos que devuelven una promesa como C&lt;in&gt; o C&lt;start&gt; donde directamente pueden producir la consecución o la excepción de la promesa hacen esto mismo, por lo que no es necesario en esos casos el uso del método L&lt;Vow&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2748,6 +2812,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $promise = Promise.new;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165247Z" creationid="ramiroencinas" creationdate="20160506T165247Z">
+        <seg>my $promesa = Promise.new;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $promise = Promise.start(</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173912Z" creationid="ramiroencinas" creationdate="20160502T173912Z">
@@ -2760,6 +2832,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T193629Z" creationid="ramiroencinas" creationdate="20160503T193629Z">
         <seg>my $promesa = Promise.start({ die "Promesa Rota" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $promise = get_promise();</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165314Z" creationid="ramiroencinas" creationdate="20160506T165314Z">
+        <seg>my $promesa = get_promesa();</seg>
       </tuv>
     </tu>
     <tu>
@@ -2816,6 +2896,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194212Z" creationid="ramiroencinas" creationdate="20160503T194212Z">
         <seg>my $resultado = await $promesa;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $vow = $promise.vow;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165254Z" creationid="ramiroencinas" creationdate="20160506T165254Z">
+        <seg>my $vow = $promesa.vow;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3024,6 +3112,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161338Z">
         <seg>sleep 1;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sub get_promise {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165242Z" creationid="ramiroencinas" creationdate="20160506T165242Z">
+        <seg>sub get_promesa {</seg>
       </tuv>
     </tu>
     <tu>
