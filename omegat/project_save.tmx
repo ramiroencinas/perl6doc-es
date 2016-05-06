@@ -2562,11 +2562,20 @@ by other means.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Which will give True if all of the promises were kept with True, False
+otherwise.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161908Z" creationid="ramiroencinas" creationdate="20160506T161810Z">
+        <seg>De forma que devolverá True si todas las promesas del array finalizan sin excepciones, o False en caso contrario.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You may, for example, want to create a dependent Promise
 that will examine each of the original promises:</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161444Z" creationid="ramiroencinas" creationdate="20160506T161444Z">
-        <seg>Por ejemplo, puedes crear una promesa que compruebe la consecución o no de una serie de promesas:</seg>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161831Z" creationid="ramiroencinas" creationdate="20160506T161444Z">
+        <seg>Por ejemplo, puedes crear una promesa que compruebe la consecución o no de una serie de promesas alojadas en un array:</seg>
       </tuv>
     </tu>
     <tu>
