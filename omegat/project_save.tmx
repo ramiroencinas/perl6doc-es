@@ -512,6 +512,14 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 Supplies</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T171622Z" creationid="ramiroencinas" creationdate="20160506T171622Z">
+        <seg>=head2 Suministros</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 Switch Statements</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120705T225431Z">
@@ -2146,6 +2154,17 @@ have completed or even started at the time the promise is obtained.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A L&lt;Supply&gt; is an asynchronous data streaming mechanism that can be
+consumed by one or more consumers simultaneously in a manner similar to
+"events" in other programming languages and can be seen as enabling
+"Event Driven" or reactive designs.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T172329Z" creationid="ramiroencinas" creationdate="20160506T172329Z">
+        <seg>Un L&lt;Suministro&gt; es un mecanismo de transmisión de datos asíncrono que puede ser consumido de forma simúltanea por uno o más consumidores de forma similar a los "eventos" en otros lenguajes de programación. Un L&lt;Suministro&gt; puede considerarse como "Orientado a Eventos" o de diseño reactivo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A very frequent use of promises is to run a piece of code, and keep the
 promise once it returns successfully, or break it when the code dies.</seg>
       </tuv>
@@ -2171,6 +2190,16 @@ original promises is kept or broken:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T202055Z" creationid="ramiroencinas" creationdate="20160503T202055Z">
         <seg>Y C&lt;anyof&gt; devuelve una promesa cuyo resultado está disponible cuando cualquiera de las promesas originales finaliza o da una excepción:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At its simplest, a L&lt;Supply&gt; is a message stream that can have multiple
+subscribers created with the method C&lt;tap&gt; on to which data items can be
+placed with C&lt;emit&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T172824Z" creationid="ramiroencinas" creationdate="20160506T172824Z">
+        <seg>Básicamente, un L&lt;Suministro&gt; es una transmisión en forma de mensaje que puede tener varios suscriptores creados con el método C&lt;tap&gt; donde los elementos pueden colocarse con C&lt;emit&gt;.</seg>
       </tuv>
     </tu>
     <tu>
