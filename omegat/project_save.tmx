@@ -150,6 +150,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$supplier.emit($_);</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160016Z" creationid="ramiroencinas" creationdate="20160507T160016Z">
+        <seg>$proveedor.emit($_);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$supply.tap( -&gt; $v { say $v });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160006Z" creationid="ramiroencinas" creationdate="20160507T160006Z">
+        <seg>$suministro.tap( -&gt; $v { say $v });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20111008T200612Z">
@@ -2136,6 +2152,16 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A C&lt;live&gt; L&lt;Supply&gt;
+is created by the L&lt;Supplier&gt; factory, each emitted value is passed to
+all the active tappers as they are added:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T155917Z" creationid="ramiroencinas" creationdate="20160507T155917Z">
+        <seg>La creación de un L&lt;Suministro&gt; a C&lt;tiempo real&gt; se realiza mediante un L&lt;Proveedor&gt; (Supplier) y cada valor emitido se pasa a todos los suscriptores activos según se van agregando:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A L&lt;Promise&gt; can also be scheduled to be automatically kept at a future time:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173416Z" creationid="ramiroencinas" creationdate="20160502T173237Z">
@@ -2437,6 +2463,24 @@ in a concurrent or asynchronous manner.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that the C&lt;tap&gt; is called on a L&lt;Supply&gt; object created by the
+L&lt;Supplier&gt; and new values are emitted on the L&lt;Supplier&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160323Z" creationid="ramiroencinas" creationdate="20160507T160323Z">
+        <seg>Observa que C&lt;tap&gt; es llamado en un objeto L&lt;Supply&gt; (Suministro) creado por L&lt;Supplier&gt; (Proveedor) y los nuevos valores se emiten desde L&lt;Supplier&gt; (Proveedor).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Or alternatively as an C&lt;on-demand&gt; L&lt;Supply&gt; created by the C&lt;supply&gt;
+keyword:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160540Z" creationid="ramiroencinas" creationdate="20160507T160540Z">
+        <seg>La forma C&lt;a demanda&gt; de un L&lt;Suministro&gt; se crea mediante la palabra clave C&lt;supply&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Promises gain much of their power by being composable, for example by
 chaining:</seg>
       </tuv>
@@ -2508,6 +2552,14 @@ conditional again.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110220T005354Z">
         <seg>El comando C&lt;redo&gt; reinicia la iteración sin evaluar de nuevo la condición.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The L&lt;Supply&gt; can either be C&lt;live&gt; or C&lt;on-demand&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T154648Z" creationid="ramiroencinas" creationdate="20160507T154648Z">
+        <seg>Un L&lt;Suministro&gt; puede ser C&lt;a tiempo real&gt; o C&lt;a demanda&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2925,6 +2977,30 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194212Z" creationid="ramiroencinas" creationdate="20160503T194212Z">
         <seg>my $resultado = await $promesa;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $supplier = Supplier.new;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T155936Z" creationid="ramiroencinas" creationdate="20160507T155936Z">
+        <seg>my $proveedor = Supplier.new;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $supply   = $supplier.Supply;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T155954Z" creationid="ramiroencinas" creationdate="20160507T155954Z">
+        <seg>my $suministro   = $proveedor.Supply;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $supply = supply {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160548Z" creationid="ramiroencinas" creationdate="20160507T160548Z">
+        <seg>my $suministro = supply {</seg>
       </tuv>
     </tu>
     <tu>
