@@ -158,6 +158,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$supply.tap( -&gt; $v { say "First : $v" });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T161006Z" creationid="ramiroencinas" creationdate="20160507T161006Z">
+        <seg>$suministro.tap( -&gt; $v { say "Primero : $v" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$supply.tap( -&gt; $v { say "Second : $v" });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T161020Z" creationid="ramiroencinas" creationdate="20160507T161020Z">
+        <seg>$suministro.tap( -&gt; $v { say "Segundo : $v" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$supply.tap( -&gt; $v { say $v });</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160006Z" creationid="ramiroencinas" creationdate="20160507T160006Z">
@@ -2450,6 +2466,15 @@ asynchronously to the program flow).</seg>
       <tuv lang="ES-ES" changeid="ram" changedate="20160429T181249Z" creationid="ram" creationdate="20160429T181249Z">
         <seg>Al igual que la mayoría de los lenguajes de programación modernos, Perl 6 es L&lt;concurrente|http://en.wikipedia.org/wiki/Concurrent_computing&gt;
 (hace que sucedan varias cosas al mismo tiempo) y permite la programación asíncrona (también llamada orientada a eventos o programación reactiva - de forma que si se produce un evento o cambio en alguna parte del programa puede producirse un evento o cambio en otra parte del programa de forma asíncrona respecto al flujo del programa).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case the code in the supply block is executed every time the
+L&lt;Supply&gt; returned by C&lt;supply&gt; is tapped, as demonstrated by:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160939Z" creationid="ramiroencinas" creationdate="20160507T160939Z">
+        <seg>En este caso el código dentro del bloque supply se ejecuta cada vez que el L&lt;Suministro&gt; devuelto por C&lt;supply&gt; utiliza el método C&lt;tap&gt;, como puedes ver a continuación:</seg>
       </tuv>
     </tu>
     <tu>
