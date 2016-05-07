@@ -198,6 +198,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$supply.tap(-&gt; $v { say "First $v" });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T164020Z" creationid="ramiroencinas" creationdate="20160507T164020Z">
+        <seg>$suministro.tap(-&gt; $v { say "Primero $v" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$supply.tap(-&gt; $v { say "Second $v"});</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T164038Z" creationid="ramiroencinas" creationdate="20160507T164038Z">
+        <seg>$suministro.tap(-&gt; $v { say "Segundo $v"});</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$supply.tap(-&gt; $v { say $v });</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T162957Z" creationid="ramiroencinas" creationdate="20160507T162957Z">
@@ -2231,6 +2247,15 @@ consumed by one or more consumers simultaneously in a manner similar to
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A second argument can be supplied to C&lt;interval&gt; which specifies a delay
+in seconds before the first event is fired.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T163801Z" creationid="ramiroencinas" creationdate="20160507T163801Z">
+        <seg>Se puede proporcionar un segundo argumento a C&lt;interval&gt; para indicar el retraso en segundos después del inicio del primer evento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A very frequent use of promises is to run a piece of code, and keep the
 promise once it returns successfully, or break it when the code dies.</seg>
       </tuv>
@@ -2323,6 +2348,16 @@ being emitted to the stream, or taps receiving them.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120906T223846Z">
         <seg>END</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each tap of a supply created
+by C&lt;interval&gt; has its own sequence starting from 0, as illustrated by
+the following:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T164003Z" creationid="ramiroencinas" creationdate="20160507T164003Z">
+        <seg>Cada tap de un suministro creado por C&lt;interval&gt; tiene su propia secuencia comenzando desde 0, como puedes ver a continuación:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2626,8 +2661,8 @@ following code outputs 0 ..</seg>
       <tuv lang="EN-US">
         <seg>The C&lt;react&gt; block is exited when C&lt;done()&gt; is called in one of the taps.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T163246Z" creationid="ramiroencinas" creationdate="20160507T163246Z">
-        <seg>Cuando C&lt;done()&gt; es llamado se sale del bloque C&lt;react&gt; block is exited when C&lt;done()&gt; is called in one of the taps.</seg>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T163700Z" creationid="ramiroencinas" creationdate="20160507T163246Z">
+        <seg>La salida del bloque C&lt;react&gt; se realiza llamando a C&lt;done()&gt; en cualquier tap.</seg>
       </tuv>
     </tu>
     <tu>
