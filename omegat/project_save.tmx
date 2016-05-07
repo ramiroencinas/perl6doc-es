@@ -2431,6 +2431,15 @@ the code.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here the C&lt;whenever&gt; keyword creates a tap on the L&lt;Supply&gt; from the provided 
+block.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T163201Z" creationid="ramiroencinas" creationdate="20160507T163201Z">
+        <seg>La palabra clave C&lt;whenever&gt; crea un tap en el L&lt;Suministro&gt; desde el bloque proporcionado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here the L&lt;then|/type/Promise#method_then&gt; method schedules code to be
 executed when the first L&lt;Promise&gt; is kept or broken, itself returning
 a new L&lt;Promise&gt; which will be kept with the result of the code when
@@ -2611,6 +2620,14 @@ following code outputs 0 ..</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110220T005331Z">
         <seg>El comando C&lt;last&gt; sale inmediatamente del bucle en cuestión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The C&lt;react&gt; block is exited when C&lt;done()&gt; is called in one of the taps.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T163246Z" creationid="ramiroencinas" creationdate="20160507T163246Z">
+        <seg>Cuando C&lt;done()&gt; es llamado se sale del bloque C&lt;react&gt; block is exited when C&lt;done()&gt; is called in one of the taps.</seg>
       </tuv>
     </tu>
     <tu>
