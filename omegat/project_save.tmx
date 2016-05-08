@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$odd_supply.tap(-&gt; $v { say "Odd : $v" });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172337Z" creationid="Ram" creationdate="20160508T172337Z">
+        <seg>$suministro_impar.tap(-&gt; $v { say "Impar : $v" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$promise.keep;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165451Z" creationid="ramiroencinas" creationdate="20160506T165451Z">
@@ -202,6 +210,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T164020Z" creationid="ramiroencinas" creationdate="20160507T164020Z">
         <seg>$suministro.tap(-&gt; $v { say "Primero $v" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$supply.tap(-&gt; $v { say "Original : $v" });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172244Z" creationid="Ram" creationdate="20160508T172244Z">
+        <seg>$suministro.tap(-&gt; $v { say "Original : $v" });</seg>
       </tuv>
     </tu>
     <tu>
@@ -2286,6 +2302,18 @@ written as:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An existing supply object can be filtered or transformed, using the methods
+C&lt;grep&gt; and C&lt;map&gt; respectively, to create a new supply in a manner like
+the similarly named list methods: C&lt;grep&gt; returns a supply such that only
+those events emitted on the source stream for which the C&lt;grep&gt; condition
+is true is emitted on the second supply:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172219Z" creationid="Ram" creationdate="20160508T172219Z">
+        <seg>Un objeto suministro puede filtrarse o transformarse mediante los métodos C&lt;grep&gt; y C&lt;map&gt; respectivamente para crear un nuevo suministro de forma parecida a los métodos de lista con nombre similares: C&lt;grep&gt; devuelve un suministro con los eventos que cumplen la condición indicada:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And C&lt;anyof&gt; returns a new promise that will be kept when any of the
 original promises is kept or broken:</seg>
       </tuv>
@@ -3027,6 +3055,14 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $odd_supply = $supply.grep({ $_ % 2 });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172322Z" creationid="Ram" creationdate="20160508T172322Z">
+        <seg>my $suministro_impar = $suministro.grep({ $_ % 2 });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $p2 = Promise.new;
 $p2.break('oh no');
 say $p2.status;         # Broken
@@ -3159,6 +3195,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T155954Z" creationid="ramiroencinas" creationdate="20160507T155954Z">
         <seg>my $suministro   = $proveedor.Supply;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $supply = $supplier.Supply;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172235Z" creationid="Ram" creationdate="20160508T172235Z">
+        <seg>my $suministro = $proveedor.Supply;</seg>
       </tuv>
     </tu>
     <tu>
