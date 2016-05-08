@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$even_supply.tap(-&gt; $v { say "Even : $v" });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172416Z" creationid="Ram" creationdate="20160508T172416Z">
+        <seg>$suministro_par.tap(-&gt; $v { say "Par : $v" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$i++;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T092803Z">
@@ -3043,6 +3051,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES">
         <seg>my $cuenta = 0;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $even_supply = $supply.grep({ not $_ % 2 });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172401Z" creationid="Ram" creationdate="20160508T172401Z">
+        <seg>my $suministro_par = $suministro.grep({ not $_ % 2 });</seg>
       </tuv>
     </tu>
     <tu>
