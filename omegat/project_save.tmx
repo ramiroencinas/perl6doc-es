@@ -2212,8 +2212,8 @@ say $p1.result;         # resultado</seg>
 is created by the L&lt;Supplier&gt; factory, each emitted value is passed to
 all the active tappers as they are added:</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T155917Z" creationid="ramiroencinas" creationdate="20160507T155917Z">
-        <seg>La creación de un L&lt;Suministro&gt; a C&lt;tiempo real&gt; se realiza mediante un L&lt;Proveedor&gt; (Supplier) y cada valor emitido se pasa a todos los suscriptores activos según se van agregando:</seg>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160508T155826Z" creationid="ramiroencinas" creationdate="20160507T155917Z">
+        <seg>La creación de un L&lt;Suministro&gt; a C&lt;tiempo real&gt; se realiza mediante un L&lt;Proveedor&gt; (Supplier) y cada valor emitido se pasa a todos los "taps" o suscriptores activos según se van agregando:</seg>
       </tuv>
     </tu>
     <tu>
