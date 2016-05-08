@@ -2276,6 +2276,16 @@ user code should, where possible, avoid the lower level concurrency APIs
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An C&lt;on-demand&gt; L&lt;Supply&gt; can also be created from a list of values that
+will be emitted in turn, thus the first C&lt;on-demand&gt; example could be 
+written as:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160508T171106Z" creationid="Ram" creationdate="20160508T171106Z">
+        <seg>También se puede crear un L&lt;Suministro&gt; C&lt;a demanda&gt; desde una lista de valores que irán emitiéndose por turno, de forma que el primer ejemplo que vimos C&lt;a demanda&gt; también puede escribirse como sigue:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And C&lt;anyof&gt; returns a new promise that will be kept when any of the
 original promises is kept or broken:</seg>
       </tuv>
@@ -3301,6 +3311,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161500Z" creationid="ramiroencinas" creationdate="20160506T161500Z">
         <seg>push @promesas, start {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>react {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160508T171119Z" creationid="Ram" creationdate="20160508T171119Z">
+        <seg>react {</seg>
       </tuv>
     </tu>
     <tu>
