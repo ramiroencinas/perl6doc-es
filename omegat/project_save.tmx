@@ -552,6 +552,14 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 Channels</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160519T190634Z" creationid="ramiroencinas" creationdate="20160519T190634Z">
+        <seg>=head2 Canales</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 Deprecated and removed variables</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120831T235855Z">
@@ -2250,6 +2258,16 @@ all the active tappers as they are added:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A L&lt;Channel&gt; is a thread-safe queue that can have multiple readers and
+writers that could be considered to be similar in operation to a "fifo" or
+named pipe except it does not enable inter-process communication.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160519T191956Z" creationid="ramiroencinas" creationdate="20160519T191956Z">
+        <seg>Un L&lt;Canal&gt; es una cola con seguridad multihilo que permite operaciones simultáneas de lectura y escritura como lo haría un sistema "fifo" o una tubería con nombre excepto que no permite una comunicación entre procesos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A L&lt;Promise&gt; can also be scheduled to be automatically kept at a future time:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173416Z" creationid="ramiroencinas" creationdate="20160502T173237Z">
@@ -2326,6 +2344,17 @@ is true is emitted on the second supply:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172219Z" creationid="Ram" creationdate="20160508T172219Z">
         <seg>Un objeto suministro puede filtrarse o transformarse mediante los métodos C&lt;grep&gt; y C&lt;map&gt; respectivamente para crear un nuevo suministro de forma parecida a los métodos de lista con nombre similares: C&lt;grep&gt; devuelve un suministro con los eventos que cumplen la condición indicada:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An item is queued onto the L&lt;Channel&gt; with the
+L&lt;method send|/type/Channel#method_send&gt;, and the L&lt;method
+receive|/type/Channel#method_receive&gt; removes an item from the queue
+and returns it, blocking until a new item is sent if the queue is empty:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160519T193613Z" creationid="ramiroencinas" creationdate="20160519T193613Z">
+        <seg>Mediante el L&lt;método send|/type/Channel#method_send&gt; se encola un elemento en la L&lt;Cola&gt;, mientras que el L&lt;método receive|/type/Channel#method_receive&gt; elimina un elemento de la cola y lo devuelve. La L&lt;Cola&gt; se bloquea si está vacía hasta que se encola en ella un nuevo elemento:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2626,6 +2655,18 @@ in a concurrent or asynchronous manner.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T201804Z" creationid="ramiroencinas" creationdate="20160429T201804Z">
         <seg>Proporciona gran parte de la funcionalidad que el código necesita para operar de forma concurrente o asíncrona.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It should
+be noted that, being a true queue, each value sent to the L&lt;Channel&gt; will only
+be available to a single reader on a first read, first served basis: if you
+want multiple readers to be able to receive every item sent you probably
+want to consider a L&lt;Supply&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160519T193059Z" creationid="ramiroencinas" creationdate="20160519T193059Z">
+        <seg>Como se trata de una cola de verdad, hay que tener en cuenta que cada valor enviado al L&lt;Canal&gt; solo estará disponible al final de la cola para una sola operación de lectura. Si lo que necesitas es que cada elemento enviado a la cola pueda llegar a varias operaciones de lectura, probablemente necesites un L&lt;Suministro&gt;.</seg>
       </tuv>
     </tu>
     <tu>
