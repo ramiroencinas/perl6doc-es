@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$half_supply.tap(-&gt; $v { say "Half : $v" });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160519T184046Z" creationid="ramiroencinas" creationdate="20160519T184046Z">
+        <seg>$medio_suministro.tap(-&gt; $v { say "La mitad : $v" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$i++;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T092803Z">
@@ -2369,6 +2377,16 @@ argument.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C&lt;map&gt; returns a new supply such that for each item emitted to the
+original supply a new item which is the result of the expression passed
+to the C&lt;map&gt; is emitted:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160519T184016Z" creationid="ramiroencinas" creationdate="20160519T184016Z">
+        <seg>C&lt;map&gt; devuelve un nuevo suministro de forma que por cada elemento emitido al suministro original se emite un nuevo elemento como resultado de la expresión que se pasa a C&lt;map&gt;: :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C&lt;result&gt; blocks the current thread of execution until the
 promise is kept or broken, if it was kept then it will return the
 result (that is the value passed to C&lt;keep&gt;, ) otherwise it will throw an
@@ -3059,6 +3077,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172401Z" creationid="Ram" creationdate="20160508T172401Z">
         <seg>my $suministro_par = $suministro.grep({ not $_ % 2 });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $half_supply = $supply.map({ $_ / 2 });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160519T184029Z" creationid="ramiroencinas" creationdate="20160519T184029Z">
+        <seg>my $medio_suministro = $supply.map({ $_ / 2 });</seg>
       </tuv>
     </tu>
     <tu>
