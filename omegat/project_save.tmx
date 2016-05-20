@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$supply.tap: { ... },</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212035Z" creationid="ramiroencinas" creationdate="20160520T212035Z">
+        <seg>$suministro.tap: { ... },</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$tap.close;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204210Z" creationid="ramiroencinas" creationdate="20160520T204210Z">
@@ -370,6 +378,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110608T172439Z">
         <seg>...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>...; # your usual supply tap code here</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T213352Z" creationid="ramiroencinas" creationdate="20160520T213352Z">
+        <seg>...; # el código del tap del suministro</seg>
       </tuv>
     </tu>
     <tu>
@@ -2732,6 +2748,15 @@ on the queue.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the exception is marked
+as seen by a C&lt;when&gt; or C&lt;default&gt; block, the exception is caught and handled.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212637Z" creationid="ramiroencinas" creationdate="20160520T212637Z">
+        <seg>Si como vemos, se indica en un bloque C&lt;when&gt; o C&lt;default&gt; la excepción, ésta será controlada y gestionada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the promise had not been broken C&lt;cause&gt; would raise a
 L&lt;X::Promise::CauseOnlyValidOnBroken&gt; exception.</seg>
       </tuv>
@@ -2747,6 +2772,16 @@ inadvertently (or otherwise,) keep or break the promise before you do.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T164803Z" creationid="ramiroencinas" creationdate="20160506T163809Z">
         <seg>Si quieres realizar a demanda la consecución (C&lt;keep&gt;) o la excepción (C&lt;break&gt;) de una promesa, tendrás que hacerlo antes de que lo haga alguna otra parte del código.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you are using the C&lt;react&gt; or C&lt;supply&gt; block syntax with C&lt;whenever&gt;, you
+can add phasers within your C&lt;whenever&gt; blocks to handle the C&lt;done&gt; and C&lt;quit&gt;
+messages from the tapped supply:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T213307Z" creationid="ramiroencinas" creationdate="20160520T213307Z">
+        <seg>Si utilizas C&lt;whenever&gt; con la sintaxis de los bloques C&lt;react&gt; o C&lt;supply&gt;, puedes utilizar faseados en los bloques C&lt;whenever&gt; para gestionar los mensajes de C&lt;done&gt; y C&lt;quit&gt; desde el tap del suministro:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2815,6 +2850,14 @@ want to consider a L&lt;Supply&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>LAST { say 'Job is done.' }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T213403Z" creationid="ramiroencinas" creationdate="20160520T213403Z">
+        <seg>LAST { say 'Trabajo finalizado.' }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that the C&lt;tap&gt; is called on a L&lt;Supply&gt; object created by the
 L&lt;Supplier&gt; and new values are emitted on the L&lt;Supplier&gt;.</seg>
       </tuv>
@@ -2829,6 +2872,15 @@ keyword:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160540Z" creationid="ramiroencinas" creationdate="20160507T160540Z">
         <seg>La forma C&lt;a demanda&gt; de un L&lt;Suministro&gt; se crea mediante la palabra clave C&lt;supply&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise, the exception continues to up the call tree (i.e., the same behavior
+as when C&lt;quit&gt; is not set).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212824Z" creationid="ramiroencinas" creationdate="20160520T212824Z">
+        <seg>En caso contrario, la excepción continuará subiendo por el árbol de la llamada (por ej., como cuando no se indica un C&lt;quit&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -2878,6 +2930,14 @@ chaining:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T075743Z" creationid="ramiroencinas" creationdate="20160429T202705Z">
         <seg>La gran robustez de las promesas radica en su componibilidad, por ejemplo permite realizar encadenamiento:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>QUIT { when X::MyApp::Error { say "App Error: ", $_.message } }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T213411Z" creationid="ramiroencinas" creationdate="20160520T213411Z">
+        <seg>QUIT { when X::MyApp::Error { say "Error: ", $_.message } }</seg>
       </tuv>
     </tu>
     <tu>
@@ -2944,6 +3004,14 @@ following code outputs 0 ..</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110220T005331Z">
         <seg>El comando C&lt;last&gt; sale inmediatamente del bucle en cuestión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The C&lt;quit&gt; block works very similar to a C&lt;CATCH&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212144Z" creationid="ramiroencinas" creationdate="20160520T212144Z">
+        <seg>El bloque C&lt;quit&gt; es muy similar a C&lt;CATCH&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3028,6 +3096,14 @@ facilities as described below.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T190805Z" creationid="ramiroencinas" creationdate="20160429T185635Z">
         <seg>El propósito del diseño de la concurrencia en Perl 6 es proporcionar una interfaz de alto nivel, componible y robusta, independientemente de cómo lo implemente la máquina virtual para un sistema operativo dado, a través de los objetos que veremos a continuación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The behavior here is the same as setting C&lt;done&gt; and C&lt;quit&gt; on C&lt;tap&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T213547Z" creationid="ramiroencinas" creationdate="20160520T213547Z">
+        <seg>El funcionamiento es igual que utilizar C&lt;done&gt; y C&lt;quit&gt; en el C&lt;tap&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3268,6 +3344,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120405T230518Z">
         <seg>hazlo();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>done =&gt; { say 'Job is done.' },</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212048Z" creationid="ramiroencinas" creationdate="20160520T212048Z">
+        <seg>done =&gt; { say 'Trabajo finalizado.' },</seg>
       </tuv>
     </tu>
     <tu>
@@ -3744,6 +3828,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>quit =&gt; {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212053Z" creationid="ramiroencinas" creationdate="20160520T212053Z">
+        <seg>quit =&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>react {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160508T171119Z" creationid="Ram" creationdate="20160508T171119Z">
@@ -3964,6 +4056,22 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120625T193814Z">
         <seg>use Moose;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>when X::MyApp::Error { say "App Error: ", $_.message }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212117Z" creationid="ramiroencinas" creationdate="20160520T212117Z">
+        <seg>when X::MyApp::Error { say "Error: ", $_.message }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>whenever $supply {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T213325Z" creationid="ramiroencinas" creationdate="20160520T213325Z">
+        <seg>whenever $suministro {</seg>
       </tuv>
     </tu>
     <tu>
