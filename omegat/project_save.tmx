@@ -3057,6 +3057,14 @@ necessary to do it for these.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This could also be written using the X&lt;C&lt;react&gt;&gt; keyword:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T211410Z" creationid="ramiroencinas" creationdate="20160520T211410Z">
+        <seg>Esto puede escribirse mediante la palabra clave X&lt;C&lt;react&gt;&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is considered to be such a commonly required pattern that it is
 also provided as subroutines:</seg>
       </tuv>
@@ -3118,6 +3126,18 @@ also provided as subroutines:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20150123T142508Z" creationid="explorer" creationdate="20150123T142508Z">
         <seg>U+2029 PARAGRAPH SEPARATOR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unlike C&lt;await&gt; however the results of the original kept promises are not
+available without referring to the original, so these are more useful
+when the completion or otherwise of the tasks is more important to the
+consumer than the actual results, or when the results have been collected
+by other means.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T211341Z" creationid="ramiroencinas" creationdate="20160520T211341Z">
+        <seg>Sin embargo, con C&lt;await&gt; es necesario hacer referencia a las promesas originales que han finalizado para obtener sus resultados. Este caso es más util, por ejemplo, cuando es más importante averiguar si las promesas han finalizado que la obtención de sus resultados, o cuando los resultados se obtienen por otros medios.</seg>
       </tuv>
     </tu>
     <tu>
