@@ -2415,6 +2415,16 @@ user code should, where possible, avoid the lower level concurrency APIs
     <tu>
       <tuv lang="EN-US">
         <seg>An C&lt;on-demand&gt; L&lt;Supply&gt; can also be created from a list of values that
+will be emitted in turn, thus the first C&lt;on-demand&gt; example could be
+written as:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T211817Z" creationid="ramiroencinas" creationdate="20160520T211817Z">
+        <seg>Un L&lt;Suministro&gt; C&lt;a-demanda&gt; también puede crearse desde una lista de valores que se vayan emitiendo uno detrás de otro. De esta forma, el primer ejemplo que hemos visto C&lt;a-demanda&gt; también puede escribirse de esta forma:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An C&lt;on-demand&gt; L&lt;Supply&gt; can also be created from a list of values that
 will be emitted in turn, thus the first C&lt;on-demand&gt; example could be 
 written as:</seg>
       </tuv>
@@ -2675,6 +2685,15 @@ it is executed (or broken if the code fails.)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here the X&lt;C&lt;whenever&gt;&gt; keyword creates a tap on the L&lt;Supply&gt; from the provided
+block.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T211551Z" creationid="ramiroencinas" creationdate="20160520T211551Z">
+        <seg>En este caso, la palabra clave X&lt;C&lt;whenever&gt;&gt; crea un tap en el L&lt;Suministro&gt; desde el bloque proporcionado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here's an example:</seg>
       </tuv>
       <tuv lang="ES-ES">
@@ -2728,6 +2747,15 @@ inadvertently (or otherwise,) keep or break the promise before you do.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T164803Z" creationid="ramiroencinas" creationdate="20160506T163809Z">
         <seg>Si quieres realizar a demanda la consecución (C&lt;keep&gt;) o la excepción (C&lt;break&gt;) de una promesa, tendrás que hacerlo antes de que lo haga alguna otra parte del código.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need to have an action that runs when the supply finishes, you can do so
+by setting the C&lt;done&gt; and C&lt;quit&gt; options in the call to C&lt;tap&gt;:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212014Z" creationid="ramiroencinas" creationdate="20160520T212014Z">
+        <seg>Si necesitas ejecutar código cuando finalice el suministro, puedes hacerlo indicando las opciones C&lt;done&gt; y C&lt;quit&gt; en la llamada del C&lt;tap&gt;:</seg>
       </tuv>
     </tu>
     <tu>
