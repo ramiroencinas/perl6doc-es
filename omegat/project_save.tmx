@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># "Access denied to keep/break this Promise; already vowed"</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204205Z" creationid="ramiroencinas" creationdate="20160520T204205Z">
+        <seg># "Access denied to keep/break this Promise; already vowed"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># ...</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110608T173101Z">
@@ -110,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$channel.send('Channel One');</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204344Z" creationid="ramiroencinas" creationdate="20160520T204233Z">
+        <seg>$canal.send('Canal Uno');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$even_supply.tap(-&gt; $v { say "Even : $v" });</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172416Z" creationid="Ram" creationdate="20160508T172416Z">
@@ -122,6 +138,30 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160519T184046Z" creationid="ramiroencinas" creationdate="20160519T184046Z">
         <seg>$medio_suministro.tap(-&gt; $v { say "La mitad : $v" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$i</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203948Z" creationid="ramiroencinas" creationdate="20160520T203948Z">
+        <seg>$i</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$i += $_</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203945Z" creationid="ramiroencinas" creationdate="20160520T203945Z">
+        <seg>$i += $_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$i -= $_</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204135Z" creationid="ramiroencinas" creationdate="20160520T204135Z">
+        <seg>$i -= $_</seg>
       </tuv>
     </tu>
     <tu>
@@ -254,6 +294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$tap.close;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204210Z" creationid="ramiroencinas" creationdate="20160520T204210Z">
+        <seg>$tap.close;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20111008T200612Z">
@@ -342,6 +390,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>10 {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203942Z" creationid="ramiroencinas" creationdate="20160520T203942Z">
+        <seg>10 {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>10 { $i += $_ }; $i}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203934Z" creationid="ramiroencinas" creationdate="20160520T203934Z">
+        <seg>10 { $i += $_ }; $i}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>12345</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110608T171347Z">
@@ -394,6 +458,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110717T232037Z">
         <seg>5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5 :</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204215Z" creationid="ramiroencinas" creationdate="20160520T204215Z">
+        <seg>5 :</seg>
       </tuv>
     </tu>
     <tu>
@@ -2386,6 +2458,14 @@ placed with C&lt;emit&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Bool.pick;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204158Z" creationid="ramiroencinas" creationdate="20160520T204158Z">
+        <seg>Bool.pick;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C&lt;await&gt; is almost equivalent to calling C&lt;result&gt; on the promise object
 returned by C&lt;start&gt; but it will also take a list of promises and return
 the result of each:</seg>
@@ -2587,12 +2667,32 @@ it is executed (or broken if the code fails.)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I'm not quite clear which specific features should be included below</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203901Z" creationid="ramiroencinas" creationdate="20160520T203901Z">
+        <seg>I'm not quite clear which specific features should be included below</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If an attempt to keep or break the Promise is made
 directly then the exception L&lt;X::Promise::Vowed&gt; will be thrown, as long
 as the vow object is kept private, the status of the promise is safe:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165225Z" creationid="ramiroencinas" creationdate="20160506T164213Z">
         <seg>Cualquier intento para producir la consecución o la excepción de la Promesa de forma directa no se llevará a cabo y lanzará la excepción L&lt;X::Promise::Vowed&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the channel has been closed with the L&lt;method
+close|/type/Channel#method_close&gt; then any C&lt;send&gt; will cause the
+exception L&lt;X::Channel::SendOnClosed&gt; to be thrown, and a C&lt;receive&gt;
+will throw a L&lt;X::Channel::ReceiveOnClose&gt; if there are no more items
+on the queue.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205204Z" creationid="ramiroencinas" creationdate="20160520T205204Z">
+        <seg>El L&lt;método close|/type/Channel#method_close&gt; cierra el canal. Cuando el canal está cerrado, el uso del método C&lt;send&gt;, lanzará una excepción L&lt;X::Channel::SendOnClosed&gt;, mientras que el método C&lt;receive&gt; lanzará la excepción L&lt;X::Channel::ReceiveOnClose&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2685,6 +2785,46 @@ keyword:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160540Z" creationid="ramiroencinas" creationdate="20160507T160540Z">
         <seg>La forma C&lt;a demanda&gt; de un L&lt;Suministro&gt; se crea mediante la palabra clave C&lt;supply&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Promise.in(10).then({$vow.keep});</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204201Z" creationid="ramiroencinas" creationdate="20160520T204201Z">
+        <seg>Promise.in(10).then({$vow.keep});</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Promise.in(2),</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204141Z" creationid="ramiroencinas" creationdate="20160520T204141Z">
+        <seg>Promise.in(2),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Promise.in(3)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204143Z" creationid="ramiroencinas" creationdate="20160520T204143Z">
+        <seg>Promise.in(3)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Promise.in(3),</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204149Z" creationid="ramiroencinas" creationdate="20160520T204149Z">
+        <seg>Promise.in(3),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Promise.in(8600)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204151Z" creationid="ramiroencinas" creationdate="20160520T204151Z">
+        <seg>Promise.in(8600)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2805,6 +2945,16 @@ number of seconds, returning the new L&lt;Promise&gt; object.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173700Z" creationid="ramiroencinas" creationdate="20160502T173402Z">
         <seg>El L&lt;método in|/type/Promise#method_in&gt; crea una promesa nueva y programa una tarea nueva para iniciarla en un número de segundos determinado, devolviendo un nuevo objeto L&lt;Promesa&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The L&lt;method list|/type/Channel#method_list&gt; returns all the items on
+the L&lt;Channel&gt; and will block until further items are queued unless the
+channel is closed:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205335Z" creationid="ramiroencinas" creationdate="20160520T205335Z">
+        <seg>El L&lt;método list|/type/Channel#method_list&gt; devuelve todos los elementos del L&lt;Canal&gt; y lo bloqueará hasta que se encolen más elementos a menos que el canal se cierre:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3050,10 +3200,26 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>done() if $v == 4;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204224Z" creationid="ramiroencinas" creationdate="20160520T204224Z">
+        <seg>done() if $v == 4;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>else {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110717T234601Z">
         <seg>else {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>emit($_);</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204207Z" creationid="ramiroencinas" creationdate="20160520T204207Z">
+        <seg>emit($_);</seg>
       </tuv>
     </tu>
     <tu>
@@ -3066,10 +3232,42 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>for 0 ..</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204229Z" creationid="ramiroencinas" creationdate="20160520T204229Z">
+        <seg>for 0 ..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>for 1 ..</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203433Z" creationid="ramiroencinas" creationdate="20160520T203433Z">
+        <seg>for 1 ..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>for 1..5 -&gt; $t {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204153Z" creationid="ramiroencinas" creationdate="20160520T204153Z">
+        <seg>for 1..5 -&gt; $t {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>hello</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121231T093844Z">
         <seg>hola</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hyper-operators, autothreading junctions?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203919Z" creationid="ramiroencinas" creationdate="20160520T203919Z">
+        <seg>hyper-operators, autothreading junctions?</seg>
       </tuv>
     </tu>
     <tu>
@@ -3102,6 +3300,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T181853Z" creationid="explorer" creationdate="20160428T181853Z">
         <seg>my $c = Date.new('2012-12-24');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $channel = Channel.new;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204318Z" creationid="ramiroencinas" creationdate="20160520T204231Z">
+        <seg>my $canal = Channel.new;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3146,6 +3352,14 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $p1 = start {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203953Z" creationid="ramiroencinas" creationdate="20160520T203953Z">
+        <seg>my $p1 = start {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $p2 = Promise.new;
 $p2.break('oh no');
 say $p2.status;         # Broken
@@ -3158,6 +3372,14 @@ $p2.break('oh no');
 say $p2.status;         # Rotura
 say $p2.result;         # muere con "oh no"
 =end code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $p2 = start {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203957Z" creationid="ramiroencinas" creationdate="20160520T203957Z">
+        <seg>my $p2 = start {</seg>
       </tuv>
     </tu>
     <tu>
@@ -3466,6 +3688,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>say $channel.receive;  # 'Channel One'</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204403Z" creationid="ramiroencinas" creationdate="20160520T204236Z">
+        <seg>say $canal.receive;  # 'Canal Uno'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>say $promise.cause;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T193820Z" creationid="ramiroencinas" creationdate="20160503T193820Z">
@@ -3514,6 +3744,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>say $v;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204222Z" creationid="ramiroencinas" creationdate="20160520T204222Z">
+        <seg>say $v;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>say @result;            # 55 -55</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194554Z" creationid="ramiroencinas" creationdate="20160503T194554Z">
@@ -3530,10 +3768,34 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sleep $t;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204155Z" creationid="ramiroencinas" creationdate="20160520T204155Z">
+        <seg>sleep $t;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sleep 10;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204217Z" creationid="ramiroencinas" creationdate="20160520T204217Z">
+        <seg>sleep 10;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sleep 1;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161338Z">
         <seg>sleep 1;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sleep 6;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203802Z" creationid="ramiroencinas" creationdate="20160520T203802Z">
+        <seg>sleep 6;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3602,6 +3864,22 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>whenever Supply.from-list(1..10) -&gt; $v {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204227Z" creationid="ramiroencinas" creationdate="20160520T204227Z">
+        <seg>whenever Supply.from-list(1..10) -&gt; $v {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>whenever Supply.interval(2) -&gt; $v {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204219Z" creationid="ramiroencinas" creationdate="20160520T204219Z">
+        <seg>whenever Supply.interval(2) -&gt; $v {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>which is equivalent to</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20111203T180244Z">
@@ -3630,6 +3908,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES">
         <seg>{</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{ my $i = 0; for 1 ..</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203338Z" creationid="ramiroencinas" creationdate="20160520T203338Z">
+        <seg>{ my $i = 0; for 1 ..</seg>
       </tuv>
     </tu>
     <tu>
