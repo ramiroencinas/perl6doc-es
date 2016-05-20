@@ -118,6 +118,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$channel.close;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205441Z" creationid="ramiroencinas" creationdate="20160520T205441Z">
+        <seg>$canal.close;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$channel.send($r);</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205434Z" creationid="ramiroencinas" creationdate="20160520T205434Z">
+        <seg>$canal.send($r);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$channel.send('Channel One');</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204344Z" creationid="ramiroencinas" creationdate="20160520T204233Z">
@@ -3152,6 +3168,14 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>await (^10).map: -&gt; $r {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205410Z" creationid="ramiroencinas" creationdate="20160520T205410Z">
+        <seg>await (^10).map: -&gt; $r {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>b</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T200744Z">
@@ -3228,6 +3252,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES">
         <seg>foo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>for $channel.list -&gt; $r {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205448Z" creationid="ramiroencinas" creationdate="20160520T205448Z">
+        <seg>for $canal.list -&gt; $r {</seg>
       </tuv>
     </tu>
     <tu>
@@ -3768,6 +3800,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sleep $r;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205415Z" creationid="ramiroencinas" creationdate="20160520T205415Z">
+        <seg>sleep $r;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sleep $t;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204155Z" creationid="ramiroencinas" creationdate="20160520T204155Z">
@@ -3796,6 +3836,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203802Z" creationid="ramiroencinas" creationdate="20160520T203802Z">
         <seg>sleep 6;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>start {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205412Z" creationid="ramiroencinas" creationdate="20160520T205412Z">
+        <seg>start {</seg>
       </tuv>
     </tu>
     <tu>
