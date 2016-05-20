@@ -3768,6 +3768,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>say $r;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T210009Z" creationid="ramiroencinas" creationdate="20160520T210009Z">
+        <seg>say $r;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>say $result;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194218Z" creationid="ramiroencinas" creationdate="20160503T194218Z">
