@@ -246,6 +246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$supplier.done;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102129Z" creationid="ramiroencinas" creationdate="20160521T102129Z">
+        <seg>$proveedor.done;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$supplier.emit("OK");</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T161315Z" creationid="ramiroencinas" creationdate="20160507T161315Z">
@@ -266,6 +274,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160016Z" creationid="ramiroencinas" creationdate="20160507T160016Z">
         <seg>$proveedor.emit($_);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$supplier.emit($r);</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102122Z" creationid="ramiroencinas" creationdate="20160521T102122Z">
+        <seg>$proveedor.emit($r);</seg>
       </tuv>
     </tu>
     <tu>
@@ -2524,6 +2540,15 @@ placed with C&lt;emit&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C&lt;Channel&gt; will return a different L&lt;Channel&gt; fed with the same data
+each time it is called.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102659Z" creationid="ramiroencinas" creationdate="20160521T102435Z">
+        <seg>El método C&lt;Channel&gt; devolverá una vía distinta cada vez que sea llamado, pero con los mismos datos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C&lt;await&gt; is almost equivalent to calling C&lt;result&gt; on the promise object
 returned by C&lt;start&gt; but it will also take a list of promises and return
 the result of each:</seg>
@@ -2850,6 +2875,16 @@ L&lt;Supply&gt; returned by C&lt;supply&gt; is tapped, as demonstrated by:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160939Z" creationid="ramiroencinas" creationdate="20160507T160939Z">
         <seg>En este caso el código dentro del bloque supply se ejecuta cada vez que el L&lt;Suministro&gt; devuelto por C&lt;supply&gt; utiliza el método C&lt;tap&gt;, como puedes ver a continuación:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is also possible to obtain a L&lt;Channel&gt; from a L&lt;Supply&gt; using the
+L&lt;Supply method|/type/Supply#method_Channel&gt; which returns a L&lt;Channel&gt;
+which is fed by a C&lt;tap&gt; on the L&lt;Supply&gt;:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102003Z" creationid="ramiroencinas" creationdate="20160521T102003Z">
+        <seg>También es posible obtener un L&lt;Canal&gt; desde un L&lt;Suministro&gt; mediante el L&lt;método Supply|/type/Supply#method_Channel&gt; devolviendo un L&lt;Canal&gt; alimentado desde el C&lt;tap&gt; del L&lt;Suministro&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3215,6 +3250,16 @@ channel must be checked to determine whether it is closed:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This could be used, for instance, to fan-out a
+L&lt;Supply&gt; to one or more L&lt;Channel&gt;s to provide for different interfaces
+in a program.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102755Z" creationid="ramiroencinas" creationdate="20160521T102755Z">
+        <seg>Esto puede utilizarse, por ejemplo, para dirigir los resultados de un L&lt;Suministro&gt; a uno o más L&lt;Canales&gt; para distintos interfaces que pueda tener un programa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is considered to be such a commonly required pattern that it is
 also provided as subroutines:</seg>
       </tuv>
@@ -3558,6 +3603,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T181853Z" creationid="explorer" creationdate="20160428T181853Z">
         <seg>my $c = Date.new('2012-12-24');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $channel = $supply.Channel;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102037Z" creationid="ramiroencinas" creationdate="20160521T102037Z">
+        <seg>my $canal = $suministro.Channel;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3946,6 +3999,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>react  {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102046Z" creationid="ramiroencinas" creationdate="20160521T102046Z">
+        <seg>react  {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>react {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160508T171119Z" creationid="Ram" creationdate="20160508T171119Z">
@@ -3966,6 +4027,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T202333Z" creationid="ramiroencinas" creationdate="20160503T201911Z">
         <seg>say "Todo listo"; # No debería tardar más de tres segundos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say "via Channel: $item";</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102443Z" creationid="ramiroencinas" creationdate="20160521T102111Z">
+        <seg>say "vía Canal: $elemento";</seg>
       </tuv>
     </tu>
     <tu>
@@ -4190,6 +4259,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212117Z" creationid="ramiroencinas" creationdate="20160520T212117Z">
         <seg>when X::MyApp::Error { say "Error: ", $_.message }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>whenever $channel -&gt; $item {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102058Z" creationid="ramiroencinas" creationdate="20160521T102058Z">
+        <seg>whenever $canal -&gt; $elemento {</seg>
       </tuv>
     </tu>
     <tu>
