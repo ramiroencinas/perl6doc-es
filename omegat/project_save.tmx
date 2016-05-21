@@ -3254,8 +3254,8 @@ channel must be checked to determine whether it is closed:</seg>
 L&lt;Supply&gt; to one or more L&lt;Channel&gt;s to provide for different interfaces
 in a program.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102755Z" creationid="ramiroencinas" creationdate="20160521T102755Z">
-        <seg>Esto puede utilizarse, por ejemplo, para dirigir los resultados de un L&lt;Suministro&gt; a uno o más L&lt;Canales&gt; para distintos interfaces que pueda tener un programa.</seg>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102900Z" creationid="ramiroencinas" creationdate="20160521T102755Z">
+        <seg>Esto puede utilizarse, por ejemplo, para dirigir los resultados de un L&lt;Suministro&gt; a uno o más L&lt;Canales&gt; para distintos interfaces de un programa.</seg>
       </tuv>
     </tu>
     <tu>
