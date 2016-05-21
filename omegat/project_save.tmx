@@ -2575,6 +2575,15 @@ being emitted to the stream, or taps receiving them.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Channels can be used in place of the L&lt;Supply&gt; in the C&lt;whenever&gt; of a
+C&lt;react&gt; block described earlier:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T101351Z" creationid="ramiroencinas" creationdate="20160521T101351Z">
+        <seg>Los canales pueden escribirse como un L&lt;Suministro&gt; en el bloque C&lt;whenever&gt; de un bloque C&lt;react&gt; como vimos antes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>END</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120906T223846Z">
@@ -3067,6 +3076,16 @@ interested in the events:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The L&lt;method closed|/type/Channel#method_closed&gt; returns a L&lt;Promise&gt; that
+will be kept (and consequently will evaluate to True in a boolean context,)
+when the channel is closed.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T100914Z" creationid="ramiroencinas" creationdate="20160521T100914Z">
+        <seg>El L&lt;método closed|/type/Channel#method_closed&gt; devuelve una L&lt;Promesa&gt; de forma que cuando ésta finalice (kept) indicará que el canal está cerrado y se evaluará como True.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The L&lt;method in|/type/Promise#method_in&gt; creates a new promise and
 schedules a new task to call C&lt;keep&gt; on it no earlier than the supplied
 number of seconds, returning the new L&lt;Promise&gt; object.</seg>
@@ -3307,6 +3326,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20111008T170745Z">
         <seg>a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>await $p;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T101410Z" creationid="ramiroencinas" creationdate="20160521T101410Z">
+        <seg>await $p;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3587,6 +3614,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172322Z" creationid="Ram" creationdate="20160508T172322Z">
         <seg>my $suministro_impar = $suministro.grep({ $_ % 2 });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $p = start {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T101354Z" creationid="ramiroencinas" creationdate="20160521T101354Z">
+        <seg>my $p = start {</seg>
       </tuv>
     </tu>
     <tu>
@@ -3935,6 +3970,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>say $_;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T101408Z" creationid="ramiroencinas" creationdate="20160521T101408Z">
+        <seg>say $_;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>say $channel.receive;  # 'Channel One'</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204403Z" creationid="ramiroencinas" creationdate="20160520T204236Z">
@@ -4147,6 +4190,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212117Z" creationid="ramiroencinas" creationdate="20160520T212117Z">
         <seg>when X::MyApp::Error { say "Error: ", $_.message }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>whenever $channel {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T101403Z" creationid="ramiroencinas" creationdate="20160521T101403Z">
+        <seg>whenever $canal {</seg>
       </tuv>
     </tu>
     <tu>
