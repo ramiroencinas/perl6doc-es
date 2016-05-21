@@ -118,6 +118,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$c.close;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T100635Z" creationid="ramiroencinas" creationdate="20160521T100635Z">
+        <seg>$c.close;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$c.send($r);</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T100632Z" creationid="ramiroencinas" creationdate="20160521T100632Z">
+        <seg>$c.send($r);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$channel.close;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205441Z" creationid="ramiroencinas" creationdate="20160520T205441Z">
@@ -3475,6 +3491,22 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120630T173216Z">
         <seg>es equivalente a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>last;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T100629Z" creationid="ramiroencinas" creationdate="20160521T100629Z">
+        <seg>last;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>loop {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T100626Z" creationid="ramiroencinas" creationdate="20160521T100626Z">
+        <seg>loop {</seg>
       </tuv>
     </tu>
     <tu>
