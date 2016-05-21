@@ -3065,8 +3065,8 @@ number of seconds, returning the new L&lt;Promise&gt; object.</seg>
 the L&lt;Channel&gt; and will block until further items are queued unless the
 channel is closed:</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205335Z" creationid="ramiroencinas" creationdate="20160520T205335Z">
-        <seg>El L&lt;método list|/type/Channel#method_list&gt; devuelve todos los elementos del L&lt;Canal&gt; y lo bloqueará hasta que se encolen más elementos a menos que el canal se cierre:</seg>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T094247Z" creationid="ramiroencinas" creationdate="20160520T205335Z">
+        <seg>El L&lt;método list|/type/Channel#method_list&gt; devuelve todos los elementos del L&lt;Canal&gt; y la bloquea hasta que se encolen más elementos a menos que el canal se cierre:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3141,6 +3141,17 @@ necessary to do it for these.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165912Z" creationid="ramiroencinas" creationdate="20160506T165836Z">
         <seg>Los métodos que devuelven una promesa como C&lt;in&gt; o C&lt;start&gt; donde directamente producen la consecución o la excepción de la promesa hacen esto mismo, por lo que no es necesario en esos casos el uso del método L&lt;Vow&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is also the non-blocking L&lt;method poll|/type/Channel#method_poll&gt;
+which returns an available item from the channel or L&lt;Nil&gt; if there
+is no item or the channel is closed, this does of course mean that the
+channel must be checked to determine whether it is closed:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T094545Z" creationid="ramiroencinas" creationdate="20160521T094545Z">
+        <seg>Existe el L&lt;method poll|/type/Channel#method_poll&gt; no bloqueante que devuelve un elemento disponible del canal o L&lt;Nil&gt; si no hay elementos o si el canal está cerrado. Esto implica comprobar el estado del canal para ver si está cerrado o no.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3372,6 +3383,14 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>elsif $closed {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T094628Z" creationid="ramiroencinas" creationdate="20160521T094628Z">
+        <seg>elsif $cerrado {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>emit($_);</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204207Z" creationid="ramiroencinas" creationdate="20160520T204207Z">
@@ -3436,6 +3455,14 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>if $c.poll -&gt; $item {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T094613Z" creationid="ramiroencinas" creationdate="20160521T094613Z">
+        <seg>if $c.poll -&gt; $elemento {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>if ($xyz) { print "$xyz\n" }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110718T233954Z">
@@ -3460,6 +3487,14 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $c = Channel.new;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T094550Z" creationid="ramiroencinas" creationdate="20160521T094550Z">
+        <seg>my $c = Channel.new;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $c = Date.new('2012-12-24');</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T181853Z" creationid="explorer" creationdate="20160428T181853Z">
@@ -3472,6 +3507,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204318Z" creationid="ramiroencinas" creationdate="20160520T204231Z">
         <seg>my $canal = Channel.new;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $closed = $c.closed;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T094558Z" creationid="ramiroencinas" creationdate="20160521T094558Z">
+        <seg>my $cerrado = $c.closed;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3864,6 +3907,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204403Z" creationid="ramiroencinas" creationdate="20160520T204236Z">
         <seg>say $canal.receive;  # 'Canal Uno'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say $item;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T094618Z" creationid="ramiroencinas" creationdate="20160521T094618Z">
+        <seg>say $elemento;</seg>
       </tuv>
     </tu>
     <tu>
