@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># Done.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103340Z" creationid="ramiroencinas" creationdate="20160521T103340Z">
+        <seg># Realizado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># OR</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20150714T133100Z" creationid="explorer" creationdate="20150714T133100Z">
@@ -46,10 +54,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># Output:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103311Z" creationid="ramiroencinas" creationdate="20160521T103311Z">
+        <seg># Salida:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># Output: foo bar</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103326Z" creationid="ramiroencinas" creationdate="20160521T103326Z">
+        <seg># Salida: foo bar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># Perl 5</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T175816Z" creationid="explorer" creationdate="20160428T175816Z">
         <seg># Perl 5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># Starting...</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103320Z" creationid="ramiroencinas" creationdate="20160521T103320Z">
+        <seg># Iniciando...</seg>
       </tuv>
     </tu>
     <tu>
@@ -210,6 +242,22 @@
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172337Z" creationid="Ram" creationdate="20160508T172337Z">
         <seg>$suministro_impar.tap(-&gt; $v { say "Impar : $v" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$proc.stderr.tap(-&gt; $v { print "Error:  $v" });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103246Z" creationid="ramiroencinas" creationdate="20160521T103246Z">
+        <seg>$proc.stderr.tap(-&gt; $v { print "Error:  $v" });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$proc.stdout.tap(-&gt; $v { print "Output: $v" });</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103240Z" creationid="ramiroencinas" creationdate="20160521T103240Z">
+        <seg>$proc.stdout.tap(-&gt; $v { print "Salida: $v" });</seg>
       </tuv>
     </tu>
     <tu>
@@ -732,6 +780,14 @@ say $p1.result;         # resultado</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120625T193941Z">
         <seg>=head2 Métodos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Proc::Async</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102920Z" creationid="ramiroencinas" creationdate="20160521T102920Z">
+        <seg>=head2 Proc::Async</seg>
       </tuv>
     </tu>
     <tu>
@@ -2910,6 +2966,15 @@ want to consider a L&lt;Supply&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>L&lt;Proc::Async&gt; builds on the facilities described to run and interact with
+an external program asynchronously:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103222Z" creationid="ramiroencinas" creationdate="20160521T103120Z">
+        <seg>L&lt;Proc::Async&gt; permite la comunicación de forma interactiva y asíncrona con programas externos:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>LAST { say 'Job is done.' }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T213403Z" creationid="ramiroencinas" creationdate="20160520T213403Z">
@@ -3711,6 +3776,22 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $proc = Proc::Async.new('echo', 'foo', 'bar');</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103229Z" creationid="ramiroencinas" creationdate="20160521T103229Z">
+        <seg>my $proc = Proc::Async.new('echo', 'foo', 'bar');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $promise = $proc.start;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103259Z" creationid="ramiroencinas" creationdate="20160521T103259Z">
+        <seg>my $promesa = $proc.start;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $promise = Promise.allof(</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T201707Z" creationid="ramiroencinas" creationdate="20160503T201707Z">
@@ -4027,6 +4108,22 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T202333Z" creationid="ramiroencinas" creationdate="20160503T201911Z">
         <seg>say "Todo listo"; # No debería tardar más de tres segundos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say "Done.";</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103305Z" creationid="ramiroencinas" creationdate="20160521T103305Z">
+        <seg>say "Realizado.";</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say "Starting...";</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103253Z" creationid="ramiroencinas" creationdate="20160521T103253Z">
+        <seg>say "Iniciando...";</seg>
       </tuv>
     </tu>
     <tu>
