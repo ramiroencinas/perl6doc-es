@@ -3416,6 +3416,16 @@ is an integer starting at 0 that is incremented for each event.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The intent
+of the scheduler interface is to provide a mechanism to determine which
+resources to use to run a particular task and when to run it.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T195911Z" creationid="ramiroencinas" creationdate="20160523T195911Z">
+        <seg>El propósito de la interface del programador es ofrecer un mecanismo que determine los recursos utilizar necesarios para llevar a cabo una tarea en particular y cuando iniciar ésta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The latter behaviour
 is illustrated with:</seg>
       </tuv>
@@ -3448,6 +3458,15 @@ necessary to do it for these.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165912Z" creationid="ramiroencinas" creationdate="20160506T165836Z">
         <seg>Los métodos que devuelven una promesa como C&lt;in&gt; o C&lt;start&gt; donde directamente producen la consecución o la excepción de la promesa hacen esto mismo, por lo que no es necesario en esos casos el uso del método L&lt;Vow&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The next level of the concurrency API is supplied by classes that
+implement the interface defined by the role L&lt;Scheduler&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T195650Z" creationid="ramiroencinas" creationdate="20160523T195650Z">
+        <seg>El siguiente nivel de la API sobre concurrencia lo ofrecen las clases que implementan la interface definida por el rol L&lt;Scheduler&gt;.</seg>
       </tuv>
     </tu>
     <tu>
