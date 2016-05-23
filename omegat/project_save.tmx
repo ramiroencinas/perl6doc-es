@@ -2901,6 +2901,21 @@ by setting the C&lt;done&gt; and C&lt;quit&gt; options in the call to C&lt;tap&g
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to write to the standard input of the program
+you can supply the C&lt;:w&gt; adverb to the constructor and use
+the methods L&lt;write|/type/Proc::Async#method_write&gt;,
+L&lt;print|/type/Proc::Async#method_print&gt; or
+L&lt;say|/type/Proc::Async#method_say&gt; to write to the opened pipe once
+the program has been started:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T172808Z" creationid="ramiroencinas" creationdate="20160523T172808Z">
+        <seg>Para escribir en la entrada estándar del comando indica el adverbio C&lt;:w&gt; en el constructor y utiliza los métodos L&lt;write|/type/Proc::Async#method_write&gt;,
+L&lt;print|/type/Proc::Async#method_print&gt; o
+L&lt;say|/type/Proc::Async#method_say&gt; para escribir en la tubería abierta una vez que se ejecute el comando:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In addition to C&lt;await&gt;, two class methods combine several
 L&lt;Promise&gt; objects into a new promise: C&lt;allof&gt; returns a promise that
 is kept when all the original promises are kept or broken:</seg>
@@ -3243,6 +3258,16 @@ facilities as described below.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The command will not be executed until
+L&lt;start|/type/Proc::Async#method_start&gt; is called, which will return
+a L&lt;Promise&gt; that will be kept when the program exits.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T171859Z" creationid="ramiroencinas" creationdate="20160523T171859Z">
+        <seg>Cuando se realice la llamada a L&lt;start|/type/Proc::Async#method_start&gt; se ejecutará el comando y devolverá una L&lt;Promesa&gt; completada cuando el comando finalice.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The data that is emitted
 is an integer starting at 0 that is incremented for each event.</seg>
       </tuv>
@@ -3276,6 +3301,27 @@ necessary to do it for these.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165912Z" creationid="ramiroencinas" creationdate="20160506T165836Z">
         <seg>Los métodos que devuelven una promesa como C&lt;in&gt; o C&lt;start&gt; donde directamente producen la consecución o la excepción de la promesa hacen esto mismo, por lo que no es necesario en esos casos el uso del método L&lt;Vow&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path to the command as well as any arguments to the command are 
+supplied to the constructor.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T171654Z" creationid="ramiroencinas" creationdate="20160523T171654Z">
+        <seg>Tanto la ubicación del comando como sus parámetros se proporcionan al constructor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The standard
+output and standard error of the program are available as L&lt;Supply&gt;
+objects from the methods L&lt;stdout|/type/Proc::Async#method_stdout&gt;
+and L&lt;stderr|/type/Proc::Async#method_stderr&gt; respectively which can be
+tapped as required.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T172411Z" creationid="ramiroencinas" creationdate="20160523T172411Z">
+        <seg>La salida estándar y la salida estándar de errores del comando quedarán disponibles en los métodos L&lt;stdout|/type/Proc::Async#method_stdout&gt; y L&lt;stderr|/type/Proc::Async#method_stderr&gt; del objeto L&lt;Promesa&gt; correspondiente. Ambos métodos utilizan a su vez el método tap para acceder a la salida correspondiente.</seg>
       </tuv>
     </tu>
     <tu>
