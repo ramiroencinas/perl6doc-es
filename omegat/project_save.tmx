@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># Output: this line has foo</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T172942Z" creationid="ramiroencinas" creationdate="20160523T172942Z">
+        <seg># Salida: esta línea tiene foo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># Perl 5</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T175816Z" creationid="explorer" creationdate="20160428T175816Z">
@@ -246,6 +254,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$proc.close-stdin;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T172927Z" creationid="ramiroencinas" creationdate="20160523T172927Z">
+        <seg>$proc.close-stdin;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$proc.say("this line has foo");</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T172912Z" creationid="ramiroencinas" creationdate="20160523T172912Z">
+        <seg>$proc.say("esta línea tiene foo");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$proc.say("this one doesn't");</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T172921Z" creationid="ramiroencinas" creationdate="20160523T172921Z">
+        <seg>$proc.say("esta no");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$proc.stderr.tap(-&gt; $v { print "Error:  $v" });</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103246Z" creationid="ramiroencinas" creationdate="20160521T103246Z">
@@ -406,6 +438,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$thread.finish;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T175338Z" creationid="ramiroencinas" creationdate="20160523T175338Z">
+        <seg>$hilo.finish;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$thread.run;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174819Z" creationid="ramiroencinas" creationdate="20160523T174819Z">
+        <seg>$hilo.run;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20111008T200612Z">
@@ -498,6 +546,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20111008T174935Z">
         <seg>1 2 3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>10  -&gt; $v { say $v }});</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174813Z" creationid="ramiroencinas" creationdate="20160523T174813Z">
+        <seg>10  -&gt; $v { say $v }});</seg>
       </tuv>
     </tu>
     <tu>
@@ -696,6 +752,14 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head1 Low-level APIs</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T173709Z" creationid="ramiroencinas" creationdate="20160523T173709Z">
+        <seg>=head1 APIs de bajo nivel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head1 NOTE</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110211T181749Z">
@@ -800,6 +864,14 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 Schedulers</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T175839Z" creationid="ramiroencinas" creationdate="20160523T175839Z">
+        <seg>=head2 Programadores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 Signatures</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="jmerelo" changedate="20150905T111137Z" creationid="jmerelo" creationdate="20150905T111137Z">
@@ -828,6 +900,14 @@ say $p1.result;         # resultado</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120705T225431Z">
         <seg>=head2 Instrucciones Switch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 Threads</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T173716Z" creationid="ramiroencinas" creationdate="20160523T173716Z">
+        <seg>=head2 Hilos</seg>
       </tuv>
     </tu>
     <tu>
@@ -2440,6 +2520,17 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A
+thread can be thought of as a piece of code that may eventually be run
+on a processor, the arrangement for which is made almost entirely by the
+virtual machine and/or operating system.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174230Z" creationid="ramiroencinas" creationdate="20160523T174152Z">
+        <seg>Un hilo es un trozo de código que se ejecuta en un procesador en un momento dado y su gestión depende casi en su totalidad de la máquina virtual y/o del sistema operativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A C&lt;live&gt; L&lt;Supply&gt;
 is created by the L&lt;Supplier&gt; factory, each emitted value is passed to
 all the active tappers as they are added:</seg>
@@ -2494,6 +2585,14 @@ in seconds before the first event is fired.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T163801Z" creationid="ramiroencinas" creationdate="20160507T163801Z">
         <seg>Se puede proporcionar un segundo argumento a C&lt;interval&gt; para indicar el retraso en segundos después del inicio del primer evento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A thread can either be created and then actually run later:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174755Z" creationid="ramiroencinas" creationdate="20160523T174755Z">
+        <seg>Puede crearse un hilo y ejecutarlo después en un momento dado:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2584,6 +2683,16 @@ placed with C&lt;emit&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120728T084236Z">
         <seg>B</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beyond that there are  no further facilities for synchronization or resource
+sharing which is largely why it should be emphasised that threads are unlikely
+to be useful directly in user code.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T175810Z" creationid="ramiroencinas" creationdate="20160523T175810Z">
+        <seg>Más allá de esto no existen funcionalidades relacionadas con la sincronización o el uso compartido de recursos, y por este motivo fundamentalmente el uso directo de hilos no es muy útil.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2926,6 +3035,16 @@ is kept when all the original promises are kept or broken:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In both cases the completion of the code encapsulated by the L&lt;Thread&gt;
+object can be waited on with the C&lt;finish&gt; method which will block until
+the thread completes:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T175329Z" creationid="ramiroencinas" creationdate="20160523T175329Z">
+        <seg>En ambos casos puede utilizarse el método C&lt;finish&gt; para esperar a que finalice el código encapsulado del L&lt;Hilo&gt; mientras éste queda bloquedado:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In common with most modern programming languages, Perl 6 is designed to
 L&lt;support concurrency|http://en.wikipedia.org/wiki/Concurrent_computing&gt;
 (allowing more than one thing to happen at the same time) and
@@ -3012,6 +3131,14 @@ keyword:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160540Z" creationid="ramiroencinas" creationdate="20160507T160540Z">
         <seg>La forma C&lt;a demanda&gt; de un L&lt;Suministro&gt; se crea mediante la palabra clave C&lt;supply&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Or can be created and run at a single invocation:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174843Z" creationid="ramiroencinas" creationdate="20160523T174843Z">
+        <seg>O puede crearse y ejecutarse en una sola invocación:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3119,6 +3246,18 @@ then C&lt;cause&gt; will be the L&lt;Exception&gt; object that was thrown:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20110825T113340Z">
         <seg>Algunos ejemplos:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some programs (such as C&lt;grep&gt; without a file argument in this
+example, ) won't exit until their standard input is closed so
+L&lt;close-stdin|/type/Proc::Async#method_close-stdin&gt; can be called when
+you are finished writing to allow the L&lt;Promise&gt; returned by C&lt;start&gt;
+to be kept.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T173656Z" creationid="ramiroencinas" creationdate="20160523T173656Z">
+        <seg>Algunos comandos (como C&lt;grep&gt; sin un fichero como argumento en este ejemplo) no finalizarán hasta que se cierre su entrada estándar. En este caso se llama a L&lt;close-stdin|/type/Proc::Async#method_close-stdin&gt; al final con el propósito de finalizar la L&lt;Promesa&gt; devuelta por C&lt;start&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3286,6 +3425,14 @@ is illustrated with:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The lowest level interface for concurrency is provided by L&lt;Thread&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T173807Z" creationid="ramiroencinas" creationdate="20160523T173807Z">
+        <seg>En relación a la concurrencia, la interface de más bajo nivel la proporciona L&lt;Thread&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The method C&lt;interval&gt; returns a new C&lt;on-demand&gt; supply which periodically
 emits a new event at the specified interval.</seg>
       </tuv>
@@ -3376,6 +3523,16 @@ also provided as subroutines:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194136Z" creationid="ramiroencinas" creationdate="20160503T194136Z">
         <seg>El siguiente código es considerado como un patrón común que también es presentado como una subrutina:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Threads should be considered,
+for all intents, largely un-managed and their direct use should be
+avoided in user code.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174706Z" creationid="ramiroencinas" creationdate="20160523T174706Z">
+        <seg>A todos los efectos los hilos deben considerarse en gran medida como no administrados y debería evitarse su uso directo.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3830,6 +3987,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $proc = Proc::Async.new(:w, 'grep', 'foo');</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T172859Z" creationid="ramiroencinas" creationdate="20160523T172859Z">
+        <seg>my $proc = Proc::Async.new(:w, 'grep', 'foo');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $promise = $proc.start;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103259Z" creationid="ramiroencinas" creationdate="20160521T103259Z">
@@ -3986,6 +4151,22 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T161255Z" creationid="ramiroencinas" creationdate="20160507T161255Z">
         <seg>my $tap = $suministro.tap( -&gt; $v { say $v });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $thread = Thread.new(code =&gt; { for  1 ..</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174808Z" creationid="ramiroencinas" creationdate="20160523T174808Z">
+        <seg>my $hilo = Thread.new(code =&gt; { for  1 ..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $thread = Thread.start({ for  1 ..</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174851Z" creationid="ramiroencinas" creationdate="20160523T174851Z">
+        <seg>my $hilo = Thread.start({ for  1 ..</seg>
       </tuv>
     </tu>
     <tu>
