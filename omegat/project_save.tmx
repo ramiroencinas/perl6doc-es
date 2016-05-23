@@ -3407,6 +3407,15 @@ a L&lt;Promise&gt; that will be kept when the program exits.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The current default global scheduler is available in the variable
+C&lt;$*SCHEDULER&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T200717Z" creationid="ramiroencinas" creationdate="20160523T200717Z">
+        <seg>Por ahora, el programador global por defecto está disponible en la variable C&lt;$*SCHEDULER&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The data that is emitted
 is an integer starting at 0 that is incremented for each event.</seg>
       </tuv>
@@ -3439,6 +3448,18 @@ is illustrated with:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T173807Z" creationid="ramiroencinas" creationdate="20160523T173807Z">
         <seg>En relación a la concurrencia, la interface de más bajo nivel la proporciona L&lt;Thread&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The majority
+of the higher level concurrency APIs are built upon a scheduler and it
+may not be necessary for user code to use them at all, although some
+methods such as those found in L&lt;Proc::Async&gt;, L&lt;Promise&gt; and L&lt;Supply&gt;
+allow you to explicitly supply a scheduler.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T200635Z" creationid="ramiroencinas" creationdate="20160523T200635Z">
+        <seg>La mayor parte de las APIs de alto nivel incluidas en la concurrencia se basan en un programador y no tienen por qué ser necesarias en absoluto, si bien algunos métodos como los encontrados en L&lt;Proc::Async&gt;, L&lt;Promise&gt; y L&lt;Supply&gt; te permiten suministrar un programador de forma explícita.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3476,6 +3497,15 @@ supplied to the constructor.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T171654Z" creationid="ramiroencinas" creationdate="20160523T171654Z">
         <seg>Tanto la ubicación del comando como sus parámetros se proporcionan al constructor.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The primary interface of a scheduler (indeed the only method required
+by the L&lt;Scheduler&gt; interface) is the C&lt;cue&gt; method:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T200856Z" creationid="ramiroencinas" creationdate="20160523T200856Z">
+        <seg>La interface principal de un programador (en realidad el único método requerido por la interface L&lt;Scheduler&gt;) es el método C&lt;cue&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3866,6 +3896,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T100626Z" creationid="ramiroencinas" creationdate="20160521T100626Z">
         <seg>loop {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method cue(:&amp;code, Instant :$at, :$in, :$every, :$times = 1; :&amp;catch)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T200912Z" creationid="ramiroencinas" creationdate="20160523T200912Z">
+        <seg>method cue(:&amp;code, Instant :$at, :$in, :$every, :$times = 1; :&amp;catch)</seg>
       </tuv>
     </tu>
     <tu>
