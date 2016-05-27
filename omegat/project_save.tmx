@@ -2669,6 +2669,16 @@ original promises is kept or broken:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assuming that the C&lt;$*SCHEDULER&gt; hasn't been changed from the default,
+will print the numbers 0 to 10 approximately (i.e with operating system
+scheduling tolerances) every two seconds.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T183245Z" creationid="ramiroencinas" creationdate="20160527T183245Z">
+        <seg>Asumiendo que C&lt;$*SCHEDULER&gt; esté por defecto, visualizará los números del 1 al 10 de forma aproximada (dependiendo de la tolerancia que tenga el sistema operativo respecto al programador) con un intervalo de 2 segundos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At its simplest, a L&lt;Supply&gt; is a message stream that can have multiple
 subscribers created with the method C&lt;tap&gt; on to which data items can be
 placed with C&lt;emit&gt;.</seg>
@@ -3576,6 +3586,16 @@ also provided as subroutines:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This will schedule the L&lt;Callable&gt; in C&lt;&amp;code&gt; to be executed in the
+manner determined by the adverbs (as documented in L&lt;Scheduler&gt;) using
+the execution scheme as implemented by the scheduler.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T183015Z" creationid="ramiroencinas" creationdate="20160527T183015Z">
+        <seg>Este método ejecutará C&lt;&amp;code&gt; en forma de L&lt;Callable&gt; según determine el resto de parámetros (como indica la documentación de L&lt;Scheduler&gt;) utilizando el esquema de ejecución que implemente el programador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Threads should be considered,
 for all intents, largely un-managed and their direct use should be
 avoided in user code.</seg>
@@ -3928,6 +3948,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T181853Z" creationid="explorer" creationdate="20160428T181853Z">
         <seg>my $c = Date.new('2012-12-24');</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $cancellation = $*SCHEDULER.cue({ say $i++}, every =&gt; 2 );</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T183032Z" creationid="ramiroencinas" creationdate="20160527T183032Z">
+        <seg>my $cancelación = $*SCHEDULER.cue({ say $i++}, every =&gt; 2 );</seg>
       </tuv>
     </tu>
     <tu>
