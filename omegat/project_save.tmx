@@ -174,6 +174,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$cancellation.cancel;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T183740Z" creationid="ramiroencinas" creationdate="20160527T183740Z">
+        <seg>$cancelación.cancel;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$channel.close;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205441Z" creationid="ramiroencinas" creationdate="20160520T205441Z">
@@ -3079,6 +3087,17 @@ L&lt;Supply&gt; returned by C&lt;supply&gt; is tapped, as demonstrated by:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this case the code will
+be scheduled to run until the program ends normally, however the method
+returns a L&lt;Cancellation&gt; object which can be used to cancel the scheduled
+execution before normal completion:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T183728Z" creationid="ramiroencinas" creationdate="20160527T183728Z">
+        <seg>En este caso el código programará la ejecución del programa hasta que finalice de forma normal. Para cancelar la ejecución programada antes de que finalice se utiliza el método C&lt;cancel&gt; que devolverá un objeto L&lt;Cancellation&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is also possible to obtain a L&lt;Channel&gt; from a L&lt;Supply&gt; using the
 L&lt;Supply method|/type/Supply#method_Channel&gt; which returns a L&lt;Channel&gt;
 which is fed by a C&lt;tap&gt; on the L&lt;Supply&gt;:</seg>
@@ -4548,6 +4567,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161526Z" creationid="ramiroencinas" creationdate="20160506T161526Z">
         <seg>say await Promise.allof(@promesas).then({ so all(@promesas&gt;&gt;.result) });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>should only output 0 to 5,</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T183811Z" creationid="ramiroencinas" creationdate="20160527T183811Z">
+        <seg>debería visualizar solo de 0 a 5,</seg>
       </tuv>
     </tu>
     <tu>
