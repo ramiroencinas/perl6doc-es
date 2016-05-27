@@ -342,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$slot = 'foo';</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215216Z" creationid="ramiroencinas" creationdate="20160527T215216Z">
+        <seg>$slot = 'foo';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$supplier.done;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T102129Z" creationid="ramiroencinas" creationdate="20160521T102129Z">
@@ -744,6 +752,14 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=end pod</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215741Z" creationid="ramiroencinas" creationdate="20160527T215741Z">
+        <seg>=end pod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head1 DESCRIPTION</seg>
       </tuv>
       <tuv lang="ES-ES">
@@ -788,6 +804,14 @@ say $p1.result;         # resultado</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095924Z">
         <seg>=head1 VARIABLES ESPECIALES</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 Safety Concerns</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T212305Z" creationid="ramiroencinas" creationdate="20160527T212305Z">
+        <seg>=head1 Consideraciones de seguridad</seg>
       </tuv>
     </tu>
     <tu>
@@ -2561,6 +2585,16 @@ say $p1.result;         # resultado</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>A
+possibly better fix would be to refactor the code so that sharing a container
+is not necessary.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215738Z" creationid="ramiroencinas" creationdate="20160527T215738Z">
+        <seg>Una solución más conveniente sería cambiar el código de forma que no se necesario compartir ese elemento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A
 thread can be thought of as a piece of code that may eventually be run
 on a processor, the arrangement for which is made almost entirely by the
 virtual machine and/or operating system.</seg>
@@ -2910,10 +2944,27 @@ the following:</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>For
+example, in this code:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215131Z" creationid="ramiroencinas" creationdate="20160527T215131Z">
+        <seg>Por ejemplo, en este código:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For
 example:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095320Z">
         <seg>Por ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a good general write-up on this subject see this L&lt;blog post|https://6guts.wordpress.com/2014/04/17/racing-to-writeness-to-wrongness-leads/&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T213612Z" creationid="ramiroencinas" creationdate="20160527T213342Z">
+        <seg>En L&lt;este post|https://6guts.wordpress.com/2014/04/17/racing-to-writeness-to-wrongness-leads/&gt; tienes un buen informe sobre este asunto.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3247,6 +3298,15 @@ L&lt;Supplier&gt; and new values are emitted on the L&lt;Supplier&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One particular issue of note is when container autovivification or extension
+takes place.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215355Z" creationid="ramiroencinas" creationdate="20160527T214722Z">
+        <seg>Hay que tener en cuenta que existe un caso en particular cuando se produce una extensión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Or alternatively as an C&lt;on-demand&gt; L&lt;Supply&gt; created by the C&lt;supply&gt;
 keyword:</seg>
       </tuv>
@@ -3389,6 +3449,14 @@ to be kept.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T173656Z" creationid="ramiroencinas" creationdate="20160523T173656Z">
         <seg>Algunos comandos (como C&lt;grep&gt; sin un fichero como argumento en este ejemplo) no finalizarán hasta que se cierre su entrada estándar. En este caso se llama a L&lt;close-stdin|/type/Proc::Async#method_close-stdin&gt; al final con el propósito de finalizar la L&lt;Promesa&gt; devuelta por C&lt;start&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some shared data concurrency issues are less obvious than others.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T213042Z" creationid="ramiroencinas" creationdate="20160527T213042Z">
+        <seg>Algunas situaciones de la concurrencia con datos compartidos son menos evidentes que otras.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3693,6 +3761,14 @@ at a time:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The simplest fix is to use a &lt;Lock&gt; to protect the critical section .</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215439Z" creationid="ramiroencinas" creationdate="20160527T215439Z">
+        <seg>La solución más simple es utilizar un &lt;Lock&gt; para proteger la sección crítica.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The standard
 output and standard error of the program are available as L&lt;Supply&gt;
 objects from the methods L&lt;stdout|/type/Proc::Async#method_stdout&gt;
@@ -3701,6 +3777,14 @@ tapped as required.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T172411Z" creationid="ramiroencinas" creationdate="20160523T172411Z">
         <seg>La salida estándar y la salida estándar de errores del comando quedarán disponibles en los métodos L&lt;stdout|/type/Proc::Async#method_stdout&gt; y L&lt;stderr|/type/Proc::Async#method_stderr&gt; del objeto L&lt;Promesa&gt; correspondiente. Ambos métodos utilizan a su vez el método tap para acceder a la salida correspondiente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The third line is the critical section as that is when the array is extended.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215327Z" creationid="ramiroencinas" creationdate="20160527T215327Z">
+        <seg>La sección crítica es la tercera línea, donde se extiende el array.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3855,6 +3939,15 @@ by other means.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T160447Z" creationid="ramiroencinas" creationdate="20160503T204036Z">
         <seg>Sin embargo, al utilizar C&lt;await&gt; de esta manera, los resultados de las dos promesas solo estarán disponibles al hacer referencia a la promesa original. Esto está bien cuando la consecución o no de las tareas es más importante que los resultados, o cuando los resultados vienen de otro lugar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When an L&lt;Array&gt; or a L&lt;Hash&gt; entry is initially assigned the
+underlying structure is altered and that operation is not async safe.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215120Z" creationid="ramiroencinas" creationdate="20160527T215120Z">
+        <seg>Cuando se asigna inicialmente un elemento de un L&lt;Array&gt; o de un L&lt;Hash&gt; la estructura subyacente cambia y esa operación es insegura asincrónicamente.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4397,6 +4490,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $slot := @array[20];</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215213Z" creationid="ramiroencinas" creationdate="20160527T215213Z">
+        <seg>my $slot := @array[20];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $supplier = Supplier.new;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T155936Z" creationid="ramiroencinas" creationdate="20160507T155936Z">
@@ -4505,6 +4606,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110717T232915Z">
         <seg>my @a;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my @array;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215134Z" creationid="ramiroencinas" creationdate="20160527T215134Z">
+        <seg>my @array;</seg>
       </tuv>
     </tu>
     <tu>
