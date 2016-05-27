@@ -840,6 +840,14 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 Locks</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T190007Z" creationid="ramiroencinas" creationdate="20160527T190007Z">
+        <seg>=head2 Bloqueos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 MAD</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20110922T112036Z">
@@ -952,10 +960,26 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head3 CurrentThreadScheduler</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T185521Z" creationid="ramiroencinas" creationdate="20160527T185521Z">
+        <seg>=head3 CurrentThreadScheduler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head3 Performance issues</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20140729T004908Z" creationid="explorer" creationdate="20140729T004908Z">
         <seg>=head3 Problemas de rendimiento</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head3 ThreadPoolScheduler</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T184837Z" creationid="ramiroencinas" creationdate="20160527T184837Z">
+        <seg>=head3 ThreadPoolScheduler</seg>
       </tuv>
     </tu>
     <tu>
@@ -2588,6 +2612,18 @@ consumed by one or more consumers simultaneously in a manner similar to
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A library may wish to provide an alternative scheduler implementation if
+it has special requirements, for instance a UI library may want all code
+to be run within a single UI thread, or some custom priority mechanism
+may be required, however the implementations provided as standard and
+described below should suffice for most user code.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T184744Z" creationid="ramiroencinas" creationdate="20160527T184744Z">
+        <seg>Es posible que una librería pueda desear proporcionar una implementación alternativa del programador en caso de requerimientos especiales, como por ejemplo una librería de interface gráfica que quiera ejecutar todo su código en un solo hilo, o si se requiere algún mecanismo de priorización personalizada. En cualquier caso las implementaciones proporcionadas como estándar que hemos visto antes deberían ser suficientes para la mayor parte de los casos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A second argument can be supplied to C&lt;interval&gt; which specifies a delay
 in seconds before the first event is fired.</seg>
       </tuv>
@@ -2792,6 +2828,18 @@ C&lt;react&gt; block described earlier:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Despite the apparent advantage the L&lt;Scheduler&gt; interface provides over
+that of L&lt;Thread&gt; all of functionality is available through higher level
+interfaces and it shouldn't be necessary to use a scheduler directly,
+except perhaps in the cases mentioned above where a scheduler can be
+supplied explicitly to certain methods.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T184232Z" creationid="ramiroencinas" creationdate="20160527T184232Z">
+        <seg>Aunque exista una ventaja aparente de L&lt;Scheduler&gt; sobre L&lt;Thread&gt; toda la funcionalidad se encuentra disponible mediante interfaces de alto nivel y no debería ser necesario utilizar directamente un programador, excepto quizá, en los casos antes mencionados donde un programador puede proporcionarse de forma explícita a ciertos métodos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>END</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120906T223846Z">
@@ -2986,6 +3034,15 @@ as seen by a C&lt;when&gt; or C&lt;default&gt; block, the exception is caught an
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212637Z" creationid="ramiroencinas" creationdate="20160520T212637Z">
         <seg>Si como vemos, se indica en un bloque C&lt;when&gt; o C&lt;default&gt; la excepción, ésta será controlada y gestionada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the maximum is exceeded then C&lt;cue&gt; may queue the
+code until such time as a thread becomes available.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T185346Z" creationid="ramiroencinas" creationdate="20160527T185346Z">
+        <seg>Si se sobrepasa el máximo, C&lt;cue&gt; puede encolar el código hasta que algún hilo quede disponible.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3238,6 +3295,16 @@ chaining:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rakudo allows the maximum number of threads allowed in the default scheduler
+to be set by the environment variable C&lt;RAKUDO_MAX_THREADS&gt; at the time
+the program is started.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T185455Z" creationid="ramiroencinas" creationdate="20160527T185455Z">
+        <seg>Rakudo establece este máximo en la variable de entorno C&lt;RAKUDO_MAX_THREADS&gt; en el momento que inicia el programa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similarly if the code fails (and the promise is thus broken),
 then C&lt;cause&gt; will be the L&lt;Exception&gt; object that was thrown:</seg>
       </tuv>
@@ -3351,10 +3418,30 @@ interested in the events:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The L&lt;CurrentThreadScheduler&gt; is a very simple scheduler that will always
+schedule code to be run straight away on the current thread.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T185655Z" creationid="ramiroencinas" creationdate="20160527T185655Z">
+        <seg>L&lt;CurrentThreadScheduler&gt; es un programador muy simple que siempre programará la ejecución del código de forma inmediata en el hilo actual.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The L&lt;Supply&gt; can either be C&lt;live&gt; or C&lt;on-demand&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T154648Z" creationid="ramiroencinas" creationdate="20160507T154648Z">
         <seg>Un L&lt;Suministro&gt; puede ser C&lt;a tiempo real&gt; o C&lt;a demanda&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The L&lt;ThreadPoolScheduler&gt; is the default scheduler, it maintains a pool
+of threads that are allocated on demand, creating new ones as necessary up
+to maximum number given as a parameter when the scheduler object was created
+(the default is 16.)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T185140Z" creationid="ramiroencinas" creationdate="20160527T185140Z">
+        <seg>L&lt;ThreadPoolScheduler&gt; es el programador por defecto, mantiene un conjunto de hilos que pueden asignarse a demanda y puede crear hilos nuevos si es necesario hasta un máximo indicado como parámetro al crear el objeto del programador (por defecto son 16 hilos como máximo).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3426,6 +3513,17 @@ facilities as described below.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The class L&lt;Lock&gt; provides the low level mechanism that protects
+shared data in a concurrent environment and is thus key to supporting
+thread-safety in the high level API, this is sometimes known as a
+"Mutex" in other programming languages.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T190435Z" creationid="ramiroencinas" creationdate="20160527T190256Z">
+        <seg>La clase L&lt;Lock&gt; proporciona un mecanismo de bajo nivel que protege datos compartidos en un entorno concurrente y además es la clave en la seguridad multihilo en la API de alto nivel. Este mecanismo a veces es conocido como "Mutex" en otros lenguajes de programación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The command will not be executed until
 L&lt;start|/type/Proc::Async#method_start&gt; is called, which will return
 a L&lt;Promise&gt; that will be kept when the program exits.</seg>
@@ -3450,6 +3548,16 @@ is an integer starting at 0 that is incremented for each event.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T162906Z" creationid="ramiroencinas" creationdate="20160507T162906Z">
         <seg>El dato que se emite en este caso es un entero que comienza en 0 y se incrementa en cada evento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The implication
+is that C&lt;cue&gt; on this scheduler will block until the code finishes
+execution, limiting its utility to certain special cases such as testing.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T190000Z" creationid="ramiroencinas" creationdate="20160527T190000Z">
+        <seg>Las implicaciones de C&lt;cue&gt; en este programador es el bloqueo hasta que finalice la ejecución del código, por lo que su uso se limita de forma especial como en el caso de realizar pruebas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4607,6 +4715,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161338Z">
         <seg>sleep 1;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sleep 20;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T190259Z" creationid="ramiroencinas" creationdate="20160527T190259Z">
+        <seg>sleep 20;</seg>
       </tuv>
     </tu>
     <tu>
