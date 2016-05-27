@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$lock.protect({</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T211900Z" creationid="ramiroencinas" creationdate="20160527T211900Z">
+        <seg>$bloqueo.protect({</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$odd_supply.tap(-&gt; $v { say "Odd : $v" });</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172337Z" creationid="Ram" creationdate="20160508T172337Z">
@@ -2741,12 +2749,21 @@ placed with C&lt;emit&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because C&lt;protect&gt; will block any threads that are waiting to execute
+the critical section the code should be as quick as possible.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T212115Z" creationid="ramiroencinas" creationdate="20160527T212115Z">
+        <seg>Como C&lt;protect&gt; bloquea cualquier hilo a la espera de ejecutar la sección crítica, conviene que el código sea lo más rápido posible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because the higher level classes
 (L&lt;Promise&gt;, L&lt;Supply&gt; and L&lt;Channel&gt;,) use a L&lt;Lock&gt; where required it
 is unlikely that user code will need to use a L&lt;Lock&gt; directly.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T190921Z" creationid="ramiroencinas" creationdate="20160527T190921Z">
-        <seg>Como las clases de alto nivel (L&lt;Promise&gt;, L&lt;Supply&gt; y L&lt;Channel&gt;,) utilizan L&lt;Lock&gt; cuando es requerido, no es necesario utilizar L&lt;Lock&gt; directamente.</seg>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T211508Z" creationid="ramiroencinas" creationdate="20160527T190921Z">
+        <seg>Como las clases de alto nivel (L&lt;Promise&gt;, L&lt;Supply&gt; y L&lt;Channel&gt;,) utilizan L&lt;Lock&gt; cuando lo requieren, no es necesario utilizar L&lt;Lock&gt; directamente.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2804,6 +2821,14 @@ to the C&lt;map&gt; is emitted:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160519T184016Z" creationid="ramiroencinas" creationdate="20160519T184016Z">
         <seg>C&lt;map&gt; devuelve un nuevo suministro de forma que por cada elemento emitido al suministro original se emite un nuevo elemento como resultado de la expresión que se pasa a C&lt;map&gt;: :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C&lt;protect&gt; returns whatever the code block returns.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T211950Z" creationid="ramiroencinas" creationdate="20160527T211950Z">
+        <seg>C&lt;protect&gt; devuelve lo que devuelve el bloque de código.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3657,6 +3682,17 @@ by the L&lt;Scheduler&gt; interface) is the C&lt;cue&gt; method:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The primary interface to L&lt;Lock&gt; is the method
+L&lt;protect|/type/Lock#method_protect&gt; which ensures that a block of code
+(commonly called a "critical section",) is only executed in one thread
+at a time:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T211813Z" creationid="ramiroencinas" creationdate="20160527T211813Z">
+        <seg>La interface principal de L&lt;Lock&gt; es el método L&lt;protect|/type/Lock#method_protect&gt;, el cual se asegura de que un bloque de código (normalmente denominado "sección crítica") solamente se ejecuta en un momento dado en un hilo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The standard
 output and standard error of the program are available as L&lt;Supply&gt;
 objects from the methods L&lt;stdout|/type/Proc::Async#method_stdout&gt;
@@ -3873,6 +3909,14 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>await (^10).map: {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T211848Z" creationid="ramiroencinas" creationdate="20160527T211848Z">
+        <seg>await (^10).map: {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>b</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T200744Z">
@@ -4065,6 +4109,14 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $a = 0;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T211840Z" creationid="ramiroencinas" creationdate="20160527T211840Z">
+        <seg>my $a = 0;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $answer = 42;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110129T230806Z">
@@ -4149,6 +4201,14 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161138Z">
         <seg>my $i = 0;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $lock = Lock.new;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T211835Z" creationid="ramiroencinas" creationdate="20160527T211835Z">
+        <seg>my $bloqueo = Lock.new;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4317,6 +4377,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173305Z" creationid="ramiroencinas" creationdate="20160502T173305Z">
         <seg>my $promesa2 = $promesa1.then(-&gt; $v { say $v.status; 'Segundo Resultado' });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $r = rand;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T211915Z" creationid="ramiroencinas" creationdate="20160527T211915Z">
+        <seg>my $r = rand;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4589,6 +4657,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T101408Z" creationid="ramiroencinas" creationdate="20160521T101408Z">
         <seg>say $_;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say $a; # 10</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T211925Z" creationid="ramiroencinas" creationdate="20160527T211925Z">
+        <seg>say $a; # 10</seg>
       </tuv>
     </tu>
     <tu>
