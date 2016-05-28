@@ -726,6 +726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=begin code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125427Z" creationid="Ram" creationdate="20160528T125427Z">
+        <seg>=begin code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=begin code
 my $p1 = Promise.new;
 say $p1.status;         # Planned;
@@ -2699,6 +2707,15 @@ in seconds before the first event is fired.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A simple class is provided with a default constructor, that allows the
+setting of the attributes of the created object:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125424Z" creationid="Ram" creationdate="20160528T125424Z">
+        <seg>Una clase simple proporciona un constructor por defecto que permite la asignación de atributos en el objeto creado:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A thread can either be created and then actually run later:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174755Z" creationid="ramiroencinas" creationdate="20160523T174755Z">
@@ -4053,6 +4070,22 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class Point {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125437Z" creationid="Ram" creationdate="20160528T125437Z">
+        <seg>class Punto {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class Rectangle {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125501Z" creationid="Ram" creationdate="20160528T125501Z">
+        <seg>class Rectángulo {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>close $fh;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095311Z">
@@ -4169,6 +4202,38 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204153Z" creationid="ramiroencinas" creationdate="20160520T204153Z">
         <seg>for 1..5 -&gt; $t {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>has Int $.x;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125444Z" creationid="Ram" creationdate="20160528T125444Z">
+        <seg>has Int $.x;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>has Int $.y;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125450Z" creationid="Ram" creationdate="20160528T125450Z">
+        <seg>has Int $.y;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>has Point $.lower;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125617Z" creationid="Ram" creationdate="20160528T125617Z">
+        <seg>has Punto $.inferior;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>has Point $.upper;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125623Z" creationid="Ram" creationdate="20160528T125623Z">
+        <seg>has Point $.superior;</seg>
       </tuv>
     </tu>
     <tu>
