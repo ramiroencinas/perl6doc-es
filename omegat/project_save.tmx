@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># Create a new Rectangle from two Points</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125751Z" creationid="Ram" creationdate="20160528T125751Z">
+        <seg># Crea un Rectángulo nuevo desde dos Puntos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># Done.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103340Z" creationid="ramiroencinas" creationdate="20160521T103340Z">
@@ -474,6 +482,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174819Z" creationid="ramiroencinas" creationdate="20160523T174819Z">
         <seg>$hilo.run;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>($!upper.x - $!lower.x) * ( $!upper.y - $!lower.y);</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125651Z" creationid="Ram" creationdate="20160528T125651Z">
+        <seg>($!superior.x - $!inferior.x) * ( $!superior.y - $!inferior.y);</seg>
       </tuv>
     </tu>
     <tu>
