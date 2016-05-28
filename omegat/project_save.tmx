@@ -920,6 +920,14 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head1 State</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170608Z" creationid="ramiroencinas" creationdate="20160528T170608Z">
+        <seg>=head1 Estado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head1 Syntax</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20121113T002808Z">
@@ -4152,6 +4160,15 @@ avoided in user code.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Type objects are I&lt;undefined&gt;, in the sense that they return C&lt;False&gt; if you
+call the C&lt;.defined&gt; method on them.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170425Z" creationid="ramiroencinas" creationdate="20160528T170425Z">
+        <seg>Los tipos de objetos están I&lt;indefinidos&gt;, de forma que si en ellos realizas una llamada al método C&lt;.defined&gt; obtendrás C&lt;False&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>U+0009 CHARACTER TABULATION</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20150629T153052Z" creationid="explorer" creationdate="20150629T153052Z">
@@ -4234,12 +4251,32 @@ otherwise.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>X&lt;|attributes&gt;
+X&lt;|classes, attributes&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170609Z" creationid="ramiroencinas" creationdate="20160528T170609Z">
+        <seg>X&lt;|attributes&gt;
+X&lt;|classes, attributes&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>X&lt;|class&gt;
 X&lt;|classes&gt;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165442Z" creationid="ramiroencinas" creationdate="20160528T165442Z">
         <seg>X&lt;|class&gt;
 X&lt;|classes&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X&lt;|encapsulation&gt;
+X&lt;|classes, encapsulation&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170613Z" creationid="ramiroencinas" creationdate="20160528T170613Z">
+        <seg>X&lt;|encapsulation&gt;
+X&lt;|classes, encapsulation&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4277,6 +4314,15 @@ implementation.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164012Z" creationid="ramiroencinas" creationdate="20160528T164012Z">
         <seg>Además puedes crear tus propios constructores y construir una implementación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use this method to find out if
+a given object is a type object or not:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170517Z" creationid="ramiroencinas" creationdate="20160528T170517Z">
+        <seg>Puedes utilizar este método para saber si un objeto dado es de tipo objeto o no:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4571,6 +4617,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>if $obj.defined {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170524Z" creationid="ramiroencinas" creationdate="20160528T170524Z">
+        <seg>if $obj.defined {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>if ($xyz) { print "$xyz\n" }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110718T233954Z">
@@ -4743,6 +4797,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T211835Z" creationid="ramiroencinas" creationdate="20160527T211835Z">
         <seg>my $bloqueo = Lock.new;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $obj = Int;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170520Z" creationid="ramiroencinas" creationdate="20160528T170520Z">
+        <seg>my $obj = Int;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5211,10 +5273,26 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>say "Ordinary, defined object";</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170546Z" creationid="ramiroencinas" creationdate="20160528T170546Z">
+        <seg>say "Normal, objeto definido";</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>say "Starting...";</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103253Z" creationid="ramiroencinas" creationdate="20160521T103253Z">
         <seg>say "Iniciando...";</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say "Type object";</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170555Z" creationid="ramiroencinas" creationdate="20160528T170555Z">
+        <seg>say "Tipo objeto";</seg>
       </tuv>
     </tu>
     <tu>
