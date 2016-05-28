@@ -686,6 +686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE A tutorial for creating and using classes in Perl 6</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T124446Z" creationid="Ram" creationdate="20160528T124446Z">
+        <seg>=SUBTITLE Un tutorial sobre la creación y uso de clases en Perl 6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Concurrency and Asynchronous Programming</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ram" changedate="20160429T175756Z" creationid="ram" creationdate="20160429T175756Z">
@@ -698,6 +706,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T175947Z" creationid="explorer" creationdate="20160428T175947Z">
         <seg>=SUBTITLE Perl 5 a Perl 6, en pocas palabras: ¿Cómo hago lo que solía hacer?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE Classes and Objects</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T124414Z" creationid="Ram" creationdate="20160528T124414Z">
+        <seg>=TITLE Clases y Objetos</seg>
       </tuv>
     </tu>
     <tu>
@@ -740,6 +756,14 @@ say $p1.result;         # resultado</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T175547Z" creationid="explorer" creationdate="20160428T175547Z">
         <seg>=begin pod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=comment More descriptive title?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T124457Z" creationid="Ram" creationdate="20160528T124457Z">
+        <seg>=comment More descriptive title?</seg>
       </tuv>
     </tu>
     <tu>
