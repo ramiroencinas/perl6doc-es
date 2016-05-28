@@ -4310,6 +4310,14 @@ that will examine each of the original promises:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>method area() returns Int {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T130028Z" creationid="Ram" creationdate="20160528T130028Z">
+        <seg>method área() returns Int {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>method cue(:&amp;code, Instant :$at, :$in, :$every, :$times = 1; :&amp;catch)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T200912Z" creationid="ramiroencinas" creationdate="20160523T200912Z">
@@ -4586,6 +4594,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173305Z" creationid="ramiroencinas" creationdate="20160502T173305Z">
         <seg>my $promesa2 = $promesa1.then(-&gt; $v { say $v.status; 'Segundo Resultado' });</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $r = Rectangle.new(lower =&gt; Point.new(x =&gt; 0, y =&gt; 0), upper =&gt; Point.new(x =&gt; 10, y =&gt; 10));</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T130001Z" creationid="Ram" creationdate="20160528T130001Z">
+        <seg>my $r = Rectángulo.new(inferior =&gt; Punto.new(x =&gt; 0, y =&gt; 0), superior =&gt; Punto.new(x =&gt; 10, y =&gt; 10));</seg>
       </tuv>
     </tu>
     <tu>
@@ -4946,6 +4962,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T203026Z" creationid="ramiroencinas" creationdate="20160429T203026Z">
         <seg>say $promesa2.result;   # Primer Resultado \n Segundo Resultado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say $r.area(); # -&gt; 100</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T130050Z" creationid="Ram" creationdate="20160528T130050Z">
+        <seg>say $r.área(); # -&gt; 100</seg>
       </tuv>
     </tu>
     <tu>
