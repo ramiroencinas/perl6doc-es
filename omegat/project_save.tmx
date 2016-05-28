@@ -792,6 +792,14 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=end code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T130057Z" creationid="Ram" creationdate="20160528T130057Z">
+        <seg>=end code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=end comment</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20140716T150643Z" creationid="explorer" creationdate="20140716T150643Z">
