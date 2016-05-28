@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$eat.perform();</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165410Z" creationid="ramiroencinas" creationdate="20160528T165410Z">
+        <seg>$comer.ejecutar();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$even_supply.tap(-&gt; $v { say "Even : $v" });</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160508T172416Z" creationid="Ram" creationdate="20160508T172416Z">
@@ -900,6 +908,14 @@ say $p1.result;         # resultado</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T212305Z" creationid="ramiroencinas" creationdate="20160527T212305Z">
         <seg>=head1 Consideraciones de seguridad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 Starting with class</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165432Z" creationid="ramiroencinas" creationdate="20160528T165432Z">
+        <seg>=head1 Empezando con class</seg>
       </tuv>
     </tu>
     <tu>
@@ -2994,6 +3010,15 @@ C&lt;react&gt; block described earlier:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Declaring a class creates a I&lt;type object&gt; which, by default, is installed
+into the current package (just like a variable declared with C&lt;our&gt; scope).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165915Z" creationid="ramiroencinas" creationdate="20160528T165915Z">
+        <seg>La declaración de una clase crea un I&lt;tipo objeto&gt; que, por defecto, se instala en el paquete actual (como una variable declarada con C&lt;our&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Despite the apparent advantage the L&lt;Scheduler&gt; interface provides over
 that of L&lt;Thread&gt; all of functionality is available through higher level
 interfaces and it shouldn't be necessary to use a scheduler directly,
@@ -3070,6 +3095,15 @@ example:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160404T181746Z" creationid="explorer" creationdate="20160404T181746Z">
         <seg>Por ejemplo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, types such as C&lt;Int&gt; and C&lt;Str&gt;
+refer to the type object of one of the Perl 6 built-in classes.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170135Z" creationid="ramiroencinas" creationdate="20160528T170135Z">
+        <seg>Por ejemplo, tipos como C&lt;Int&gt; y C&lt;Str&gt; se refieren a tipos de objetos de una de las clases incorporadas en Perl 6.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3405,6 +3439,14 @@ an external program asynchronously:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>NOM!' },</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165258Z" creationid="ramiroencinas" creationdate="20160528T165258Z">
+        <seg>¡ÑAM!' },</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that the C&lt;tap&gt; is called on a L&lt;Supply&gt; object created by the
 L&lt;Supplier&gt; and new values are emitted on the L&lt;Supplier&gt;.</seg>
       </tuv>
@@ -3456,6 +3498,15 @@ in the objects of a class.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125308Z" creationid="Ram" creationdate="20160528T125308Z">
         <seg>Perl 6 incorpora una sintaxis generosa para la definición y uso de clases en la programación orientada a objetos, permitiendo la definición de estados (mediante L&lt;attributos|#State&gt;), y el comportamiento (mediante L&lt;métodos|#Methods&gt;), en los objetos de una clase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Perl 6, like many other languages, uses the C&lt;class&gt; keyword to introduce a
+new class.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165532Z" creationid="ramiroencinas" creationdate="20160528T165532Z">
+        <seg>Perl 6, al igual que otros lenguajes, utiliza la palabra clave C&lt;class&gt; para crear una clase nueva.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3592,6 +3643,54 @@ to be kept.</seg>
       </tuv>
       <tuv lang="ES-ES">
         <seg>Lo sentimos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Task.new({ say 'buying food' },</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165321Z" creationid="ramiroencinas" creationdate="20160528T165321Z">
+        <seg>Tarea.new({ say 'comprar comida' },</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Task.new({ say 'cleaning kitchen' })</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165400Z" creationid="ramiroencinas" creationdate="20160528T165400Z">
+        <seg>Tarea.new({ say 'limpiar cocina' })</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Task.new({ say 'eating dinner.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165241Z" creationid="ramiroencinas" creationdate="20160528T165241Z">
+        <seg>Tarea.new({ say 'cenar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Task.new({ say 'going to the store' })</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165349Z" creationid="ramiroencinas" creationdate="20160528T165349Z">
+        <seg>Tarea.new({ say 'ir de compras' })</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Task.new({ say 'making dinner' },</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165310Z" creationid="ramiroencinas" creationdate="20160528T165310Z">
+        <seg>Tarea.new({ say 'cocinar cena' },</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Task.new({ say 'making some money' }),</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165338Z" creationid="ramiroencinas" creationdate="20160528T165338Z">
+        <seg>Tarea.new({ say 'trabajar' }),</seg>
       </tuv>
     </tu>
     <tu>
@@ -3743,6 +3842,16 @@ facilities as described below.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The block that follows may contain arbitrary code, just as with
+any other block, but classes commonly contain state and behavior
+declarations.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165624Z" creationid="ramiroencinas" creationdate="20160528T165624Z">
+        <seg>El bloque que sigue puede contener cualquier código, como cualquier otro, pero las clases normalmente contiene declaraciones relacionadas con el estado y el funcionamiento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The class L&lt;Lock&gt; provides the low level mechanism that protects
 shared data in a concurrent environment and is thus key to supporting
 thread-safety in the high level API, this is sometimes known as a
@@ -3778,6 +3887,26 @@ is an integer starting at 0 that is incremented for each event.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T162906Z" creationid="ramiroencinas" creationdate="20160507T162906Z">
         <seg>El dato que se emite en este caso es un entero que comienza en 0 y se incrementa en cada evento.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The example
+above uses the class name C&lt;Task&gt; so that other code can refer to it later,
+such as to create class instances by calling the C&lt;new&gt; method.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170308Z" creationid="ramiroencinas" creationdate="20160528T170308Z">
+        <seg>El ejemplo anterior utiliza C&lt;Tarea&gt; como nombre de la clase, de forma que puede utilizarse después para crear instancias de esa clase mediante el método C&lt;new&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The example code includes attributes (state), introduced
+through the C&lt;has&gt; keyword, and behaviors introduced through the C&lt;method&gt;
+keyword.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165743Z" creationid="ramiroencinas" creationdate="20160528T165743Z">
+        <seg>El código de ejemplo incluye atributos (estado) mediante la palabra clave C&lt;has&gt; y el funcionamiento mediante la palabra clave C&lt;method&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3979,6 +4108,14 @@ also provided as subroutines:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This type object is an "empty instance" of the class.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165937Z" creationid="ramiroencinas" creationdate="20160528T165937Z">
+        <seg>Este tipo de objeto es una "instancia vacía" de la clase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This will schedule the L&lt;Callable&gt; in C&lt;&amp;code&gt; to be executed in the
 manner determined by the adverbs (as documented in L&lt;Scheduler&gt;) using
 the execution scheme as implemented by the scheduler.</seg>
@@ -4097,6 +4234,44 @@ otherwise.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>X&lt;|class&gt;
+X&lt;|classes&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165442Z" creationid="ramiroencinas" creationdate="20160528T165442Z">
+        <seg>X&lt;|class&gt;
+X&lt;|classes&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X&lt;|state&gt;
+X&lt;|has&gt;
+X&lt;|classes, has&gt;
+X&lt;|behavior&gt;
+X&lt;|classes, behavior&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165452Z" creationid="ramiroencinas" creationdate="20160528T165452Z">
+        <seg>X&lt;|state&gt;
+X&lt;|has&gt;
+X&lt;|classes, has&gt;
+X&lt;|behavior&gt;
+X&lt;|classes, behavior&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X&lt;|type object&gt;
+X&lt;|defined&gt;
+X&lt;|.defined&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165746Z" creationid="ramiroencinas" creationdate="20160528T165746Z">
+        <seg>X&lt;|type object&gt;
+X&lt;|defined&gt;
+X&lt;|.defined&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You are free, though, to provide your own construction and build
 implementation.</seg>
       </tuv>
@@ -4111,6 +4286,15 @@ that will examine each of the original promises:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161831Z" creationid="ramiroencinas" creationdate="20160506T161444Z">
         <seg>Por ejemplo, puedes crear una promesa que compruebe la consecución o no de una serie de promesas alojadas en un array:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You've already seen
+these in previous chapters.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170030Z" creationid="ramiroencinas" creationdate="20160528T170030Z">
+        <seg>Ya lo habrás visto en apartados anteriores.</seg>
       </tuv>
     </tu>
     <tu>
