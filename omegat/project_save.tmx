@@ -3357,6 +3357,17 @@ as when C&lt;quit&gt; is not set).</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Perl 6 has a rich built in syntax for the definition and use of classes
+for object oriented programming, allowing for the definition of state
+(as L&lt;attributes|#State&gt;,) and behaviour (as L&lt;methods|#Methods&gt;,)
+in the objects of a class.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125308Z" creationid="Ram" creationdate="20160528T125308Z">
+        <seg>Perl 6 incorpora una sintaxis generosa para la definición y uso de clases en la programación orientada a objetos, permitiendo la definición de estados (mediante L&lt;attributos|#State&gt;), y el comportamiento (mediante L&lt;métodos|#Methods&gt;), en los objetos de una clase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Promise.in(10).then({$vow.keep});</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204201Z" creationid="ramiroencinas" creationdate="20160520T204201Z">
