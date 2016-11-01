@@ -974,6 +974,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to a regex quantifier without preceding atom</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214825Z" creationid="explorer" creationdate="20161101T214825Z">
+        <seg>=SUBTITLE Error de compilación debido a un cuantificador regex sin que le preceda un átomo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to unrecognized syntax</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214205Z" creationid="explorer" creationdate="20161101T214205Z">
+        <seg>=SUBTITLE Error de compilación debido a sintaxis irreconocible</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to use of Perl 5-only syntax</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214450Z" creationid="explorer" creationdate="20161101T214450Z">
+        <seg>=SUBTITLE Error de compilación debido al uso de sintaxis propias de Perl 5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Compile-time routine</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203312Z" creationid="explorer" creationdate="20161101T203312Z">
@@ -1462,6 +1486,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::Syntax::Confused</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214132Z" creationid="explorer" creationdate="20161101T214132Z">
+        <seg>=TITLE clase X::Syntax::Confused</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Syntax::P5</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214349Z" creationid="explorer" creationdate="20161101T214349Z">
+        <seg>=TITLE clase X::Syntax::P5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Syntax::Regex::SolitaryQuantifier</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214730Z" creationid="explorer" creationdate="20161101T214730Z">
+        <seg>=TITLE clase X::Syntax::Regex::SolitaryQuantifier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class int</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192121Z" creationid="explorer" creationdate="20161101T142134Z">
@@ -1625,6 +1673,62 @@ say $p1.result;         # resultado</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
+#`</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214022Z" creationid="explorer" creationdate="20161101T214022Z">
+        <seg>=for code :skip-test
+#`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+1∞</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214327Z" creationid="explorer" creationdate="20161101T214327Z">
+        <seg>=for code :skip-test
+1∞</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+===SORRY!===
+Confused</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214336Z" creationid="explorer" creationdate="20161101T214336Z">
+        <seg>=for code :skip-test
+===SORRY!===
+Confused</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+===SORRY!===
+Opening bracket is required for #` comment</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214056Z" creationid="explorer" creationdate="20161101T214056Z">
+        <seg>=for code :skip-test
+===SORRY!===
+Opening bracket is required for #` comment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+===SORRY!===
+This appears to be Perl 5 code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214546Z" creationid="explorer" creationdate="20161101T214546Z">
+        <seg>=for code :skip-test
+===SORRY!===
+This appears to be Perl 5 code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
 Failed to change the working directory to '/home/other': permission denied</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211659Z" creationid="explorer" creationdate="20161101T211659Z">
@@ -1740,6 +1844,26 @@ class X::IO::Unlink does X::IO is Exception { }</seg>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212219Z" creationid="explorer" creationdate="20161101T212219Z">
         <seg>=for code :skip-test
 class X::IO::Unlink does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+class X::Syntax::Confused does X::Syntax { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214206Z" creationid="explorer" creationdate="20161101T214206Z">
+        <seg>=for code :skip-test
+class X::Syntax::Confused does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+for my $a (1, 2) { };</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214542Z" creationid="explorer" creationdate="20161101T214542Z">
+        <seg>=for code :skip-test
+for my $a (1, 2) { };</seg>
       </tuv>
     </tu>
     <tu>
@@ -5486,6 +5610,23 @@ to be kept.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Syntax error thrown when C&lt;#`&gt; is encountered and it is not followed by
+an opening bracket.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214108Z" creationid="explorer" creationdate="20161101T214018Z">
+        <seg>Erro de sintaxis que se lanza cuando se encuentra C&lt;#`&gt; y no le sigue una llave de apertura.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syntax error thrown when some piece of code is clearly Perl 5, not Perl 6.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214537Z" creationid="explorer" creationdate="20161101T214537Z">
+        <seg>Error de sintaxis que se lanza cuando alguna parte del código es claramente Perl 5, no Perl 6.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TODO</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142216Z" creationid="explorer" creationdate="20161101T142216Z">
@@ -5839,6 +5980,14 @@ necessary to do it for these.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165912Z" creationid="ramiroencinas" creationdate="20160506T165836Z">
         <seg>Los métodos que devuelven una promesa como C&lt;in&gt; o C&lt;start&gt; donde directamente producen la consecución o la excepción de la promesa hacen esto mismo, por lo que no es necesario en esos casos el uso del método L&lt;Vow&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The most general syntax error, if no more specific error message can be given.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214323Z" creationid="explorer" creationdate="20161101T214323Z">
+        <seg>El error sintáctico más general, si no se indican mensajes de error más específicos.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6607,6 +6756,22 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class X::Syntax::P5 does X::Syntax { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214452Z" creationid="explorer" creationdate="20161101T214452Z">
+        <seg>class X::Syntax::P5 does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Syntax::Regex::SolitaryQuantifier does X::Syntax { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214827Z" creationid="explorer" creationdate="20161101T214827Z">
+        <seg>class X::Syntax::Regex::SolitaryQuantifier does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class int is Int is repr('P6int') { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142208Z" creationid="explorer" creationdate="20161101T142208Z">
@@ -6635,6 +6800,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T092945Z">
         <seg>default {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dies with</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214033Z" creationid="explorer" creationdate="20161101T214033Z">
+        <seg>muere con</seg>
       </tuv>
     </tu>
     <tu>
