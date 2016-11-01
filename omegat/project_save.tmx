@@ -982,6 +982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to an `unless` clause followed by `else`</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215121Z" creationid="explorer" creationdate="20161101T215121Z">
+        <seg>=SUBTITLE Error de compilación debido a que a una cláusula `unless` le sigue un `else`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Compilation error due to unrecognized syntax</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214205Z" creationid="explorer" creationdate="20161101T214205Z">
@@ -1510,6 +1518,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::Syntax::UnlessElse</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215022Z" creationid="explorer" creationdate="20161101T215022Z">
+        <seg>=TITLE clase X::Syntax::UnlessElse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class int</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192121Z" creationid="explorer" creationdate="20161101T142134Z">
@@ -1673,11 +1689,31 @@ say $p1.result;         # resultado</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
+"unless" does not take "else", please rewrite using "if"</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215234Z" creationid="explorer" creationdate="20161101T215234Z">
+        <seg>=for code :skip-test
+"unless" does not take "else", please rewrite using "if"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
 #`</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214022Z" creationid="explorer" creationdate="20161101T214022Z">
         <seg>=for code :skip-test
 #`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+/ * /;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215003Z" creationid="explorer" creationdate="20161101T215003Z">
+        <seg>=for code :skip-test
+/ * /;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1724,6 +1760,18 @@ This appears to be Perl 5 code</seg>
         <seg>=for code :skip-test
 ===SORRY!===
 This appears to be Perl 5 code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+===SORRY!=== Error while compiling
+Quantifier quantifies nothing</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215008Z" creationid="explorer" creationdate="20161101T215008Z">
+        <seg>=for code :skip-test
+===SORRY!=== Error while compiling
+Quantifier quantifies nothing</seg>
       </tuv>
     </tu>
     <tu>
@@ -1874,6 +1922,16 @@ my class X::IO::Rmdir does X::IO is Exception { }</seg>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212058Z" creationid="explorer" creationdate="20161101T212058Z">
         <seg>=for code :skip-test
 my class X::IO::Rmdir does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+unless 1 { } else { };</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215228Z" creationid="explorer" creationdate="20161101T215228Z">
+        <seg>=for code :skip-test
+unless 1 { } else { };</seg>
       </tuv>
     </tu>
     <tu>
@@ -5619,10 +5677,27 @@ an opening bracket.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Syntax error thrown when an C&lt;unless&gt; clause is followed by an C&lt;else&gt; clause.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215224Z" creationid="explorer" creationdate="20161101T215224Z">
+        <seg>Error de sintaxis que se lanza cuando a una cláusula C&lt;unless&gt; le sigue una cláusula C&lt;else&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Syntax error thrown when some piece of code is clearly Perl 5, not Perl 6.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214537Z" creationid="explorer" creationdate="20161101T214537Z">
         <seg>Error de sintaxis que se lanza cuando alguna parte del código es claramente Perl 5, no Perl 6.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syntax error when a stand alone quantifier (without an preceding atom
+to quantify) is encountered in a regular expression.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214924Z" creationid="explorer" creationdate="20161101T214924Z">
+        <seg>Error de sintaxis cuando un solitario cuantificador (sin un átomo precedente al cual cuantificar) se encuentra en una expresión regular.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6768,6 +6843,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214827Z" creationid="explorer" creationdate="20161101T214827Z">
         <seg>class X::Syntax::Regex::SolitaryQuantifier does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Syntax::UnlessElse does X::Syntax { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215123Z" creationid="explorer" creationdate="20161101T215123Z">
+        <seg>class X::Syntax::UnlessElse does X::Syntax { }</seg>
       </tuv>
     </tu>
     <tu>
