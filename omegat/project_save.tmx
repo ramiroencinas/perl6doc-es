@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># OUTPUT: «X::ControlFlow::Return: Attempt to return outside of any Routine␤»</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211346Z" creationid="explorer" creationdate="20161101T211346Z">
+        <seg># SALIDA: «X::ControlFlow::Return: Attempt to return outside of any Routine␤»</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># Output:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103311Z" creationid="ramiroencinas" creationdate="20160521T103311Z">
@@ -242,6 +250,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T080236Z">
         <seg>$a++;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$b[1] = 42;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210631Z" creationid="explorer" creationdate="20161101T210631Z">
+        <seg>$b[1] = 42;</seg>
       </tuv>
     </tu>
     <tu>
@@ -966,6 +982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Error due to calling return outside a routine</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211241Z" creationid="explorer" creationdate="20161101T211241Z">
+        <seg>=SUBTITLE Error debido a la llamada a return fuera de una rutina</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Error due to constructing a sequence from ineligible input</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191608Z" creationid="explorer" creationdate="20161101T191608Z">
@@ -1006,10 +1030,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to change the working directory</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211624Z" creationid="explorer" creationdate="20161101T211624Z">
+        <seg>=SUBTITLE Error al intentar cambiar el directorio de trabajo actual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Error while trying to determine the current working directory</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204701Z" creationid="explorer" creationdate="20161101T204701Z">
         <seg>=SUBTITLE Error al intentar determinar el directorio de trabajo actual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to get a directory's contents</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211818Z" creationid="explorer" creationdate="20161101T211818Z">
+        <seg>=SUBTITLE Error al intentar obtener los contenidos de un directorio</seg>
       </tuv>
     </tu>
     <tu>
@@ -1034,6 +1074,22 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192942Z" creationid="explorer" creationdate="20161101T192942Z">
         <seg>=SUBTITLE Estado interno del motor regex durante la interpretación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Item in a Pod enumeration list</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211003Z" creationid="explorer" creationdate="20161101T210726Z">
+        <seg>=SUBTITLE Ítem en una lista enumerada Pod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Mutable buffer for binary data</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210533Z" creationid="explorer" creationdate="20161101T210533Z">
+        <seg>=SUBTITLE Búfer mutable para datos binarios</seg>
       </tuv>
     </tu>
     <tu>
@@ -1270,6 +1326,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class Pod::Item</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210644Z" creationid="explorer" creationdate="20161101T210644Z">
+        <seg>=TITLE clase Pod::Item</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::ControlFlow::Return</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211203Z" creationid="explorer" creationdate="20161101T211203Z">
+        <seg>=TITLE clase X::ControlFlow::Return</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::IO::Chdir</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211357Z" creationid="explorer" creationdate="20161101T211357Z">
+        <seg>=TITLE clase X::IO::Chdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class X::IO::Chmod</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204247Z" creationid="explorer" creationdate="20161101T204247Z">
@@ -1282,6 +1362,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204613Z" creationid="explorer" creationdate="20161101T204613Z">
         <seg>=TITLE clase X::IO::Cwd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::IO::Dir</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211759Z" creationid="explorer" creationdate="20161101T211759Z">
+        <seg>=TITLE clase X::IO::Dir</seg>
       </tuv>
     </tu>
     <tu>
@@ -1330,6 +1418,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210053Z" creationid="explorer" creationdate="20161101T210053Z">
         <seg>=TITLE rol Associative</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE role Buf</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210450Z" creationid="explorer" creationdate="20161101T210450Z">
+        <seg>=TITLE rol Buf</seg>
       </tuv>
     </tu>
     <tu>
@@ -1465,6 +1561,16 @@ say $p1.result;         # resultado</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
+Failed to change the working directory to '/home/other': permission denied</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211659Z" creationid="explorer" creationdate="20161101T211659Z">
+        <seg>=for code :skip-test
+Failed to change the working directory to '/home/other': permission denied</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
 Failed to get the working directory: permission denied</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204834Z" creationid="explorer" creationdate="20161101T204834Z">
@@ -1495,6 +1601,16 @@ class CurrentThreadScheduler does Scheduler {}</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
+class X::IO::Chdir does X::IO is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211626Z" creationid="explorer" creationdate="20161101T211626Z">
+        <seg>=for code :skip-test
+class X::IO::Chdir does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
 class X::IO::Chmod does X::IO is Exception { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204436Z" creationid="explorer" creationdate="20161101T204436Z">
@@ -1510,6 +1626,16 @@ class X::IO::Cwd does X::IO is Exception { }</seg>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204704Z" creationid="explorer" creationdate="20161101T204704Z">
         <seg>=for code :skip-test
 class X::IO::Cwd does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+class X::IO::Dir does X::IO is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211820Z" creationid="explorer" creationdate="20161101T211820Z">
+        <seg>=for code :skip-test
+class X::IO::Dir does X::IO is Exception { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -1878,6 +2004,14 @@ class X::IO::Cwd does X::IO is Exception { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185957Z" creationid="explorer" creationdate="20161101T185957Z">
         <seg>=head2 método join</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method level</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211012Z" creationid="explorer" creationdate="20161101T211012Z">
+        <seg>=head2 método level</seg>
       </tuv>
     </tu>
     <tu>
@@ -3583,6 +3717,14 @@ virtual machine and/or operating system.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A C&lt;Buf&gt; is a mutable sequence of (usually unsigned) integers.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210625Z" creationid="explorer" creationdate="20161101T210625Z">
+        <seg>Un C&lt;Buf&gt; es una secuencia mutable de enteros (normalmente sin signo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A C&lt;Cursor&gt; object is used internally by the regex engine in regex matches
 to keep track of the current position, backtracking waypoints and information
 about capturing groups.</seg>
@@ -3844,6 +3986,14 @@ display the given value.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Associative does not provide any methods.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210440Z" creationid="explorer" creationdate="20161101T210440Z">
+        <seg>Associative no proporciona ningún método.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assuming that the C&lt;$*SCHEDULER&gt; hasn't been changed from the default,
 will print the numbers 0 to 10 approximately (i.e with operating system
 scheduling tolerances) every two seconds.</seg>
@@ -4001,6 +4151,14 @@ exception based on the value passed to C&lt;break&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CATCH { default { put .^name, ': ', .Str } };</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211312Z" creationid="explorer" creationdate="20161101T211312Z">
+        <seg>CATCH { default { put .^name, ': ', .Str } };</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Calling C&lt;done&gt; on the supply object calls the C&lt;done&gt; callback that
 may be specified for any taps, but does not prevent any further events
 being emitted to the stream, or taps receiving them.</seg>
@@ -4032,6 +4190,14 @@ C&lt;react&gt; block described earlier:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190818Z" creationid="explorer" creationdate="20161101T190818Z">
         <seg>Clase para un párrafo Pod.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class for items in Pod enumeration lists.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210953Z" creationid="explorer" creationdate="20161101T210953Z">
+        <seg>Clase para los ítemes en las listas enumeradas Pod.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4144,6 +4310,14 @@ the following:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204509Z" creationid="explorer" creationdate="20161101T204509Z">
         <seg>Clase de error para las llamadas fallidas a C&lt;chmod&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error class when a L&lt;chdir&gt; call failed.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211652Z" creationid="explorer" creationdate="20161101T211652Z">
+        <seg>Clase de error cuando falla una llamada a L&lt;chdir&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4985,6 +5159,22 @@ was provided.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the level of the enumeration list, starting at 1.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211153Z" creationid="explorer" creationdate="20161101T211153Z">
+        <seg>Devuelve el nivel de la lista enumerada, empezando en 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the path that was passed to the failed C&lt;chdir&gt; call.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211748Z" creationid="explorer" creationdate="20161101T211748Z">
+        <seg>Devuelve la ruta que se pasó a la fallida llamada a C&lt;chdir&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the vowed Promise.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205335Z" creationid="explorer" creationdate="20161101T205335Z">
@@ -5171,6 +5361,14 @@ following code outputs 0 ..</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T162930Z" creationid="ramiroencinas" creationdate="20160507T162930Z">
         <seg>El siguiente código visualiza 0 ..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The C&lt;%&gt; sigil restricts variables to objects that do C&lt;Associative&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210420Z" creationid="explorer" creationdate="20161101T210420Z">
+        <seg>El sigilo C&lt;%&gt; restringe las variables a objetos que hacen C&lt;Associative&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5670,6 +5868,14 @@ avoided in user code.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thrown when a C&lt;return&gt; is called from outside a routine.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211303Z" creationid="explorer" creationdate="20161101T211303Z">
+        <seg>Se lanza cuando un C&lt;return&gt; se llama desde fuera de una rutina.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thrown when a piece of stub code (created via C&lt;!!!&gt; or C&lt;...&gt;) is executed.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205802Z" creationid="explorer" creationdate="20161101T205802Z">
@@ -6135,6 +6341,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class Pod::Item is Pod::Block { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210728Z" creationid="explorer" creationdate="20161101T210728Z">
+        <seg>class Pod::Item is Pod::Block { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class Point {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125437Z" creationid="Ram" creationdate="20160528T125437Z">
@@ -6155,6 +6369,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164403Z" creationid="ramiroencinas" creationdate="20160528T164403Z">
         <seg>class Tarea {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::ControlFlow::Return is X::ControlFlow { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211243Z" creationid="explorer" creationdate="20161101T211243Z">
+        <seg>class X::ControlFlow::Return is X::ControlFlow { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -6623,6 +6845,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>method level() returns Int</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211015Z" creationid="explorer" creationdate="20161101T211015Z">
+        <seg>method level() returns Int</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>method new(&amp;callback, *@dependencies) {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164539Z" creationid="ramiroencinas" creationdate="20160528T164539Z">
@@ -6747,6 +6977,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110129T230806Z">
         <seg>my $respuesta = 42;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $b = Buf.new(1, 2, 3);</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210628Z" creationid="explorer" creationdate="20161101T210628Z">
+        <seg>my $b = Buf.new(1, 2, 3);</seg>
       </tuv>
     </tu>
     <tu>
@@ -7339,6 +7577,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210221Z" creationid="explorer" creationdate="20161101T210221Z">
         <seg>role Associative { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>role Buf[::T] does Blob[T] { ... }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210534Z" creationid="explorer" creationdate="20161101T210534Z">
+        <seg>role Buf[::T] does Blob[T] { ... }</seg>
       </tuv>
     </tu>
     <tu>
