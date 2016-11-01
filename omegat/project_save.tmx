@@ -798,6 +798,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Paragraph in a Pod document</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190749Z" creationid="explorer" creationdate="20161101T190749Z">
+        <seg>=SUBTITLE Párrafo en un documento Pod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Perl 5 to Perl 6, in a nutshell: How do I do what I used to do?</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T175947Z" creationid="explorer" creationdate="20160428T175947Z">
@@ -808,8 +816,24 @@
       <tuv lang="EN-US">
         <seg>=SUBTITLE Platform specific operations on file and directory paths QNX</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142444Z" creationid="explorer" creationdate="20161101T142444Z">
-        <seg>=SUBTITLE Operaciones específicas de la plataforma en rutas QNX de archivo o directorio</seg>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190313Z" creationid="explorer" creationdate="20161101T142444Z">
+        <seg>=SUBTITLE Operaciones específicas de la plataforma en rutas de archivo o directorio para QNX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Platform specific operations on file and directory paths for Windows</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190259Z" creationid="explorer" creationdate="20161101T190259Z">
+        <seg>=SUBTITLE Operaciones específicas de la plataforma en rutas de archivo o directorio para Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE String or object that can act as a string</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190917Z" creationid="explorer" creationdate="20161101T190917Z">
+        <seg>=SUBTITLE String u objeto que puede actuar como una cadena</seg>
       </tuv>
     </tu>
     <tu>
@@ -832,8 +856,16 @@
       <tuv lang="EN-US">
         <seg>=TITLE class IO::Spec::QNX</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142315Z" creationid="explorer" creationdate="20161101T142315Z">
-        <seg>=TITLE class IO::Spec::QNX</seg>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190321Z" creationid="explorer" creationdate="20161101T142315Z">
+        <seg>=TITLE clase IO::Spec::QNX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class IO::Spec::Win32</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190332Z" creationid="explorer" creationdate="20161101T190204Z">
+        <seg>=TITLE clase IO::Spec::Win32</seg>
       </tuv>
     </tu>
     <tu>
@@ -854,10 +886,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class Pod::Block::Para</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190732Z" creationid="explorer" creationdate="20161101T190732Z">
+        <seg>=TITLE clase Pod::Block::Para</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class int</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142134Z" creationid="explorer" creationdate="20161101T142134Z">
         <seg>=TITLE class int</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE role Iterable</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190708Z" creationid="explorer" creationdate="20161101T190708Z">
+        <seg>=TITLE role Iterable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE role Stringy</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190856Z" creationid="explorer" creationdate="20161101T190856Z">
+        <seg>=TITLE rol Stringy</seg>
       </tuv>
     </tu>
     <tu>
@@ -1200,10 +1256,50 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 method abs2rel</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190042Z" creationid="explorer" creationdate="20161101T190042Z">
+        <seg>=head2 método abs2rel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method basename</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185848Z" creationid="explorer" creationdate="20161101T185848Z">
+        <seg>=head2 método basename</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 method canonpath</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142603Z" creationid="explorer" creationdate="20161101T142603Z">
         <seg>=head2 método canonpath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method catdir</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190015Z" creationid="explorer" creationdate="20161101T190015Z">
+        <seg>=head2 método catdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method catfile</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190032Z" creationid="explorer" creationdate="20161101T190032Z">
+        <seg>=head2 método catfile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method catpath</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190006Z" creationid="explorer" creationdate="20161101T190006Z">
+        <seg>=head2 método catpath</seg>
       </tuv>
     </tu>
     <tu>
@@ -1216,10 +1312,114 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 method curupdir</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185810Z" creationid="explorer" creationdate="20161101T185810Z">
+        <seg>=head2 método curupdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method devnull</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185835Z" creationid="explorer" creationdate="20161101T185835Z">
+        <seg>=head2 método devnull</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 method dir-sep</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142640Z" creationid="explorer" creationdate="20161101T142640Z">
         <seg>=head2 método dir-sep</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method extension</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185901Z" creationid="explorer" creationdate="20161101T185901Z">
+        <seg>=head2 método extension</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method is-absolute</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185921Z" creationid="explorer" creationdate="20161101T185921Z">
+        <seg>=head2 método is-absolute</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method join</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185957Z" creationid="explorer" creationdate="20161101T185957Z">
+        <seg>=head2 método join</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method path</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185929Z" creationid="explorer" creationdate="20161101T185929Z">
+        <seg>=head2 método path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method rel2abs</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190105Z" creationid="explorer" creationdate="20161101T190105Z">
+        <seg>=head2 método rel2abs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method rootdir</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185820Z" creationid="explorer" creationdate="20161101T185820Z">
+        <seg>=head2 método rootdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method split</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185948Z" creationid="explorer" creationdate="20161101T185948Z">
+        <seg>=head2 método split</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method splitdir</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190022Z" creationid="explorer" creationdate="20161101T190022Z">
+        <seg>=head2 método splitdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method splitpath</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185940Z" creationid="explorer" creationdate="20161101T185940Z">
+        <seg>=head2 método splitpath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method tmpdir</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185912Z" creationid="explorer" creationdate="20161101T185912Z">
+        <seg>=head2 método tmpdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method updir</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185758Z" creationid="explorer" creationdate="20161101T185758Z">
+        <seg>=head2 método updir</seg>
       </tuv>
     </tu>
     <tu>
@@ -3162,6 +3362,14 @@ C&lt;react&gt; block described earlier:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Class for a Pod paragraph.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190818Z" creationid="explorer" creationdate="20161101T190818Z">
+        <seg>Clase para un párrafo Pod.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Declaring a class creates a I&lt;type object&gt; which, by default, is installed
 into the current package (just like a variable declared with C&lt;our&gt; scope).</seg>
       </tuv>
@@ -3604,6 +3812,16 @@ L&lt;Supplier&gt; and new values are emitted on the L&lt;Supplier&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160323Z" creationid="ramiroencinas" creationdate="20160507T160323Z">
         <seg>Observa que C&lt;tap&gt; es llamado en un objeto L&lt;Supply&gt; (Suministro) creado por L&lt;Supplier&gt; (Proveedor) y los nuevos valores se emiten desde L&lt;Supplier&gt; (Proveedor).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Objects of this class are not used directly but as a sub-class specific to
+the platform perl is running on via the C&lt;$*SPEC&gt; variable which will contain
+an object of the appropriate type.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190705Z" creationid="explorer" creationdate="20161101T190705Z">
+        <seg>Los objetos de esta clase no se usan directamente, sino como una subclase específica de la plataforma en la que perl se ejecuta a través de la variable C&lt;$*SPEC&gt; que contendrá un objeto del tipo apropiado.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4562,10 +4780,26 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class IO::Spec::Win32 is IO::Spec { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190338Z" creationid="explorer" creationdate="20161101T190338Z">
+        <seg>class IO::Spec::Win32 is IO::Spec { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class NFC is Uni { ... }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T135557Z" creationid="explorer" creationdate="20161101T135557Z">
         <seg>class NFC is Uni { ... }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class Pod::Block::Para is Pod::Block { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190751Z" creationid="explorer" creationdate="20161101T190751Z">
+        <seg>class Pod::Block::Para is Pod::Block { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -4818,6 +5052,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>is copy)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190113Z" creationid="explorer" creationdate="20161101T190113Z">
+        <seg>is copy)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>is equivalent to</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120630T173216Z">
@@ -4842,6 +5084,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>method abs2rel(IO::Spec:D: Str $path is copy, Str $base is copy = Str )</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190044Z" creationid="explorer" creationdate="20161101T190044Z">
+        <seg>method abs2rel(IO::Spec:D: Str $path is copy, Str $base is copy = Str )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>method add-dependency(Task $dependency) {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164612Z" creationid="ramiroencinas" creationdate="20160528T164612Z">
@@ -4858,10 +5108,42 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>method basename(IO::Spec:D: Str $path) returns Str</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185851Z" creationid="explorer" creationdate="20161101T185851Z">
+        <seg>method basename(IO::Spec:D: Str $path) returns Str</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>method canonpath(IO::Spec:D: Str $patharg, Str :$parent) returns Str</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142620Z" creationid="explorer" creationdate="20161101T142620Z">
         <seg>method canonpath(IO::Spec:D: Str $patharg, Str :$parent) returns Str</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method catdir(IO::Spec:D: *@parts )</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190016Z" creationid="explorer" creationdate="20161101T190016Z">
+        <seg>method catdir(IO::Spec:D: *@parts )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method catfile(IO::Spec:D: *@parts )</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190034Z" creationid="explorer" creationdate="20161101T190034Z">
+        <seg>method catfile(IO::Spec:D: *@parts )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method catpath(IO::Spec:D:  $, $dirname, $file )</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190008Z" creationid="explorer" creationdate="20161101T190008Z">
+        <seg>method catpath(IO::Spec:D:  $, $dirname, $file )</seg>
       </tuv>
     </tu>
     <tu>
@@ -4882,10 +5164,50 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>method curupdir(IO::Spec:D:) returns Junction</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185812Z" creationid="explorer" creationdate="20161101T185812Z">
+        <seg>method curupdir(IO::Spec:D:) returns Junction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method devnull(IO::Spec:D:) returns Str</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185838Z" creationid="explorer" creationdate="20161101T185838Z">
+        <seg>method devnull(IO::Spec:D:) returns Str</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>method dir-sep(IO::Spec:D:) returns Str</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142645Z" creationid="explorer" creationdate="20161101T142645Z">
         <seg>method dir-sep(IO::Spec:D:) returns Str</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method extension(IO::Spec:D: Str $path) returns Str</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185904Z" creationid="explorer" creationdate="20161101T185904Z">
+        <seg>method extension(IO::Spec:D: Str $path) returns Str</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method is-absolute(IO::Spec:D: Str $file ) returns Bool</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185923Z" creationid="explorer" creationdate="20161101T185923Z">
+        <seg>method is-absolute(IO::Spec:D: Str $file ) returns Bool</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method join (IO::Spec:D: $, $dirname, $file)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185959Z" creationid="explorer" creationdate="20161101T185959Z">
+        <seg>method join (IO::Spec:D: $, $dirname, $file)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4898,10 +5220,74 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>method path(IO::Spec:D:) returns Str</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185931Z" creationid="explorer" creationdate="20161101T185931Z">
+        <seg>method path(IO::Spec:D:) returns Str</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>method perform() {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164656Z" creationid="ramiroencinas" creationdate="20160528T164656Z">
         <seg>method ejecutar() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method rel2abs(IO::Spec:D Str $path, Str $base?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190106Z" creationid="explorer" creationdate="20161101T190106Z">
+        <seg>method rel2abs(IO::Spec:D Str $path, Str $base?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method rootdir(IO::Spec:D:) returns Str</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185823Z" creationid="explorer" creationdate="20161101T185823Z">
+        <seg>method rootdir(IO::Spec:D:) returns Str</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method split (IO::Spec:D: Cool:D $path is copy )</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185950Z" creationid="explorer" creationdate="20161101T185950Z">
+        <seg>method split (IO::Spec:D: Cool:D $path is copy )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method splitdir(IO::Spec:D: Str $path )</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190025Z" creationid="explorer" creationdate="20161101T190025Z">
+        <seg>method splitdir(IO::Spec:D: Str $path )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method splitpath(IO::Spec:D: Str $path, Bool :$nofile = False )</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185942Z" creationid="explorer" creationdate="20161101T185942Z">
+        <seg>method splitpath(IO::Spec:D: Str $path, Bool :$nofile = False )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method tmpdir(IO::Spec:D:) returns IO::Path</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185914Z" creationid="explorer" creationdate="20161101T185914Z">
+        <seg>method tmpdir(IO::Spec:D:) returns IO::Path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method updir(IO::Spec:D:) returns Str</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185800Z" creationid="explorer" creationdate="20161101T185800Z">
+        <seg>method updir(IO::Spec:D:) returns Str</seg>
       </tuv>
     </tu>
     <tu>
@@ -5454,6 +5840,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164546Z" creationid="ramiroencinas" creationdate="20160528T164546Z">
         <seg>return self.bless(:&amp;callback, :@dependencias);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>role Stringy { ... }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190919Z" creationid="explorer" creationdate="20161101T190919Z">
+        <seg>role Stringy { ... }</seg>
       </tuv>
     </tu>
     <tu>
