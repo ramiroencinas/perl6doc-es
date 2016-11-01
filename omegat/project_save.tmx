@@ -758,6 +758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Codepoint-String in Normal Form C (Composed)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192208Z" creationid="explorer" creationdate="20161101T192208Z">
+        <seg>=SUBTITLE Cadena Codepoint en Formato Normal C (Compuesta)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Codepoint-String in Normal Form D (Decomposed)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142248Z" creationid="explorer" creationdate="20161101T142248Z">
@@ -786,6 +794,22 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ram" changedate="20160429T175756Z" creationid="ram" creationdate="20160429T175756Z">
         <seg>=SUBTITLE Concurrencia y Programación Asíncrona</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error due to constructing a sequence from ineligible input</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191608Z" creationid="explorer" creationdate="20161101T191608Z">
+        <seg>=SUBTITLE Error debido a la construcción de una secuencia desde una entrada no legible</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error related to DateTime or Date</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191952Z" creationid="explorer" creationdate="20161101T191952Z">
+        <seg>=SUBTITLE Error relacionado con DateTime o Date</seg>
       </tuv>
     </tu>
     <tu>
@@ -822,6 +846,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Platform specific operations on file and directory paths for Cygwin</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192252Z" creationid="explorer" creationdate="20161101T192252Z">
+        <seg>=SUBTITLE Operaciones específicas de la plataforma en rutas de archivo o directorio para Cygwin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Platform specific operations on file and directory paths for POSIX</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192421Z" creationid="explorer" creationdate="20161101T192421Z">
+        <seg>=SUBTITLE Operaciones específicas de la plataforma en rutas de archivo o directorio para POSIX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Platform specific operations on file and directory paths for Windows</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190259Z" creationid="explorer" creationdate="20161101T190259Z">
@@ -830,10 +870,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Pod related error</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191303Z" creationid="explorer" creationdate="20161101T191303Z">
+        <seg>=SUBTITLE Error relacionado con Pod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE String or object that can act as a string</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190917Z" creationid="explorer" creationdate="20161101T190917Z">
         <seg>=SUBTITLE String u objeto que puede actuar como una cadena</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Syntax error thrown by the compiler</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191924Z" creationid="explorer" creationdate="20161101T191830Z">
+        <seg>=SUBTITLE Error de sintaxis lanzado por el compilador</seg>
       </tuv>
     </tu>
     <tu>
@@ -854,10 +910,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class IO::Spec::Cygwin</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192237Z" creationid="explorer" creationdate="20161101T192237Z">
+        <seg>=TITLE clase IO::Spec::Cygwin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class IO::Spec::QNX</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190321Z" creationid="explorer" creationdate="20161101T142315Z">
         <seg>=TITLE clase IO::Spec::QNX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class IO::Spec::Unix</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192413Z" creationid="explorer" creationdate="20161101T192413Z">
+        <seg>=TITLE clase IO::Spec::Unix</seg>
       </tuv>
     </tu>
     <tu>
@@ -872,16 +944,16 @@
       <tuv lang="EN-US">
         <seg>=TITLE class NFC</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T135503Z" creationid="explorer" creationdate="20161101T135503Z">
-        <seg>=TITLE class NFC</seg>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192054Z" creationid="explorer" creationdate="20161101T135503Z">
+        <seg>=TITLE clase NFC</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>=TITLE class NFD</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T141959Z" creationid="explorer" creationdate="20161101T141959Z">
-        <seg>=TITLE class NFD</seg>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192113Z" creationid="explorer" creationdate="20161101T141959Z">
+        <seg>=TITLE clase NFD</seg>
       </tuv>
     </tu>
     <tu>
@@ -894,10 +966,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::Sequence::Deduction</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191527Z" creationid="explorer" creationdate="20161101T191527Z">
+        <seg>=TITLE clase X::Sequence::Deduction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class int</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142134Z" creationid="explorer" creationdate="20161101T142134Z">
-        <seg>=TITLE class int</seg>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192121Z" creationid="explorer" creationdate="20161101T142134Z">
+        <seg>=TITLE clase int</seg>
       </tuv>
     </tu>
     <tu>
@@ -914,6 +994,30 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190856Z" creationid="explorer" creationdate="20161101T190856Z">
         <seg>=TITLE rol Stringy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE role X::Pod</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191039Z" creationid="explorer" creationdate="20161101T191039Z">
+        <seg>=TITLE rol X::Pod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE role X::Syntax</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191810Z" creationid="explorer" creationdate="20161101T191810Z">
+        <seg>=TITLE rol X::Syntax</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE role X::Temporal</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191932Z" creationid="explorer" creationdate="20161101T191932Z">
+        <seg>=TITLE rol X::Temporal</seg>
       </tuv>
     </tu>
     <tu>
@@ -3047,6 +3151,14 @@ all the active tappers as they are added:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Codepoint string in the "C" L&lt;Unicode Normalization Form|http://www.unicode.org/reports/tr15/&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192220Z" creationid="explorer" creationdate="20161101T192220Z">
+        <seg>Una cadena Codepoint en forma "C" L&lt;Formato de Normalización Unicode|http://www.unicode.org/reports/tr15/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Codepoint string in the "D" L&lt;Unicode Normalization Form|http://www.unicode.org/reports/tr15/&gt;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142258Z" creationid="explorer" creationdate="20161101T142258Z">
@@ -3106,6 +3218,14 @@ consumed by one or more consumers simultaneously in a manner similar to
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T172329Z" creationid="ramiroencinas" creationdate="20160506T172329Z">
         <seg>Un L&lt;Suministro&gt; es un mecanismo de transmisión de datos asíncrono que puede ser consumido de forma simúltanea por uno o más consumidores de forma similar a los "eventos" en otros lenguajes de programación. Un L&lt;Suministro&gt; puede considerarse como "Orientado a Eventos" o de diseño reactivo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A common exception type for all errors related to C&lt;DateTime&gt; or C&lt;Date&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192022Z" creationid="explorer" creationdate="20161101T192022Z">
+        <seg>Un tipo de excepción común para todos los errores relacionados con C&lt;DateTime&gt; o C&lt;Date&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3370,6 +3490,31 @@ C&lt;react&gt; block described earlier:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Common role for Pod related errors.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191329Z" creationid="explorer" creationdate="20161101T191329Z">
+        <seg>Rol común para los errores relacionados con Pod.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Common role for string types (such as Str) and types that can act as
+strings (such as Cat).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191028Z" creationid="explorer" creationdate="20161101T191028Z">
+        <seg>Rol común para tipos de cadena (como Str) y tipos que pueden actuar como cadenas (tales como Cat).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Common role for syntax errors thrown by the compiler.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191909Z" creationid="explorer" creationdate="20161101T191909Z">
+        <seg>Rol común debido a errores de sintaxis lanzados por el compilador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Declaring a class creates a I&lt;type object&gt; which, by default, is installed
 into the current package (just like a variable declared with C&lt;our&gt; scope).</seg>
       </tuv>
@@ -3421,6 +3566,15 @@ the following:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110220T005509Z">
         <seg>Ejemplos:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exception type thrown when the C&lt;...&gt; sequence operator is being called
+without an explicit closure, and the sequence cannot be deduced.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191750Z" creationid="explorer" creationdate="20161101T191750Z">
+        <seg>Tipo de excepción que se levanta cuando se llama al operador de secuencia C&lt;...&gt; cuando se le llama sin una clausura explícita, y la secuencia no se puede deducir.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4495,6 +4649,15 @@ available via C&lt;$*SPEC&gt; if the perl is running on QNX.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This sub-class of L&lt;IO::Spec&gt; will be available from the
+C&lt;$*SPEC&gt; variable for a perl running on C&lt;Cygwin&gt; .</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192400Z" creationid="explorer" creationdate="20161101T192400Z">
+        <seg>Esta sub-clase de L&lt;IO::Spec&gt; estará disponible a partir de la variable C&lt;$*SPEC&gt; en un perl que se ejecute sobre C&lt;Cygwin&gt; .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This type object is an "empty instance" of the class.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165937Z" creationid="ramiroencinas" creationdate="20160528T165937Z">
@@ -4780,6 +4943,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class IO::Spec::Unix is IO::Spec  { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192423Z" creationid="explorer" creationdate="20161101T192423Z">
+        <seg>class IO::Spec::Unix is IO::Spec  { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class IO::Spec::Win32 is IO::Spec { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190338Z" creationid="explorer" creationdate="20161101T190338Z">
@@ -4824,6 +4995,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164403Z" creationid="ramiroencinas" creationdate="20160528T164403Z">
         <seg>class Tarea {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Sequence::Deduction is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191609Z" creationid="explorer" creationdate="20161101T191609Z">
+        <seg>class X::Sequence::Deduction is Exception { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -5848,6 +6027,30 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190919Z" creationid="explorer" creationdate="20161101T190919Z">
         <seg>role Stringy { ... }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>role X::Pod { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191305Z" creationid="explorer" creationdate="20161101T191305Z">
+        <seg>role X::Pod { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>role X::Syntax does X::Comp { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191832Z" creationid="explorer" creationdate="20161101T191832Z">
+        <seg>role X::Syntax does X::Comp { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>role X::Temporal is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191953Z" creationid="explorer" creationdate="20161101T191953Z">
+        <seg>role X::Temporal is Exception { }</seg>
       </tuv>
     </tu>
     <tu>
