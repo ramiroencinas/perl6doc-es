@@ -974,6 +974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Error due to directly trying to keep/break a vowed promise.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205021Z" creationid="explorer" creationdate="20161101T205021Z">
+        <seg>=SUBTITLE Error debido al intentar, directamente, mantener/romper una promesa jurada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Error due to trying to reuse a consumed sequence</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202411Z" creationid="explorer" creationdate="20161101T202411Z">
@@ -1030,6 +1038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Object that supports looking up values by key</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210219Z" creationid="explorer" creationdate="20161101T210219Z">
+        <seg>=SUBTITLE Objeto que soporta localizar valores a partir de claves</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Paragraph in a Pod document</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190749Z" creationid="explorer" creationdate="20161101T190749Z">
@@ -1082,6 +1098,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191303Z" creationid="explorer" creationdate="20161101T191303Z">
         <seg>=SUBTITLE Error relacionado con Pod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Runtime error due to execution of stub code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205529Z" creationid="explorer" creationdate="20161101T205529Z">
+        <seg>=SUBTITLE Error en tiempo de ejecución debido a la ejecución de código talonero</seg>
       </tuv>
     </tu>
     <tu>
@@ -1262,6 +1286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::Promise::Vowed</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204850Z" creationid="explorer" creationdate="20161101T204850Z">
+        <seg>=TITLE clase X::Promise::Vowed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class X::Seq::Consumed</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202346Z" creationid="explorer" creationdate="20161101T202346Z">
@@ -1278,10 +1310,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::StubCode</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205349Z" creationid="explorer" creationdate="20161101T205349Z">
+        <seg>=TITLE clase X::StubCode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class int</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192121Z" creationid="explorer" creationdate="20161101T142134Z">
         <seg>=TITLE clase int</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE role Associative</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210053Z" creationid="explorer" creationdate="20161101T210053Z">
+        <seg>=TITLE rol Associative</seg>
       </tuv>
     </tu>
     <tu>
@@ -1834,10 +1882,26 @@ class X::IO::Cwd does X::IO is Exception { }</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 method message</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205814Z" creationid="explorer" creationdate="20161101T205814Z">
+        <seg>=head2 método message</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 method path</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185929Z" creationid="explorer" creationdate="20161101T185929Z">
         <seg>=head2 método path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method promise</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205303Z" creationid="explorer" creationdate="20161101T205303Z">
+        <seg>=head2 método promise</seg>
       </tuv>
     </tu>
     <tu>
@@ -3618,6 +3682,15 @@ consumed by one or more consumers simultaneously in a manner similar to
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A common role for types that support name-based lookup through
+C&lt;&lt; postcircumfix:&lt;{ }&gt; &gt;&gt;, for example L&lt;Hash&gt; and L&lt;Map&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210337Z" creationid="explorer" creationdate="20161101T210337Z">
+        <seg>Un rol común para tipos que soporta localizaciones basadas en nombres a partir de C&lt;&lt; postcircumfix:&lt;{ }&gt; &gt;&gt;, por ejemplo L&lt;Hash&gt; y L&lt;Map&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A library may wish to provide an alternative scheduler implementation if
 it has special requirements, for instance a UI library may want all code
 to be run within a single UI thread, or some custom priority mechanism
@@ -4903,6 +4976,23 @@ the program is started.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the custom message provided to C&lt;!!!&gt;, or a reasonable default if none
+was provided.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210044Z" creationid="explorer" creationdate="20161101T210044Z">
+        <seg>Devuelve el mensaje personalizado proporcionado a C&lt;!!!&gt;, o un valor razonable por defecto si no se proporciona nada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the vowed Promise.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205335Z" creationid="explorer" creationdate="20161101T205335Z">
+        <seg>Devuelve la Promise jurada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>S           Symbol</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193745Z" creationid="explorer" creationdate="20160428T193745Z">
@@ -5489,6 +5579,15 @@ a C&lt;Seq&gt; which has already been iterated.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This exception is thrown when code tries to keep/break an already vowed
+promise without going through the corresponding C&lt;Vow&gt; object.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205256Z" creationid="explorer" creationdate="20161101T205256Z">
+        <seg>Esta excepción se lanza cuando el código intenta mantener/romper una promesa ya jurada, sin pasar a través del correspondiente objeto C&lt;Vow&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is considered to be such a commonly required pattern that it is
 also provided as subroutines:</seg>
       </tuv>
@@ -5567,6 +5666,14 @@ avoided in user code.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174706Z" creationid="ramiroencinas" creationdate="20160523T174706Z">
         <seg>A todos los efectos los hilos deben considerarse en gran medida como no administrados y debería evitarse su uso directo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thrown when a piece of stub code (created via C&lt;!!!&gt; or C&lt;...&gt;) is executed.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205802Z" creationid="explorer" creationdate="20161101T205802Z">
+        <seg>Se lanza cuando se ejecuta código talonero (creado con C&lt;!!!&gt; o C&lt;...&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6052,6 +6159,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class X::Promise::Vowed is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205023Z" creationid="explorer" creationdate="20161101T205023Z">
+        <seg>class X::Promise::Vowed is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class X::Seq::Consumed is Exception { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202413Z" creationid="explorer" creationdate="20161101T202413Z">
@@ -6064,6 +6179,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191609Z" creationid="explorer" creationdate="20161101T191609Z">
         <seg>class X::Sequence::Deduction is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::StubCode is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205530Z" creationid="explorer" creationdate="20161101T205530Z">
+        <seg>class X::StubCode is Exception { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -6520,6 +6643,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164656Z" creationid="ramiroencinas" creationdate="20160528T164656Z">
         <seg>method ejecutar() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method promise()</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205307Z" creationid="explorer" creationdate="20161101T205307Z">
+        <seg>method promise()</seg>
       </tuv>
     </tu>
     <tu>
@@ -7200,6 +7331,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20140716T141833Z" creationid="explorer" creationdate="20140716T141833Z">
         <seg>return;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>role Associative { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210221Z" creationid="explorer" creationdate="20161101T210221Z">
+        <seg>role Associative { }</seg>
       </tuv>
     </tu>
     <tu>
