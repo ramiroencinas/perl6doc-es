@@ -966,6 +966,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to a malformed inline comment</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212627Z" creationid="explorer" creationdate="20161101T212627Z">
+        <seg>=SUBTITLE Error de compilación debido a un comentario incrustado mal formado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Compile-time routine</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203312Z" creationid="explorer" creationdate="20161101T203312Z">
@@ -1050,6 +1058,30 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211818Z" creationid="explorer" creationdate="20161101T211818Z">
         <seg>=SUBTITLE Error al intentar obtener los contenidos de un directorio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to remove a directory</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212056Z" creationid="explorer" creationdate="20161101T212056Z">
+        <seg>=SUBTITLE Error al intentar eliminar un directorio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to remove a file</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212216Z" creationid="explorer" creationdate="20161101T212216Z">
+        <seg>=SUBTITLE Error al intentar eliminar un archivo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Exception thrown by L&lt;Proc::Async&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212354Z" creationid="explorer" creationdate="20161101T212354Z">
+        <seg>=SUBTITLE Excepción que se lanza por parte de L&lt;Proc::Async&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1374,6 +1406,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::IO::Rmdir</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212037Z" creationid="explorer" creationdate="20161101T212037Z">
+        <seg>=TITLE clase X::IO::Rmdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::IO::Unlink</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212209Z" creationid="explorer" creationdate="20161101T212209Z">
+        <seg>=TITLE clase X::IO::Unlink</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class X::Promise::Vowed</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204850Z" creationid="explorer" creationdate="20161101T204850Z">
@@ -1402,6 +1450,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205349Z" creationid="explorer" creationdate="20161101T205349Z">
         <seg>=TITLE clase X::StubCode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Syntax::Comment::Embedded</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212541Z" creationid="explorer" creationdate="20161101T212541Z">
+        <seg>=TITLE clase X::Syntax::Comment::Embedded</seg>
       </tuv>
     </tu>
     <tu>
@@ -1458,6 +1514,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191039Z" creationid="explorer" creationdate="20161101T191039Z">
         <seg>=TITLE rol X::Pod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE role X::Proc::Async</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212318Z" creationid="explorer" creationdate="20161101T212318Z">
+        <seg>=TITLE rol X::Proc::Async</seg>
       </tuv>
     </tu>
     <tu>
@@ -1571,11 +1635,41 @@ Failed to change the working directory to '/home/other': permission denied</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
+Failed to get the directory contents of '/tmp/': No such file or directory</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211930Z" creationid="explorer" creationdate="20161101T211930Z">
+        <seg>=for code :skip-test
+Failed to get the directory contents of '/tmp/': No such file or directory</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
 Failed to get the working directory: permission denied</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204834Z" creationid="explorer" creationdate="20161101T204834Z">
         <seg>=for code :skip-test
 Failed to get the working directory: permission denied</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+Failed to remove the directory 'lib': Directory not empty</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212130Z" creationid="explorer" creationdate="20161101T212130Z">
+        <seg>=for code :skip-test
+Failed to remove the directory 'lib': Directory not empty</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+Failed to remove the file 'secret': Permission defined</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212239Z" creationid="explorer" creationdate="20161101T212239Z">
+        <seg>=for code :skip-test
+Failed to remove the file 'secret': Permission defined</seg>
       </tuv>
     </tu>
     <tu>
@@ -1636,6 +1730,26 @@ class X::IO::Dir does X::IO is Exception { }</seg>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211820Z" creationid="explorer" creationdate="20161101T211820Z">
         <seg>=for code :skip-test
 class X::IO::Dir does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+class X::IO::Unlink does X::IO is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212219Z" creationid="explorer" creationdate="20161101T212219Z">
+        <seg>=for code :skip-test
+class X::IO::Unlink does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+my class X::IO::Rmdir does X::IO is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212058Z" creationid="explorer" creationdate="20161101T212058Z">
+        <seg>=for code :skip-test
+my class X::IO::Rmdir does X::IO is Exception { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -2028,6 +2142,14 @@ class X::IO::Dir does X::IO is Exception { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185929Z" creationid="explorer" creationdate="20161101T185929Z">
         <seg>=head2 método path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method proc</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212454Z" creationid="explorer" creationdate="20161101T212454Z">
+        <seg>=head2 método proc</seg>
       </tuv>
     </tu>
     <tu>
@@ -3917,6 +4039,14 @@ user code should, where possible, avoid the lower level concurrency APIs
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All exceptions thrown by L&lt;Proc::Async&gt; do this common role.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212447Z" creationid="explorer" creationdate="20161101T212447Z">
+        <seg>Todas las excepciones que se lanzan por parte de L&lt;Proc::Async&gt; tienen en común este rol.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An C&lt;on-demand&gt; L&lt;Supply&gt; can also be created from a list of values that
 will be emitted in turn, thus the first C&lt;on-demand&gt; example could be
 written as:</seg>
@@ -4310,6 +4440,30 @@ the following:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204509Z" creationid="explorer" creationdate="20161101T204509Z">
         <seg>Clase de error para las llamadas fallidas a C&lt;chmod&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error class for failed L&lt;/routine/rmdir&gt; operations.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212128Z" creationid="explorer" creationdate="20161101T212128Z">
+        <seg>Clase de error para las fallidas operaciones L&lt;/routine/rmdir&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error class for failed L&lt;/routine/unlink&gt; operation.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212236Z" creationid="explorer" creationdate="20161101T212236Z">
+        <seg>Clase de error para las fallidas operaciones L&lt;/routine/unlink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error class that is thrown when a L&lt;/routine/dir&gt; call fails.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211928Z" creationid="explorer" creationdate="20161101T211928Z">
+        <seg>Clase de error que se lanza cuando falla una llamada a L&lt;/routine/dir&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5163,6 +5317,38 @@ was provided.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211153Z" creationid="explorer" creationdate="20161101T211153Z">
         <seg>Devuelve el nivel de la lista enumerada, empezando en 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the object that threw the exception.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212526Z" creationid="explorer" creationdate="20161101T212526Z">
+        <seg>Devuelve el objeto que lanzó la excepción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the path L&lt;/routine/rmdir&gt; failed to remove</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212159Z" creationid="explorer" creationdate="20161101T212159Z">
+        <seg>Devuelve la ruta que L&lt;/routine/rmdir&gt; no pudo eliminar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the path that L&lt;/routine/dir&gt; failed to read.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212020Z" creationid="explorer" creationdate="20161101T212020Z">
+        <seg>Devuelve la ruta que L&lt;/routine/dir&gt; no pudo leer.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the path that L&lt;/routine/unlink&gt; failed to delete.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212305Z" creationid="explorer" creationdate="20161101T212305Z">
+        <seg>Devuelve la ruta que L&lt;/routine/unlink&gt; no pudo eliminar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6413,6 +6599,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class X::Syntax::Comment::Embedded does X::Syntax { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212629Z" creationid="explorer" creationdate="20161101T212629Z">
+        <seg>class X::Syntax::Comment::Embedded does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class int is Int is repr('P6int') { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142208Z" creationid="explorer" creationdate="20161101T142208Z">
@@ -6873,6 +7067,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164656Z" creationid="ramiroencinas" creationdate="20160528T164656Z">
         <seg>method ejecutar() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method proc(X::Proc::Async:D) returns Proc::Async</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212456Z" creationid="explorer" creationdate="20161101T212456Z">
+        <seg>method proc(X::Proc::Async:D) returns Proc::Async</seg>
       </tuv>
     </tu>
     <tu>
@@ -7609,6 +7811,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191305Z" creationid="explorer" creationdate="20161101T191305Z">
         <seg>role X::Pod { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>role X::Proc::Async is Exception { ... }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212356Z" creationid="explorer" creationdate="20161101T212356Z">
+        <seg>role X::Proc::Async is Exception { ... }</seg>
       </tuv>
     </tu>
     <tu>
