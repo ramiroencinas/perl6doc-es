@@ -990,6 +990,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to change file permissions</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204431Z" creationid="explorer" creationdate="20161101T204431Z">
+        <seg>=SUBTITLE Error al intentar cambiar los permisos de archivo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to determine the current working directory</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204701Z" creationid="explorer" creationdate="20161101T204701Z">
+        <seg>=SUBTITLE Error al intentar determinar el directorio de trabajo actual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE IO related error</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204124Z" creationid="explorer" creationdate="20161101T204124Z">
+        <seg>=SUBTITLE Error relacionado con la E/S</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Integer (native storage; machine precision)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142203Z" creationid="explorer" creationdate="20161101T142203Z">
@@ -1090,6 +1114,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191924Z" creationid="explorer" creationdate="20161101T191830Z">
         <seg>=SUBTITLE Error de sintaxis lanzado por el compilador</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Unique identification for an object</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203607Z" creationid="explorer" creationdate="20161101T203607Z">
+        <seg>=SUBTITLE Identificación única de un objeto</seg>
       </tuv>
     </tu>
     <tu>
@@ -1198,10 +1230,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class ObjAt</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203550Z" creationid="explorer" creationdate="20161101T203550Z">
+        <seg>=TITLE clase ObjAt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class Pod::Block::Para</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190732Z" creationid="explorer" creationdate="20161101T190732Z">
         <seg>=TITLE clase Pod::Block::Para</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::IO::Chmod</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204247Z" creationid="explorer" creationdate="20161101T204247Z">
+        <seg>=TITLE clase X::IO::Chmod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::IO::Cwd</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204613Z" creationid="explorer" creationdate="20161101T204613Z">
+        <seg>=TITLE clase X::IO::Cwd</seg>
       </tuv>
     </tu>
     <tu>
@@ -1242,6 +1298,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190856Z" creationid="explorer" creationdate="20161101T190856Z">
         <seg>=TITLE rol Stringy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE role X::IO</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204107Z" creationid="explorer" creationdate="20161101T204107Z">
+        <seg>=TITLE rol X::IO</seg>
       </tuv>
     </tu>
     <tu>
@@ -1353,11 +1417,51 @@ say $p1.result;         # resultado</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
+Failed to get the working directory: permission denied</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204834Z" creationid="explorer" creationdate="20161101T204834Z">
+        <seg>=for code :skip-test
+Failed to get the working directory: permission denied</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+Failed to set the mode of '/home/other' to '0o777': Permission denied</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204538Z" creationid="explorer" creationdate="20161101T204538Z">
+        <seg>=for code :skip-test
+Failed to set the mode of '/home/other' to '0o777': Permission denied</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
 class CurrentThreadScheduler does Scheduler {}</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202640Z" creationid="explorer" creationdate="20161101T202640Z">
         <seg>=for code :skip-test
 class CurrentThreadScheduler does Scheduler {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+class X::IO::Chmod does X::IO is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204436Z" creationid="explorer" creationdate="20161101T204436Z">
+        <seg>=for code :skip-test
+class X::IO::Chmod does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+class X::IO::Cwd does X::IO is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204704Z" creationid="explorer" creationdate="20161101T204704Z">
+        <seg>=for code :skip-test
+class X::IO::Cwd does X::IO is Exception { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -3526,6 +3630,15 @@ described below should suffice for most user code.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A macro is a Routine whose invocation typically happens during
+parsing.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203415Z" creationid="explorer" creationdate="20161101T203415Z">
+        <seg>Una macro es una Routine cuya invocación, típicamente, sucede durante la interpretación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A second argument can be supplied to C&lt;interval&gt; which specifies a delay
 in seconds before the first event is fired.</seg>
       </tuv>
@@ -3548,6 +3661,14 @@ setting of the attributes of the created object:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174755Z" creationid="ramiroencinas" creationdate="20160523T174755Z">
         <seg>Puede crearse un hilo y ejecutarlo después en un momento dado:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A typical error message is</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204525Z" creationid="explorer" creationdate="20161101T204525Z">
+        <seg>Un mensaje de error típico es</seg>
       </tuv>
     </tu>
     <tu>
@@ -3724,6 +3845,15 @@ to be useful directly in user code.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By returning an L&lt;AST&gt;, a macro can inject code into
+the calling location.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203538Z" creationid="explorer" creationdate="20161101T203538Z">
+        <seg>Una macro puede inyectar código en la posición de la llamada, devolviendo un L&lt;AST&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C           Other</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193919Z" creationid="explorer" creationdate="20160428T193919Z">
@@ -3849,6 +3979,14 @@ C&lt;react&gt; block described earlier:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Common role for IO related errors.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204136Z" creationid="explorer" creationdate="20161101T204136Z">
+        <seg>Rol común para los errores relacionados con E/S.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Common role for Pod related errors.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191329Z" creationid="explorer" creationdate="20161101T191329Z">
@@ -3925,6 +4063,22 @@ the following:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T164003Z" creationid="ramiroencinas" creationdate="20160507T164003Z">
         <seg>Cada tap de un suministro creado por C&lt;interval&gt; tiene su propia secuencia comenzando desde 0, como puedes ver a continuación:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error class for failed C&lt;chmod&gt; calls.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204509Z" creationid="explorer" creationdate="20161101T204509Z">
+        <seg>Clase de error para las llamadas fallidas a C&lt;chmod&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error class when the runtime fails to determine the current directory.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204830Z" creationid="explorer" creationdate="20161101T204830Z">
+        <seg>Clase de error para cuando la ejecución falla al determinar el directorio actual.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4211,6 +4365,15 @@ L&lt;X::Promise::CauseOnlyValidOnBroken&gt; exception.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173148Z" creationid="ramiroencinas" creationdate="20160502T173148Z">
         <seg>Si la promesa no genera una excepción, C&lt;cause&gt; tendrá una excepción de tipo L&lt;X::Promise::CauseOnlyValidOnBroken&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If two objects compare equally via C&lt;===&gt;, their C&lt;.WHICH&gt; methods return
+the same ObjAt object.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204057Z" creationid="explorer" creationdate="20161101T204057Z">
+        <seg>Si dos objetos son iguales con la comparación C&lt;===&gt;, sus métodos C&lt;.WHICH&gt; devuelven el mismo objeto ObjAt.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4532,6 +4695,15 @@ an object of the appropriate type.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190705Z" creationid="explorer" creationdate="20161101T190705Z">
         <seg>Los objetos de esta clase no se usan directamente, sino como una subclase específica de la plataforma en la que perl se ejecuta a través de la variable C&lt;$*SPEC&gt; que contendrá un objeto del tipo apropiado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Objects of type C&lt;ObjAt&gt; are the return value of C&lt;.WHICH&gt; calls on other
+objects, and identify an object uniquely.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203819Z" creationid="explorer" creationdate="20161101T203819Z">
+        <seg>Los objetos del tipo C&lt;ObjAt&gt; son el valor de retorno de las llamadas C&lt;.WHICH&gt; sobre otros objetos, e identifican de forma única a un objeto.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5345,6 +5517,14 @@ finished executing.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This role does not provide any additional methods.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204236Z" creationid="explorer" creationdate="20161101T204236Z">
+        <seg>Este rol no proporciona ningún método adicional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This sub-class of L&lt;IO::Spec&gt; specific to QNX will be
 available via C&lt;$*SPEC&gt; if the perl is running on QNX.</seg>
       </tuv>
@@ -5828,6 +6008,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202254Z" creationid="explorer" creationdate="20161101T202254Z">
         <seg>class NFKD is Uni {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class ObjAt { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203609Z" creationid="explorer" creationdate="20161101T203609Z">
+        <seg>class ObjAt { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -7020,6 +7208,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190919Z" creationid="explorer" creationdate="20161101T190919Z">
         <seg>role Stringy { ... }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>role X::IO does X::OS {}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204126Z" creationid="explorer" creationdate="20161101T204126Z">
+        <seg>role X::IO does X::OS {}</seg>
       </tuv>
     </tu>
     <tu>
