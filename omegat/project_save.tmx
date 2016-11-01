@@ -22,6 +22,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>"unsigned long long", or "quad" (typically</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163933Z" creationid="explorer" creationdate="20140716T163933Z">
+        <seg>"unsigned long long", o "quad" (típicamente</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"unsigned long"</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163834Z" creationid="explorer" creationdate="20140716T163834Z">
+        <seg>"unsigned long"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"unsigned short"</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163744Z" creationid="explorer" creationdate="20140716T163744Z">
+        <seg>"unsigned short"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#       ensure the leading "0" for any octal,</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163222Z" creationid="explorer" creationdate="20140716T163222Z">
+        <seg>#       asegura el precedente "0" para cualquier octal,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># "Access denied to keep/break this Promise; already vowed"</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204205Z" creationid="ramiroencinas" creationdate="20160520T204205Z">
@@ -118,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># These examples are subject to system-specific variation.</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg># Estos ejemplos están sujetos a variaciones específicas del sistema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># Will throw an exception</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165326Z" creationid="ramiroencinas" creationdate="20160506T165326Z">
@@ -138,6 +178,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20140801T145152Z" creationid="explorer" creationdate="20140801T145152Z">
         <seg># es lo mismo que</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># these examples are subject to system-specific variation</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg># estos ejemplos están sujetos a variaciones específicas del sistema</seg>
       </tuv>
     </tu>
     <tu>
@@ -526,10 +574,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$x++;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20151218T170348Z" creationid="explorer" creationdate="20151218T170348Z">
+        <seg>$x++;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110608T171425Z">
+        <seg>(</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>($!upper.x - $!lower.x) * ( $!upper.y - $!lower.y);</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125651Z" creationid="Ram" creationdate="20160528T125651Z">
         <seg>($!superior.x - $!inferior.x) * ( $!superior.y - $!inferior.y);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(may behave like Ps or Pe depending on usage)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193720Z" creationid="explorer" creationdate="20160428T193720Z">
+        <seg>(se comporta como Ps o Pe dependiendo de su uso)</seg>
       </tuv>
     </tu>
     <tu>
@@ -554,6 +626,30 @@
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110608T171424Z">
         <seg>);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>+       prefix non-negative number with a plus sign</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>+       prefija un número no negativo con un signo más</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-       left-justify within the field</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>-       justifica a la izquierda dentro del campo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>----------------------</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110718T232708Z">
+        <seg>----------------------</seg>
       </tuv>
     </tu>
     <tu>
@@ -638,6 +734,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110627T125154Z">
+        <seg>1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1..3</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>1..3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>10  -&gt; $v { say $v }});</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174813Z" creationid="ramiroencinas" creationdate="20160523T174813Z">
@@ -686,6 +798,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110627T125155Z">
+        <seg>2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20111008T170504Z">
@@ -694,10 +814,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>3.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110627T125155Z">
+        <seg>3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4</seg>
       </tuv>
       <tuv lang="ES-ES">
         <seg>4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T171308Z">
+        <seg>4.</seg>
       </tuv>
     </tu>
     <tu>
@@ -722,6 +858,22 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204215Z" creationid="ramiroencinas" creationdate="20160520T204215Z">
         <seg>5 :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T171326Z">
+        <seg>5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>64-bit integers)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163956Z" creationid="explorer" creationdate="20140716T163956Z">
+        <seg>enteros 64-bit)</seg>
       </tuv>
     </tu>
     <tu>
@@ -782,10 +934,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Codepoint-String in Normal Form KD (Compatibility Decomposed)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202247Z" creationid="explorer" creationdate="20161101T202247Z">
+        <seg>=SUBTITLE Cadena Codepoint en Formato Normal KD (Compatibilidad descompuesta)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Codepoint-String in Normal Form KD (Compatiblity Decomposed)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142037Z" creationid="explorer" creationdate="20161101T142037Z">
         <seg>=SUBTITLE Cadena Codepoint en Formato Normal KD (Compatibilidad descompuesta)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Compile-time routine</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203312Z" creationid="explorer" creationdate="20161101T203312Z">
+        <seg>=SUBTITLE Rutina en tiempo de compilación</seg>
       </tuv>
     </tu>
     <tu>
@@ -802,6 +970,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191608Z" creationid="explorer" creationdate="20161101T191608Z">
         <seg>=SUBTITLE Error debido a la construcción de una secuencia desde una entrada no legible</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error due to trying to reuse a consumed sequence</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202411Z" creationid="explorer" creationdate="20161101T202411Z">
+        <seg>=SUBTITLE Error debido al intentar reutilizar una secuencia consumida</seg>
       </tuv>
     </tu>
     <tu>
@@ -894,6 +1070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Scheduler that synchronously executes code on the current thread</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202631Z" creationid="explorer" creationdate="20161101T202631Z">
+        <seg>=SUBTITLE Planificador que bloquea la ejecución de código en el hilo actual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE String or object that can act as a string</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190917Z" creationid="explorer" creationdate="20161101T190917Z">
@@ -974,6 +1158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class Macro</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203259Z" creationid="explorer" creationdate="20161101T203259Z">
+        <seg>=TITLE clase Macro</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class NFC</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192054Z" creationid="explorer" creationdate="20161101T135503Z">
@@ -990,10 +1182,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class NFKC</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202204Z" creationid="explorer" creationdate="20161101T202204Z">
+        <seg>=TITLE clase NFKC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class NFKD</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202222Z" creationid="explorer" creationdate="20161101T202222Z">
+        <seg>=TITLE clase NFKD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class Pod::Block::Para</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190732Z" creationid="explorer" creationdate="20161101T190732Z">
         <seg>=TITLE clase Pod::Block::Para</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Seq::Consumed</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202346Z" creationid="explorer" creationdate="20161101T202346Z">
+        <seg>=TITLE clase X::Seq::Consumed</seg>
       </tuv>
     </tu>
     <tu>
@@ -1136,6 +1352,16 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=for code :skip-test
+class CurrentThreadScheduler does Scheduler {}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202640Z" creationid="explorer" creationdate="20161101T202640Z">
+        <seg>=for code :skip-test
+class CurrentThreadScheduler does Scheduler {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head1 DESCRIPTION</seg>
       </tuv>
       <tuv lang="ES-ES">
@@ -1188,6 +1414,14 @@ say $p1.result;         # resultado</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095924Z">
         <seg>=head1 VARIABLES ESPECIALES</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 SYNOPSIS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110130T154324Z">
+        <seg>=head1 SINOPSIS</seg>
       </tuv>
     </tu>
     <tu>
@@ -3144,6 +3378,14 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>@addr[1..3], ":";</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163406Z" creationid="explorer" creationdate="20140716T163406Z">
+        <seg>@addr[1..3], ":";</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120728T084235Z">
@@ -3169,6 +3411,16 @@ virtual machine and/or operating system.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T174230Z" creationid="ramiroencinas" creationdate="20160523T174152Z">
         <seg>Un hilo es un trozo de código que se ejecuta en un procesador en un momento dado y su gestión depende casi en su totalidad de la máquina virtual y/o del sistema operativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A C&lt;Cursor&gt; object is used internally by the regex engine in regex matches
+to keep track of the current position, backtracking waypoints and information
+about capturing groups.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203047Z" creationid="explorer" creationdate="20161101T203047Z">
+        <seg>Un objeto C&lt;Cursor&gt; se utiliza internamente por el motor regex en coincidencias regex para llevar el seguimiento de la posición actual, puntos de retroceso e información sobre los grupos de captura.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3300,6 +3552,15 @@ setting of the attributes of the created object:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A user-space program usually doesn't need to deal with C&lt;Cursor&gt; objects,
+just with their relatives, L&lt;Match&gt; objects.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203226Z" creationid="explorer" creationdate="20161101T203226Z">
+        <seg>Un programa en el espacio de usuario no necesita, normalmente, tratar con objetos C&lt;Cursor&gt;, solo con sus objetos parientes L&lt;Match&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A very frequent use of promises is to run a piece of code, and keep the
 promise once it returns successfully, or break it when the code dies.</seg>
       </tuv>
@@ -3352,6 +3613,14 @@ is true is emitted on the second supply:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An explicit format parameter index, such as C&lt;2$&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>Un explícito índice de parámetros de formato, tales como C&lt;2$&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An item is queued onto the L&lt;Channel&gt; with the
 L&lt;method send|/type/Channel#method_send&gt;, and the L&lt;method
 receive|/type/Channel#method_receive&gt; removes an item from the queue
@@ -3368,6 +3637,15 @@ original promises is kept or broken:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T202055Z" creationid="ramiroencinas" creationdate="20160503T202055Z">
         <seg>Y C&lt;anyof&gt; devuelve una promesa cuyo resultado está disponible cuando cualquiera de las promesas originales finaliza o da una excepción:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Arguments are usually formatted to be only as wide as required to
+display the given value.</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>Los argumentos son por lo general formateados para ser sólo tan amplios como para mostrar el valor dado.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3419,6 +3697,15 @@ is unlikely that user code will need to use a L&lt;Lock&gt; directly.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Between the C&lt;%&gt; and the format letter, you may specify several
+additional attributes controlling the interpretation of the format.</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>Entre el C&lt;%&gt; y la letra de formato, puede especificar varios atributos adicionales controlando la interpretación del formato.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Beyond that there are  no further facilities for synchronization or resource
 sharing which is largely why it should be emphasised that threads are unlikely
 to be useful directly in user code.</seg>
@@ -3433,6 +3720,14 @@ to be useful directly in user code.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204158Z" creationid="ramiroencinas" creationdate="20160520T204158Z">
         <seg>Bool.pick;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C           Other</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193919Z" creationid="explorer" creationdate="20160428T193919Z">
+        <seg>C           Other (otro)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3513,6 +3808,14 @@ being emitted to the stream, or taps receiving them.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cf          Format</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193942Z" creationid="explorer" creationdate="20160428T193942Z">
+        <seg>Cf          Format (formato)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Channels can be used in place of the L&lt;Supply&gt; in the C&lt;whenever&gt; of a
 C&lt;react&gt; block described earlier:</seg>
       </tuv>
@@ -3526,6 +3829,22 @@ C&lt;react&gt; block described earlier:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190818Z" creationid="explorer" creationdate="20161101T190818Z">
         <seg>Clase para un párrafo Pod.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cn          Unassigned</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T194008Z" creationid="explorer" creationdate="20160428T194008Z">
+        <seg>Cn          Unassigned (sin asignar)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Co          Private_Use</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193955Z" creationid="explorer" creationdate="20160428T193955Z">
+        <seg>Co          Private_Use (uso privado)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3547,10 +3866,26 @@ strings (such as Cat).</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Common role for string types (such as Str).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202330Z" creationid="explorer" creationdate="20161101T202330Z">
+        <seg>Rol común para tipos de cadenas (tales como Str).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Common role for syntax errors thrown by the compiler.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191909Z" creationid="explorer" creationdate="20161101T191909Z">
         <seg>Rol común debido a errores de sintaxis lanzados por el compilador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cs          Surrogate</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193950Z" creationid="explorer" creationdate="20160428T193950Z">
+        <seg>Cs          Surrogate (sustituto)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3637,6 +3972,16 @@ example:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For "g" and "G", this specifies the maximum number of digits to show,
+including those prior to the decimal point and those after it; for
+example:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160904T132418Z" creationid="explorer" creationdate="20160904T132418Z">
+        <seg>Para "g" y "G", especifica el número máximo de dígitos a mostrar, incluyendo los anteriores al punto decimal y los posteriores a él; por ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a good general write-up on this subject see this L&lt;blog post|https://6guts.wordpress.com/2014/04/17/racing-to-writeness-to-wrongness-leads/&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T213612Z" creationid="ramiroencinas" creationdate="20160527T213342Z">
@@ -3649,6 +3994,14 @@ example:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160404T181746Z" creationid="explorer" creationdate="20160404T181746Z">
         <seg>Por ejemplo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example,</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110627T175359Z">
+        <seg>Por ejemplo,</seg>
       </tuv>
     </tu>
     <tu>
@@ -3670,6 +4023,14 @@ refer to the type object of one of the Perl 6 built-in classes.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For instance</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20121218T194025Z">
+        <seg>Por ejemplo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For instance,</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T195803Z">
@@ -3682,6 +4043,15 @@ refer to the type object of one of the Perl 6 built-in classes.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110717T232813Z">
         <seg>Por ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For numeric conversions, you can specify the size to interpret the
+number as using C&lt;l&gt;, C&lt;h&gt;, C&lt;V&gt;, C&lt;q&gt;, C&lt;L&gt;, or C&lt;ll&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>Para conversiones numéricas, se puede especificar el tamaño del número a interpretar usando C&lt;l&gt;, C&lt;h&gt;, C&lt;V&gt;, C&lt;q&gt;, C&lt;L&gt;, o C&lt;ll&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3700,6 +4070,15 @@ can be kept or broken.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161623Z">
         <seg>¡Buena suerte!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are some more examples; be aware that when using an explicit
+index, the C&lt;$&gt; may need escaping:</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>Éstos son algunos ejemplos más; sea consciente de que cuando se utiliza un índice explícito, el C&lt;$&gt; puede ser necesario escaparlo:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3774,6 +4153,15 @@ block.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203901Z" creationid="ramiroencinas" creationdate="20160520T203901Z">
         <seg>I'm not quite clear which specific features should be included below</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a field width obtained through C&lt;*&gt; is negative, it has the same
+effect as the C&lt;-&gt; flag: left-justification.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20151001T140657Z">
+        <seg>Si un ancho de campo obtenido a través de C&lt;*&gt; es negativo, tiene el mismo efecto que el indicador C&lt;-&gt;: alineación a la izquierda.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3976,6 +4364,14 @@ and, at times, useful.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>L           Letter</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193314Z" creationid="explorer" creationdate="20160428T193304Z">
+        <seg>L           Letter (letra)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>L&lt;Proc::Async&gt; builds on the facilities described to run and interact with
 an external program asynchronously:</seg>
       </tuv>
@@ -3993,10 +4389,122 @@ an external program asynchronously:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Ll          Lowercase_Letter</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193349Z" creationid="explorer" creationdate="20160428T193349Z">
+        <seg>Ll          Lowercase_Letter (letra minúscula)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lm          Modifier_Letter</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193836Z" creationid="explorer" creationdate="20160428T193406Z">
+        <seg>Lm          Modifier_Letter (modificador de letra)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lo          Other_Letter</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193412Z" creationid="explorer" creationdate="20160428T193412Z">
+        <seg>Lo          Other_Letter (otras letras)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lt          Titlecase_Letter</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193358Z" creationid="explorer" creationdate="20160428T193358Z">
+        <seg>Lt          Titlecase_Letter (letra capitular)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lu          Uppercase_Letter</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193341Z" creationid="explorer" creationdate="20160428T193341Z">
+        <seg>Lu          Uppercase_Letter (letra mayúscula)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M           Mark</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193417Z" creationid="explorer" creationdate="20160428T193417Z">
+        <seg>M           Mark (marca)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Manipulate @INC at compile time</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161019T050652Z" creationid="explorer" creationdate="20161019T050652Z">
+        <seg>Manipula @INC en tiempo de compilación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mc          Spacing_Mark</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193459Z" creationid="explorer" creationdate="20160428T193459Z">
+        <seg>Mc          Spacing_Mark (marca de espaciado)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Me          Enclosing_Mark</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193512Z" creationid="explorer" creationdate="20160428T193512Z">
+        <seg>Me          Enclosing_Mark (marca de encierro)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mn          Nonspacing_Mark</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193442Z" creationid="explorer" creationdate="20160428T193442Z">
+        <seg>Mn          Nonspacing_Mark (marca de no-espacio)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>N           Number</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193518Z" creationid="explorer" creationdate="20160428T193518Z">
+        <seg>N           Number (número)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>NOM!' },</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165258Z" creationid="ramiroencinas" creationdate="20160528T165258Z">
         <seg>¡ÑAM!' },</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Nd          Decimal_Number (also Digit)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193540Z" creationid="explorer" creationdate="20160428T193540Z">
+        <seg>Nd          Decimal_Number (número decimal) (también Digit (dígito))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Nl          Letter_Number</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193552Z" creationid="explorer" creationdate="20160428T193552Z">
+        <seg>Nl          Letter_Number (letra que es un número)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No          Other_Number</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193557Z" creationid="explorer" creationdate="20160428T193557Z">
+        <seg>No          Other_Number (otro número)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4006,6 +4514,14 @@ L&lt;Supplier&gt; and new values are emitted on the L&lt;Supplier&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160323Z" creationid="ramiroencinas" creationdate="20160507T160323Z">
         <seg>Observa que C&lt;tap&gt; es llamado en un objeto L&lt;Supply&gt; (Suministro) creado por L&lt;Supplier&gt; (Proveedor) y los nuevos valores se emiten desde L&lt;Supplier&gt; (Proveedor).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notes:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120722T232419Z">
+        <seg>Notas:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4064,6 +4580,38 @@ as when C&lt;quit&gt; is not set).</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160922T175804Z" creationid="explorer" creationdate="20160922T175804Z">
+        <seg>Salida:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pc          Connector_Punctuation</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193620Z" creationid="explorer" creationdate="20160428T193620Z">
+        <seg>Pc          Connector_Punctuation (conector de puntuación)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pd          Dash_Punctuation</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193637Z" creationid="explorer" creationdate="20160428T193637Z">
+        <seg>Pd          Dash_Punctuation (puntuación de guiones)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pe          Close_Punctuation</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193652Z" creationid="explorer" creationdate="20160428T193652Z">
+        <seg>Pe          Close_Punctuation (puntuación cerrada)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Perl 6 has a rich built in syntax for the definition and use of classes
 for object oriented programming, allowing for the definition of state
 (as L&lt;attributes|#State&gt;,) and behaviour (as L&lt;methods|#Methods&gt;,)
@@ -4080,6 +4628,30 @@ new class.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165532Z" creationid="ramiroencinas" creationdate="20160528T165532Z">
         <seg>Perl 6, al igual que otros lenguajes, utiliza la palabra clave C&lt;class&gt; para crear una clase nueva.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pf          Final_Punctuation</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193728Z" creationid="explorer" creationdate="20160428T193728Z">
+        <seg>Pf          Final_Punctuation (puntuación final)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pi          Initial_Punctuation</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193700Z" creationid="explorer" creationdate="20160428T193700Z">
+        <seg>Pi          Initial_Punctuation (puntuación inicial)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Po          Other_Punctuation</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193738Z" creationid="explorer" creationdate="20160428T193738Z">
+        <seg>Po          Other_Punctuation (otra puntuación)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4133,6 +4705,14 @@ chaining:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Ps          Open_Punctuation</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193646Z" creationid="explorer" creationdate="20160428T193646Z">
+        <seg>Ps          Open_Punctuation (puntuación abierta)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>QUIT { when X::MyApp::Error { say "App Error: ", $_.message } }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T213411Z" creationid="ramiroencinas" creationdate="20160520T213411Z">
@@ -4151,6 +4731,30 @@ the program is started.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>S           Symbol</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193745Z" creationid="explorer" creationdate="20160428T193745Z">
+        <seg>S           Symbol (símbolo)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sc          Currency_Symbol</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193803Z" creationid="explorer" creationdate="20160428T193803Z">
+        <seg>Sc          Currency_Symbol (símbolo monetario)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Short       Long</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193259Z" creationid="explorer" creationdate="20160428T193259Z">
+        <seg>Corta       Larga</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similarly if the code fails (and the promise is thus broken),
 then C&lt;cause&gt; will be the L&lt;Exception&gt; object that was thrown:</seg>
       </tuv>
@@ -4160,10 +4764,34 @@ then C&lt;cause&gt; will be the L&lt;Exception&gt; object that was thrown:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sk          Modifier_Symbol</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193825Z" creationid="explorer" creationdate="20160428T193825Z">
+        <seg>Sk          Modifier_Symbol (modificador de símbolo)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sm          Math_Symbol</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193754Z" creationid="explorer" creationdate="20160428T193754Z">
+        <seg>Sm          Math_Symbol (símbolo matemático)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T193220Z">
         <seg>Así que</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So          Other_Symbol</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193844Z" creationid="explorer" creationdate="20160428T193844Z">
+        <seg>So          Other_Symbol (otro símbolo)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4680,6 +5308,15 @@ in a program.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This exception is thrown when a piece of code tries to reuse
+a C&lt;Seq&gt; which has already been iterated.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202530Z" creationid="explorer" creationdate="20161101T202530Z">
+        <seg>Esta excepción se lanza cuando una parte del código intenta reutilizar C&lt;Seq&gt;, pero que ya terminó sus iteraciones.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is considered to be such a commonly required pattern that it is
 also provided as subroutines:</seg>
       </tuv>
@@ -4694,6 +5331,16 @@ that L&lt;#method cue&gt; blocks until the code has finished executing.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192900Z" creationid="explorer" creationdate="20161101T192900Z">
         <seg>Esto significa que L&lt;#method cue&gt; bloquea hasta que el código se termina de ejecutar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means
+that L&lt;method cue|/type/Scheduler#method cue&gt; blocks until the code has
+finished executing.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202828Z" creationid="explorer" creationdate="20161101T202828Z">
+        <seg>Esto significa que L&lt;method cue|/type/Scheduler#method cue&gt; bloquea hasta que el código se termina de ejecutar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4785,6 +5432,22 @@ call the C&lt;.defined&gt; method on them.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>U+000C FORM FEED</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150629T153115Z" creationid="explorer" creationdate="20150629T153115Z">
+        <seg>U+000C FORM FEED</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>U+000D CARRIAGE RETURN</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150629T153118Z" creationid="explorer" creationdate="20150629T153118Z">
+        <seg>U+000D CARRIAGE RETURN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>U+0020 SPACE</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20150629T153121Z" creationid="explorer" creationdate="20150629T153121Z">
@@ -4797,6 +5460,14 @@ call the C&lt;.defined&gt; method on them.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20150123T142439Z" creationid="explorer" creationdate="20150123T142439Z">
         <seg>U+0085 NEXT LINE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>U+2028 LINE SEPARATOR</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20150123T142504Z" creationid="explorer" creationdate="20150123T142504Z">
+        <seg>U+2028 LINE SEPARATOR</seg>
       </tuv>
     </tu>
     <tu>
@@ -4833,6 +5504,14 @@ by other means.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What happened?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20120311T235031Z">
+        <seg>¿Qué pasó?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When an L&lt;Array&gt; or a L&lt;Hash&gt; entry is initially assigned the
 underlying structure is altered and that operation is not async safe.</seg>
       </tuv>
@@ -4847,6 +5526,14 @@ otherwise.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161908Z" creationid="ramiroencinas" creationdate="20160506T161810Z">
         <seg>De forma que devolverá True si todas las promesas del array finalizan sin excepciones, o False en caso contrario.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110718T232557Z">
+        <seg>X</seg>
       </tuv>
     </tu>
     <tu>
@@ -4945,10 +5632,66 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Z           Separator</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193848Z" creationid="explorer" creationdate="20160428T193848Z">
+        <seg>Z           Separator (separador)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Zl          Line_Separator</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193901Z" creationid="explorer" creationdate="20160428T193901Z">
+        <seg>Zl          Line_Separator (separador de línea)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Zp          Paragraph_Separator</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193913Z" creationid="explorer" creationdate="20160428T193913Z">
+        <seg>Zp          Paragraph_Separator (separador de párrafo)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Zs          Space_Separator</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193855Z" creationid="explorer" creationdate="20160428T193855Z">
+        <seg>Zs          Space_Separator (separador de espacio)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>],</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110717T231426Z">
+        <seg>],</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>];</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>a</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20111008T170745Z">
         <seg>a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>and</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20111008T181146Z">
+        <seg>y</seg>
       </tuv>
     </tu>
     <tu>
@@ -4993,10 +5736,26 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>but</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20121230T131246Z">
+        <seg>pero</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class CurrentThreadScheduler does Scheduler { ... }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192642Z" creationid="explorer" creationdate="20161101T192642Z">
         <seg>class CurrentThreadScheduler does Scheduler { ... }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class Cursor { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202843Z" creationid="explorer" creationdate="20161101T202843Z">
+        <seg>class Cursor { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -5025,10 +5784,50 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class Macro is Routine { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203313Z" creationid="explorer" creationdate="20161101T203313Z">
+        <seg>class Macro is Routine { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class NFC is Uni { ... }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T135557Z" creationid="explorer" creationdate="20161101T135557Z">
         <seg>class NFC is Uni { ... }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class NFC is Uni {}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202134Z" creationid="explorer" creationdate="20161101T202134Z">
+        <seg>class NFC is Uni {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class NFD is Uni {}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202149Z" creationid="explorer" creationdate="20161101T202149Z">
+        <seg>class NFD is Uni {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class NFKC is Uni {}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202207Z" creationid="explorer" creationdate="20161101T202207Z">
+        <seg>class NFKC is Uni {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class NFKD is Uni {}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202254Z" creationid="explorer" creationdate="20161101T202254Z">
+        <seg>class NFKD is Uni {}</seg>
       </tuv>
     </tu>
     <tu>
@@ -5061,6 +5860,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164403Z" creationid="ramiroencinas" creationdate="20160528T164403Z">
         <seg>class Tarea {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Seq::Consumed is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202413Z" creationid="explorer" creationdate="20161101T202413Z">
+        <seg>class X::Seq::Consumed is Exception { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -5137,6 +5944,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>else</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110719T161156Z">
+        <seg>else</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>else {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110717T234601Z">
@@ -5197,6 +6012,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204153Z" creationid="ramiroencinas" creationdate="20160520T204153Z">
         <seg>for 1..5 -&gt; $t {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>h           interpret integer as C type "short" or</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163739Z" creationid="explorer" creationdate="20140716T163739Z">
+        <seg>h           interpreta un entero como un "short" o</seg>
       </tuv>
     </tu>
     <tu>
@@ -5265,6 +6088,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>hh          interpret integer as C type "char" or "unsigned</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163704Z" creationid="explorer" creationdate="20140716T163704Z">
+        <seg>hh          interpreta un entero como un "char" o "unsigned</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>hyper-operators, autothreading junctions?</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203919Z" creationid="ramiroencinas" creationdate="20160520T203919Z">
@@ -5289,6 +6120,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>if ($!) {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140906T143535Z" creationid="explorer" creationdate="20140906T143535Z">
+        <seg>if ($!) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>if ($xyz) { print "$xyz\n" }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110718T233954Z">
@@ -5309,6 +6148,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120630T173216Z">
         <seg>es equivalente a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>l           interpret integer as C type "long" or</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163833Z" creationid="explorer" creationdate="20140716T163833Z">
+        <seg>l           interpreta un entero como un "long" o</seg>
       </tuv>
     </tu>
     <tu>
@@ -5457,6 +6304,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>method join(IO::Spec:D: $, $dirname, $file)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202032Z" creationid="explorer" creationdate="20161101T202032Z">
+        <seg>method join(IO::Spec:D: $, $dirname, $file)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>method new(&amp;callback, *@dependencies) {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164539Z" creationid="ramiroencinas" creationdate="20160528T164539Z">
@@ -5481,10 +6336,26 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>method rel2abs(IO::Spec:D $path, Str $base?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203245Z" creationid="explorer" creationdate="20161101T203245Z">
+        <seg>method rel2abs(IO::Spec:D $path, Str $base?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>method rel2abs(IO::Spec:D Str $path, Str $base?</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190106Z" creationid="explorer" creationdate="20161101T190106Z">
         <seg>method rel2abs(IO::Spec:D Str $path, Str $base?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method rel2abs(IO::Spec:D: Str $path, Str $base?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202043Z" creationid="explorer" creationdate="20161101T202043Z">
+        <seg>method rel2abs(IO::Spec:D: Str $path, Str $base?</seg>
       </tuv>
     </tu>
     <tu>
@@ -5501,6 +6372,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185950Z" creationid="explorer" creationdate="20161101T185950Z">
         <seg>method split (IO::Spec:D: Cool:D $path is copy )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method split(IO::Spec:D: Cool:D $path is copy )</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202023Z" creationid="explorer" creationdate="20161101T202023Z">
+        <seg>method split(IO::Spec:D: Cool:D $path is copy )</seg>
       </tuv>
     </tu>
     <tu>
@@ -6001,6 +6880,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>or even</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161017T050426Z" creationid="explorer" creationdate="20161017T050426Z">
+        <seg>o incluso</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>outputs</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121230T124005Z">
@@ -6021,6 +6908,30 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110220T002046Z">
         <seg>perlsyn - Sintaxis de Perl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>prefix non-zero binary with "0b" or "0B"</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163340Z" creationid="explorer" creationdate="20140716T163340Z">
+        <seg>prefija binarios no cero con "0b" o "0B"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>prefix non-zero hexadecimal with "0x" or "0X",</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163316Z" creationid="explorer" creationdate="20140716T163316Z">
+        <seg>prefija hexadecimales no ceros con "0x" o "0X",</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>print "\n";</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="zipf" changedate="20110718T224537Z">
+        <seg>print "\n";</seg>
       </tuv>
     </tu>
     <tu>
@@ -6057,6 +6968,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>q, L, or ll interpret integer as C type "long long",</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163938Z" creationid="explorer" creationdate="20140716T163908Z">
+        <seg>q, L, o ll  interpreta un entero como un tipo C "long long",</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>quit =&gt; {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212053Z" creationid="ramiroencinas" creationdate="20160520T212053Z">
@@ -6085,6 +7004,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164546Z" creationid="ramiroencinas" creationdate="20160528T164546Z">
         <seg>return self.bless(:&amp;callback, :@dependencias);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20140716T141833Z" creationid="explorer" creationdate="20140716T141833Z">
+        <seg>return;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6349,6 +7276,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203802Z" creationid="ramiroencinas" creationdate="20160520T203802Z">
         <seg>sleep 6;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>space   prefix non-negative number with a space</seg>
+      </tuv>
+      <tuv lang="ES-ES">
+        <seg>espacio prefija un número no negativo con un espacio</seg>
       </tuv>
     </tu>
     <tu>
