@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaTN" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5.4_0_r8496:8556M" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.9_4" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -138,6 +138,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20140801T145152Z" creationid="explorer" creationdate="20140801T145152Z">
         <seg># es lo mismo que</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># vim: expandtab shiftwidth=4 ft=perl6</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T135657Z" creationid="explorer" creationdate="20161101T135657Z">
+        <seg># vim: expandtab shiftwidth=4 ft=perl6</seg>
       </tuv>
     </tu>
     <tu>
@@ -750,6 +758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Codepoint-String in Normal Form KC (Compatibility Composed)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T135718Z" creationid="explorer" creationdate="20161101T135553Z">
+        <seg>=SUBTITLE Cadena Codepoint en Forma Normal KC (Compatibilidad compuesta)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Concurrency and Asynchronous Programming</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ram" changedate="20160429T175756Z" creationid="ram" creationdate="20160429T175756Z">
@@ -778,6 +794,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ram" changedate="20160429T165715Z" creationid="ram" creationdate="20160429T165457Z">
         <seg>=TITLE Concurrencia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class NFC</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T135503Z" creationid="explorer" creationdate="20161101T135503Z">
+        <seg>=TITLE class NFC</seg>
       </tuv>
     </tu>
     <tu>
@@ -2727,6 +2751,14 @@ all the active tappers as they are added:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Codepoint string in the "KC" L&lt;Unicode Normalization Form|http://www.unicode.org/reports/tr15/&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T135650Z" creationid="explorer" creationdate="20161101T135650Z">
+        <seg>Una cadena Codepoint en forma "KC" L&lt;Formato de Normalización Unicode|http://www.unicode.org/reports/tr15/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A L&lt;Channel&gt; is a thread-safe queue that can have multiple readers and
 writers that could be considered to be similar in operation to a "fifo" or
 named pipe except it does not enable inter-process communication.</seg>
@@ -4389,6 +4421,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T200744Z">
         <seg>b</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class NFC is Uni { ... }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T135557Z" creationid="explorer" creationdate="20161101T135557Z">
+        <seg>class NFC is Uni { ... }</seg>
       </tuv>
     </tu>
     <tu>
