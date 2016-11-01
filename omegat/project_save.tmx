@@ -822,6 +822,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Internal state of the regex engine during parsing</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192942Z" creationid="explorer" creationdate="20161101T192942Z">
+        <seg>=SUBTITLE Estado interno del motor regex durante la interpretación</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Paragraph in a Pod document</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190749Z" creationid="explorer" creationdate="20161101T190749Z">
@@ -878,6 +886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Scheduler that blockingly executes code on the current thread</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192640Z" creationid="explorer" creationdate="20161101T192640Z">
+        <seg>=SUBTITLE Planificador que bloquea la ejecución de código en el hilo actual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE String or object that can act as a string</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190917Z" creationid="explorer" creationdate="20161101T190917Z">
@@ -906,6 +922,22 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ram" changedate="20160429T165715Z" creationid="ram" creationdate="20160429T165457Z">
         <seg>=TITLE Concurrencia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class CurrentThreadScheduler</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192610Z" creationid="explorer" creationdate="20161101T192610Z">
+        <seg>=TITLE clase CurrentThreadScheduler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class Cursor</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192912Z" creationid="explorer" creationdate="20161101T192912Z">
+        <seg>=TITLE clase Cursor</seg>
       </tuv>
     </tu>
     <tu>
@@ -3414,6 +3446,14 @@ each time it is called.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C&lt;CurrentThreadScheduler&gt; executes tasks on the current threads.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192659Z" creationid="explorer" creationdate="20161101T192659Z">
+        <seg>C&lt;CurrentThreadScheduler&gt; executa tareas en los hilos actuales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C&lt;await&gt; is almost equivalent to calling C&lt;result&gt; on the promise object
 returned by C&lt;start&gt; but it will also take a list of promises and return
 the result of each:</seg>
@@ -3976,6 +4016,15 @@ an object of the appropriate type.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190705Z" creationid="explorer" creationdate="20161101T190705Z">
         <seg>Los objetos de esta clase no se usan directamente, sino como una subclase específica de la plataforma en la que perl se ejecuta a través de la variable C&lt;$*SPEC&gt; que contendrá un objeto del tipo apropiado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On object of this type is available via the variable C&lt;$*SPEC&gt; if the perl is
+running on a Unix-like platform.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192557Z" creationid="explorer" creationdate="20161101T192557Z">
+        <seg>Un objeto de este tipo está disponible a través de la variable C&lt;$*SPEC&gt; si el perl está ejecutándose sobre una plataforma estilo Unix.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4640,6 +4689,15 @@ also provided as subroutines:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means
+that L&lt;#method cue&gt; blocks until the code has finished executing.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192900Z" creationid="explorer" creationdate="20161101T192900Z">
+        <seg>Esto significa que L&lt;#method cue&gt; bloquea hasta que el código se termina de ejecutar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This sub-class of L&lt;IO::Spec&gt; specific to QNX will be
 available via C&lt;$*SPEC&gt; if the perl is running on QNX.</seg>
       </tuv>
@@ -4931,6 +4989,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T200744Z">
         <seg>b</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class CurrentThreadScheduler does Scheduler { ... }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192642Z" creationid="explorer" creationdate="20161101T192642Z">
+        <seg>class CurrentThreadScheduler does Scheduler { ... }</seg>
       </tuv>
     </tu>
     <tu>
