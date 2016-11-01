@@ -806,6 +806,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Platform specific operations on file and directory paths QNX</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142444Z" creationid="explorer" creationdate="20161101T142444Z">
+        <seg>=SUBTITLE Operaciones específicas de la plataforma en rutas QNX de archivo o directorio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE Classes and Objects</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160528T124414Z" creationid="Ram" creationdate="20160528T124414Z">
@@ -904,6 +912,14 @@ say $p1.result;         # resultado</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=comment TODO</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142627Z" creationid="explorer" creationdate="20161101T142627Z">
+        <seg>=comment TODO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=end code</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160528T130057Z" creationid="Ram" creationdate="20160528T130057Z">
@@ -956,6 +972,14 @@ say $p1.result;         # resultado</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T173709Z" creationid="ramiroencinas" creationdate="20160523T173709Z">
         <seg>=head1 APIs de bajo nivel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 Methods</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142551Z" creationid="explorer" creationdate="20161101T142551Z">
+        <seg>=head1 Métodos</seg>
       </tuv>
     </tu>
     <tu>
@@ -1172,6 +1196,30 @@ say $p1.result;         # resultado</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20111008T184702Z">
         <seg>=head2 exec</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method canonpath</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142603Z" creationid="explorer" creationdate="20161101T142603Z">
+        <seg>=head2 método canonpath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method curdir</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142655Z" creationid="explorer" creationdate="20161101T142655Z">
+        <seg>=head2 método curdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method dir-sep</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142640Z" creationid="explorer" creationdate="20161101T142640Z">
+        <seg>=head2 método dir-sep</seg>
       </tuv>
     </tu>
     <tu>
@@ -4220,6 +4268,15 @@ also provided as subroutines:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This sub-class of L&lt;IO::Spec&gt; specific to QNX will be
+available via C&lt;$*SPEC&gt; if the perl is running on QNX.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142540Z" creationid="explorer" creationdate="20161101T142540Z">
+        <seg>Esta sub-clase de L&lt;IO::Spec&gt; específica a QNX estará disponible a través de C&lt;$*SPEC&gt; si perl se ejecuta sobre QNX.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This type object is an "empty instance" of the class.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165937Z" creationid="ramiroencinas" creationdate="20160528T165937Z">
@@ -4493,6 +4550,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T200744Z">
         <seg>b</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class IO::Spec::QNX is IO::Spec { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142446Z" creationid="explorer" creationdate="20161101T142446Z">
+        <seg>class IO::Spec::QNX is IO::Spec { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -4793,10 +4858,34 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>method canonpath(IO::Spec:D: Str $patharg, Str :$parent) returns Str</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142620Z" creationid="explorer" creationdate="20161101T142620Z">
+        <seg>method canonpath(IO::Spec:D: Str $patharg, Str :$parent) returns Str</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>method cue(:&amp;code, Instant :$at, :$in, :$every, :$times = 1; :&amp;catch)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T200912Z" creationid="ramiroencinas" creationdate="20160523T200912Z">
         <seg>method cue(:&amp;code, Instant :$at, :$in, :$every, :$times = 1; :&amp;catch)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method curdir(IO::Spec:D:) returns Str</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142657Z" creationid="explorer" creationdate="20161101T142657Z">
+        <seg>method curdir(IO::Spec:D:) returns Str</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method dir-sep(IO::Spec:D:) returns Str</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142645Z" creationid="explorer" creationdate="20161101T142645Z">
+        <seg>method dir-sep(IO::Spec:D:) returns Str</seg>
       </tuv>
     </tu>
     <tu>
