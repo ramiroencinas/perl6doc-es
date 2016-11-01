@@ -758,10 +758,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Codepoint-String in Normal Form D (Decomposed)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142248Z" creationid="explorer" creationdate="20161101T142248Z">
+        <seg>=SUBTITLE Cadena Codepoint en Formato Normal D (Decompuesto)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Codepoint-String in Normal Form KC (Compatibility Composed)</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T135718Z" creationid="explorer" creationdate="20161101T135553Z">
-        <seg>=SUBTITLE Cadena Codepoint en Forma Normal KC (Compatibilidad compuesta)</seg>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142047Z" creationid="explorer" creationdate="20161101T135553Z">
+        <seg>=SUBTITLE Cadena Codepoint en Formato Normal KC (Compatibilidad compuesta)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Codepoint-String in Normal Form KD (Compatiblity Decomposed)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142037Z" creationid="explorer" creationdate="20161101T142037Z">
+        <seg>=SUBTITLE Cadena Codepoint en Formato Normal KD (Compatibilidad descompuesta)</seg>
       </tuv>
     </tu>
     <tu>
@@ -770,6 +786,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ram" changedate="20160429T175756Z" creationid="ram" creationdate="20160429T175756Z">
         <seg>=SUBTITLE Concurrencia y Programación Asíncrona</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Integer (native storage; machine precision)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142203Z" creationid="explorer" creationdate="20161101T142203Z">
+        <seg>=SUBTITLE Entero (almacenamiento nativo; precisión de la máquina)</seg>
       </tuv>
     </tu>
     <tu>
@@ -798,10 +822,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class IO::Spec::QNX</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142315Z" creationid="explorer" creationdate="20161101T142315Z">
+        <seg>=TITLE class IO::Spec::QNX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class NFC</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T135503Z" creationid="explorer" creationdate="20161101T135503Z">
         <seg>=TITLE class NFC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class NFD</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T141959Z" creationid="explorer" creationdate="20161101T141959Z">
+        <seg>=TITLE class NFD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class int</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142134Z" creationid="explorer" creationdate="20161101T142134Z">
+        <seg>=TITLE class int</seg>
       </tuv>
     </tu>
     <tu>
@@ -2751,10 +2799,26 @@ all the active tappers as they are added:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Codepoint string in the "D" L&lt;Unicode Normalization Form|http://www.unicode.org/reports/tr15/&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142258Z" creationid="explorer" creationdate="20161101T142258Z">
+        <seg>Una cadena Codepoint en forma "D" L&lt;Formato de Normalización Unicode|http://www.unicode.org/reports/tr15/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Codepoint string in the "KC" L&lt;Unicode Normalization Form|http://www.unicode.org/reports/tr15/&gt;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T135650Z" creationid="explorer" creationdate="20161101T135650Z">
         <seg>Una cadena Codepoint en forma "KC" L&lt;Formato de Normalización Unicode|http://www.unicode.org/reports/tr15/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Codepoint string in the "KD" L&lt;Unicode Normalization Form|http://www.unicode.org/reports/tr15/&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142113Z" creationid="explorer" creationdate="20161101T142113Z">
+        <seg>Una cadena Codepoint en forma "KD" L&lt;Formato de Normalización Unicode|http://www.unicode.org/reports/tr15/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3687,6 +3751,14 @@ to be kept.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>TODO</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142216Z" creationid="explorer" creationdate="20161101T142216Z">
+        <seg>TODO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task.new({ say 'buying food' },</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165321Z" creationid="ramiroencinas" creationdate="20160528T165321Z">
@@ -4453,6 +4525,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164403Z" creationid="ramiroencinas" creationdate="20160528T164403Z">
         <seg>class Tarea {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class int is Int is repr('P6int') { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142208Z" creationid="explorer" creationdate="20161101T142208Z">
+        <seg>class int is Int is repr('P6int') { }</seg>
       </tuv>
     </tu>
     <tu>
