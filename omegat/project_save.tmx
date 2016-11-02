@@ -1238,6 +1238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Rational number (arbitrary-precision)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T010103Z" creationid="explorer" creationdate="20161102T010103Z">
+        <seg>=SUBTITLE Número racional (precisión arbitraria)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Runtime error due to execution of stub code</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205529Z" creationid="explorer" creationdate="20161101T205529Z">
@@ -1286,6 +1294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Verbatim code block in a Pod document</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T011214Z" creationid="explorer" creationdate="20161102T011214Z">
+        <seg>=SUBTITLE Un bloque de código literal en un documento Pod</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE Classes and Objects</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160528T124414Z" creationid="Ram" creationdate="20160528T124414Z">
@@ -1322,6 +1338,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192912Z" creationid="explorer" creationdate="20161101T192912Z">
         <seg>=TITLE clase Cursor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class FatRat</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T010035Z" creationid="explorer" creationdate="20161102T010035Z">
+        <seg>=TITLE clase FatRat</seg>
       </tuv>
     </tu>
     <tu>
@@ -1402,6 +1426,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203550Z" creationid="explorer" creationdate="20161101T203550Z">
         <seg>=TITLE clase ObjAt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class Pod::Block::Code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T011145Z" creationid="explorer" creationdate="20161102T011145Z">
+        <seg>=TITLE clase Pod::Block::Code</seg>
       </tuv>
     </tu>
     <tu>
@@ -2258,6 +2290,14 @@ unless 1 { } else { };</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190042Z" creationid="explorer" creationdate="20161101T190042Z">
         <seg>=head2 método abs2rel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method allowed</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T011249Z" creationid="explorer" creationdate="20161102T011249Z">
+        <seg>=head2 método allowed</seg>
       </tuv>
     </tu>
     <tu>
@@ -4093,6 +4133,15 @@ about capturing groups.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A C&lt;FatRat&gt; is a rational number stored with arbitrary size numerator and
+denominator.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T010314Z" creationid="explorer" creationdate="20161102T010314Z">
+        <seg>Un C&lt;FatRat&gt; es un número racional almacenado como un numerador y denominador de tamaño arbitrario.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A C&lt;live&gt; L&lt;Supply&gt;
 is created by the L&lt;Supplier&gt; factory, each emitted value is passed to
 all the active tappers as they are added:</seg>
@@ -4371,6 +4420,15 @@ display the given value.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Arithmetic operations involving a C&lt;FatRat&gt; and optionally L&lt;Int&gt;
+or L&lt;Rat&gt; objects return a C&lt;FatRat&gt;, avoiding loss of precision.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T010613Z" creationid="explorer" creationdate="20161102T010613Z">
+        <seg>Las operaciones aritméticas que implican un C&lt;FatRat&gt; y, opcionalmente, objetos L&lt;Int&gt; o L&lt;Rat&gt; devuelven un C&lt;FatRat&gt;, evitando pérdidas de precisión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Associative does not provide any methods.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210440Z" creationid="explorer" creationdate="20161101T210440Z">
@@ -4575,6 +4633,14 @@ C&lt;react&gt; block described earlier:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190818Z" creationid="explorer" creationdate="20161101T190818Z">
         <seg>Clase para un párrafo Pod.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class for a code (verbatim) Pod block.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T011240Z" creationid="explorer" creationdate="20161102T011240Z">
+        <seg>Clase para un bloque de código (literal) en Pod.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4955,6 +5021,15 @@ block.</seg>
       </tuv>
       <tuv lang="ES-ES">
         <seg>Aquí hay un ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hopefully that will emerge as
+part of the work on macros.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T005931Z" creationid="explorer" creationdate="20161102T005931Z">
+        <seg>Por fortuna, emergerá como parte del trabajo en macros.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5559,6 +5634,14 @@ the program is started.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns a list of formatting codes that are allowed inside the code block.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T011324Z" creationid="explorer" creationdate="20161102T011324Z">
+        <seg>Returns a list of formatting codes that are allowed inside the code block.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the custom message provided to C&lt;!!!&gt;, or a reasonable default if none
 was provided.</seg>
       </tuv>
@@ -5653,6 +5736,16 @@ then C&lt;cause&gt; will be the L&lt;Exception&gt; object that was thrown:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T174425Z" creationid="ramiroencinas" creationdate="20160502T174425Z">
         <seg>De forma parecida, si el código falla, la promesa lanzará una excepción en forma de objeto L&lt;Exception&gt; accesible mediante C&lt;cause&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since, unlike L&lt;Rat&gt;, FatRat arithmetics do not fall back L&lt;Num&gt; at some
+point, there is a risk that repeated arithmetic operations generate
+pathologically large numerators and denominators.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T010914Z" creationid="explorer" creationdate="20161102T010914Z">
+        <seg>Ya que, a diferencia de L&lt;Rat&gt;, la aritmética FatRat no termina en L&lt;Num&gt; en ningún momento, existe un riesgo de que repetidas operaciones aritméticas generen de forma patológica grandes numeradores y denominadores.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6214,6 +6307,17 @@ tapped as required.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are two common ways to generate C&lt;FatRat&gt; objects: through the
+C&lt;FatRat.new(Int, Int)&gt; constructor, which generates them from numerator and
+denominator, or by calling the C&lt;.FatRat&gt; method on an L&lt;Int&gt; or L&lt;Rat&gt;
+object.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T011117Z" creationid="explorer" creationdate="20161102T011117Z">
+        <seg>Existen dos formas comunes de generar objetos C&lt;FatRat&gt;: a través del constructor C&lt;FatRat.new(Int, Int)&gt;, que los genera a partir del numerador y denominador, o llamando al método C&lt;.FatRat&gt; sobre un objeto L&lt;Int&gt; o L&lt;Rat&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is also the non-blocking L&lt;method poll|/type/Channel#method_poll&gt;
 which returns an available item from the channel or L&lt;Nil&gt; if there
 is no item or the channel is closed, this does of course mean that the
@@ -6760,6 +6864,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class FatRat is Cool does Rational[Int, Int] {}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T010104Z" creationid="explorer" creationdate="20161102T010104Z">
+        <seg>class FatRat is Cool does Rational[Int, Int] {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class IO::Spec::QNX is IO::Spec { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142446Z" creationid="explorer" creationdate="20161101T142446Z">
@@ -6836,6 +6948,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203609Z" creationid="explorer" creationdate="20161101T203609Z">
         <seg>class ObjAt { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class Pod::Block::Code is Pod::Block { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T011216Z" creationid="explorer" creationdate="20161102T011216Z">
+        <seg>class Pod::Block::Code is Pod::Block { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -7276,6 +7396,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164612Z" creationid="ramiroencinas" creationdate="20160528T164612Z">
         <seg>method agregar-dependencia(Tarea $dependencia) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method allowed() returns Positional:D</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T011325Z" creationid="explorer" creationdate="20161102T011258Z">
+        <seg>method allowed() returns Positional:D</seg>
       </tuv>
     </tu>
     <tu>
