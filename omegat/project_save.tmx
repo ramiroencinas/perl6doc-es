@@ -990,6 +990,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to declaring a match variable</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004257Z" creationid="explorer" creationdate="20161102T004257Z">
+        <seg>=SUBTITLE Error de compilación debido a la declaración de una variable de coincidencia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Compilation error due to unrecognized syntax</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214205Z" creationid="explorer" creationdate="20161101T214205Z">
@@ -1522,6 +1530,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215022Z" creationid="explorer" creationdate="20161101T215022Z">
         <seg>=TITLE clase X::Syntax::UnlessElse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Syntax::Variable::Match</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T003903Z" creationid="explorer" creationdate="20161102T003903Z">
+        <seg>=TITLE clase X::Syntax::Variable::Match</seg>
       </tuv>
     </tu>
     <tu>
@@ -6851,6 +6867,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215123Z" creationid="explorer" creationdate="20161101T215123Z">
         <seg>class X::Syntax::UnlessElse does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Syntax::Variable::Match does X::Syntax { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004259Z" creationid="explorer" creationdate="20161102T004259Z">
+        <seg>class X::Syntax::Variable::Match does X::Syntax { }</seg>
       </tuv>
     </tu>
     <tu>
