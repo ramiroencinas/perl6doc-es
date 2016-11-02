@@ -1347,6 +1347,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Platform specific operations on file and directory paths</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T220644Z" creationid="explorer" creationdate="20161102T220644Z">
+        <seg>=SUBTITLE Operaciones específicas de la plataforma en rutas de archivo o directorio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Platform specific operations on file and directory paths QNX</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190313Z" creationid="explorer" creationdate="20161101T142444Z">
@@ -1495,6 +1503,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T010035Z" creationid="explorer" creationdate="20161102T010035Z">
         <seg>=TITLE clase FatRat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class IO::Spec</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T220631Z" creationid="explorer" creationdate="20161102T220631Z">
+        <seg>=TITLE clase IO::Spec</seg>
       </tuv>
     </tu>
     <tu>
@@ -6553,6 +6569,16 @@ tapped as required.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The sub-classes are documented separately, with the platform-specific
+differences documented in L&lt;IO::Spec::Cygwin&gt;, L&lt;IO::Spec::QNX&gt;,
+L&lt;IO::Spec::Unix&gt; and L&lt;IO::Spec::Win32&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T220813Z" creationid="explorer" creationdate="20161102T220813Z">
+        <seg>Las sub-clases se documentan aparte, con las diferencias específicas de la plataforma documentadas en L&lt;IO::Spec::Cygwin&gt;, L&lt;IO::Spec::QNX&gt;, L&lt;IO::Spec::Unix&gt; y L&lt;IO::Spec::Win32&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The third line is the critical section as that is when the array is extended.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215327Z" creationid="ramiroencinas" creationdate="20160527T215327Z">
@@ -7142,6 +7168,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T010104Z" creationid="explorer" creationdate="20161102T010104Z">
         <seg>class FatRat is Cool does Rational[Int, Int] {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class IO::Spec { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T220645Z" creationid="explorer" creationdate="20161102T220645Z">
+        <seg>class IO::Spec { }</seg>
       </tuv>
     </tu>
     <tu>
