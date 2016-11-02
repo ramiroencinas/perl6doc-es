@@ -918,6 +918,72 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;/p&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214319Z" creationid="explorer" creationdate="20161102T214319Z">
+        <seg>&lt;/p&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a href="https://github.com/perl6/doc/issues/"&gt;on our GitHub repository&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214304Z" creationid="explorer" creationdate="20161102T214304Z">
+        <seg>&lt;a href="https://github.com/perl6/doc/issues/"&gt;en nuestro repositorio de GitHub&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;dl&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214623Z" creationid="explorer" creationdate="20161102T214623Z">
+        <seg>&lt;dl&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;dt&gt;&lt;a href="/language.html"&gt;Language Reference &amp;amp; Tutorials&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214652Z" creationid="explorer" creationdate="20161102T214652Z">
+        <seg>&lt;dt&gt;&lt;a href="/language.html"&gt;Referencia del lenguaje &amp;amp; tutoriales&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;h2&gt;404: Page Not Found&lt;/h2&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214130Z" creationid="explorer" creationdate="20161102T214130Z">
+        <seg>&lt;h2&gt;404: No se encontró la página&lt;/h2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;hr/&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214620Z" creationid="explorer" creationdate="20161102T214620Z">
+        <seg>&lt;hr/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;img style="float: right; margin: 0 0 1em 1em" src="/images/camelia-404.png" alt="" id="home_logo"/&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214038Z" creationid="explorer" creationdate="20161102T214038Z">
+        <seg>&lt;img style="float: right; margin: 0 0 1em 1em" src="/images/camelia-404.png" alt="" id="home_logo"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;p style="line-height: 1.7em"&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214132Z" creationid="explorer" creationdate="20161102T214132Z">
+        <seg>&lt;p style="line-height: 1.7em"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE A tutorial for creating and using classes in Perl 6</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160528T124446Z" creationid="Ram" creationdate="20160528T124446Z">
@@ -1670,6 +1736,27 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=begin Html</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214034Z" creationid="explorer" creationdate="20161102T214034Z">
+        <seg>=begin html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=begin Html
+&lt;img style="float: right; margin: 0 0 1em 1em" src="/images/camelia.png" alt="" id="home_logo"/&gt;
+Welcome to the official documentation of the &lt;a href="https://perl6.org"&gt;Perl 6&lt;/a&gt;
+programming language!</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214429Z" creationid="explorer" creationdate="20161102T214429Z">
+        <seg>=begin Html
+&lt;img style="float: right; margin: 0 0 1em 1em" src="/images/camelia.png" alt="" id="home_logo"/&gt;
+¡Bienvenido a la documentación oficial del lenguaje de programación &lt;a href="https://perl6.org"&gt;Perl 6&lt;/a&gt;!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=begin code</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125427Z" creationid="Ram" creationdate="20160528T125427Z">
@@ -1724,6 +1811,14 @@ say $p1.result;         # resultado</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142627Z" creationid="explorer" creationdate="20161101T142627Z">
         <seg>=comment TODO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=end Html</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214322Z" creationid="explorer" creationdate="20161102T214322Z">
+        <seg>=end Html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4484,6 +4579,17 @@ is unlikely that user code will need to use a L&lt;Lock&gt; directly.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Besides online browsing and searching, you can also
+Z&lt;&lt; &lt;a&gt;download&lt;/a&gt; an offline HTML or PDF copy, and&gt;&gt;
+&lt;a href="https://github.com/perl6/doc"&gt;contribute&lt;/a&gt;
+by reporting mistakes or sending patches.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214617Z" creationid="explorer" creationdate="20161102T214617Z">
+        <seg>Además de navegar y buscar, también puede Z&lt;&lt; &lt;a&gt;descargarse&lt;/a&gt; una copia en HTML o PDF, y&gt;&gt; &lt;a href="https://github.com/perl6/doc"&gt;contribuir&lt;/a&gt; informando de faltas o enviando parches.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Between the C&lt;%&gt; and the format letter, you may specify several
 additional attributes controlling the interpretation of the format.</seg>
       </tuv>
@@ -5125,6 +5231,14 @@ messages from the tapped supply:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T213307Z" creationid="ramiroencinas" creationdate="20160520T213307Z">
         <seg>Si utilizas C&lt;whenever&gt; con la sintaxis de los bloques C&lt;react&gt; o C&lt;supply&gt;, puedes utilizar faseados en los bloques C&lt;whenever&gt; para gestionar los mensajes de C&lt;done&gt; y C&lt;quit&gt; desde el tap del suministro:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you got here by following</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214217Z" creationid="explorer" creationdate="20161102T214217Z">
+        <seg>Si llegó aquí siguiendo</seg>
       </tuv>
     </tu>
     <tu>
@@ -6250,6 +6364,14 @@ implement the interface defined by the role L&lt;Scheduler&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The page you tried to reach cannot be found.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214201Z" creationid="explorer" creationdate="20161102T214201Z">
+        <seg>La página que intenta leer no se puede encontrar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The path to the command as well as any arguments to the command are 
 supplied to the constructor.</seg>
       </tuv>
@@ -6780,6 +6902,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20111008T170745Z">
         <seg>a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a link on this site, please report it</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214245Z" creationid="explorer" creationdate="20161102T214245Z">
+        <seg>un enlace, en este sitio, por favor, informe sobre este fallo</seg>
       </tuv>
     </tu>
     <tu>
@@ -8556,6 +8686,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203802Z" creationid="ramiroencinas" creationdate="20160520T203802Z">
         <seg>sleep 6;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>so we can fix it!</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214317Z" creationid="explorer" creationdate="20161102T214317Z">
+        <seg>¡para que podamos arreglarlo!</seg>
       </tuv>
     </tu>
     <tu>
