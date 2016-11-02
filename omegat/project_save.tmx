@@ -918,10 +918,40 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;/dd&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215033Z" creationid="explorer" creationdate="20161102T215033Z">
+        <seg>&lt;/dd&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/dd&gt;
+&gt;&gt;
+&lt;/dl&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215501Z" creationid="explorer" creationdate="20161102T215501Z">
+        <seg>&lt;/dd&gt;
+&gt;&gt;
+&lt;/dl&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/p&gt;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214319Z" creationid="explorer" creationdate="20161102T214319Z">
         <seg>&lt;/p&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;/p&gt;
+=end Html</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T220137Z" creationid="explorer" creationdate="20161102T220137Z">
+        <seg>&lt;/p&gt;
+=end Html</seg>
       </tuv>
     </tu>
     <tu>
@@ -947,6 +977,36 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214652Z" creationid="explorer" creationdate="20161102T214652Z">
         <seg>&lt;dt&gt;&lt;a href="/language.html"&gt;Referencia del lenguaje &amp;amp; tutoriales&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;dt&gt;&lt;a href="/programs.html"&gt;Perl 6 Programs&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215142Z" creationid="explorer" creationdate="20161102T215142Z">
+        <seg>&lt;dt&gt;&lt;a href="/programs.html"&gt;Programas Perl 6&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;dt&gt;&lt;a href="/routine.html"&gt;Routine Reference&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215052Z" creationid="explorer" creationdate="20161102T215052Z">
+        <seg>&lt;dt&gt;&lt;a href="/routine.html"&gt;Referencia de rutinas&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;dt&gt;&lt;a href="/type.html"&gt;Type Reference&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215011Z" creationid="explorer" creationdate="20161102T215011Z">
+        <seg>&lt;dt&gt;&lt;a href="/type.html"&gt;Referencia de tipos&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;</seg>
       </tuv>
     </tu>
@@ -980,6 +1040,29 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214132Z" creationid="explorer" creationdate="20161102T214132Z">
         <seg>&lt;p style="line-height: 1.7em"&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;p&gt;
+You may also be interested in the Perl 6 &lt;a href="https://design.perl6.org"&gt;design documents&lt;/a&gt;,
+which are in some places more complete than this documentation, but targeted
+toward compiler writers rather than users of the language.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215951Z" creationid="explorer" creationdate="20161102T215951Z">
+        <seg>&lt;p&gt;
+También puede interesarle los &lt;a href="https://design.perl6.org"&gt;documentos de diseño&lt;/a&gt; de Perl 6, que están más completos en otros lugares que en esta documentación, pero se dirigen a los escritores de compiladores en lugar de a los usuarios del lenguaje.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;p&gt;The Perl 6 homepage offers &lt;a href="https://perl6.org/documentation/"&gt;a
+comprehensive list of Perl 6 documentation&lt;/a&gt;, including tutorials, how-tos
+and &lt;a href="/language/faq"&gt;FAQs (Frequently Asked Questions)&lt;/a&gt;.&lt;/p&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215715Z" creationid="explorer" creationdate="20161102T215715Z">
+        <seg>&lt;p&gt;La página principal de Perl 6 ofrece &lt;a href="https://perl6.org/documentation/"&gt;una
+completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-hacer y &lt;a href="/language/faq"&gt;PMF (Preguntas más frecuentes)&lt;/a&gt;.&lt;/p&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4318,6 +4401,22 @@ consumed by one or more consumers simultaneously in a manner similar to
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A collection of documents describing how to</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215203Z" creationid="explorer" creationdate="20161102T215203Z">
+        <seg>Una colección de documentos que describen cómo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A collection of documents describing, in detail, the various</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214745Z" creationid="explorer" creationdate="20161102T214745Z">
+        <seg>Una colección de documentos que describe, en detalle, las diversas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A common exception type for all errors related to C&lt;DateTime&gt; or C&lt;Date&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192022Z" creationid="explorer" creationdate="20161101T192022Z">
@@ -4845,6 +4944,15 @@ supplied explicitly to certain methods.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Documentation for the different but related &lt;a href="https://www.perl.org/"&gt;Perl 5&lt;/a&gt; language
+can be found on the &lt;a href="http://perldoc.perl.org/"&gt;Perl 5 documentation website&lt;/a&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T220136Z" creationid="explorer" creationdate="20161102T220136Z">
+        <seg>La documentación para el diferente, pero familiar, lenguaje &lt;a href="https://www.perl.org/"&gt;Perl 5&lt;/a&gt; se puede encontrar en el &lt;a href="http://perldoc.perl.org/"&gt;sitio web de la documentación sobre Perl 5&lt;/a&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>END</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120906T223846Z">
@@ -5318,6 +5426,30 @@ execution before normal completion:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T183728Z" creationid="ramiroencinas" creationdate="20160527T183728Z">
         <seg>En este caso el código programará la ejecución del programa hasta que finalice de forma normal. Para cancelar la ejecución programada antes de que finalice se utiliza el método C&lt;cancel&gt; que devolverá un objeto L&lt;Cancellation&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Index of built-in classes and roles.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215028Z" creationid="explorer" creationdate="20161102T215028Z">
+        <seg>Índice de las clases y roles incorporados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Index of built-in subroutines and methods.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215119Z" creationid="explorer" creationdate="20161102T215119Z">
+        <seg>Índice de las subrutinas y métodos incorporados.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Index of modules that are part of the official core distribution.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215457Z" creationid="explorer" creationdate="20161102T215457Z">
+        <seg>Índice de los módulos que forman parte de la distribución principal oficial.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6858,6 +6990,18 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Z&lt;&lt;
+&lt;dt&gt;&lt;a href="/module.html"&gt;Module Reference&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215434Z" creationid="explorer" creationdate="20161102T215434Z">
+        <seg>Z&lt;&lt;
+&lt;dt&gt;&lt;a href="/module.html"&gt;Referencia de módulos&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Zl          Line_Separator</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193901Z" creationid="explorer" creationdate="20160428T193901Z">
@@ -7226,6 +7370,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>conceptual parts of the language.Z&lt;&lt; If you're new to Perl 6,</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214845Z" creationid="explorer" creationdate="20161102T214845Z">
+        <seg>partes conceptuales del language.Z&lt;&lt; Si Perl 6 es nuevo para usted,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>continue {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110717T234603Z">
@@ -7434,6 +7586,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>how to debug Perl 6 programs, and how to hack on Perl 6</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215418Z" creationid="explorer" creationdate="20161102T215345Z">
+        <seg>cómo depurar programas en Perl 6, y cómo hackear de Perl 6 su</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>hyper-operators, autothreading junctions?</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203919Z" creationid="ramiroencinas" creationdate="20160520T203919Z">
@@ -7494,6 +7654,16 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163833Z" creationid="explorer" creationdate="20140716T163833Z">
         <seg>l           interpreta un entero como un "long" o</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>language&gt;intro is a good place to start.&gt;&gt;
+&lt;/dd&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214958Z" creationid="explorer" creationdate="20161102T214958Z">
+        <seg>lenguaje&gt;introducción es un buen lugar por donde empezar.&gt;&gt;
+&lt;/dd&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8458,6 +8628,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>run the Perl 6 executable program and other utilities,</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215235Z" creationid="explorer" creationdate="20161102T215235Z">
+        <seg>correr el programa ejecutable Perl 6 y otras utilidades,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>say "All done"; # Should be about 3 seconds later</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T202406Z" creationid="ramiroencinas" creationdate="20160503T202406Z">
@@ -8694,6 +8872,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T214317Z" creationid="explorer" creationdate="20161102T214317Z">
         <seg>¡para que podamos arreglarlo!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source code.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215406Z" creationid="explorer" creationdate="20161102T215406Z">
+        <seg>código fuente.</seg>
       </tuv>
     </tu>
     <tu>
