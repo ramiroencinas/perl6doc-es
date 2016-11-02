@@ -5636,8 +5636,8 @@ the program is started.</seg>
       <tuv lang="EN-US">
         <seg>Returns a list of formatting codes that are allowed inside the code block.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T011324Z" creationid="explorer" creationdate="20161102T011324Z">
-        <seg>Returns a list of formatting codes that are allowed inside the code block.</seg>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T011356Z" creationid="explorer" creationdate="20161102T011324Z">
+        <seg>Devuelve una lista de códigos de formateo que se permiten dentro del bloque de código.</seg>
       </tuv>
     </tu>
     <tu>
