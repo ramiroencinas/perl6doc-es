@@ -926,6 +926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Abstract representation of a piece of source code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004534Z" creationid="explorer" creationdate="20161102T004534Z">
+        <seg>=SUBTITLE Representación abstracta de una parte del código fuente</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Codepoint-String in Normal Form C (Composed)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192208Z" creationid="explorer" creationdate="20161101T192208Z">
@@ -1290,6 +1298,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ram" changedate="20160429T165715Z" creationid="ram" creationdate="20160429T165457Z">
         <seg>=TITLE Concurrencia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class AST</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004454Z" creationid="explorer" creationdate="20161102T004454Z">
+        <seg>=TITLE clase AST</seg>
       </tuv>
     </tu>
     <tu>
@@ -1746,6 +1762,18 @@ say $p1.result;         # resultado</seg>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
 ===SORRY!===
+Cannot declare a match variable</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004427Z" creationid="explorer" creationdate="20161102T004427Z">
+        <seg>=for code :skip-test
+===SORRY!===
+Cannot declare a match variable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+===SORRY!===
 Confused</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214336Z" creationid="explorer" creationdate="20161101T214336Z">
@@ -1928,6 +1956,16 @@ for my $a (1, 2) { };</seg>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214542Z" creationid="explorer" creationdate="20161101T214542Z">
         <seg>=for code :skip-test
 for my $a (1, 2) { };</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+my $&lt;thing&gt;;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004421Z" creationid="explorer" creationdate="20161102T004421Z">
+        <seg>=for code :skip-test
+my $&lt;thing&gt;;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4226,6 +4264,16 @@ promise once it returns successfully, or break it when the code dies.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ASTs are return values of the C&lt;quasi&gt; quoting construct,
+and are typically used within macros to generate code that is inserted
+in the calling location of the macro.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T005330Z" creationid="explorer" creationdate="20161102T005330Z">
+        <seg>Los AST son valores de retorno de una construcción entrecomillada C&lt;quasi&gt;, y se usan típicamente dentro de macros para generar código que se inserta en la posición de la llamada a la macro.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, certain Perl features may implicitly operate in an asynchronous
 fashion, so in order to ensure predictable interoperation with these features,
 user code should, where possible, avoid the lower level concurrency APIs
@@ -4241,6 +4289,15 @@ user code should, where possible, avoid the lower level concurrency APIs
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212447Z" creationid="explorer" creationdate="20161101T212447Z">
         <seg>Todas las excepciones que se lanzan por parte de L&lt;Proc::Async&gt; tienen en común este rol.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An C&lt;AST&gt; or I&lt;Abstract Syntax Tree&gt; is a partially processed representation
+of a program.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004852Z" creationid="explorer" creationdate="20161102T004852Z">
+        <seg>Un C&lt;AST&gt; o I&lt;Árbol sintáctico abstracto&gt; es una representación procesada parcialmente de un programa.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5693,6 +5750,14 @@ an opening bracket.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Syntax error thrown when a match variable like C&lt;&lt; $&lt;thing&gt; &gt;&gt; was declared.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004416Z" creationid="explorer" creationdate="20161102T004416Z">
+        <seg>Se lanza un error de sintaxis cuando se declara una variable de coincidencia, como C&lt;&lt; $&lt;cosa&gt; &gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Syntax error thrown when an C&lt;unless&gt; clause is followed by an C&lt;else&gt; clause.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215224Z" creationid="explorer" creationdate="20161101T215224Z">
@@ -6156,6 +6221,14 @@ channel must be checked to determine whether it is closed:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T094545Z" creationid="ramiroencinas" creationdate="20160521T094545Z">
         <seg>Existe el L&lt;method poll|/type/Channel#method_poll&gt; no bloqueante que devuelve un elemento disponible del canal o L&lt;Nil&gt; si no hay elementos o si el canal está cerrado. Esto implica comprobar el estado del canal para ver si está cerrado o no.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is no API defined for ASTs yet.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T005503Z" creationid="explorer" creationdate="20161102T005503Z">
+        <seg>Todavía no existe una API definida para los AST.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6659,6 +6732,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121230T131246Z">
         <seg>pero</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class AST { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004536Z" creationid="explorer" creationdate="20161102T004536Z">
+        <seg>class AST { }</seg>
       </tuv>
     </tu>
     <tu>
