@@ -110,10 +110,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># OUTPUT: «X::Constructor::Positional: Default constructor for 'A' only takes named arguments␤»</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164643Z" creationid="explorer" creationdate="20161106T164643Z">
+        <seg># SALIDA: «X::Constructor::Positional: Default constructor for 'A' only takes named arguments␤»</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># OUTPUT: «X::ControlFlow::Return: Attempt to return outside of any Routine␤»</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211346Z" creationid="explorer" creationdate="20161101T211346Z">
         <seg># SALIDA: «X::ControlFlow::Return: Attempt to return outside of any Routine␤»</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># OUTPUT: «X::Proc::Async::AlreadyStarted: Process has already been started␤»</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170426Z" creationid="explorer" creationdate="20161106T170426Z">
+        <seg># SALIDA: «X::Proc::Async::AlreadyStarted: Process has already been started␤»</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># OUTPUT: «X::TypeCheck::Return: Type check failed for return value; expected Int but got Str ("foo")␤»</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155503Z" creationid="explorer" creationdate="20161111T155503Z">
+        <seg># SALIDA: «X::TypeCheck::Return: Type check failed for return value; expected Int but got Str ("foo")␤»</seg>
       </tuv>
     </tu>
     <tu>
@@ -402,6 +426,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T172921Z" creationid="ramiroencinas" creationdate="20160523T172921Z">
         <seg>$proc.say("esta no");</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$proc.start;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170418Z" creationid="explorer" creationdate="20161106T170418Z">
+        <seg>$proc.start;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1123,10 +1155,42 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Collection of objects represented as hash keys</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T161623Z" creationid="explorer" creationdate="20161106T161623Z">
+        <seg>=SUBTITLE Colección de objetos que se representan como claves hash</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Compilation error due to a malformed inline comment</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212627Z" creationid="explorer" creationdate="20161101T212627Z">
         <seg>=SUBTITLE Error de compilación debido a un comentario incrustado mal formado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to a misplaced invocant marker in a signature</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155205Z" creationid="explorer" creationdate="20161111T155205Z">
+        <seg>=SUBTITLE Error de compilación debido a un marcados llamante mál colocado, en una firma</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to a placeholder in an ineligible block</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165708Z" creationid="explorer" creationdate="20161106T165708Z">
+        <seg>=SUBTITLE Error de compilación debido a un sitio reservado en un bloque no elegible</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to a placeholder in the mainline</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T163651Z" creationid="explorer" creationdate="20161106T163651Z">
+        <seg>=SUBTITLE Error de compilación debido a un sitio reservado en el línea principal</seg>
       </tuv>
     </tu>
     <tu>
@@ -1147,10 +1211,58 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to an unallowed radix in a number literal</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T154532Z" creationid="explorer" creationdate="20161111T154532Z">
+        <seg>=SUBTITLE Error de compilación debido a una base no permitida en un número literal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Compilation error due to declaring a match variable</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004257Z" creationid="explorer" creationdate="20161102T004257Z">
         <seg>=SUBTITLE Error de compilación debido a la declaración de una variable de coincidencia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to declaring a multi with an ineligible scope</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164732Z" creationid="explorer" creationdate="20161106T164732Z">
+        <seg>=SUBTITLE Error de compilación debido a declarar un multi con un ámbito inelegible</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to inheriting from an ineligible type</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162914Z" creationid="explorer" creationdate="20161106T162914Z">
+        <seg>=SUBTITLE Error de compilación debido a heredar de un tipo inelegible</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to invoking `self` in an ineligible scope</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T154955Z" creationid="explorer" creationdate="20161111T154955Z">
+        <seg>=SUBTITLE Error de compilación debido a invocar `self` en un ámbito inelegible</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to passing an argument to a negated colonpair</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T161110Z" creationid="explorer" creationdate="20161111T161110Z">
+        <seg>=SUBTITLE Error de compilación debido a pasar un argumento a una pareja de puntos negada</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Compilation error due to two named parameters with the same name</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170607Z" creationid="explorer" creationdate="20161106T170607Z">
+        <seg>=SUBTITLE Error de compilación debido a la existencia de dos parámetros con el mismo nombre</seg>
       </tuv>
     </tu>
     <tu>
@@ -1187,6 +1299,38 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Error due to a failed type check during binding</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T161542Z" creationid="explorer" creationdate="20161111T161542Z">
+        <seg>=SUBTITLE Error debido a un fallo de comprobación de tipo durante el enlazamiento</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error due to a failed typecheck during `return`</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155411Z" creationid="explorer" creationdate="20161111T155411Z">
+        <seg>=SUBTITLE Error dwbido a un fallo de comprobación de tipo durante un `return`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error due to binding to something that is not a variable or container</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164312Z" creationid="explorer" creationdate="20161106T164312Z">
+        <seg>=SUBTITLE Error debido a enlazar algo que no es ni una variable ni un contenedor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error due to calling C&lt;start&gt; on an already started L&lt;Proc::Async&gt; object</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170229Z" creationid="explorer" creationdate="20161106T170229Z">
+        <seg>=SUBTITLE Error debido a llamar a C&lt;start&gt; en un objeto L&lt;Proc::Async&gt; que ya estaba arrancado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Error due to calling return outside a routine</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211241Z" creationid="explorer" creationdate="20161101T211241Z">
@@ -1211,6 +1355,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Error due to passing positional arguments to a default constructor</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164533Z" creationid="explorer" creationdate="20161106T164533Z">
+        <seg>=SUBTITLE Error debido a pasar argumentos posicionales a un constructor por defecto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Error due to trying to reuse a consumed sequence</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T202411Z" creationid="explorer" creationdate="20161101T202411Z">
@@ -1223,6 +1375,22 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191952Z" creationid="explorer" creationdate="20161101T191952Z">
         <seg>=SUBTITLE Error relacionado con DateTime o Date</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error reported by the operating system</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165020Z" creationid="explorer" creationdate="20161106T165020Z">
+        <seg>=SUBTITLE Error que reporta el sistema operativo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to access a non dynamic variable through CALLER</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155621Z" creationid="explorer" creationdate="20161111T155545Z">
+        <seg>=SUBTITLE Error mientras se intenta acceder a una variable no dinámica a través de CALLER</seg>
       </tuv>
     </tu>
     <tu>
@@ -1243,6 +1411,30 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to create a directory</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160219Z" creationid="explorer" creationdate="20161111T160219Z">
+        <seg>=SUBTITLE Error al intentar crear un directorio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to create a link</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155722Z" creationid="explorer" creationdate="20161111T155722Z">
+        <seg>=SUBTITLE Error al intentar crear un enlace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to create a symbolic link</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160623Z" creationid="explorer" creationdate="20161111T160623Z">
+        <seg>=SUBTITLE Error al intentar crear un enlace simbólico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Error while trying to determine the current working directory</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204701Z" creationid="explorer" creationdate="20161101T204701Z">
@@ -1255,6 +1447,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211818Z" creationid="explorer" creationdate="20161101T211818Z">
         <seg>=SUBTITLE Error al intentar obtener los contenidos de un directorio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to move a file</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155915Z" creationid="explorer" creationdate="20161111T155915Z">
+        <seg>=SUBTITLE Error al intentar mover un archivo</seg>
       </tuv>
     </tu>
     <tu>
@@ -1275,10 +1475,26 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Error while trying to rename a file or directory</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160426Z" creationid="explorer" creationdate="20161111T160426Z">
+        <seg>=SUBTITLE Error al intentar renombrar un archivo o directorio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Exception thrown by L&lt;Proc::Async&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212354Z" creationid="explorer" creationdate="20161101T212354Z">
         <seg>=SUBTITLE Excepción que se lanza por parte de L&lt;Proc::Async&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=SUBTITLE Human readable form for comparison operators.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162430Z" creationid="explorer" creationdate="20161106T162430Z">
+        <seg>=SUBTITLE Forma legible humana para los operadores de comparación.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1475,6 +1691,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE X::Placeholder::Mainline</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T163538Z" creationid="explorer" creationdate="20161106T163538Z">
+        <seg>=TITLE X::Placeholder::Mainline</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class AST</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004454Z" creationid="explorer" creationdate="20161102T004454Z">
@@ -1619,10 +1843,50 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::Attribute::NoPackage</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162337Z" creationid="explorer" creationdate="20161106T162337Z">
+        <seg>=TITLE clase X::Attribute::NoPackage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Bind</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164229Z" creationid="explorer" creationdate="20161106T164229Z">
+        <seg>=TITLE clase X::Bind</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Caller::NotDynamic</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155514Z" creationid="explorer" creationdate="20161111T155514Z">
+        <seg>=TITLE clase X::Caller::NotDynamic</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Constructor::Positional</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164434Z" creationid="explorer" creationdate="20161106T164434Z">
+        <seg>=TITLE clase X::Constructor::Positional</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class X::ControlFlow::Return</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211203Z" creationid="explorer" creationdate="20161101T211203Z">
         <seg>=TITLE clase X::ControlFlow::Return</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Declaration::Scope::Multi</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164655Z" creationid="explorer" creationdate="20161106T164655Z">
+        <seg>=TITLE clase X::Declaration::Scope::Multi</seg>
       </tuv>
     </tu>
     <tu>
@@ -1659,6 +1923,38 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::IO::Link</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155704Z" creationid="explorer" creationdate="20161111T155704Z">
+        <seg>=TITLE clase X::IO::Link</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::IO::Mkdir</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160213Z" creationid="explorer" creationdate="20161111T160213Z">
+        <seg>=TITLE clase X::IO::Mkdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::IO::Move</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155906Z" creationid="explorer" creationdate="20161111T155906Z">
+        <seg>=TITLE clase X::IO::Move</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::IO::Rename</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160411Z" creationid="explorer" creationdate="20161111T160411Z">
+        <seg>=TITLE clase X::IO::Rename</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class X::IO::Rmdir</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212037Z" creationid="explorer" creationdate="20161101T212037Z">
@@ -1667,10 +1963,42 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::IO::Symlink</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160609Z" creationid="explorer" creationdate="20161111T160609Z">
+        <seg>=TITLE clase X::IO::Symlink</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class X::IO::Unlink</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212209Z" creationid="explorer" creationdate="20161101T212209Z">
         <seg>=TITLE clase X::IO::Unlink</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Inheritance::Unsupported</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162844Z" creationid="explorer" creationdate="20161106T162844Z">
+        <seg>=TITLE clase X::Inheritance::Unsupported</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Placeholder::Block</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165639Z" creationid="explorer" creationdate="20161106T165639Z">
+        <seg>=TITLE clase X::Placeholder::Block</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Proc::Async::AlreadyStarted</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170123Z" creationid="explorer" creationdate="20161106T170123Z">
+        <seg>=TITLE clase X::Proc::Async::AlreadyStarted</seg>
       </tuv>
     </tu>
     <tu>
@@ -1699,6 +2027,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::Signature::NameClash</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170441Z" creationid="explorer" creationdate="20161106T170441Z">
+        <seg>=TITLE clase X::Signature::NameClash</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class X::StubCode</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205349Z" creationid="explorer" creationdate="20161101T205349Z">
@@ -1723,6 +2059,22 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::Syntax::NegatedPair</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160856Z" creationid="explorer" creationdate="20161111T160856Z">
+        <seg>=TITLE clase X::Syntax::NegatedPair</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Syntax::Number::RadixOutOfRange</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T154429Z" creationid="explorer" creationdate="20161111T154429Z">
+        <seg>=TITLE clase X::Syntax::Number::RadixOutOfRange</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class X::Syntax::P5</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214349Z" creationid="explorer" creationdate="20161101T214349Z">
@@ -1735,6 +2087,22 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214730Z" creationid="explorer" creationdate="20161101T214730Z">
         <seg>=TITLE clase X::Syntax::Regex::SolitaryQuantifier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Syntax::Self::WithoutObject</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T154920Z" creationid="explorer" creationdate="20161111T154920Z">
+        <seg>=TITLE clase X::Syntax::Self::WithoutObject</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::Syntax::Signature::InvocantMarker</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155134Z" creationid="explorer" creationdate="20161111T155134Z">
+        <seg>=TITLE clase X::Syntax::Signature::InvocantMarker</seg>
       </tuv>
     </tu>
     <tu>
@@ -1755,10 +2123,34 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE class X::TypeCheck::Binding</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T161453Z" creationid="explorer" creationdate="20161111T161443Z">
+        <seg>=TITLE clase X::TypeCheck::Binding</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE class X::TypeCheck::Return</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155343Z" creationid="explorer" creationdate="20161111T155343Z">
+        <seg>=TITLE clase X::TypeCheck::Return</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE class int</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192121Z" creationid="explorer" creationdate="20161101T142134Z">
         <seg>=TITLE clase int</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE enum Order</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162408Z" creationid="explorer" creationdate="20161106T162408Z">
+        <seg>=TITLE enúmerado Order</seg>
       </tuv>
     </tu>
     <tu>
@@ -1787,6 +2179,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=TITLE role QuantHash</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T161514Z" creationid="explorer" creationdate="20161106T161514Z">
+        <seg>=TITLE rol QuantHash</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=TITLE role Stringy</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190856Z" creationid="explorer" creationdate="20161101T190856Z">
@@ -1799,6 +2199,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204107Z" creationid="explorer" creationdate="20161101T204107Z">
         <seg>=TITLE rol X::IO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE role X::OS</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165005Z" creationid="explorer" creationdate="20161106T165005Z">
+        <seg>=TITLE rol X::OS</seg>
       </tuv>
     </tu>
     <tu>
@@ -1878,6 +2286,30 @@ say $p1.status;         # Planificado;
 $p1.keep('resultado');
 say $p1.status;         # Guardado
 say $p1.result;         # resultado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=begin code :skip-test
+Cannot use bind operator with this left-hand side
+=end code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164353Z" creationid="explorer" creationdate="20161106T164353Z">
+        <seg>=begin code :skip-test
+Cannot use bind operator with this left-hand side
+=end code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=begin code :skip-test
+floor(1.1) := 42;
+=end code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164331Z" creationid="explorer" creationdate="20161106T164331Z">
+        <seg>=begin code :skip-test
+floor(1.1) := 42;
+=end code</seg>
       </tuv>
     </tu>
     <tu>
@@ -1987,6 +2419,52 @@ say $p1.result;         # resultado</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
+:($a, $b: $c);</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155318Z" creationid="explorer" creationdate="20161111T155318Z">
+        <seg>=for code :skip-test
+:($a, $b: $c);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+===SORRY!===
+'self' used where no object is available</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155122Z" creationid="explorer" creationdate="20161111T155122Z">
+        <seg>=for code :skip-test
+===SORRY!===
+'self' used where no object is available</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+===SORRY!===
+A does not support inheritance, so B cannot inherit from it</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T163153Z" creationid="explorer" creationdate="20161106T163153Z">
+        <seg>=for code :skip-test
+===SORRY!===
+A does not support inheritance, so B cannot inherit from it</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+===SORRY!===
+Can only use : as invocant marker in a signature after the first parameter</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155321Z" creationid="explorer" creationdate="20161111T155321Z">
+        <seg>=for code :skip-test
+===SORRY!===
+Can only use : as invocant marker in a signature after the first parameter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
 ===SORRY!===
 Cannot declare a match variable</seg>
       </tuv>
@@ -2000,12 +2478,36 @@ Cannot declare a match variable</seg>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
 ===SORRY!===
+Cannot use 'our' with individual multi candidates.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164815Z" creationid="explorer" creationdate="20161106T164815Z">
+        <seg>=for code :skip-test
+===SORRY!===
+Cannot use 'our' with individual multi candidates.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+===SORRY!===
 Confused</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214336Z" creationid="explorer" creationdate="20161101T214336Z">
         <seg>=for code :skip-test
 ===SORRY!===
 Confused</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+===SORRY!===
+Name a used for more than one named parameter</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170709Z" creationid="explorer" creationdate="20161106T170709Z">
+        <seg>=for code :skip-test
+===SORRY!===
+Name a used for more than one named parameter</seg>
       </tuv>
     </tu>
     <tu>
@@ -2047,11 +2549,51 @@ Quantifier quantifies nothing</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
+Cannot access '$x' through CALLER, because it is not declared as dynamic</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155622Z" creationid="explorer" creationdate="20161111T155622Z">
+        <seg>=for code :skip-test
+Cannot access '$x' through CALLER, because it is not declared as dynamic</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
 Failed to change the working directory to '/home/other': permission denied</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211659Z" creationid="explorer" creationdate="20161101T211659Z">
         <seg>=for code :skip-test
 Failed to change the working directory to '/home/other': permission denied</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+Failed to create directory 'destination' with mode '0o755': File exists</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160243Z" creationid="explorer" creationdate="20161111T160243Z">
+        <seg>=for code :skip-test
+Failed to create directory 'destination' with mode '0o755': File exists</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+Failed to create link called 'my-link' on target 'does-not exist': Failed to link file</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155748Z" creationid="explorer" creationdate="20161111T155748Z">
+        <seg>=for code :skip-test
+Failed to create link called 'my-link' on target 'does-not exist': Failed to link file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+Failed to create symlink called 'euler' on target '/home/myhome/euler-1.pl6': Failed to symlink file: file already exist</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160722Z" creationid="explorer" creationdate="20161111T160722Z">
+        <seg>=for code :skip-test
+Failed to create symlink called 'euler' on target '/home/myhome/euler-1.pl6': Failed to symlink file: file already exist</seg>
       </tuv>
     </tu>
     <tu>
@@ -2077,6 +2619,16 @@ Failed to get the working directory: permission denied</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
+Failed to move '/tmp/alpha.p6' to 'test.p6': :createonly specified and destination exists</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160004Z" creationid="explorer" creationdate="20161111T160004Z">
+        <seg>=for code :skip-test
+Failed to move '/tmp/alpha.p6' to 'test.p6': :createonly specified and destination exists</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
 Failed to remove the directory 'lib': Directory not empty</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212130Z" creationid="explorer" creationdate="20161101T212130Z">
@@ -2097,11 +2649,31 @@ Failed to remove the file 'secret': Permission defined</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
+Failed to rename 'source' to 'destination': is a directory</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160531Z" creationid="explorer" creationdate="20161111T160531Z">
+        <seg>=for code :skip-test
+Failed to rename 'source' to 'destination': is a directory</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
 Failed to set the mode of '/home/other' to '0o777': Permission denied</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204538Z" creationid="explorer" creationdate="20161101T204538Z">
         <seg>=for code :skip-test
 Failed to set the mode of '/home/other' to '0o777': Permission denied</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+Placeholder variable $^foo may not be used here because the surrounding block takes no signature</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165931Z" creationid="explorer" creationdate="20161106T165931Z">
+        <seg>=for code :skip-test
+Placeholder variable $^foo may not be used here because the surrounding block takes no signature</seg>
       </tuv>
     </tu>
     <tu>
@@ -2157,6 +2729,56 @@ class X::IO::Dir does X::IO is Exception { }</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>=for code :skip-test
+class X::IO::Link does X::IO is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155723Z" creationid="explorer" creationdate="20161111T155723Z">
+        <seg>=for code :skip-test
+class X::IO::Link does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+class X::IO::Mkdir does X::IO is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160220Z" creationid="explorer" creationdate="20161111T160220Z">
+        <seg>=for code :skip-test
+class X::IO::Mkdir does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+class X::IO::Move does X::IO is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155916Z" creationid="explorer" creationdate="20161111T155916Z">
+        <seg>=for code :skip-test
+class X::IO::Move does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+class X::IO::Rename does X::IO is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160427Z" creationid="explorer" creationdate="20161111T160427Z">
+        <seg>=for code :skip-test
+class X::IO::Rename does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+class X::IO::Symlink does X::IO is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160624Z" creationid="explorer" creationdate="20161111T160624Z">
+        <seg>=for code :skip-test
+class X::IO::Symlink does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
 class X::IO::Unlink does X::IO is Exception { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212219Z" creationid="explorer" creationdate="20161101T212219Z">
@@ -2172,6 +2794,18 @@ class X::Syntax::Confused does X::Syntax { }</seg>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214206Z" creationid="explorer" creationdate="20161101T214206Z">
         <seg>=for code :skip-test
 class X::Syntax::Confused does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+enum A &lt;Ax Ay&gt;;
+class B is A { };</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T163146Z" creationid="explorer" creationdate="20161106T163146Z">
+        <seg>=for code :skip-test
+enum A &lt;Ax Ay&gt;;
+class B is A { };</seg>
       </tuv>
     </tu>
     <tu>
@@ -2202,6 +2836,26 @@ my class X::IO::Rmdir does X::IO is Exception { }</seg>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212058Z" creationid="explorer" creationdate="20161101T212058Z">
         <seg>=for code :skip-test
 my class X::IO::Rmdir does X::IO is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+self;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155100Z" creationid="explorer" creationdate="20161111T155100Z">
+        <seg>=for code :skip-test
+self;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=for code :skip-test
+sub f(:$a, :a(:@b)) { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170703Z" creationid="explorer" creationdate="20161106T170703Z">
+        <seg>=for code :skip-test
+sub f(:$a, :a(:@b)) { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -2260,6 +2914,14 @@ unless 1 { } else { };</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110211T181749Z">
         <seg>=head1 NOTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 Operators</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162450Z" creationid="explorer" creationdate="20161106T162450Z">
+        <seg>=head1 Operadores</seg>
       </tuv>
     </tu>
     <tu>
@@ -2480,6 +3142,22 @@ unless 1 { } else { };</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 infix &lt;=&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162705Z" creationid="explorer" creationdate="20161106T162705Z">
+        <seg>=head2 &lt;=&gt; infijo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 infix cmp</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162518Z" creationid="explorer" creationdate="20161106T162518Z">
+        <seg>=head2 cmp infijo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 method abs2rel</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190042Z" creationid="explorer" creationdate="20161101T190042Z">
@@ -2536,6 +3214,14 @@ unless 1 { } else { };</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 method child-typename</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T163256Z" creationid="explorer" creationdate="20161106T163256Z">
+        <seg>=head2 método child-typename</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 method curdir</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142655Z" creationid="explorer" creationdate="20161101T142655Z">
@@ -2576,6 +3262,14 @@ unless 1 { } else { };</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 method from</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160027Z" creationid="explorer" creationdate="20161111T160027Z">
+        <seg>=head2 método from</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 method is-absolute</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185921Z" creationid="explorer" creationdate="20161101T185921Z">
@@ -2588,6 +3282,14 @@ unless 1 { } else { };</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185957Z" creationid="explorer" creationdate="20161101T185957Z">
         <seg>=head2 método join</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method key</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T161355Z" creationid="explorer" creationdate="20161111T161355Z">
+        <seg>=head2 método key</seg>
       </tuv>
     </tu>
     <tu>
@@ -2608,10 +3310,50 @@ unless 1 { } else { };</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 method mode</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160338Z" creationid="explorer" creationdate="20161111T160338Z">
+        <seg>=head2 método mode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method name</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170726Z" creationid="explorer" creationdate="20161106T170726Z">
+        <seg>=head2 método name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method os-error</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165133Z" creationid="explorer" creationdate="20161106T165133Z">
+        <seg>=head2 método os-error</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method parent</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T163336Z" creationid="explorer" creationdate="20161106T163336Z">
+        <seg>=head2 método parent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 method path</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185929Z" creationid="explorer" creationdate="20161101T185929Z">
         <seg>=head2 método path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method placeholder</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170004Z" creationid="explorer" creationdate="20161106T170004Z">
+        <seg>=head2 método placeholder</seg>
       </tuv>
     </tu>
     <tu>
@@ -2628,6 +3370,14 @@ unless 1 { } else { };</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205303Z" creationid="explorer" creationdate="20161101T205303Z">
         <seg>=head2 método promise</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method radix</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T154846Z" creationid="explorer" creationdate="20161111T154846Z">
+        <seg>=head2 método radix</seg>
       </tuv>
     </tu>
     <tu>
@@ -2672,10 +3422,34 @@ unless 1 { } else { };</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head2 method symbol</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155636Z" creationid="explorer" creationdate="20161111T155636Z">
+        <seg>=head2 método symbol</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method target</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155759Z" creationid="explorer" creationdate="20161111T155759Z">
+        <seg>=head2 método target</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head2 method tmpdir</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185912Z" creationid="explorer" creationdate="20161101T185912Z">
         <seg>=head2 método tmpdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head2 method to</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160136Z" creationid="explorer" creationdate="20161111T160136Z">
+        <seg>=head2 método to</seg>
       </tuv>
     </tu>
     <tu>
@@ -4336,6 +5110,15 @@ denominator.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A C&lt;QuantHash&gt; represents a set of objects, represented as the keys of a
+C&lt;Hash&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T161718Z" creationid="explorer" creationdate="20161106T161718Z">
+        <seg>Un C&lt;QuantHash&gt; representa un conjunto de objetos, que se representan como claves de un C&lt;Hash&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A C&lt;live&gt; L&lt;Supply&gt;
 is created by the L&lt;Supplier&gt; factory, each emitted value is passed to
 all the active tappers as they are added:</seg>
@@ -4497,6 +5280,25 @@ setting of the attributes of the created object:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A typical
+error message is</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160002Z" creationid="explorer" creationdate="20161111T160002Z">
+        <seg>Un mensaje de error típico es</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A typical error message from this class is I&lt;Argument not allowed on
+negated pair with key 'a'&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T161346Z" creationid="explorer" creationdate="20161111T161346Z">
+        <seg>Un mensaje de error típico de esta clase es I&lt;Argument not allowed on
+negated pair with key 'a'&gt; (Argumento no permitido en un par negado con la clave 'a').</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A typical error message is</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204525Z" creationid="explorer" creationdate="20161101T204525Z">
@@ -4519,6 +5321,14 @@ promise once it returns successfully, or break it when the code dies.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T173823Z" creationid="ramiroencinas" creationdate="20160502T173823Z">
         <seg>Las promesas se utilizan muy a menudo para ejecutar un trozo de código y obtener el resultado correcto o una excepción.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.new(2, 3);</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164619Z" creationid="explorer" creationdate="20161106T164619Z">
+        <seg>A.new(2, 3);</seg>
       </tuv>
     </tu>
     <tu>
@@ -4548,6 +5358,17 @@ user code should, where possible, avoid the lower level concurrency APIs
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212447Z" creationid="explorer" creationdate="20161101T212447Z">
         <seg>Todas las excepciones que se lanzan por parte de L&lt;Proc::Async&gt; tienen en común este rol.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All standard QuantHash containers have a default value that is false
+(such as C&lt;0&gt; or C&lt;''&gt; or C&lt;Nil&gt; or C&lt;Bool::False&gt;), and keep around only those
+entries with non-default values, automatically deleting any entry if its
+value goes to that (false) default value.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162330Z" creationid="explorer" creationdate="20161106T162330Z">
+        <seg>Todos los contenedores QuantHash estándares tienen un valor por defecto que es falso (tal como C&lt;0&gt; o C&lt;''&gt; o C&lt;Nil&gt; o C&lt;Bool::False&gt;), y solo mantiene las entradas con valores no por defecto, borrando automáticamente cualquier entrada si su valor llega a ese valor (falso) por defecto.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4890,6 +5711,14 @@ C&lt;react&gt; block described earlier:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Coerces it's arguments to Stringy.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162653Z" creationid="explorer" creationdate="20161106T162653Z">
+        <seg>Convierte sus argumentos a cadenas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Common role for IO related errors.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204136Z" creationid="explorer" creationdate="20161101T204136Z">
@@ -4902,6 +5731,16 @@ C&lt;react&gt; block described earlier:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191329Z" creationid="explorer" creationdate="20161101T191329Z">
         <seg>Rol común para los errores relacionados con Pod.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Common role for all exceptions that are triggered by some error
+reported by the operating system (failed IO, system calls,
+fork, memory allocation).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165121Z" creationid="explorer" creationdate="20161106T165121Z">
+        <seg>Rol común para todas excepciones que se disparan por algún error reportado por el sistema operativo (error de E/S, llamadas del sistema, fork, asignación de memoria).</seg>
       </tuv>
     </tu>
     <tu>
@@ -4927,6 +5766,24 @@ strings (such as Cat).</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T191909Z" creationid="explorer" creationdate="20161101T191909Z">
         <seg>Rol común debido a errores de sintaxis lanzados por el compilador.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compile time error thrown when trying to inherit from a type that does
+not support inheritance (like a package or an enum).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T163139Z" creationid="explorer" creationdate="20161106T163139Z">
+        <seg>Error en tiempo de compilación al intentar heredar de un tipo que no soporta herencia (como un paquete o un enumerado).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compile time error thrown when two named parameters have the same name,
+potentially through aliases.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170700Z" creationid="explorer" creationdate="20161106T170700Z">
+        <seg>Error en tiempo de compilación cuando dos parámetros con nombre tienen el mismo nombre, quizás debido a que son alias.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4987,10 +5844,26 @@ the following:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Error class for a failed file move operation.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155956Z" creationid="explorer" creationdate="20161111T155956Z">
+        <seg>Clase de error para una operación de movimiento fallida.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Error class for failed C&lt;chmod&gt; calls.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204509Z" creationid="explorer" creationdate="20161101T204509Z">
         <seg>Clase de error para las llamadas fallidas a C&lt;chmod&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error class for failed L&lt;/routine/link&gt; operation.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155746Z" creationid="explorer" creationdate="20161111T155746Z">
+        <seg>Clase de error para las operaciones fallidas de L&lt;/routine/link&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5007,6 +5880,30 @@ the following:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212236Z" creationid="explorer" creationdate="20161101T212236Z">
         <seg>Clase de error para las fallidas operaciones L&lt;/routine/unlink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error class for failed L&lt;mkdir&gt; operations.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160242Z" creationid="explorer" creationdate="20161111T160242Z">
+        <seg>Clase de error para las operaciones fallidas de L&lt;mkdir&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error class for failed L&lt;symlink&gt; creation.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160720Z" creationid="explorer" creationdate="20161111T160720Z">
+        <seg>Clase de error para la creación fallida de L&lt;symlink&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error class for failed file or directory rename operations.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160508Z" creationid="explorer" creationdate="20161111T160508Z">
+        <seg>Clase de error para las operaciones fallidas al renombrar un archivo o directorio.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5096,10 +5993,27 @@ example:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For any C&lt;QuantHash&gt;, the C&lt;.total&gt; methods returns the current
+sum of the values.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T161939Z" creationid="explorer" creationdate="20161106T161939Z">
+        <seg>Para cualquier C&lt;QuantHash&gt;, los métodos C&lt;.total&gt; devuelven la suma actual de los valores.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160404T181746Z" creationid="explorer" creationdate="20160404T181746Z">
         <seg>Por ejemplo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example C&lt;our multi sub foo() { }&gt; dies with</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164813Z" creationid="explorer" creationdate="20161106T164813Z">
+        <seg>Por ejemplo C&lt;our multi sub foo() { }&gt; muere con</seg>
       </tuv>
     </tu>
     <tu>
@@ -5387,6 +6301,14 @@ the program has been started:</seg>
         <seg>Para escribir en la entrada estándar del comando indica el adverbio C&lt;:w&gt; en el constructor y utiliza los métodos L&lt;write|/type/Proc::Async#method_write&gt;,
 L&lt;print|/type/Proc::Async#method_print&gt; o
 L&lt;say|/type/Proc::Async#method_say&gt; para escribir en la tubería abierta una vez que se ejecute el comando:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you write code like this:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164329Z" creationid="explorer" creationdate="20161106T164329Z">
+        <seg>Si escribe código como este:</seg>
       </tuv>
     </tu>
     <tu>
@@ -5813,6 +6735,14 @@ new class.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Please declare an our-scoped proto instead</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164953Z" creationid="explorer" creationdate="20161106T164953Z">
+        <seg>Por favor, en su lugar declare un proto con ámbito our</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Po          Other_Punctuation</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193738Z" creationid="explorer" creationdate="20160428T193738Z">
@@ -5913,10 +6843,82 @@ was provided.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the destination of the failed L&lt;move&gt; operation</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160153Z" creationid="explorer" creationdate="20161111T160153Z">
+        <seg>Devuelve el destino de la operación L&lt;move&gt; fallida</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the destination of the failed rename operation</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160559Z" creationid="explorer" creationdate="20161111T160559Z">
+        <seg>Devuelve el destino de la operación de renombrado fallida</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the error as reported by the operating system.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165352Z" creationid="explorer" creationdate="20161106T165352Z">
+        <seg>Devuelve el error que el sistema operativo reporta.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the key of the pair that caused the error.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T161433Z" creationid="explorer" creationdate="20161111T161433Z">
+        <seg>Devuelve la clave de la pareja que provocó el error.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the level of the enumeration list, starting at 1.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211153Z" creationid="explorer" creationdate="20161101T211153Z">
         <seg>Devuelve el nivel de la lista enumerada, empezando en 1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the name of the (first) illegally used placeholder.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170100Z" creationid="explorer" creationdate="20161106T170100Z">
+        <seg>Devuelve el nombre del (primer) sitio reservado usado ilegalmente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the name of the link target, i.e. the existing file.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155830Z" creationid="explorer" creationdate="20161111T155830Z">
+        <seg>Devuelve el nombre del enlace del target, es decir, el archivo existente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the name of the link that could not be created.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155854Z" creationid="explorer" creationdate="20161111T155854Z">
+        <seg>Devuelve el nombre del enlace que no se ha podido crear.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the name of the symbol that was passed to CALLER.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155653Z" creationid="explorer" creationdate="20161111T155653Z">
+        <seg>Devuelve el nombre del símbolo que se pasó a CALLER.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the name that was used for more than one parameter.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170757Z" creationid="explorer" creationdate="20161106T170736Z">
+        <seg>Devuelve el nombre que se uso en más de un parámetro.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5953,10 +6955,58 @@ was provided.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the path that L&lt;symlink&gt; failed to create a link to.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160833Z" creationid="explorer" creationdate="20161111T160833Z">
+        <seg>Devuelve la ruta que L&lt;symlink&gt; no pudo crear.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the path that L&lt;symlink&gt; failed to create.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160747Z" creationid="explorer" creationdate="20161111T160747Z">
+        <seg>Devuelve la ruta que la operación L&lt;symlink&gt; no pudo crear.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the path that the L&lt;mkdir&gt; operation failed to create.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160324Z" creationid="explorer" creationdate="20161111T160324Z">
+        <seg>Devuelve la ruta que la operación L&lt;mkdir&gt; no pudo crear.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the path that was passed to the failed C&lt;chdir&gt; call.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211748Z" creationid="explorer" creationdate="20161101T211748Z">
         <seg>Devuelve la ruta que se pasó a la fallida llamada a C&lt;chdir&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the permissions mask of the failed L&lt;mkdir&gt; operation as an L&lt;Int&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160402Z" creationid="explorer" creationdate="20161111T160402Z">
+        <seg>Devuelve la máscara de permisos de la operación L&lt;mkdir&gt; fallida, como un L&lt;Int&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the source of the failed L&lt;move&gt; operation</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160127Z" creationid="explorer" creationdate="20161111T160127Z">
+        <seg>Devuelve el fuente de la operación L&lt;move&gt; fallida</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the source of the failed rename operation</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T160550Z" creationid="explorer" creationdate="20161111T160550Z">
+        <seg>Devuelve el fuente de la operación de renombrado fallida</seg>
       </tuv>
     </tu>
     <tu>
@@ -5981,6 +7031,14 @@ was provided.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193803Z" creationid="explorer" creationdate="20160428T193803Z">
         <seg>Sc          Currency_Symbol (símbolo monetario)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See also: L&lt;Signature&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155333Z" creationid="explorer" creationdate="20161111T155333Z">
+        <seg>Ver también: L&lt;Signature&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6096,11 +7154,37 @@ to be kept.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specialized form for Int.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162829Z" creationid="explorer" creationdate="20161106T162829Z">
+        <seg>Forma especial para Int.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syntax error that is thrown when the radix of a radix number is
+not allowed, like C&lt;&lt; :1&lt;1&gt; &gt;&gt; or C&lt;&lt; :42&lt;ouch&gt; &gt;&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T154827Z" creationid="explorer" creationdate="20161111T154827Z">
+        <seg>Error de sintaxis que se lanza cuando no se permite la base de un número racional, como C&lt;&lt; :1&lt;1&gt; &gt;&gt; o C&lt;&lt; :42&lt;ouch&gt; &gt;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Syntax error thrown when C&lt;#`&gt; is encountered and it is not followed by
 an opening bracket.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214108Z" creationid="explorer" creationdate="20161101T214018Z">
         <seg>Erro de sintaxis que se lanza cuando se encuentra C&lt;#`&gt; y no le sigue una llave de apertura.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syntax error thrown when C&lt;self&gt; is referenced in a place where no
+invocant is available.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155058Z" creationid="explorer" creationdate="20161111T155058Z">
+        <seg>Error de sintaxis que se lanza cuando se referencia a C&lt;self&gt; en un lugar donde no se dispone de ningún llamante.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6134,6 +7218,15 @@ to quantify) is encountered in a regular expression.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214924Z" creationid="explorer" creationdate="20161101T214924Z">
         <seg>Error de sintaxis cuando un solitario cuantificador (sin un átomo precedente al cual cuantificar) se encuentra en una expresión regular.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syntax error when the invocant in a signature is anywhere else than after the
+first parameter.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155316Z" creationid="explorer" creationdate="20161111T155316Z">
+        <seg>Error de sintaxis cuando el llamante está en cualquier sitio menos en el primer parámetro de una firma.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6503,11 +7596,27 @@ necessary to do it for these.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the type that tries to inherit.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T163328Z" creationid="explorer" creationdate="20161106T163328Z">
+        <seg>El nombre del tipo del que se intenta heredar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The next level of the concurrency API is supplied by classes that
 implement the interface defined by the role L&lt;Scheduler&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160523T195650Z" creationid="ramiroencinas" creationdate="20160523T195650Z">
         <seg>El siguiente nivel de la API sobre concurrencia lo ofrecen las clases que implementan la interface definida por el rol L&lt;Scheduler&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The offensive radix.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T154908Z" creationid="explorer" creationdate="20161111T154908Z">
+        <seg>La base ofensiva.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6583,6 +7692,14 @@ L&lt;IO::Spec::Unix&gt; and L&lt;IO::Spec::Win32&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215327Z" creationid="ramiroencinas" creationdate="20160527T215327Z">
         <seg>La sección crítica es la tercera línea, donde se extiende el array.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The type object that the child tried to inherit from.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T163514Z" creationid="explorer" creationdate="20161106T163514Z">
+        <seg>El tipo del objeto del que el hijo intentó heredar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6669,6 +7786,14 @@ promise without going through the corresponding C&lt;Vow&gt; object.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is an error because the C&lt;!&gt; negation implies that the value is C&lt;False&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T161254Z" creationid="explorer" creationdate="20161111T161254Z">
+        <seg>Este es un error debido a que la negación C&lt;!&gt; implica que el valor es C&lt;False&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is considered to be such a commonly required pattern that it is
 also provided as subroutines:</seg>
       </tuv>
@@ -6751,6 +7876,22 @@ avoided in user code.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thrown from L&lt;Mu.new&gt; when positional arguments are passed to it.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164613Z" creationid="explorer" creationdate="20161106T164613Z">
+        <seg>Se lanza desde L&lt;Mu.new&gt; cuando se le pasan argumentos posicionales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thrown if a colonpair illegally has a value, for example C&lt;:!a(1)&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T161204Z" creationid="explorer" creationdate="20161111T161204Z">
+        <seg>Se lanza si una pareja de puntos tiene un valor de forma ilegal, por ejemplo C&lt;:!a(1)&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thrown when a C&lt;return&gt; is called from outside a routine.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211303Z" creationid="explorer" creationdate="20161101T211303Z">
@@ -6759,10 +7900,43 @@ avoided in user code.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thrown when a multi is declared with an incompatible scope.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164801Z" creationid="explorer" creationdate="20161106T164801Z">
+        <seg>Se lanza cuando se declara un multi con un ámbito incompatible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thrown when a piece of stub code (created via C&lt;!!!&gt; or C&lt;...&gt;) is executed.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205802Z" creationid="explorer" creationdate="20161101T205802Z">
         <seg>Se lanza cuando se ejecuta código talonero (creado con C&lt;!!!&gt; o C&lt;...&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thrown when a placeholder variable is used in a block that does not allow a
+signature (for example C&lt;class A { $^foo }&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165923Z" creationid="explorer" creationdate="20161106T165923Z">
+        <seg>Se lanza cuando una variable de sitio reservado se usa en un bloque que no permite una firma (por ejemplo, C&lt;class A { $^foo }&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thrown when a return type check fails.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155439Z" creationid="explorer" creationdate="20161111T155439Z">
+        <seg>Se lanza cuando falla la comprobación de tipo en un return.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thrown when trying to access a non dynamic variable through CALLER</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155614Z" creationid="explorer" creationdate="20161111T155614Z">
+        <seg>Se lanza cuando se intenta acceder a una variable no dinámica a través de CALLER</seg>
       </tuv>
     </tu>
     <tu>
@@ -6893,6 +8067,26 @@ underlying structure is altered and that operation is not async safe.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215120Z" creationid="ramiroencinas" creationdate="20160527T215120Z">
         <seg>Cuando se asigna inicialmente un elemento de un L&lt;Array&gt; o de un L&lt;Hash&gt; la estructura subyacente cambia y esa operación es insegura asincrónicamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When asked to behave as a list it ignores its C&lt;.values&gt; and
+returns only C&lt;.keys&gt; (possibly replicated by weight in the case of bag
+types).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T161900Z" creationid="explorer" creationdate="20161106T161900Z">
+        <seg>Cuando se le pide que se comporte como una lista, ignora sus C&lt;.values&gt; y solo devuelve C&lt;.keys&gt; (posiblemente replicado por el peso en el caso de los tipos bolso).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you call C&lt;start&gt; twice on the same L&lt;Proc::Async|/type/Proc::Async&gt;
+object, the second invocation will die with an
+C&lt;X::Proc::Async::AlreadyStarted&gt; exception.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170353Z" creationid="explorer" creationdate="20161106T170353Z">
+        <seg>Cuando llama a C&lt;start&gt; dos veces sobre el mismo objeto L&lt;Proc::Async|/type/Proc::Async&gt;, la segunda invocación morirá con una excepción C&lt;X::Proc::Async::AlreadyStarted&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7140,6 +8334,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class A { };</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164616Z" creationid="explorer" creationdate="20161106T164616Z">
+        <seg>class A { };</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class AST { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004536Z" creationid="explorer" creationdate="20161102T004536Z">
@@ -7166,8 +8368,8 @@ these in previous chapters.</seg>
       <tuv lang="EN-US">
         <seg>class FatRat is Cool does Rational[Int, Int] {}</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="explorer" changedate="20161102T010104Z" creationid="explorer" creationdate="20161102T010104Z">
-        <seg>class FatRat is Cool does Rational[Int, Int] {}</seg>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164105Z" creationid="explorer" creationdate="20161102T010104Z">
+        <seg>class FatRat is Cool hace Rational[Int, Int] {}</seg>
       </tuv>
     </tu>
     <tu>
@@ -7308,10 +8510,74 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class X::Bind is Exception {}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164315Z" creationid="explorer" creationdate="20161106T164315Z">
+        <seg>class X::Bind is Exception {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Caller::NotDynamic is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155547Z" creationid="explorer" creationdate="20161111T155547Z">
+        <seg>class X::Caller::NotDynamic is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Constructor::Positional is Exception { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164535Z" creationid="explorer" creationdate="20161106T164535Z">
+        <seg>class X::Constructor::Positional is Exception { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class X::ControlFlow::Return is X::ControlFlow { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T211243Z" creationid="explorer" creationdate="20161101T211243Z">
         <seg>class X::ControlFlow::Return is X::ControlFlow { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Declaration::Scope::Multi is X::Declaration::Scope { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164736Z" creationid="explorer" creationdate="20161106T164736Z">
+        <seg>class X::Declaration::Scope::Multi is X::Declaration::Scope { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Inheritance::Unsupported does X::Comp { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162944Z" creationid="explorer" creationdate="20161106T162944Z">
+        <seg>class X::Inheritance::Unsupported hace X::Comp { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Placeholder::Block does X::Comp {}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165827Z" creationid="explorer" creationdate="20161106T165827Z">
+        <seg>class X::Placeholder::Block hace X::Comp {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Placeholder::Mainline is X::Placeholder::Block { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T163753Z" creationid="explorer" creationdate="20161106T163753Z">
+        <seg>class X::Placeholder::Mainline es X::Placeholder::Block { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Proc::Async::AlreadyStarted is Exception {}</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170233Z" creationid="explorer" creationdate="20161106T170233Z">
+        <seg>class X::Proc::Async::AlreadyStarted is Exception {}</seg>
       </tuv>
     </tu>
     <tu>
@@ -7356,6 +8622,22 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class X::Syntax::NegatedPair does X::Syntax { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T161112Z" creationid="explorer" creationdate="20161111T161112Z">
+        <seg>class X::Syntax::NegatedPair does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Syntax::Number::RadixOutOfRange does X::Syntax { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T154535Z" creationid="explorer" creationdate="20161111T154535Z">
+        <seg>class X::Syntax::Number::RadixOutOfRange does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class X::Syntax::P5 does X::Syntax { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214452Z" creationid="explorer" creationdate="20161101T214452Z">
@@ -7372,6 +8654,22 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class X::Syntax::Self::WithoutObject does X::Syntax { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T154957Z" creationid="explorer" creationdate="20161111T154957Z">
+        <seg>class X::Syntax::Self::WithoutObject does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::Syntax::Signature::InvocantMarker does X::Syntax { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155207Z" creationid="explorer" creationdate="20161111T155207Z">
+        <seg>class X::Syntax::Signature::InvocantMarker does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class X::Syntax::UnlessElse does X::Syntax { }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T215123Z" creationid="explorer" creationdate="20161101T215123Z">
@@ -7384,6 +8682,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T004259Z" creationid="explorer" creationdate="20161102T004259Z">
         <seg>class X::Syntax::Variable::Match does X::Syntax { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>class X::TypeCheck::Return is X::TypeCheck { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155412Z" creationid="explorer" creationdate="20161111T155412Z">
+        <seg>class X::TypeCheck::Return is X::TypeCheck { }</seg>
       </tuv>
     </tu>
     <tu>
@@ -7496,6 +8802,22 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204207Z" creationid="ramiroencinas" creationdate="20160520T204207Z">
         <seg>emit($_);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>enum Order (:Less(-1), :Same(0), :More(1));</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162436Z" creationid="explorer" creationdate="20161106T162436Z">
+        <seg>enum Order (:Less(-1), :Same(0), :More(1));</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>f();</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155448Z" creationid="explorer" creationdate="20161111T155448Z">
+        <seg>f();</seg>
       </tuv>
     </tu>
     <tu>
@@ -7668,6 +8990,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>in the mainline dies with</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155119Z" creationid="explorer" creationdate="20161111T155119Z">
+        <seg>en la línea principal se muere con</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>is copy)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190113Z" creationid="explorer" creationdate="20161101T190113Z">
@@ -7680,6 +9010,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120630T173216Z">
         <seg>es equivalente a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>it dies with an C&lt;X::Bind&gt; exception:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T164348Z" creationid="explorer" creationdate="20161106T164348Z">
+        <seg>se muere con una excepción C&lt;X::Bind&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7870,10 +9208,26 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>method name() returns Str:D</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170737Z" creationid="explorer" creationdate="20161106T170737Z">
+        <seg>method name() returns Str:D</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>method new(&amp;callback, *@dependencies) {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164539Z" creationid="ramiroencinas" creationdate="20160528T164539Z">
         <seg>method new(&amp;callback, *@dependencias) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method os-error() returns Str:D</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165223Z" creationid="explorer" creationdate="20161106T165223Z">
+        <seg>method os-error() returns Str:D</seg>
       </tuv>
     </tu>
     <tu>
@@ -7906,6 +9260,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T205307Z" creationid="explorer" creationdate="20161101T205307Z">
         <seg>method promise()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>method radix() returns Int:D</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T154850Z" creationid="explorer" creationdate="20161111T154850Z">
+        <seg>method radix() returns Int:D</seg>
       </tuv>
     </tu>
     <tu>
@@ -7986,6 +9348,22 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T185800Z" creationid="explorer" creationdate="20161101T185800Z">
         <seg>method updir(IO::Spec:D:) returns Str</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi sub infix:&lt;cmp&gt;(\a, \b) returns Order:D</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162737Z" creationid="explorer" creationdate="20161106T162525Z">
+        <seg>multi sub infix:&lt;cmp&gt;(\a, \b) devuelve Order:D</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi sub infix:«&lt;=&gt;»(Int:D \a, Int:D \b) returns Order:D</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162806Z" creationid="explorer" creationdate="20161106T162806Z">
+        <seg>multi sub infix:«&lt;=&gt;»(Int:D \a, Int:D \b) devuelve Order:D</seg>
       </tuv>
     </tu>
     <tu>
@@ -8154,6 +9532,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203957Z" creationid="ramiroencinas" creationdate="20160520T203957Z">
         <seg>my $p2 = start {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $proc = Proc::Async.new("echo");</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170413Z" creationid="explorer" creationdate="20161106T170413Z">
+        <seg>my $proc = Proc::Async.new("echo");</seg>
       </tuv>
     </tu>
     <tu>
@@ -8454,6 +9840,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my class X::Signature::NameClash does X::Comp { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170609Z" creationid="explorer" creationdate="20161106T170609Z">
+        <seg>my class X::Signature::NameClash does X::Comp { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>or</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110608T173604Z">
@@ -8614,6 +10008,14 @@ say $p2.result;         # muere con "oh no"
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>role QuantHash does Associative { }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T161625Z" creationid="explorer" creationdate="20161106T161625Z">
+        <seg>role QuantHash does Associative { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>role Stringy { ... }</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190919Z" creationid="explorer" creationdate="20161101T190919Z">
@@ -8626,6 +10028,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T204126Z" creationid="explorer" creationdate="20161101T204126Z">
         <seg>role X::IO does X::OS {}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>role X::OS { has $.os-error }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161106T165022Z" creationid="explorer" creationdate="20161106T165022Z">
+        <seg>role X::OS { has $.os-error }</seg>
       </tuv>
     </tu>
     <tu>
@@ -8930,6 +10340,14 @@ say $p2.result;         # muere con "oh no"
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205412Z" creationid="ramiroencinas" creationdate="20160520T205412Z">
         <seg>start {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sub f() returns Int { "foo" }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161111T155441Z" creationid="explorer" creationdate="20161111T155441Z">
+        <seg>sub f() returns Int { "foo" }</seg>
       </tuv>
     </tu>
     <tu>
