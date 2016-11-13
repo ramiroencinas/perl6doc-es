@@ -6273,6 +6273,18 @@ on the queue.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the channel has been closed with the L&lt;method
+close|/type/Channel#method_close&gt; then any C&lt;send&gt; will cause the
+exception L&lt;X::Channel::SendOnClosed&gt; to be thrown, and a C&lt;receive&gt;
+will throw a L&lt;X::Channel::ReceiveOnClosed&gt; if there are no more items
+on the queue.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T113213Z" creationid="ramiroencinas" creationdate="20161113T113213Z">
+        <seg>Si el canal se cierra con el L&lt;método close|/type/Channel#method_close&gt; cualquier C&lt;send&gt; producirá una excepción L&lt;X::Channel::SendOnClosed&gt;, y un C&lt;receive&gt; producirá una excepción L&lt;X::Channel::ReceiveOnClosed&gt; en el caso de no haber más elementos en la cola.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the exception is marked
 as seen by a C&lt;when&gt; or C&lt;default&gt; block, the exception is caught and handled.</seg>
       </tuv>
@@ -7809,6 +7821,17 @@ object.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T011117Z" creationid="explorer" creationdate="20161102T011117Z">
         <seg>Existen dos formas comunes de generar objetos C&lt;FatRat&gt;: a través del constructor C&lt;FatRat.new(Int, Int)&gt;, que los genera a partir del numerador y denominador, o llamando al método C&lt;.FatRat&gt; sobre un objeto L&lt;Int&gt; o L&lt;Rat&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is also the non-blocking L&lt;method poll|/type/Channel#method_poll&gt;
+that returns an available item from the channel or L&lt;Nil&gt; if there
+is no item or the channel is closed, this does of course mean that the
+channel must be checked to determine whether it is closed:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T113550Z" creationid="ramiroencinas" creationdate="20161113T113550Z">
+        <seg>También existe el L&lt;método poll|/type/Channel#method_poll&gt; que devuelve el elemento disponible del canal o un L&lt;Nil&gt; sino hay más elementos o si el canal está cerrado. Es conveniente asegurarse antes de si el canal está cerrado o no:</seg>
       </tuv>
     </tu>
     <tu>
