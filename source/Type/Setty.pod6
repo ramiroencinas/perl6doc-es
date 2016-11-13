@@ -11,6 +11,22 @@ See L<Set> and L<SetHash>.
 
 =head1 Methods
 
+=head2 method new-from-pairs
+
+Defined as:
+
+    method new-from-pairs(*@pairs) returns Setty:D
+
+Constructs a Setty object from a list of L«C<Pair> objects|/type/Pair»
+given as positional arguments:
+
+    say Set.new-from-pairs: 'butter' => 0.22, 'salt' => 0, 'sugar' => 0.02;
+    # OUTPUT:
+    # set(butter, sugar)
+
+B<Note:> be sure you aren't accidentally passing the Pairs as positional arguments;
+the quotes around the keys in the above example are significant.
+
 =head2 method grab
 
     method grab($count = 1)
@@ -164,6 +180,28 @@ Returns C<True> if the invocant contains at least one element.
 
     my $s2 = $s1 ∩ Set.new(4, 5);                     # set intersection operator
     say $s2.Bool;                                     # False
+
+=head2 method Mix
+
+Defined as:
+
+    method Mix(Setty:D:) returns Mix:D
+
+Returns a L<Mix|/type/Mix> containing the elements of the invocant.
+
+    my Mix $b = Set.new(1, 2, 3).Mix;
+    say $b;                                           # mix(3, 1, 2)
+
+=head2 method MixHash
+
+Defined as:
+
+    method MixHash(Setty:D:) returns MixHash:D
+
+Returns a L<MixHash|/type/MixHash> containing the elements of the invocant.
+
+    my MixHash $b = Set.new(1, 2, 3).MixHash;
+    say $b;                                           # MixHash.new(3, 1, 2)
 
 =head1 See Also
 

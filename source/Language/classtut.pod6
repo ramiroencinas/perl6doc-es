@@ -530,10 +530,9 @@ class overriding the C<Cook>'s C<cook> method.
 Because the dispatcher will see the C<cook> method on C<Baker> before it
 moves up to the parent class the C<Baker>'s C<cook> method will be called.
 
-As a side note, you might have wondered how passing strings to an array
-attribute worked. Array assignment is coercive, so the assignment turns the
-new value into an array. This mechanism is also used for initializing
-attributes.
+To access methods in the inheritance chain use
+L<re-dispatch|/language/functions#Re-dispatching> or the
+L<MOP|/type/Metamodel::ClassHOW#method_can>.
 
 =head2 Multiple inheritance
 
