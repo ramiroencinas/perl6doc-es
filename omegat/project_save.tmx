@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># (since it has been kept, a result is available!)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T103759Z" creationid="ramiroencinas" creationdate="20161113T103759Z">
+        <seg># (¡como ha sido guardado el resultado está disponible!)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># ...</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110608T173101Z">
@@ -5110,6 +5118,16 @@ denominator.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A C&lt;Promise&gt; starts from a C&lt;Planned&gt; status and can result in either a
+C&lt;Kept&gt; status, meaning the promise has been successfully completed, or
+a C&lt;Broken&gt; status meaning that the promise has failed.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T103040Z" creationid="ramiroencinas" creationdate="20161113T103040Z">
+        <seg>Una C&lt;Promesa&gt; comienza con un estado C&lt;Planificado&gt; y como resultado puede tener un estado C&lt;Guardado&gt;, indicando que la promesa se ha completado correctamente, o un estado C&lt;Roto&gt; indicando que la promesa ha fallado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A C&lt;QuantHash&gt; represents a set of objects, represented as the keys of a
 C&lt;Hash&gt;.</seg>
       </tuv>
@@ -6807,6 +6825,15 @@ new class.</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>Promises gain much of their power by being composable, for example by
+chaining, usually by the L&lt;then|/type/Promise#method_then&gt; method:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T104140Z" creationid="ramiroencinas" creationdate="20161113T104140Z">
+        <seg>Las Promesas son más poderosas debido a su componibilidad, por ejemplo mediante el encadenamiento con el método L&lt;then|/type/Promise#method_then&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Promises gain much of their power by being composable, for example by
 chaining:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T075743Z" creationid="ramiroencinas" creationdate="20160429T202705Z">
@@ -8065,6 +8092,15 @@ by other means.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T160447Z" creationid="ramiroencinas" creationdate="20160503T204036Z">
         <seg>Sin embargo, al utilizar C&lt;await&gt; de esta manera, los resultados de las dos promesas solo estarán disponibles al hacer referencia a la promesa original. Esto está bien cuando la consecución o no de las tareas es más importante que los resultados, o cuando los resultados vienen de otro lugar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Usually this is much of the functionality that user code needs to operate
+in a concurrent or asynchronous manner.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T103341Z" creationid="ramiroencinas" creationdate="20161113T103341Z">
+        <seg>Con todo esto un desarrollador puede gestionar la mayor parte de las funcionalidades relacionadas con concurrencia y asincronía.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9538,6 +9574,22 @@ say $p2.result;         # dies with "oh no"
 $p2.break('oh no');
 say $p2.status;         # Rotura
 say $p2.result;         # muere con "oh no"
+=end code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $p2 = Promise.new;
+$p2.break('oh no');
+say $p2.status;         # Broken
+say $p2.result;         # dies with "oh no", because the promise has been broken
+=end code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T103859Z" creationid="ramiroencinas" creationdate="20161113T103859Z">
+        <seg>my $p2 = Promise.new;
+$p2.break('oh no');
+say $p2.status;         # Roto
+say $p2.result;         # muere con "oh no", porque la promesa se ha roto
 =end code</seg>
       </tuv>
     </tu>
