@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaTN" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5.4_0_r8496:8556M" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.9_4" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -1179,6 +1179,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Common Perl 6 infixes, prefixes, postfixes, and more!</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T113848Z" creationid="explorer" creationdate="20161113T113848Z">
+        <seg>=SUBTITLE Los infijos, prefijos, postfijos, ¡y más!, comunes de Perl 6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Compilation error due to a malformed inline comment</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T212627Z" creationid="explorer" creationdate="20161101T212627Z">
@@ -1703,6 +1711,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
       </tuv>
       <tuv lang="ES-ES" changeid="ram" changedate="20160429T165715Z" creationid="ram" creationdate="20160429T165457Z">
         <seg>=TITLE Concurrencia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=TITLE Operators</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T113753Z" creationid="explorer" creationdate="20161113T113753Z">
+        <seg>=TITLE Operadores</seg>
       </tuv>
     </tu>
     <tu>
@@ -2930,6 +2946,14 @@ unless 1 { } else { };</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110211T181749Z">
         <seg>=head1 NOTA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 Operator Precedence</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T113901Z" creationid="explorer" creationdate="20161113T113901Z">
+        <seg>=head1 Precedencia de operadores</seg>
       </tuv>
     </tu>
     <tu>
@@ -6221,6 +6245,14 @@ para crear un tap en el L&lt;Suministro&gt; del bloque proporcionado.</seg>
       </tuv>
       <tuv lang="ES-ES">
         <seg>Aquí hay un ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hmm.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20151125T194113Z" creationid="explorer" creationdate="20151125T194113Z">
+        <seg>Hum.</seg>
       </tuv>
     </tu>
     <tu>
