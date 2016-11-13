@@ -6348,6 +6348,21 @@ asynchronously to the program flow).</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In common with most modern programming languages, Perl 6 is designed to
+L&lt;support concurrency|https://en.wikipedia.org/wiki/Concurrent_computing&gt;
+(allowing more than one thing to happen at the same time) and
+asynchronous programming (sometimes called event driven or reactive
+programming - that is an event or change in some part of a program
+may lead to an event or change in some other part of the program
+asynchronously to the program flow).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T102434Z" creationid="ramiroencinas" creationdate="20161113T102434Z">
+        <seg>Al igual que otros lenguajes de programación modernos, Perl 6 está diseñado para L&lt;ser concurrente|https://en.wikipedia.org/wiki/Concurrent_computing&gt;
+(permitiendo realizar más de una cosa al mismo tiempo) y asíncrono (a veces también llamado orientado a eventos o programación reactiva, esto es, cuando se produce un cambio o evento en alguna parte del programa puede producir otro evento u otro cambio en alguna otra parte del mismo programa de forma asíncrona respecto al flujo del programa).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this case the code in the supply block is executed every time the
 L&lt;Supply&gt; returned by C&lt;supply&gt; is tapped, as demonstrated by:</seg>
       </tuv>
