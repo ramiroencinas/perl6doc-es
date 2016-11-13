@@ -694,6 +694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>+ - ~ ?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142949Z" creationid="explorer" creationdate="20161113T142949Z">
+        <seg>+ - ~ ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>-       left-justify within the field</seg>
       </tuv>
       <tuv lang="ES-ES">
@@ -730,6 +738,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20111008T180358Z">
         <seg>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>.* .() .[] .{} .&lt;&gt; .«» .:: .= .^ .:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142704Z" creationid="explorer" creationdate="20161113T142704Z">
+        <seg>.* .() .[] .{} .&lt;&gt; .«» .:: .= .^ .:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1111,6 +1127,14 @@ and &lt;a href="/language/faq"&gt;FAQs (Frequently Asked Questions)&lt;/a&gt;.&l
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215715Z" creationid="explorer" creationdate="20161102T215715Z">
         <seg>&lt;p&gt;La página principal de Perl 6 ofrece &lt;a href="https://perl6.org/documentation/"&gt;una
 completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-hacer y &lt;a href="/language/faq"&gt;PMF (Preguntas más frecuentes)&lt;/a&gt;.&lt;/p&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=  =====             ========</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142438Z" creationid="explorer" creationdate="20161113T142438Z">
+        <seg>=  =====             ========</seg>
       </tuv>
     </tu>
     <tu>
@@ -5131,6 +5155,14 @@ virtual machine and/or operating system.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A  Level             Examples</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142402Z" creationid="explorer" creationdate="20161113T142402Z">
+        <seg>A  Nivel             Ejemplos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A C&lt;Buf&gt; is a mutable sequence of (usually unsigned) integers.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210625Z" creationid="explorer" creationdate="20161101T210625Z">
@@ -6582,6 +6614,46 @@ and, at times, useful.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>L  Additive          + - +| +^ ~| ~^ ?| ?^</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T143024Z" creationid="explorer" creationdate="20161113T143024Z">
+        <seg>I  Aditivo           + - +| +^ ~| ~^ ?| ?^</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>L  Method postfix    .meth .+ .?</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142657Z" creationid="explorer" creationdate="20161113T142657Z">
+        <seg>I  Método postfijo   .meth .+ .?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>L  Multiplicative    * / % %% +&amp; +&lt; +&gt; ~&amp; ~&lt; ~&gt; ?&amp; div mod gcd lcm</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T143008Z" creationid="explorer" creationdate="20161113T143008Z">
+        <seg>I  Multiplicativo    * / % %% +&amp; +&lt; +&gt; ~&amp; ~&lt; ~&gt; ?&amp; div mod gcd lcm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>L  Replication       x xx</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T143034Z" creationid="explorer" creationdate="20161113T143034Z">
+        <seg>I  Replicación       x xx</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>L  Symbolic unary    !</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142948Z" creationid="explorer" creationdate="20161113T142948Z">
+        <seg>I  Simbólico unario  !</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>L&lt;Proc::Async&gt; builds on the facilities described to run and interact with
 an external program asynchronously:</seg>
       </tuv>
@@ -6683,6 +6755,22 @@ an external program asynchronously:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193518Z" creationid="explorer" creationdate="20160428T193518Z">
         <seg>N           Number (número)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>N  Autoincrement     ++ --</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142716Z" creationid="explorer" creationdate="20161113T142716Z">
+        <seg>N  Autoincremento    ++ --</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>N  Terms             42 3.14 "eek" qq["foo"] $x :!verbose @$array</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142605Z" creationid="explorer" creationdate="20161113T142605Z">
+        <seg>N  Términos          42 3.14 "eek" qq["foo"] $x :!verbose @$array</seg>
       </tuv>
     </tu>
     <tu>
@@ -6962,6 +7050,14 @@ chaining:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T213411Z" creationid="ramiroencinas" creationdate="20160520T213411Z">
         <seg>QUIT { when X::MyApp::Error { say "Error: ", $_.message } }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>R  Exponentiation    **</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142811Z" creationid="explorer" creationdate="20161113T142811Z">
+        <seg>D  Exponenciación    **</seg>
       </tuv>
     </tu>
     <tu>
@@ -7673,8 +7769,8 @@ keyword.</seg>
         <seg>The following table summarizes the precedence levels in Perl 6, from
 tightest to loosest:</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T141537Z" creationid="explorer" creationdate="20161113T141537Z">
-        <seg>La siguiente tabla resume los niveles de precedencia en Perl 6, del más alto al más bajo:</seg>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142432Z" creationid="explorer" creationdate="20161113T141537Z">
+        <seg>La siguiente tabla resume los niveles de precedencia en Perl 6, del más alto al más bajo. La columna A se refiere a la asociatividad del operando.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8292,6 +8388,30 @@ otherwise.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110718T232557Z">
         <seg>X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X  Concatenation     ~</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T143145Z" creationid="explorer" creationdate="20161113T143145Z">
+        <seg>X  Concatenación     ~</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X  Junctive and      &amp;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T143751Z" creationid="explorer" creationdate="20161113T143751Z">
+        <seg>X  Empalmativo and   &amp;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X  Junctive or       | ^</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T143803Z" creationid="explorer" creationdate="20161113T143803Z">
+        <seg>X  Empalmativo or    | ^</seg>
       </tuv>
     </tu>
     <tu>
@@ -10743,6 +10863,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T203338Z" creationid="ramiroencinas" creationdate="20160520T203338Z">
         <seg>{ my $i = 0; for 1 ..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| || +^ ~^ ?^ ^</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142953Z" creationid="explorer" creationdate="20161113T142953Z">
+        <seg>| || +^ ~^ ?^ ^</seg>
       </tuv>
     </tu>
     <tu>
