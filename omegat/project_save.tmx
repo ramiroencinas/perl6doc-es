@@ -710,6 +710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-&gt; $v { say $v.result; "Second Result" }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T104210Z" creationid="ramiroencinas" creationdate="20161113T104210Z">
+        <seg>-&gt; $v { say $v.result; "Segundo resultado" }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>-&gt; $v { say $v.result; "Second Result"}</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T202839Z" creationid="ramiroencinas" creationdate="20160429T202812Z">
@@ -5147,6 +5155,15 @@ all the active tappers as they are added:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A C&lt;live&gt; supply is like
+a TV broadcast: those who tune in don't get previously emitted values.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T104347Z" creationid="ramiroencinas" creationdate="20161113T104347Z">
+        <seg>Un suministro C&lt;a tiempo real&gt; es como un canal de TV: los que empiezan a verlo no pueden ver la emisión anterior.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Codepoint string in the "C" L&lt;Unicode Normalization Form|http://www.unicode.org/reports/tr15/&gt;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192220Z" creationid="explorer" creationdate="20161101T192220Z">
@@ -5387,6 +5404,17 @@ value goes to that (false) default value.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162330Z" creationid="explorer" creationdate="20161106T162330Z">
         <seg>Todos los contenedores QuantHash estándares tienen un valor por defecto que es falso (tal como C&lt;0&gt; o C&lt;''&gt; o C&lt;Nil&gt; o C&lt;Bool::False&gt;), y solo mantiene las entradas con valores no por defecto, borrando automáticamente cualquier entrada si su valor llega a ese valor (falso) por defecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An
+C&lt;on-demand&gt; broadcast is like Netflix: everyone who
+starts streaming a movie (taps a supply), always starts it from the beginning
+(gets all the values), regardless of how many people are watching it right now.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T104659Z" creationid="ramiroencinas" creationdate="20161113T104659Z">
+        <seg>Un suministro C&lt;a demanda&gt; es como Netflix: cualquiera que comience a ver una película (hace un tap al suministro) lo hará desde el principio (obtiene toda la emisión) independientemente del resto de personas que pudieran estar viendo esa misma película en ese mismo momento.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6179,6 +6207,16 @@ block.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here the X&lt;C&lt;whenever&gt;&gt; keyword uses L«C&lt;.act&gt;|/type/Supply#method_act»
+to create a tap on the L&lt;Supply&gt; from the provided block.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T105346Z" creationid="ramiroencinas" creationdate="20161113T105346Z">
+        <seg>Aquí la palabra clave X&lt;C&lt;whenever&gt;&gt; utiliza L«C&lt;.act&gt;|/type/Supply#method_act»
+para crear un tap en el L&lt;Suministro&gt; del bloque proporcionado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here's an example:</seg>
       </tuv>
       <tuv lang="ES-ES">
@@ -6616,6 +6654,15 @@ an external program asynchronously:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193557Z" creationid="explorer" creationdate="20160428T193557Z">
         <seg>No          Other_Number (otro número)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that no history is kept for C&lt;on-demand&gt; supplies, instead, the C&lt;supply&gt;
+block is run for each tap of the supply.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T104854Z" creationid="ramiroencinas" creationdate="20161113T104854Z">
+        <seg>Ten en cuenta que no se guarda información histórica en los suministros C&lt;a demanda&gt; porque el bloque del C&lt;suministro&gt; se ejecuta por cada tap que recibe.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7358,6 +7405,15 @@ following code outputs 0 ..</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212144Z" creationid="ramiroencinas" creationdate="20160520T212144Z">
         <seg>El bloque C&lt;quit&gt; es muy similar a C&lt;CATCH&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The C&lt;react&gt;
+block is exited when C&lt;done()&gt; is called in one of the taps.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T105533Z" creationid="ramiroencinas" creationdate="20161113T105533Z">
+        <seg>El bloque C&lt;react&gt; finaliza cuando se llama a C&lt;done()&gt; en alguno de sus taps.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8213,6 +8269,17 @@ X&lt;|.defined&gt;</seg>
         <seg>X&lt;|type object&gt;
 X&lt;|defined&gt;
 X&lt;|.defined&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X«|supply (on-demand)»
+Or alternatively as an C&lt;on-demand&gt; L&lt;Supply&gt; created by the C&lt;supply&gt;
+keyword:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T105022Z" creationid="ramiroencinas" creationdate="20161113T105022Z">
+        <seg>X«|suministro (a demanda)»
+O también como un L&lt;Suministro&gt; C&lt;a demanda&gt; creado por la palabra clave C&lt;suministro&gt;:</seg>
       </tuv>
     </tu>
     <tu>
