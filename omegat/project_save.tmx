@@ -8273,6 +8273,18 @@ X&lt;|.defined&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>X&lt;|whenever&gt;
+If you are using the C&lt;react&gt; or C&lt;supply&gt; block syntax with C&lt;whenever&gt;, you
+can add phasers within your C&lt;whenever&gt; blocks to handle the C&lt;done&gt; and C&lt;quit&gt;
+messages from the tapped supply:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T112212Z" creationid="ramiroencinas" creationdate="20161113T112212Z">
+        <seg>X&lt;|whenever&gt;
+Si utilizas C&lt;whenever&gt; con la sintaxis de los bloques C&lt;react&gt; o C&lt;suministro&gt; puedes añadir fases dentro de los bloques C&lt;whenever&gt; para gestionar los mensajes C&lt;done&gt; y C&lt;quit&gt; del tap del suministro:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>X«|supply (on-demand)»
 Or alternatively as an C&lt;on-demand&gt; L&lt;Supply&gt; created by the C&lt;supply&gt;
 keyword:</seg>
