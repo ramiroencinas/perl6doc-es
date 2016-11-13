@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.9_4" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaTN" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5.4_0_r8496:8556M" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -58,6 +58,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204205Z" creationid="ramiroencinas" creationdate="20160520T204205Z">
         <seg># "Access denied to keep/break this Promise; already vowed"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># (since it has been kept, a result is available!)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T103759Z" creationid="ramiroencinas" creationdate="20161113T103759Z">
+        <seg># (¡como ha sido guardado el resultado está disponible!)</seg>
       </tuv>
     </tu>
     <tu>
@@ -698,6 +706,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110718T232708Z">
         <seg>----------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>-&gt; $v { say $v.result; "Second Result" }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T104210Z" creationid="ramiroencinas" creationdate="20161113T104210Z">
+        <seg>-&gt; $v { say $v.result; "Segundo resultado" }</seg>
       </tuv>
     </tu>
     <tu>
@@ -5110,6 +5126,16 @@ denominator.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A C&lt;Promise&gt; starts from a C&lt;Planned&gt; status and can result in either a
+C&lt;Kept&gt; status, meaning the promise has been successfully completed, or
+a C&lt;Broken&gt; status meaning that the promise has failed.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T103040Z" creationid="ramiroencinas" creationdate="20161113T103040Z">
+        <seg>Una C&lt;Promesa&gt; comienza con un estado C&lt;Planificado&gt; y como resultado puede tener un estado C&lt;Guardado&gt;, indicando que la promesa se ha completado correctamente, o un estado C&lt;Roto&gt; indicando que la promesa ha fallado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A C&lt;QuantHash&gt; represents a set of objects, represented as the keys of a
 C&lt;Hash&gt;.</seg>
       </tuv>
@@ -5125,6 +5151,15 @@ all the active tappers as they are added:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160508T155826Z" creationid="ramiroencinas" creationdate="20160507T155917Z">
         <seg>La creación de un L&lt;Suministro&gt; a C&lt;tiempo real&gt; se realiza mediante un L&lt;Proveedor&gt; (Supplier) y cada valor emitido se pasa a todos los "taps" o suscriptores activos según se van agregando:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A C&lt;live&gt; supply is like
+a TV broadcast: those who tune in don't get previously emitted values.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T104347Z" creationid="ramiroencinas" creationdate="20161113T104347Z">
+        <seg>Un suministro C&lt;a tiempo real&gt; es como un canal de TV: los que empiezan a verlo no pueden ver la emisión anterior.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5369,6 +5404,17 @@ value goes to that (false) default value.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161106T162330Z" creationid="explorer" creationdate="20161106T162330Z">
         <seg>Todos los contenedores QuantHash estándares tienen un valor por defecto que es falso (tal como C&lt;0&gt; o C&lt;''&gt; o C&lt;Nil&gt; o C&lt;Bool::False&gt;), y solo mantiene las entradas con valores no por defecto, borrando automáticamente cualquier entrada si su valor llega a ese valor (falso) por defecto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An
+C&lt;on-demand&gt; broadcast is like Netflix: everyone who
+starts streaming a movie (taps a supply), always starts it from the beginning
+(gets all the values), regardless of how many people are watching it right now.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T104659Z" creationid="ramiroencinas" creationdate="20161113T104659Z">
+        <seg>Un suministro C&lt;a demanda&gt; es como Netflix: cualquiera que comience a ver una película (hace un tap al suministro) lo hará desde el principio (obtiene toda la emisión) independientemente del resto de personas que pudieran estar viendo esa misma película en ese mismo momento.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6161,6 +6207,16 @@ block.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here the X&lt;C&lt;whenever&gt;&gt; keyword uses L«C&lt;.act&gt;|/type/Supply#method_act»
+to create a tap on the L&lt;Supply&gt; from the provided block.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T105346Z" creationid="ramiroencinas" creationdate="20161113T105346Z">
+        <seg>Aquí la palabra clave X&lt;C&lt;whenever&gt;&gt; utiliza L«C&lt;.act&gt;|/type/Supply#method_act»
+para crear un tap en el L&lt;Suministro&gt; del bloque proporcionado.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here's an example:</seg>
       </tuv>
       <tuv lang="ES-ES">
@@ -6344,6 +6400,21 @@ asynchronously to the program flow).</seg>
       <tuv lang="ES-ES" changeid="ram" changedate="20160429T181249Z" creationid="ram" creationdate="20160429T181249Z">
         <seg>Al igual que la mayoría de los lenguajes de programación modernos, Perl 6 es L&lt;concurrente|http://en.wikipedia.org/wiki/Concurrent_computing&gt;
 (hace que sucedan varias cosas al mismo tiempo) y permite la programación asíncrona (también llamada orientada a eventos o programación reactiva - de forma que si se produce un evento o cambio en alguna parte del programa puede producirse un evento o cambio en otra parte del programa de forma asíncrona respecto al flujo del programa).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In common with most modern programming languages, Perl 6 is designed to
+L&lt;support concurrency|https://en.wikipedia.org/wiki/Concurrent_computing&gt;
+(allowing more than one thing to happen at the same time) and
+asynchronous programming (sometimes called event driven or reactive
+programming - that is an event or change in some part of a program
+may lead to an event or change in some other part of the program
+asynchronously to the program flow).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T102434Z" creationid="ramiroencinas" creationdate="20161113T102434Z">
+        <seg>Al igual que otros lenguajes de programación modernos, Perl 6 está diseñado para L&lt;ser concurrente|https://en.wikipedia.org/wiki/Concurrent_computing&gt;
+(permitiendo realizar más de una cosa al mismo tiempo) y asíncrono (a veces también llamado orientado a eventos o programación reactiva, esto es, cuando se produce un cambio o evento en alguna parte del programa puede producir otro evento u otro cambio en alguna otra parte del mismo programa de forma asíncrona respecto al flujo del programa).</seg>
       </tuv>
     </tu>
     <tu>
@@ -6587,6 +6658,15 @@ an external program asynchronously:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that no history is kept for C&lt;on-demand&gt; supplies, instead, the C&lt;supply&gt;
+block is run for each tap of the supply.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T104854Z" creationid="ramiroencinas" creationdate="20161113T104854Z">
+        <seg>Ten en cuenta que no se guarda información histórica en los suministros C&lt;a demanda&gt; porque el bloque del C&lt;suministro&gt; se ejecuta por cada tap que recibe.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that the C&lt;tap&gt; is called on a L&lt;Supply&gt; object created by the
 L&lt;Supplier&gt; and new values are emitted on the L&lt;Supplier&gt;.</seg>
       </tuv>
@@ -6787,6 +6867,15 @@ new class.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204151Z" creationid="ramiroencinas" creationdate="20160520T204151Z">
         <seg>Promise.in(8600)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Promises gain much of their power by being composable, for example by
+chaining, usually by the L&lt;then|/type/Promise#method_then&gt; method:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T104140Z" creationid="ramiroencinas" creationdate="20161113T104140Z">
+        <seg>Las Promesas son más poderosas debido a su componibilidad, por ejemplo mediante el encadenamiento con el método L&lt;then|/type/Promise#method_then&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7316,6 +7405,15 @@ following code outputs 0 ..</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T212144Z" creationid="ramiroencinas" creationdate="20160520T212144Z">
         <seg>El bloque C&lt;quit&gt; es muy similar a C&lt;CATCH&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The C&lt;react&gt;
+block is exited when C&lt;done()&gt; is called in one of the taps.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T105533Z" creationid="ramiroencinas" creationdate="20161113T105533Z">
+        <seg>El bloque C&lt;react&gt; finaliza cuando se llama a C&lt;done()&gt; en alguno de sus taps.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8054,6 +8152,15 @@ by other means.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Usually this is much of the functionality that user code needs to operate
+in a concurrent or asynchronous manner.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T103341Z" creationid="ramiroencinas" creationdate="20161113T103341Z">
+        <seg>Con todo esto un desarrollador puede gestionar la mayor parte de las funcionalidades relacionadas con concurrencia y asincronía.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What happened?</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120311T235031Z">
@@ -8162,6 +8269,29 @@ X&lt;|.defined&gt;</seg>
         <seg>X&lt;|type object&gt;
 X&lt;|defined&gt;
 X&lt;|.defined&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X&lt;|whenever&gt;
+If you are using the C&lt;react&gt; or C&lt;supply&gt; block syntax with C&lt;whenever&gt;, you
+can add phasers within your C&lt;whenever&gt; blocks to handle the C&lt;done&gt; and C&lt;quit&gt;
+messages from the tapped supply:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T112212Z" creationid="ramiroencinas" creationdate="20161113T112212Z">
+        <seg>X&lt;|whenever&gt;
+Si utilizas C&lt;whenever&gt; con la sintaxis de los bloques C&lt;react&gt; o C&lt;suministro&gt; puedes añadir fases dentro de los bloques C&lt;whenever&gt; para gestionar los mensajes C&lt;done&gt; y C&lt;quit&gt; del tap del suministro:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X«|supply (on-demand)»
+Or alternatively as an C&lt;on-demand&gt; L&lt;Supply&gt; created by the C&lt;supply&gt;
+keyword:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T105022Z" creationid="ramiroencinas" creationdate="20161113T105022Z">
+        <seg>X«|suministro (a demanda)»
+O también como un L&lt;Suministro&gt; C&lt;a demanda&gt; creado por la palabra clave C&lt;suministro&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9523,6 +9653,22 @@ say $p2.result;         # dies with "oh no"
 $p2.break('oh no');
 say $p2.status;         # Rotura
 say $p2.result;         # muere con "oh no"
+=end code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $p2 = Promise.new;
+$p2.break('oh no');
+say $p2.status;         # Broken
+say $p2.result;         # dies with "oh no", because the promise has been broken
+=end code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T103859Z" creationid="ramiroencinas" creationdate="20161113T103859Z">
+        <seg>my $p2 = Promise.new;
+$p2.break('oh no');
+say $p2.status;         # Roto
+say $p2.result;         # muere con "oh no", porque la promesa se ha roto
 =end code</seg>
       </tuv>
     </tu>
