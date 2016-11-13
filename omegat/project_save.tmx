@@ -302,6 +302,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$b) !</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152329Z" creationid="explorer" creationdate="20161113T152329Z">
+        <seg>$b) !</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$b) and ($b !</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152531Z" creationid="explorer" creationdate="20161113T152531Z">
+        <seg>$b) y ($b !</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$b[1] = 42;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210631Z" creationid="explorer" creationdate="20161101T210631Z">
@@ -314,6 +330,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152258Z" creationid="explorer" creationdate="20161113T152258Z">
         <seg>$c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$c)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152349Z" creationid="explorer" creationdate="20161113T152349Z">
+        <seg>$c)</seg>
       </tuv>
     </tu>
     <tu>
@@ -678,10 +702,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>($b !</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152347Z" creationid="explorer" creationdate="20161113T152347Z">
+        <seg>($b !</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(may behave like Ps or Pe depending on usage)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193720Z" creationid="explorer" creationdate="20160428T193720Z">
         <seg>(se comporta como Ps o Pe dependiendo de su uso)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(term)          circumfix</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T153419Z" creationid="explorer" creationdate="20161113T153419Z">
+        <seg>(termino)       circunfijo</seg>
       </tuv>
     </tu>
     <tu>
@@ -722,6 +762,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161113T142949Z" creationid="explorer" creationdate="20161113T142949Z">
         <seg>+ - ~ ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>+term           prefix</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T153332Z" creationid="explorer" creationdate="20161113T153332Z">
+        <seg>+termino        prefijo</seg>
       </tuv>
     </tu>
     <tu>
@@ -1167,6 +1215,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152301Z" creationid="explorer" creationdate="20161113T152301Z">
         <seg>=   =====     =======================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=   =====     =========================</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152702Z" creationid="explorer" creationdate="20161113T152702Z">
+        <seg>=   =====     =========================</seg>
       </tuv>
     </tu>
     <tu>
@@ -3034,6 +3090,29 @@ unless 1 { } else { };</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161113T113901Z" creationid="explorer" creationdate="20161113T113901Z">
         <seg>=head1 Precedencia de operadores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 Operator classification
+X&lt;|prefix operator&gt;
+X&lt;|infix operator&gt;
+X&lt;|postfix operator&gt;
+X&lt;|circumfix operator&gt;
+X&lt;|postcircumfix operator&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T153157Z" creationid="explorer" creationdate="20161113T153157Z">
+        <seg>=head1 Clasificación de operadores
+X&lt;|prefix operator&gt;
+X&lt;|infix operator&gt;
+X&lt;|postfix operator&gt;
+X&lt;|circumfix operator&gt;
+X&lt;|postcircumfix operator&gt;
+X&lt;|operador prefijo&gt;
+X&lt;|operador infijo&gt;
+X&lt;|operador postfijo&gt;
+X&lt;|operador circunfijo&gt;
+X&lt;|operador postcircunfijo&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5203,6 +5282,14 @@ virtual machine and/or operating system.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A   Assoc     Meaning of !$a!</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152658Z" creationid="explorer" creationdate="20161113T152658Z">
+        <seg>A   Asoc.     Significado de !$a!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A   Assoc     Meaning of $a !</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152253Z" creationid="explorer" creationdate="20161113T152253Z">
@@ -5736,6 +5823,14 @@ the calling location.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C   chain     ($a !</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152506Z" creationid="explorer" creationdate="20161113T152506Z">
+        <seg>C   cadena    ($a !</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C  Chaining infix    != == &lt; &lt;= &gt; &gt;= eq ne lt le gt ge ~~ === eqv !eqv =~=</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161113T144455Z" creationid="explorer" creationdate="20161113T144447Z">
@@ -6008,6 +6103,14 @@ can be found on the &lt;a href="http://perldoc.perl.org/"&gt;Perl 5 documentati
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each operator is also available as a subroutine.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T153622Z" creationid="explorer" creationdate="20161113T153622Z">
+        <seg>Cada operador también está disponible como una subrutina.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each tap of a supply created
 by C&lt;interval&gt; has its own sequence starting from 0, as illustrated by
 the following:</seg>
@@ -6256,6 +6359,14 @@ can be kept or broken.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T164248Z" creationid="ramiroencinas" creationdate="20160506T164059Z">
         <seg>Para este propósito existe el L&lt;método vow|/type/Promise#method_vow&gt;, que devuelve un objeto L&lt;Vow&gt; como único mecanismo por el cual se puede producir a demanda la consecución o la excepción de una promesa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For unary operators this is interpreted as:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152627Z" creationid="explorer" creationdate="20161113T152627Z">
+        <seg>Para operadores unarios, esto se interpreta como:</seg>
       </tuv>
     </tu>
     <tu>
@@ -6576,6 +6687,15 @@ asynchronously to the program flow).</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the operator descriptions below, a default associativity of I&lt;left&gt;
+is assumed.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152919Z" creationid="explorer" creationdate="20161113T152919Z">
+        <seg>En la descripción de los operadores, a continuación, se asume por defecto la asociatividad I&lt;izq.&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this case the code in the supply block is executed every time the
 L&lt;Supply&gt; returned by C&lt;supply&gt; is tapped, as demonstrated by:</seg>
       </tuv>
@@ -6674,6 +6794,22 @@ and, at times, useful.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193314Z" creationid="explorer" creationdate="20160428T193304Z">
         <seg>L           Letter (letra)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>L   left      (!$a)!</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152716Z" creationid="explorer" creationdate="20161113T152716Z">
+        <seg>I   izq.      (!$a)!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>L   left      ($a !</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152327Z" creationid="explorer" creationdate="20161113T152327Z">
+        <seg>I   izq.      ($a !</seg>
       </tuv>
     </tu>
     <tu>
@@ -6839,6 +6975,14 @@ an external program asynchronously:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>N   non       ILLEGAL</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152402Z" creationid="explorer" creationdate="20161113T152402Z">
+        <seg>N   no        ILEGAL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>N  Autoincrement     ++ --</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161113T150531Z" creationid="explorer" creationdate="20161113T142716Z">
@@ -6962,6 +7106,14 @@ takes place.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215355Z" creationid="ramiroencinas" creationdate="20160527T214722Z">
         <seg>Hay que tener en cuenta que existe un caso en particular cuando se produce una extensión.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Operators can occur in several positions relative to a term:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T153247Z" creationid="explorer" creationdate="20161113T153247Z">
+        <seg>Los operadores pueden aparecer en diversas posiciones relativas a un término:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7146,6 +7298,22 @@ chaining:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T213411Z" creationid="ramiroencinas" creationdate="20160520T213411Z">
         <seg>QUIT { when X::MyApp::Error { say "Error: ", $_.message } }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>R   right     !($a!)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152739Z" creationid="explorer" creationdate="20161113T152739Z">
+        <seg>D   der.      !($a!)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>R   right     $a !</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152344Z" creationid="explorer" creationdate="20161113T152344Z">
+        <seg>D   der.      $a !</seg>
       </tuv>
     </tu>
     <tu>
@@ -8518,6 +8686,14 @@ otherwise.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110718T232557Z">
         <seg>X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X   list      infix:&lt;!&gt;($a; $b; $c)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T152548Z" creationid="explorer" creationdate="20161113T152548Z">
+        <seg>X   lista     infix:&lt;!&gt;($a; $b; $c)</seg>
       </tuv>
     </tu>
     <tu>
@@ -10913,6 +11089,30 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164554Z" creationid="ramiroencinas" creationdate="20160528T164554Z">
         <seg>submethod BUILD(:&amp;!callback, :@!dependencias) { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>term++          postfix</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T153357Z" creationid="explorer" creationdate="20161113T153357Z">
+        <seg>termino++       postfijo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>term1 + term2   infix</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T153344Z" creationid="explorer" creationdate="20161113T153344Z">
+        <seg>term1 + term2   infijo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>term1[term2]    postcircumfix</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161113T153515Z" creationid="explorer" creationdate="20161113T153515Z">
+        <seg>term1[term2]    postcircunfijo</seg>
       </tuv>
     </tu>
     <tu>
