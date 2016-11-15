@@ -2466,6 +2466,20 @@ floor(1.1) := 42;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=begin code :skip-test
+infix:&lt;+&gt;(1, 2);                # same as 1 + 2
+circumfix:«( )»('a', 'b', 'c'); # same as ('a', 'b', 'c')
+=end code</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161115T080833Z" creationid="explorer" creationdate="20161115T080833Z">
+        <seg>=begin code :skip-test
+infix:&lt;+&gt;(1, 2);                # lo mismo que 1 + 2
+circumfix:«( )»('a', 'b', 'c'); # lo mismo que ('a', 'b', 'c')
+=end code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=begin comment</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20130102T012722Z">
@@ -5713,6 +5727,15 @@ or L&lt;Rat&gt; objects return a C&lt;FatRat&gt;, avoiding loss of precision.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a special case, a I&lt;listop&gt; (list operator) can stand either as a
+term or as a prefix.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161115T080949Z" creationid="explorer" creationdate="20161115T080949Z">
+        <seg>Como un caso especial, un I&lt;listop&gt; (operador de lista) puede aparecer tanto como término que como prefijo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Associative does not provide any methods.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T210440Z" creationid="explorer" creationdate="20161101T210440Z">
@@ -7696,6 +7719,14 @@ to be kept.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Subroutine calls are the most common listops.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161115T081059Z" creationid="explorer" creationdate="20161115T081059Z">
+        <seg>Las llamadas a subrutinas son los I&lt;listops&gt; más comunes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Syntax error that is thrown when the radix of a radix number is
 not allowed, like C&lt;&lt; :1&lt;1&gt; &gt;&gt; or C&lt;&lt; :42&lt;ouch&gt; &gt;&gt;.</seg>
       </tuv>
@@ -8144,6 +8175,16 @@ necessary to do it for these.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T214323Z" creationid="explorer" creationdate="20161101T214323Z">
         <seg>El error sintáctico más general, si no se indican mensajes de error más específicos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the routine is formed of
+the operator category, then a colon, and a list quote construct with the
+symbol(s) that make up the operator:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161115T080749Z" creationid="explorer" creationdate="20161115T080749Z">
+        <seg>El nombre de la rutina se forma con la categoría del operador, un carácter de dos puntos, y construcción entrecomillada de una lista de símbolos que maquillan el operador:</seg>
       </tuv>
     </tu>
     <tu>
