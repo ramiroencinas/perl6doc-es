@@ -86,6 +86,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># 0 from thread 3 received after 3.01364461 seconds</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T142246Z" creationid="Ram" creationdate="20161117T142246Z">
+        <seg># 0 desde el hilo 3 recibidos después de 3.01364461 segundos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># 1 from thread 4 received after 2.41117376 seconds</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T142213Z" creationid="Ram" creationdate="20161117T142213Z">
+        <seg># 1 desde el hilo 4 recibidos después de 2.41117376 segundos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># 2 from thread 5 received after 1.2063182 seconds</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20161117T142044Z" creationid="Ram" creationdate="20161117T142044Z">
