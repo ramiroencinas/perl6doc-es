@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># Continuously loop and poll the channel, until it's closed</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T141728Z" creationid="Ram" creationdate="20161117T141728Z">
+        <seg># Comprueba el canal hasta que se cierre</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># Create a new Rectangle from two Points</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125751Z" creationid="Ram" creationdate="20160528T125751Z">
@@ -9582,6 +9590,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>elsif $is-closed {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T141828Z" creationid="Ram" creationdate="20161117T141828Z">
+        <seg>elsif $cerrado {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>emit($_);</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204207Z" creationid="ramiroencinas" creationdate="20160520T204207Z">
@@ -10264,6 +10280,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $is-closed = $c.closed;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T141741Z" creationid="Ram" creationdate="20161117T141741Z">
+        <seg>my $cerrado = $c.closed;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $lock = Lock.new;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T211835Z" creationid="ramiroencinas" creationdate="20160527T211835Z">
@@ -10884,6 +10908,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215235Z" creationid="explorer" creationdate="20161102T215235Z">
         <seg>correr el programa ejecutable Perl 6 y otras utilidades,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say "$item received after {now - INIT now} seconds";</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T141821Z" creationid="Ram" creationdate="20161117T141821Z">
+        <seg>say "$elemento recibido después de {now - INIT now} segundos";</seg>
       </tuv>
     </tu>
     <tu>
