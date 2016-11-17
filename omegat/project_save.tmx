@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># 2 from thread 5 received after 1.2063182 seconds</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T142044Z" creationid="Ram" creationdate="20161117T142044Z">
+        <seg># 2 desde el hilo 5 recibidos después de 1.2063182 segundos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># BUILD is the equivalent of a constructor in other languages</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164528Z" creationid="ramiroencinas" creationdate="20160528T164528Z">
@@ -106,6 +114,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20160528T125751Z" creationid="Ram" creationdate="20160528T125751Z">
         <seg># Crea un Rectángulo nuevo desde dos Puntos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># Doing some unrelated things...</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T141859Z" creationid="Ram" creationdate="20161117T141859Z">
+        <seg># Hacer otras cosas...</seg>
       </tuv>
     </tu>
     <tu>
@@ -10914,8 +10930,8 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       <tuv lang="EN-US">
         <seg>say "$item received after {now - INIT now} seconds";</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T141821Z" creationid="Ram" creationdate="20161117T141821Z">
-        <seg>say "$elemento recibido después de {now - INIT now} segundos";</seg>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T142140Z" creationid="Ram" creationdate="20161117T141821Z">
+        <seg>say "$elemento recibidos después de {now - INIT now} segundos";</seg>
       </tuv>
     </tu>
     <tu>
@@ -11076,6 +11092,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204222Z" creationid="ramiroencinas" creationdate="20160520T204222Z">
         <seg>say $v;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say 'Doing some unrelated things...';</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T141845Z" creationid="Ram" creationdate="20161117T141845Z">
+        <seg>say 'Hacer otras cosas...';</seg>
       </tuv>
     </tu>
     <tu>
