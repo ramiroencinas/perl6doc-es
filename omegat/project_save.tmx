@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># Start three Promises that sleep for 1..3 seconds, and then</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T141347Z" creationid="Ram" creationdate="20161117T141347Z">
+        <seg># Inicia tres promesas, la primera realiza un sleep de 1 segundo, la segunda de 2 segundos y la tercera de 3 segundos. Después</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># Starting...</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T103320Z" creationid="ramiroencinas" creationdate="20160521T103320Z">
@@ -202,6 +210,14 @@
       </tuv>
       <tuv lang="ES-ES">
         <seg># Estos ejemplos están sujetos a variaciones específicas del sistema.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># Wait 3 seconds before closing the channel</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T141455Z" creationid="Ram" creationdate="20161117T141455Z">
+        <seg># Espera 3 segundos antes de cerrar el canal</seg>
       </tuv>
     </tu>
     <tu>
@@ -226,6 +242,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20140801T145152Z" creationid="explorer" creationdate="20140801T145152Z">
         <seg># es lo mismo que</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># send a value to our Channel</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T141422Z" creationid="Ram" creationdate="20161117T141422Z">
+        <seg># envía un valor a nuestro Canal</seg>
       </tuv>
     </tu>
     <tu>
@@ -354,6 +378,14 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T100632Z" creationid="ramiroencinas" creationdate="20160521T100632Z">
         <seg>$c.send($r);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$c.send: "$v from thread {$*THREAD.id}";</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T141440Z" creationid="Ram" creationdate="20161117T141440Z">
+        <seg>$c.send: "$v desde el hilo {$*THREAD.id}";</seg>
       </tuv>
     </tu>
     <tu>
