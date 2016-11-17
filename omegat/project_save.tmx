@@ -7941,6 +7941,16 @@ following code outputs 0 ..</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The C&lt;.poll&gt; method can be used in combination with C&lt;.receive&gt; method, as a
+caching mechanism where lack of value returned by `.poll` is a signal that
+more values need to be fetched and loaded into the channel:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T142608Z" creationid="Ram" creationdate="20161117T142608Z">
+        <seg>El método C&lt;.poll&gt; se puede utilizar junto con el método C&lt;.receive&gt; como una caché, de forma que el primero puede avisar al segundo para cargar más elementos al canal:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The C&lt;last&gt; command immediately exits the loop in question.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110220T005331Z">
@@ -10840,6 +10850,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>return $c.poll // do { start replenish-cache; $c.receive };</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T142731Z" creationid="Ram" creationdate="20161117T142731Z">
+        <seg>return $c.poll // do { start reponer-cache; $c.receive };</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>return self.bless(:&amp;callback, :@dependencies);</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164546Z" creationid="ramiroencinas" creationdate="20160528T164546Z">
@@ -11232,10 +11250,26 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sub get-value {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T142633Z" creationid="Ram" creationdate="20161117T142633Z">
+        <seg>sub traer-dato {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sub get_promise {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165242Z" creationid="ramiroencinas" creationdate="20160506T165242Z">
         <seg>sub get_promesa {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sub replenish-cache {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T142751Z" creationid="Ram" creationdate="20161117T142751Z">
+        <seg>sub reponer-cache {</seg>
       </tuv>
     </tu>
     <tu>
