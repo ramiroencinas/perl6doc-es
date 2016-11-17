@@ -430,6 +430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>$c.send: $_ for slowly-fetch-a-thing();</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161117T142856Z" creationid="Ram" creationdate="20161117T142856Z">
+        <seg>$c.send: $_ for traer-algo-poco-a-poco();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$cancellation.cancel;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T183740Z" creationid="ramiroencinas" creationdate="20160527T183740Z">
