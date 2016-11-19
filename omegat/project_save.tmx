@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaTN" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5.4_0_r8496:8556M" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.9_4" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -626,6 +626,30 @@
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T215216Z" creationid="ramiroencinas" creationdate="20160527T215216Z">
         <seg>$slot = 'foo';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$str ~~ s!foo!!;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T200120Z" creationid="explorer" creationdate="20161119T200120Z">
+        <seg>$str ~~ s!foo!!;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$str ~~ s/match/replacement/;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061503Z" creationid="explorer" creationdate="20161116T061442Z">
+        <seg>$str ~~ s/buscar/reemplazar/;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$str ~~ s:g/match/replacement/;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T195951Z" creationid="explorer" creationdate="20161119T195951Z">
+        <seg>$str ~~ s:g/coincidencia/reemplazo/;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3164,6 +3188,14 @@ unless 1 { } else { };</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head1 Meta Operators</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061024Z" creationid="explorer" creationdate="20161116T061024Z">
+        <seg>=head1 Meta Operadores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head1 Methods</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T142551Z" creationid="explorer" creationdate="20161101T142551Z">
@@ -3255,6 +3287,14 @@ X&lt;|operador postcircunfijo&gt;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170608Z" creationid="ramiroencinas" creationdate="20160528T170608Z">
         <seg>=head1 Estado</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>=head1 Substitution Operators</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061342Z" creationid="explorer" creationdate="20161116T061342Z">
+        <seg>=head1 Operadores de sustitución</seg>
       </tuv>
     </tu>
     <tu>
@@ -5919,6 +5959,24 @@ to be useful directly in user code.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Both operators can take the same adverbs as the
+L&lt;.subst method|/routine/subst&gt;, which go between the `s`/`S` and the opening
+`/`.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T195905Z" creationid="explorer" creationdate="20161119T195905Z">
+        <seg>Ambos operadores pueden tomas los mismos adverbios como el L&lt;método .subst|/routine/subst&gt;, que va entre la `s`/`S` y el `/` de apertura.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Both operators work on `$_` variable.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T195321Z" creationid="explorer" creationdate="20161119T195321Z">
+        <seg>Ambos operadores trabajan sobre la variable `$_`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By returning an L&lt;AST&gt;, a macro can inject code into
 the calling location.</seg>
       </tuv>
@@ -6183,6 +6241,15 @@ into the current package (just like a variable declared with C&lt;our&gt; scope)
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165915Z" creationid="ramiroencinas" creationdate="20160528T165915Z">
         <seg>La declaración de una clase crea un I&lt;tipo objeto&gt; que, por defecto, se instala en el paquete actual (como una variable declarada con C&lt;our&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defining custom operators is covered in
+L&lt;Defining Operators functions|/language/functions#Defining_Operators&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061018Z" creationid="explorer" creationdate="20161116T061018Z">
+        <seg>La definición de operadores personalizados se explica en L&lt;Definir funciones de operadores|/language/functions#Definir operadores&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7082,6 +7149,15 @@ an external program asynchronously:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Meta operators can be parameterized with other operators or subroutines in the
+same way as functions can take functions as parameters.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061119Z" creationid="explorer" creationdate="20161116T061119Z">
+        <seg>Los meta operadores se pueden parametrizar con otros operadores o subrutinas de la misma forma que las funciones pueden tomar funciones como parámetros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Mn          Nonspacing_Mark</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193442Z" creationid="explorer" creationdate="20160428T193442Z">
@@ -7166,6 +7242,14 @@ an external program asynchronously:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193557Z" creationid="explorer" creationdate="20160428T193557Z">
         <seg>No          Other_Number (otro número)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Non-matching characters can simply replace the original slashes.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T200252Z" creationid="explorer" creationdate="20161119T200252Z">
+        <seg>Caracteres no coincidentes pueden, sencillamente, reemplazar a las barras diagonales originales.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7258,6 +7342,16 @@ keyword:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other
+cases include meta-reduced infix operators (C&lt;[+] 1, 2, 3&gt;) and the
+L&lt;#prefix ...&gt; etc. stub operators.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T060852Z" creationid="explorer" creationdate="20161116T060852Z">
+        <seg>Otros casos incluyen operadores infijos de meta-reducción (C&lt;[+] 1, 2, 3&gt;) y los operadores de resguardo L&lt;#prefix ...&gt;, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise, the exception continues to up the call tree (i.e., the same behavior
 as when C&lt;quit&gt; is not set).</seg>
       </tuv>
@@ -7315,6 +7409,16 @@ new class.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T165532Z" creationid="ramiroencinas" creationdate="20160528T165532Z">
         <seg>Perl 6, al igual que otros lenguajes, utiliza la palabra clave C&lt;class&gt; para crear una clase nueva.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Perl 6 will generate the actual
+combined operator in the background, allowing the mechanism to be applied to
+user defined operators.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061250Z" creationid="explorer" creationdate="20161116T061250Z">
+        <seg>Perl 6 generará por debajo el operador combinado real, permitiendo que el mecanismo se pueda aplicar a los operadores definidos por el usuario.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7713,6 +7817,17 @@ then C&lt;cause&gt; will be the L&lt;Exception&gt; object that was thrown:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T174425Z" creationid="ramiroencinas" creationdate="20160502T174425Z">
         <seg>De forma parecida, si el código falla, la promesa lanzará una excepción en forma de objeto L&lt;Exception&gt; accesible mediante C&lt;cause&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since smartmatch operator aliases
+the left hand side to `$_`, you can use lowercase `s///` with it, but
+it's a mistake to use it with uppercase `S///`, because you can't
+retrieve the modified string.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T195542Z" creationid="explorer" creationdate="20161119T195542Z">
+        <seg>Ya que el operador de coincidencia inteligente crea un alias de la parte izquierda con `$_`, puede usar `s///` (minúscula) con él, pero es una equivocación usarlo con `S///` (mayúscula), porque no puede recuperar la cadena modificada.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8157,6 +8272,17 @@ a L&lt;Promise&gt; that will be kept when the program exits.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The correct way is to alias the given
+string by some other method, such as a `for` loop or, as is shown in the
+example above, with a `given` block (in this case, it's a postfix form
+of it, without curly braces).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T195736Z" creationid="explorer" creationdate="20161119T195736Z">
+        <seg>La forma correcta es crear un alias a la cadena dada por medio de otro método, como puede ser un bucle `for` o, como se mostró en el ejemplo anterior, con un bloque `given` (en este caso, es una forma postfija de él, sin las llaves).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The current default global scheduler is available in the variable
 C&lt;$*SCHEDULER&gt;.</seg>
       </tuv>
@@ -8238,6 +8364,16 @@ is illustrated with:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160502T083603Z" creationid="ramiroencinas" creationdate="20160502T083603Z">
         <seg>Esto lo vamos a ver a continuación:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The lower-case version (X&lt;s///&gt;) substitutes in-place, while the
+upper-case version (X&lt;S///&gt;) leaves the original alone and returns
+the resultant string.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061706Z" creationid="explorer" creationdate="20161116T061706Z">
+        <seg>La versión con minúscula (X&lt;s///&gt;) sustituye en el mismo argumento, mientras que la versión en mayúscula (X&lt;S///&gt;) deja el original como estaba y devuelve la cadena resultante.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8412,6 +8548,15 @@ L&lt;IO::Spec::Unix&gt; and L&lt;IO::Spec::Win32&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161106T163514Z" creationid="explorer" creationdate="20161106T163514Z">
         <seg>El tipo del objeto del que el hijo intentó heredar.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are quite a few Meta operators with different
+semantics, as explained in detail as follows.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061327Z" creationid="explorer" creationdate="20161116T061327Z">
+        <seg>Existen bastantes Meta operadores con diferente semántica, como se explica a continuación.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8680,6 +8825,15 @@ signature (for example C&lt;class A { $^foo }&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use a subroutine as
+a parameter prefix it's name with a C&lt;&amp;&gt;.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061149Z" creationid="explorer" creationdate="20161116T061149Z">
+        <seg>Para usar una subrutina como un parámetro, prefija su nombre con un C&lt;&amp;&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Type objects are I&lt;undefined&gt;, in the sense that they return C&lt;False&gt; if you
 call the C&lt;.defined&gt; method on them.</seg>
       </tuv>
@@ -8838,6 +8992,14 @@ otherwise.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T161908Z" creationid="ramiroencinas" creationdate="20160506T161810Z">
         <seg>De forma que devolverá True si todas las promesas del array finalizan sin excepciones, o False en caso contrario.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whitespace can be used liberally:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T195936Z" creationid="explorer" creationdate="20161119T195936Z">
+        <seg>El espacio en blanco se puede usar con total libertad:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9034,6 +9196,14 @@ implementation.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T164012Z" creationid="ramiroencinas" creationdate="20160528T164012Z">
         <seg>Además puedes crear tus propios constructores y construir una implementación.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also use a different delimiter:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T200104Z" creationid="explorer" creationdate="20161119T200104Z">
+        <seg>También puede usar un delimitador diferente:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10607,6 +10777,22 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>my $str = 'foobar';</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T200116Z" creationid="explorer" creationdate="20161119T200116Z">
+        <seg>my $str = 'foobar';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>my $str = 'match string';</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061432Z" creationid="explorer" creationdate="20161116T061346Z">
+        <seg>my $str = 'cadena a buscar';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>my $supplier = Supplier.new;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T155936Z" creationid="ramiroencinas" creationdate="20160507T155936Z">
@@ -11159,6 +11345,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>say $str; # replacement string</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061459Z" creationid="explorer" creationdate="20161116T061459Z">
+        <seg>say $str; # cadena a reemplazar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>say $v;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204222Z" creationid="ramiroencinas" creationdate="20160520T204222Z">
@@ -11179,6 +11373,30 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160503T194554Z" creationid="ramiroencinas" creationdate="20160503T194554Z">
         <seg>say @resultado;            # 55 -55</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say S/match/replacement/ given 'match string'; # replacement string</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161116T061552Z" creationid="explorer" creationdate="20161116T061552Z">
+        <seg>say S/buscar/reemplazar/ given 'cadena a buscar'; # cadena a reemplazar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say S:i :g /match/replacement/ given 'match string';</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T200030Z" creationid="explorer" creationdate="20161119T200030Z">
+        <seg>say S:i :g /coincidencia/reemplazo/ given 'cadena de coincidencia';</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>say S{foo} = {} given 'foobar';</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T200155Z" creationid="explorer" creationdate="20161119T200155Z">
+        <seg>say S{foo} = {} given 'foobar';</seg>
       </tuv>
     </tu>
     <tu>
