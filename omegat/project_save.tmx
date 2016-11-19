@@ -8760,6 +8760,14 @@ avoided in user code.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thrown from L&lt;Mu.new|/type/Mu#method_new&gt; when positional arguments are passed to it.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T210148Z" creationid="explorer" creationdate="20161119T210148Z">
+        <seg>Se lanza desde L&lt;Mu.new|/type/Mu#method_new&gt; cuando se le pasan argumentos posicionales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thrown if a colonpair illegally has a value, for example C&lt;:!a(1)&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161111T161204Z" creationid="explorer" creationdate="20161111T161204Z">
