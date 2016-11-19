@@ -8322,6 +8322,15 @@ implement the interface defined by the role L&lt;Scheduler&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The path to the command as well as any arguments to the command are
+supplied to the constructor.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161119T174204Z" creationid="Ram" creationdate="20161119T174204Z">
+        <seg>Al constructor se le suministra tanto la ruta del comando como cualquier argumento proporcionado al comando.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The path to the command as well as any arguments to the command are 
 supplied to the constructor.</seg>
       </tuv>
