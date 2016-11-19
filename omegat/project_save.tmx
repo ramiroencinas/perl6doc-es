@@ -9935,6 +9935,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>for ^20 {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T204756Z" creationid="explorer" creationdate="20161119T204756Z">
+        <seg>for ^20 {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>h           interpret integer as C type "short" or</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20140716T163739Z" creationid="explorer" creationdate="20140716T163739Z">
