@@ -7487,6 +7487,14 @@ user defined operators.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Promise.in(3).then: { $c.close }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T200756Z" creationid="explorer" creationdate="20161119T200756Z">
+        <seg>Promise.in(3).then: { $c.close }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Promise.in(8600)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204151Z" creationid="ramiroencinas" creationdate="20160520T204151Z">
@@ -9299,6 +9307,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161113T144145Z" creationid="explorer" creationdate="20161113T144145Z">
         <seg>^..^</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>^3 .map: -&gt; $v {</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T200749Z" creationid="explorer" creationdate="20161119T200749Z">
+        <seg>^3 .map: -&gt; $v {</seg>
       </tuv>
     </tu>
     <tu>
@@ -11433,6 +11449,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sleep .6;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T200759Z" creationid="explorer" creationdate="20161119T200759Z">
+        <seg>sleep .6;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sleep 10;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204217Z" creationid="ramiroencinas" creationdate="20160520T204217Z">
@@ -11453,6 +11477,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T190259Z" creationid="ramiroencinas" creationdate="20160527T190259Z">
         <seg>sleep 20;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sleep 3 - $v;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="explorer" changedate="20161119T200752Z" creationid="explorer" creationdate="20161119T200752Z">
+        <seg>sleep 3 - $v;</seg>
       </tuv>
     </tu>
     <tu>
