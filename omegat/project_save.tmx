@@ -6844,6 +6844,16 @@ execution before normal completion:</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>It is also possible to obtain a L&lt;Channel&gt; from a L&lt;Supply&gt; using the
+L&lt;Channel method|/type/Supply#method_Channel&gt; which returns a L&lt;Channel&gt;
+which is fed by a C&lt;tap&gt; on the L&lt;Supply&gt;:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161119T173836Z" creationid="Ram" creationdate="20161119T173836Z">
+        <seg>También es posible obtener un L&lt;Canal&gt; desde un L&lt;Suministro&gt; mediante el L&lt;método Channel|/type/Supply#method_Channel&gt;. Este L&lt;Canal&gt; devuelto se alimentará desde un C&lt;tap&gt; del L&lt;Suministro&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is also possible to obtain a L&lt;Channel&gt; from a L&lt;Supply&gt; using the
 L&lt;Supply method|/type/Supply#method_Channel&gt; which returns a L&lt;Channel&gt;
 which is fed by a C&lt;tap&gt; on the L&lt;Supply&gt;:</seg>
       </tuv>
