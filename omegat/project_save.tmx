@@ -5901,6 +5901,16 @@ to be useful directly in user code.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Beyond that there are  no further facilities for synchronization or resource
+sharing which is largely why it should be emphasized that threads are unlikely
+to be useful directly in user code.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161119T174745Z" creationid="Ram" creationdate="20161119T174745Z">
+        <seg>A partir de aquí no hay más funcionalidades para la sincronización o compartición de recursos, por lo que debemos insistir en no recomendar el uso directo de hilos en el código.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Bool.pick;</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T204158Z" creationid="ramiroencinas" creationdate="20160520T204158Z">
