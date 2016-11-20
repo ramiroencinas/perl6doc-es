@@ -7404,6 +7404,15 @@ the type of arguments a native function expects and what it returns.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that a null string can be passed by passing the Str type object; a null
+return will also be represented by the type object.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T175034Z" creationid="Ram" creationdate="20161120T175034Z">
+        <seg>Ten en cuenta que si pasas solo el objeto tipo Str puedes estar pasando un texto null, y de la misma forma pero al revés, una devolución de null también puede representarse como el objeto tipo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that no history is kept for C&lt;on-demand&gt; supplies, instead, the C&lt;supply&gt;
 block is run for each tap of the supply.</seg>
       </tuv>
