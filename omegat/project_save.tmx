@@ -8535,6 +8535,15 @@ supplied to the constructor.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The platform-specific extension (e.g., '.so' or '.dll'),
+as well as any customary prefixes (e.g., 'lib') will be added for you.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T092628Z" creationid="Ram" creationdate="20161120T092628Z">
+        <seg>Las extensiones propias de cada plataforma (por ej. '.so' o '.dll'), así como cualquier prefijo, como 'lib' se agregan automáticamente.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The primary interface of a scheduler (indeed the only method required
 by the L&lt;Scheduler&gt; interface) is the C&lt;cue&gt; method:</seg>
       </tuv>
