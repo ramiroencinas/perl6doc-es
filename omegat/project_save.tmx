@@ -5600,6 +5600,15 @@ consumed by one or more consumers simultaneously in a manner similar to
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A call will then
+be made.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T093055Z" creationid="Ram" creationdate="20161120T093037Z">
+        <seg>En este momento la llamada quedará establecida.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A collection of documents describing how to</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215203Z" creationid="explorer" creationdate="20161102T215203Z">
@@ -8357,6 +8366,15 @@ keyword.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20161120T092039Z" creationid="Ram" creationdate="20161120T092039Z">
         <seg>La primera línea importa los tipos y características necesarias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first time you call "some_argless_function", the "libsomething" will be
+loaded and the "some_argless_function" will be located in it.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T093026Z" creationid="Ram" creationdate="20161120T093026Z">
+        <seg>Cuando llames por primera vez a "función_sin_argumentos", se cargará la librería "algo" y ésta quedará localizada en "función_sin_argumentos".</seg>
       </tuv>
     </tu>
     <tu>
