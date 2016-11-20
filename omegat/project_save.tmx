@@ -6608,6 +6608,15 @@ number as using C&lt;l&gt;, C&lt;h&gt;, C&lt;V&gt;, C&lt;q&gt;, C&lt;L&gt;, or C
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For strings, there is an additional "encoded" trait to give some extra hints on
+how to do the marshaling.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T174319Z" creationid="Ram" creationdate="20161120T174319Z">
+        <seg>Para las cadenas de texto existe la característica adicional "encoded" que proporciona más información para realizar la composición adecuada de caracteres.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For this purpose there is the L&lt;method vow|/type/Promise#method_vow&gt;, which
 returns a L&lt;Vow&gt; object which becomes the only mechanism by which the promise
 can be kept or broken.</seg>
@@ -9073,6 +9082,15 @@ signature (for example C&lt;class A { $^foo }&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20130101T235217Z">
         <seg>Por lo tanto,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To specify how to marshal string return types, just apply this trait to the
+routine itself.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T174538Z" creationid="Ram" creationdate="20161120T174538Z">
+        <seg>Para indicar cómo componer los tipos de retorno de texto aplica esta característica a la rutina en sí.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11923,6 +11941,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160506T165242Z" creationid="ramiroencinas" creationdate="20160506T165242Z">
         <seg>sub get_promesa {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sub message_box(Str is encoded('utf8')) is native('gui') { * }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T174332Z" creationid="Ram" creationdate="20161120T174332Z">
+        <seg>sub message_box(Str is encoded('utf8')) is native('gui') { * }</seg>
       </tuv>
     </tu>
     <tu>
