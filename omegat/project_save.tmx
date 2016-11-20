@@ -1355,6 +1355,14 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=SUBTITLE Call into dynamic libraries that follow the C calling convention</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T090536Z" creationid="Ram" creationdate="20161120T090536Z">
+        <seg>=SUBTITLE Call into dynamic libraries that follow the C calling convention</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=SUBTITLE Codepoint-String in Normal Form C (Composed)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T192208Z" creationid="explorer" creationdate="20161101T192208Z">
