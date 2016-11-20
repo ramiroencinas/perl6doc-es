@@ -3283,6 +3283,14 @@ X&lt;|operador postcircunfijo&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head1 Passing and Returning Values</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T165846Z" creationid="Ram" creationdate="20161120T165846Z">
+        <seg>=head1 Proporcionando y Devolviendo Valores</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head1 SPECIAL VARIABLES</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20110719T095924Z">
@@ -6957,6 +6965,17 @@ execution before normal completion:</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215457Z" creationid="explorer" creationdate="20161102T215457Z">
         <seg>Índice de los módulos que forman parte de la distribución principal oficial.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inside of "libfoo" there is a routine called "FOO_INIT" but, since we're
+creating a module called Foo and we'd rather call the routine as C&lt;Foo::init&gt;,
+we use the "symbol" trait to specify the name of the symbol in "libfoo"
+and call the subroutine whatever we want ("init" in this case).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T165818Z" creationid="Ram" creationdate="20161120T165818Z">
+        <seg>Dentro de la librería "foo" se encuentra la rutina llamada "FOO_INIT", pero como estamos creando un módulo que se llama Foo, necesitamos que la subrutina tenga otro nombre, por ej. init, de forma que la llamada final sea C&lt;Foo::init&gt;. En este caso utilizamos la característica "symbol" para especificar el nombre de la subrutina (símbolo) en la librería "foo" para después llamarla como queramos ("init" en este caso).</seg>
       </tuv>
     </tu>
     <tu>
