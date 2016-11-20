@@ -6332,6 +6332,16 @@ can be found on the &lt;a href="http://perldoc.perl.org/"&gt;Perl 5 documentati
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Don't use Perl 6 native types like C&lt;int&gt; or C&lt;num&gt;, as they don't have to
+correspond to the local C equivalent (e.g., Perl 6's C&lt;int&gt; can be 8 bytes but
+C's C&lt;int&gt; is only 4 bytes).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T172734Z" creationid="Ram" creationdate="20161120T172734Z">
+        <seg>No utilices tipos nativos de Perl 6 como C&lt;int&gt; o C&lt;num&gt; pues no tienen porqué tener correspondencia con su equivalente local en C (por ej. C&lt;int&gt; en Perl 6 puede tener 8 bytes pero en C solo tiene 4 bytes).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>END</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20120906T223846Z">
@@ -7391,6 +7401,14 @@ L&lt;Supplier&gt; and new values are emitted on the L&lt;Supplier&gt;.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160507T160323Z" creationid="ramiroencinas" creationdate="20160507T160323Z">
         <seg>Observa que C&lt;tap&gt; es llamado en un objeto L&lt;Supply&gt; (Suministro) creado por L&lt;Supplier&gt; (Proveedor) y los nuevos valores se emiten desde L&lt;Supplier&gt; (Proveedor).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that the lack of a C&lt;returns&gt; trait is used to indicate void return type.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T172841Z" creationid="Ram" creationdate="20161120T172841Z">
+        <seg>Ten en cuenta que no utilizar la característica C&lt;returns&gt; se utiliza para indicar un tipo de retorno void.</seg>
       </tuv>
     </tu>
     <tu>
