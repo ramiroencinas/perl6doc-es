@@ -6325,8 +6325,8 @@ supplied explicitly to certain methods.</seg>
       <tuv lang="EN-US">
         <seg>Do I&lt;not&gt; use the 'void' type anywhere except in the Pointer parameterization.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T173040Z" creationid="Ram" creationdate="20161120T173040Z">
-        <seg>I&lt;No&gt; utilices el tipo 'void' menos en los casos de parametrización de Punteros.</seg>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T173710Z" creationid="Ram" creationdate="20161120T173040Z">
+        <seg>I&lt;No&gt; utilices el tipo 'void' excepto en los casos de parametrización de Punteros.</seg>
       </tuv>
     </tu>
     <tu>
