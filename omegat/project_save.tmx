@@ -6625,6 +6625,15 @@ index, the C&lt;$&gt; may need escaping:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here is
+an example.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T170251Z" creationid="Ram" creationdate="20161120T170251Z">
+        <seg>Aquí tenemos un ejemplo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here the C&lt;break&gt; will cause the code block of the C&lt;then&gt; to throw an
 exception when it calls the C&lt;result&gt; method on the original promise
 that was passed as an argument, which will subsequently cause the second
@@ -6689,6 +6698,15 @@ para crear un tap en el L&lt;Suministro&gt; del bloque proporcionado.</seg>
       </tuv>
       <tuv lang="ES-ES">
         <seg>Aquí hay un ejemplo:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here, we have declared that the function takes two 32-bit integers and returns
+a 32-bit integer.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T170407Z" creationid="Ram" creationdate="20161120T170407Z">
+        <seg>Aquí decimos que la función toma dos enteros de 32-bit y devuelve un entero de 32-bit.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7329,6 +7347,15 @@ routine in your library that may be different from your Perl subroutine name.</s
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161119T200252Z" creationid="explorer" creationdate="20161119T200252Z">
         <seg>Caracteres no coincidentes pueden, sencillamente, reemplazar a las barras diagonales originales.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Normal Perl 6 signatures and the C&lt;returns&gt; trait are used in order to convey
+the type of arguments a native function expects and what it returns.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T170239Z" creationid="Ram" creationdate="20161120T170239Z">
+        <seg>Normalmente las signaturas de Perl 6 y la característica C&lt;returns&gt; se utilizan para transmitir el tipo de los argumentos que espera una función nativa y qué devuelve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11725,6 +11752,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160520T205412Z" creationid="ramiroencinas" creationdate="20160520T205412Z">
         <seg>start {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sub add(int32, int32) returns int32 is native("calculator") { * }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T170325Z" creationid="Ram" creationdate="20161120T170325Z">
+        <seg>sub add(int32, int32) returns int32 is native("calculadora") { * }</seg>
       </tuv>
     </tu>
     <tu>
