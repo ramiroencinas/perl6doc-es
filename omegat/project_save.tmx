@@ -7978,6 +7978,15 @@ to be kept.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sometimes you want the name of your Perl subroutine to be different from the name
+used in the library you're loading.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T164136Z" creationid="Ram" creationdate="20161120T164136Z">
+        <seg>A veces es necesario que el nombre de la subrutina en Perl 6 sea distinto del nombre utilizado por la librería cargada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sorry.</seg>
       </tuv>
       <tuv lang="ES-ES">
