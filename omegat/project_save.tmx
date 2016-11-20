@@ -8546,6 +8546,14 @@ at a time:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The simplest imaginable use of NativeCall would look something like this:</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T091344Z" creationid="Ram" creationdate="20161120T091106Z">
+        <seg>La forma más sencilla de utilizar las Llamadas Nativasaginable use of NativeCall would look something like this:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The standard
 output and standard error of the program are available as L&lt;Supply&gt;
 objects from the methods L&lt;stdout|/type/Proc::Async#method_stdout&gt;
