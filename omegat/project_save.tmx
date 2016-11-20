@@ -3172,6 +3172,14 @@ unless 1 { } else { };</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head1 Changing names</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T095817Z" creationid="Ram" creationdate="20161120T095817Z">
+        <seg>=head1 Cambiando nombres</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head1 DESCRIPTION</seg>
       </tuv>
       <tuv lang="ES-ES">
@@ -7328,6 +7336,17 @@ objects, and identify an object uniquely.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T203819Z" creationid="explorer" creationdate="20161101T203819Z">
         <seg>Los objetos del tipo C&lt;ObjAt&gt; son el valor de retorno de las llamadas C&lt;.WHICH&gt; sobre otros objetos, e identifican de forma única a un objeto.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Of course, most functions take arguments or return values - but everything else
+that you can do is just adding to this simple pattern of declaring a Perl 6
+sub, naming it after the symbol you want to call and marking it with the "native"
+trait.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T095807Z" creationid="Ram" creationdate="20161120T095807Z">
+        <seg>Está claro que la mayoría de las funciones tienen argumentos y devuelven valores, pero para ampliar este ejemplo básico también puedes utilizar una función concreta de la librería nativa, asignarle otro nombre y utilizarla como una función de Perl 6, como veremos ahora.</seg>
       </tuv>
     </tu>
     <tu>
