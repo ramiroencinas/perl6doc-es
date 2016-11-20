@@ -1357,8 +1357,8 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
       <tuv lang="EN-US">
         <seg>=SUBTITLE Call into dynamic libraries that follow the C calling convention</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T090536Z" creationid="Ram" creationdate="20161120T090536Z">
-        <seg>=SUBTITLE Call into dynamic libraries that follow the C calling convention</seg>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T091429Z" creationid="Ram" creationdate="20161120T090536Z">
+        <seg>=SUBTITLE Llamadas a librerías dinámicas mediante la convención de llamadas de C</seg>
       </tuv>
     </tu>
     <tu>
@@ -1949,8 +1949,8 @@ completa documentación sobre Perl 6&lt;/a&gt;, incluyendo tutoriales, cómo-ha
       <tuv lang="EN-US">
         <seg>=TITLE Native Calling Interface</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T090407Z" creationid="Ram" creationdate="20161120T090407Z">
-        <seg>=TITLE Native Calling Interface</seg>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T091358Z" creationid="Ram" creationdate="20161120T090407Z">
+        <seg>=TITLE Interfaz de Llamadas Nativas</seg>
       </tuv>
     </tu>
     <tu>
@@ -3190,8 +3190,8 @@ unless 1 { } else { };</seg>
       <tuv lang="EN-US">
         <seg>=head1 Getting Started</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T090736Z" creationid="Ram" creationdate="20161120T090736Z">
-        <seg>=head1 Getting Started</seg>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T091452Z" creationid="Ram" creationdate="20161120T090736Z">
+        <seg>=head1 Comenzando</seg>
       </tuv>
     </tu>
     <tu>
@@ -8548,8 +8548,8 @@ at a time:</seg>
       <tuv lang="EN-US">
         <seg>The simplest imaginable use of NativeCall would look something like this:</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T091344Z" creationid="Ram" creationdate="20161120T091106Z">
-        <seg>La forma más sencilla de utilizar las Llamadas Nativasaginable use of NativeCall would look something like this:</seg>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T091526Z" creationid="Ram" creationdate="20161120T091106Z">
+        <seg>La forma más sencilla de utilizar las Llamadas Nativas es algo como esto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -11709,6 +11709,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20120625T193814Z">
         <seg>use Moose;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>use NativeCall;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T091531Z" creationid="Ram" creationdate="20161120T091531Z">
+        <seg>use NativeCall;</seg>
       </tuv>
     </tu>
     <tu>
