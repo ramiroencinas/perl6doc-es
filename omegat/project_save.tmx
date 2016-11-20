@@ -3188,6 +3188,14 @@ unless 1 { } else { };</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>=head1 Getting Started</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T090736Z" creationid="Ram" creationdate="20161120T090736Z">
+        <seg>=head1 Getting Started</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>=head1 High-level APIs</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160429T192819Z" creationid="ramiroencinas" creationdate="20160429T192819Z">
@@ -9158,6 +9166,14 @@ X&lt;|classes, encapsulation&gt;</seg>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160528T170613Z" creationid="ramiroencinas" creationdate="20160528T170613Z">
         <seg>X&lt;|encapsulation&gt;
 X&lt;|classes, encapsulation&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X&lt;|nativecall&gt;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T091015Z" creationid="Ram" creationdate="20161120T091015Z">
+        <seg>X&lt;|nativecall&gt;</seg>
       </tuv>
     </tu>
     <tu>
