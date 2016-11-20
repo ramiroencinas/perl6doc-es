@@ -8077,6 +8077,14 @@ used in the library you're loading.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Str            (C string)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171959Z" creationid="Ram" creationdate="20161120T171959Z">
+        <seg>Str            (C string)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Subroutine calls are the most common listops.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161115T081059Z" creationid="explorer" creationdate="20161115T081059Z">
@@ -10381,6 +10389,14 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>longlong       (long long in C, at least 64-bit)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171932Z" creationid="Ram" creationdate="20161120T171932Z">
+        <seg>longlong       (long long en C, al menos 64-bit)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>loop {</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T100626Z" creationid="ramiroencinas" creationdate="20160521T100626Z">
@@ -11217,6 +11233,22 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161106T170609Z" creationid="explorer" creationdate="20161106T170609Z">
         <seg>my class X::Signature::NameClash does X::Comp { }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>num32          (float in C)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171937Z" creationid="Ram" creationdate="20161120T171937Z">
+        <seg>num32          (float en C)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>num64          (double in C)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171942Z" creationid="Ram" creationdate="20161120T171942Z">
+        <seg>num64          (double en C)</seg>
       </tuv>
     </tu>
     <tu>
