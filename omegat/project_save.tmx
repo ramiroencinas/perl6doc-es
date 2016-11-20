@@ -8353,6 +8353,14 @@ keyword.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The first line imports various traits and types.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T092039Z" creationid="Ram" creationdate="20161120T092039Z">
+        <seg>La primera línea importa los tipos y características necesarias.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following table summarizes the precedence levels in Perl 6, from
 tightest to loosest:</seg>
       </tuv>
@@ -11561,6 +11569,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>some_argless_function();</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T091944Z" creationid="Ram" creationdate="20161120T091944Z">
+        <seg>función_sin_argumentos();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>source code.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161102T215406Z" creationid="explorer" creationdate="20161102T215406Z">
@@ -11613,6 +11629,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="Ram" changedate="20161117T142751Z" creationid="Ram" creationdate="20161117T142751Z">
         <seg>sub reponer-cache {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sub some_argless_function() is native('something') { * }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T091931Z" creationid="Ram" creationdate="20161120T091931Z">
+        <seg>sub función_sin_argumentos() is native('algo') { * }</seg>
       </tuv>
     </tu>
     <tu>
