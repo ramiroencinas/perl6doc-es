@@ -8492,6 +8492,15 @@ implement the interface defined by the role L&lt;Scheduler&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The next line looks like
+a relatively ordinary Perl 6 sub declaration - with a twist.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T092208Z" creationid="Ram" creationdate="20161120T092208Z">
+        <seg>La siguiente línea parece una subdeclaración normal en Perl 6 pero con una peculiaridad.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The offensive radix.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161111T154908Z" creationid="explorer" creationdate="20161111T154908Z">
@@ -9002,6 +9011,16 @@ in a concurrent or asynchronous manner.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20161113T103341Z" creationid="ramiroencinas" creationdate="20161113T103341Z">
         <seg>Con todo esto un desarrollador puede gestionar la mayor parte de las funcionalidades relacionadas con concurrencia y asincronía.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We use the
+"native" trait in order to specify that the sub is actually defined in a
+native library.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T092403Z" creationid="Ram" creationdate="20161120T092403Z">
+        <seg>Utilizamos "native" como característica para indicar que la subdeclaración actualmente está definida en una librería nativa.</seg>
       </tuv>
     </tu>
     <tu>
