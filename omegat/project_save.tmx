@@ -7273,6 +7273,15 @@ same way as functions can take functions as parameters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>NativeCall provides a "symbol" trait for you to specify the name of the native
+routine in your library that may be different from your Perl subroutine name.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T164907Z" creationid="Ram" creationdate="20161120T164907Z">
+        <seg>Las Llamadas Nativas proporcionan la característica "symbol" para especificar el nombre de la rutina nativa que puede ser distinto del nombre de la rutina en Perl.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Nd          Decimal_Number (also Digit)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193540Z" creationid="explorer" creationdate="20160428T193540Z">
@@ -7991,8 +8000,8 @@ to be kept.</seg>
         <seg>Sometimes you want the name of your Perl subroutine to be different from the name
 used in the library you're loading.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T164136Z" creationid="Ram" creationdate="20161120T164136Z">
-        <seg>A veces es necesario que el nombre de la subrutina en Perl 6 sea distinto del nombre utilizado por la librería cargada.</seg>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T164924Z" creationid="Ram" creationdate="20161120T164136Z">
+        <seg>A veces es necesario que el nombre de la subrutina en Perl sea distinto del nombre utilizado por la librería cargada.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11133,6 +11142,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>our sub init() is native('foo') is symbol('FOO_INIT') { * }</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T165010Z" creationid="Ram" creationdate="20161120T165010Z">
+        <seg>our sub init() is native('foo') is symbol('FOO_INIT') { * }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>outputs</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121230T124005Z">
@@ -11785,6 +11802,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20151218T061256Z" creationid="explorer" creationdate="20151218T061256Z">
         <seg>try {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>unit module Foo;</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T164958Z" creationid="Ram" creationdate="20161120T164958Z">
+        <seg>unit module Foo;</seg>
       </tuv>
     </tu>
     <tu>
