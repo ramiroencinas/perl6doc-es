@@ -6323,6 +6323,14 @@ supplied explicitly to certain methods.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do I&lt;not&gt; use the 'void' type anywhere except in the Pointer parameterization.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T173040Z" creationid="Ram" creationdate="20161120T173040Z">
+        <seg>I&lt;No&gt; utilices el tipo 'void' menos en los casos de parametrización de Punteros.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Documentation for the different but related &lt;a href="https://www.perl.org/"&gt;Perl 5&lt;/a&gt; language
 can be found on the &lt;a href="http://perldoc.perl.org/"&gt;Perl 5 documentation website&lt;/a&gt;.</seg>
       </tuv>
@@ -7407,8 +7415,8 @@ L&lt;Supplier&gt; and new values are emitted on the L&lt;Supplier&gt;.</seg>
       <tuv lang="EN-US">
         <seg>Note that the lack of a C&lt;returns&gt; trait is used to indicate void return type.</seg>
       </tuv>
-      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T172841Z" creationid="Ram" creationdate="20161120T172841Z">
-        <seg>Ten en cuenta que no utilizar la característica C&lt;returns&gt; se utiliza para indicar un tipo de retorno void.</seg>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T172925Z" creationid="Ram" creationdate="20161120T172841Z">
+        <seg>Ten en cuenta que la ausencia de la característica C&lt;returns&gt; se utiliza para indicar un tipo de retorno void.</seg>
       </tuv>
     </tu>
     <tu>
