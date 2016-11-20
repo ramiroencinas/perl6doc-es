@@ -7983,6 +7983,14 @@ to be kept.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Subsequent calls will be faster, since the symbol handle is retained.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T093143Z" creationid="Ram" creationdate="20161120T093143Z">
+        <seg>Las siguientes llamadas serán más rápidas pues los símbolos ya estarán disponibles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Syntax error that is thrown when the radix of a radix number is
 not allowed, like C&lt;&lt; :1&lt;1&gt; &gt;&gt; or C&lt;&lt; :42&lt;ouch&gt; &gt;&gt;.</seg>
       </tuv>
