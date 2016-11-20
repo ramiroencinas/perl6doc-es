@@ -6133,6 +6133,14 @@ exception based on the value passed to C&lt;break&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CArray[int32]  (int* in C, an array of ints)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T172407Z" creationid="Ram" creationdate="20161120T172407Z">
+        <seg>CArray[int32]  (int* en C, un array de enteros)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Calling C&lt;done&gt; on the supply object calls the C&lt;done&gt; callback that
 may be specified for any taps, but does not prevent any further events
 being emitted to the stream, or taps receiving them.</seg>
@@ -7577,6 +7585,14 @@ user defined operators.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193738Z" creationid="explorer" creationdate="20160428T193738Z">
         <seg>Po          Other_Punctuation (otra puntuación)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pointer[void]  (void* in C, can point to all other types)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T172436Z" creationid="Ram" creationdate="20161120T172436Z">
+        <seg>Pointer[void]  (void* en C, puede apuntar a cualquier otro tipo)</seg>
       </tuv>
     </tu>
     <tu>
@@ -9599,6 +9615,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="zipf" changedate="20121218T200744Z">
         <seg>b</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>bool           (bool from C99)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T172449Z" creationid="Ram" creationdate="20161120T172449Z">
+        <seg>bool           (bool desde C99)</seg>
       </tuv>
     </tu>
     <tu>
@@ -11729,6 +11753,14 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160527T183811Z" creationid="ramiroencinas" creationdate="20160527T183811Z">
         <seg>debería visualizar solo de 0 a 5,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>size_t         (size_t in C)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T172456Z" creationid="Ram" creationdate="20161120T172456Z">
+        <seg>size_t         (size_t en C)</seg>
       </tuv>
     </tu>
     <tu>
