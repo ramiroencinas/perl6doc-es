@@ -7174,6 +7174,16 @@ an external program asynchronously:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Maybe the name is long or has different casing
+or is otherwise cumbersome within the context of the module you are trying to
+create.</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T164658Z" creationid="Ram" creationdate="20161120T164658Z">
+        <seg>Es posible que el nombre sea demasiado largo o tiene mayúsculas/minúsculas en orden distinto de las que estamos utilizando o tiene algún conflicto con algún nombre del contexto del módulo que estemos creando.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Mc          Spacing_Mark</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20160428T193459Z" creationid="explorer" creationdate="20160428T193459Z">
