@@ -6617,6 +6617,15 @@ index, the C&lt;$&gt; may need escaping:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are some of the other types that you may pass (this will
+likely grow with time).</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171721Z" creationid="Ram" creationdate="20161120T171721Z">
+        <seg>Aquí tienes una lista con algunos tipos que puedes pasar (esta lista crecerá con el tiempo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here be dragons.</seg>
       </tuv>
       <tuv lang="ES-ES">
@@ -10282,6 +10291,38 @@ these in previous chapters.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>int16          (int16_t in C, also used for short)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171750Z" creationid="Ram" creationdate="20161120T171750Z">
+        <seg>int16          (int16_t en C, también utilizado para short)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>int32          (int32_t in C, also used for int)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171806Z" creationid="Ram" creationdate="20161120T171806Z">
+        <seg>int32          (int32_t en C, también utilizado para int)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>int64          (int64_t in C)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171811Z" creationid="Ram" creationdate="20161120T171811Z">
+        <seg>int64          (int64_t en C)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>int8           (int8_t in C, also used for char)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171736Z" creationid="Ram" creationdate="20161120T171736Z">
+        <seg>int8           (int8_t en C, también utilizado para char)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>is copy)</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20161101T190113Z" creationid="explorer" creationdate="20161101T190113Z">
@@ -10328,6 +10369,14 @@ these in previous chapters.</seg>
       </tuv>
       <tuv lang="ES-ES" changeid="ramiroencinas" changedate="20160521T100629Z" creationid="ramiroencinas" creationdate="20160521T100629Z">
         <seg>last;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>long           (long in C)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171920Z" creationid="Ram" creationdate="20161120T171920Z">
+        <seg>long           (long en C)</seg>
       </tuv>
     </tu>
     <tu>
@@ -11856,6 +11905,38 @@ say $p2.result;         # muere con "oh no", porque la promesa se ha roto
       </tuv>
       <tuv lang="ES-ES" changeid="explorer" changedate="20151218T061256Z" creationid="explorer" creationdate="20151218T061256Z">
         <seg>try {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uint16         (uint16_t in C, also used for unsigned short)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171849Z" creationid="Ram" creationdate="20161120T171849Z">
+        <seg>uint16         (uint16_t en C, también utilizado para short sin signo)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uint32         (uint32_t in C, also used for unsigned int)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171911Z" creationid="Ram" creationdate="20161120T171911Z">
+        <seg>uint32         (uint32_t en C, también utilizado para int sin signo)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uint64         (uint64_t in C)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171916Z" creationid="Ram" creationdate="20161120T171916Z">
+        <seg>uint64         (uint64_t en C)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uint8          (uint8_t in C, also used for unsigned char)</seg>
+      </tuv>
+      <tuv lang="ES-ES" changeid="Ram" changedate="20161120T171834Z" creationid="Ram" creationdate="20161120T171834Z">
+        <seg>uint8          (uint8_t en C, también utilizado para char sin signo)</seg>
       </tuv>
     </tu>
     <tu>
